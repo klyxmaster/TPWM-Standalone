@@ -1,0 +1,21 @@
+TPWM THEMED DIALOG PATCH
+
+Copy these files into C:\TPWM-Web, preserving the folders:
+
+  index.html
+  css\dialog.css
+  js\dialog.js
+  js\auth-import.js
+
+This patch does not replace or modify app.js or vault.js.
+
+Test:
+1. Reload index.html (Ctrl+F5).
+2. Open Access Exported Data and choose a vault.
+3. The replacement confirmation should use the TPWM dark theme.
+4. After import, the success reminder should also use the TPWM theme.
+
+Git:
+  git add .
+  git commit -m "Add TPWM themed import dialogs"
+  git push

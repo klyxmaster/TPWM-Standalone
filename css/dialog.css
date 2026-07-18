@@ -1,0 +1,87 @@
+/* TPWM themed dialogs */
+.tpwm-dialog-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    background: rgba(4, 6, 5, 0.78);
+    backdrop-filter: blur(7px);
+}
+.tpwm-dialog-overlay.hidden { display: none; }
+.tpwm-dialog-card {
+    width: min(520px, 100%);
+    overflow: hidden;
+    border: 1px solid rgba(196, 255, 45, 0.34);
+    border-radius: 20px;
+    background: linear-gradient(145deg, rgba(31, 35, 31, 0.99), rgba(14, 17, 15, 0.99));
+    box-shadow: 0 26px 80px rgba(0,0,0,.62), 0 0 32px rgba(183,255,26,.10);
+    color: #f5f6f2;
+}
+.tpwm-dialog-head {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    padding: 22px 24px 17px;
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+.tpwm-dialog-icon {
+    display: grid;
+    place-items: center;
+    flex: 0 0 46px;
+    height: 46px;
+    border-radius: 13px;
+    color: #131610;
+    background: linear-gradient(135deg, #e7ff3f, #a8f20c);
+    box-shadow: 0 0 24px rgba(190,255,25,.28);
+    font-size: 24px;
+    font-weight: 900;
+}
+.tpwm-dialog-eyebrow {
+    margin: 0 0 3px;
+    color: #d5ff43;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+}
+.tpwm-dialog-title { margin: 0; font-size: 23px; line-height: 1.15; }
+.tpwm-dialog-body {
+    padding: 22px 24px 10px;
+    color: #d9ddd5;
+    font-size: 15px;
+    line-height: 1.65;
+    white-space: pre-line;
+}
+.tpwm-dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 11px;
+    padding: 18px 24px 23px;
+}
+.tpwm-dialog-button {
+    min-width: 104px;
+    padding: 11px 18px;
+    border: 1px solid rgba(255,255,255,.16);
+    border-radius: 11px;
+    background: rgba(255,255,255,.06);
+    color: #f4f5f2;
+    font: inherit;
+    font-weight: 800;
+    cursor: pointer;
+}
+.tpwm-dialog-button:hover { background: rgba(255,255,255,.11); }
+.tpwm-dialog-button.primary {
+    border-color: #c8ff27;
+    background: linear-gradient(135deg, #dfff36, #aaf00d);
+    color: #171a12;
+    box-shadow: 0 0 21px rgba(184,255,20,.22);
+}
+.tpwm-dialog-button.primary:hover { filter: brightness(1.07); }
+.tpwm-dialog-card[data-kind="warning"] .tpwm-dialog-icon { background: linear-gradient(135deg,#ffd75c,#ff9d22); }
+.tpwm-dialog-card[data-kind="error"] .tpwm-dialog-icon { background: linear-gradient(135deg,#ff8b7d,#ff4b45); color:#fff; }
+@media (max-width: 560px) {
+    .tpwm-dialog-actions { flex-direction: column-reverse; }
+    .tpwm-dialog-button { width: 100%; }
+}

@@ -98,12 +98,15 @@
             }
 
             window.setTimeout(() => {
-                window.alert(
-                    "Import Successful\n\n" +
-                    "Your TPWM vault has been imported and you are now logged in.\n\n" +
-                    "The original export file remains on your computer. " +
-                    "Delete it if it is no longer needed, or keep it as a backup."
-                );
+                window.TPWMDialog.success({
+                    eyebrow: "ENCRYPTED VAULT TRANSFER",
+                    title: "Import Successful",
+                    message:
+                        "Your TPWM vault has been imported and you are now logged in.\n\n" +
+                        "The original export file remains on your computer. " +
+                        "Delete it if it is no longer needed, or keep it as a backup.",
+                    okText: "Continue"
+                });
                 finishingImport = false;
             }, 150);
         }, 350);

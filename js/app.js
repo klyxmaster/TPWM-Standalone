@@ -1,1 +1,3674 @@
-function a0_0x2bc6(_0x1b9b71,_0x5ab46c){_0x1b9b71=_0x1b9b71-0x1b6;const _0x1dee98=a0_0x1dee();let _0x2bc6ac=_0x1dee98[_0x1b9b71];if(a0_0x2bc6['pLEXLr']===undefined){var _0x345e9d=function(_0x962ef3){const _0xea6851='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x1dbf97='',_0xfeb4a6='';for(let _0x5b770d=0x0,_0x4c166f,_0x5cd2a3,_0x2d9d74=0x0;_0x5cd2a3=_0x962ef3['charAt'](_0x2d9d74++);~_0x5cd2a3&&(_0x4c166f=_0x5b770d%0x4?_0x4c166f*0x40+_0x5cd2a3:_0x5cd2a3,_0x5b770d++%0x4)?_0x1dbf97+=String['fromCharCode'](0xff&_0x4c166f>>(-0x2*_0x5b770d&0x6)):0x0){_0x5cd2a3=_0xea6851['indexOf'](_0x5cd2a3);}for(let _0x505acc=0x0,_0xdfccc2=_0x1dbf97['length'];_0x505acc<_0xdfccc2;_0x505acc++){_0xfeb4a6+='%'+('00'+_0x1dbf97['charCodeAt'](_0x505acc)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0xfeb4a6);};a0_0x2bc6['ABrJBg']=_0x345e9d,a0_0x2bc6['FuChxz']={},a0_0x2bc6['pLEXLr']=!![];}const _0x54cb6d=_0x1dee98[0x0],_0x5ee946=_0x1b9b71+_0x54cb6d,_0x32a306=a0_0x2bc6['FuChxz'][_0x5ee946];return!_0x32a306?(_0x2bc6ac=a0_0x2bc6['ABrJBg'](_0x2bc6ac),a0_0x2bc6['FuChxz'][_0x5ee946]=_0x2bc6ac):_0x2bc6ac=_0x32a306,_0x2bc6ac;}(function(_0x2f0bfe,_0x4b813f){const _0x6576f1=a0_0x2bc6,_0x4f9470=_0x2f0bfe();while(!![]){try{const _0x120336=parseInt(_0x6576f1(0x41b))/0x1+-parseInt(_0x6576f1(0x420))/0x2*(parseInt(_0x6576f1(0x27e))/0x3)+-parseInt(_0x6576f1(0x300))/0x4+parseInt(_0x6576f1(0x3a0))/0x5*(-parseInt(_0x6576f1(0x450))/0x6)+parseInt(_0x6576f1(0x432))/0x7*(parseInt(_0x6576f1(0x42f))/0x8)+-parseInt(_0x6576f1(0x29e))/0x9*(-parseInt(_0x6576f1(0x2ef))/0xa)+parseInt(_0x6576f1(0x4ad))/0xb;if(_0x120336===_0x4b813f)break;else _0x4f9470['push'](_0x4f9470['shift']());}catch(_0x4ece4b){_0x4f9470['push'](_0x4f9470['shift']());}}}(a0_0x1dee,0xbb300),((()=>{'use strict';const _0x5b4ee9=a0_0x2bc6;const _0x1dbf97={'websites':_0x5b4ee9(0x4d9),'cards':_0x5b4ee9(0x28a),'banking':_0x5b4ee9(0x377),'notes':_0x5b4ee9(0x3c6)},_0xfeb4a6={'authenticator':_0x5b4ee9(0x481),'email':_0x5b4ee9(0x44a),'sms':_0x5b4ee9(0x1ed),'securityKey':_0x5b4ee9(0x28c),'passkey':_0x5b4ee9(0x347),'backupCodes':_0x5b4ee9(0x20c),'other':_0x5b4ee9(0x226),'none':_0x5b4ee9(0x37e)};let _0x5b770d=_0x5b4ee9(0x20a),_0x4c166f=_0x5b4ee9(0x28d),_0x5cd2a3=null,_0x2d9d74=null,_0x505acc=null,_0xdfccc2=null,_0x309acd=0x0,_0x4aac56=null,_0x1be6e4=![],_0x306596=null,_0x537187=0x1,_0x3ffe79=0x32,_0x314455=0x1,_0x4d740b=null,_0x549e03='auth',_0x599d02=null,_0x18c968=null,_0x120a67=null;const _0x47af87={'authScreen':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x48f)),'mainScreen':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x2a6)),'loginTab':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x35a)),'signupTab':document[_0x5b4ee9(0x2a0)]('signupTab'),'loginForm':document['getElementById'](_0x5b4ee9(0x4dc)),'signupForm':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x202)),'loginMessage':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x4b7)),'signupMessage':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x397)),'sidebar':document['getElementById']('sidebar'),'mobileMenuButton':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x323)),'searchInput':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x2f4)),'clearSearchButton':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x2d2)),'globalSearchToggle':document['getElementById'](_0x5b4ee9(0x3ad)),'categoryTitle':document[_0x5b4ee9(0x2a0)]('categoryTitle'),'recordList':document['getElementById']('recordList'),'emptyState':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x211)),'addRecordButton':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x25e)),'emptyAddButton':document['getElementById'](_0x5b4ee9(0x47a)),'paginationBar':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x39c)),'paginationRange':document[_0x5b4ee9(0x2a0)]('paginationRange'),'paginationPageText':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x23a)),'firstPageButton':document[_0x5b4ee9(0x2a0)]('firstPageButton'),'previousPageButton':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x39f)),'nextPageButton':document[_0x5b4ee9(0x2a0)]('nextPageButton'),'lastPageButton':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x462)),'pageSizeSelect':document['getElementById'](_0x5b4ee9(0x254)),'pwGenButton':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x3e7)),'adminButton':document[_0x5b4ee9(0x2a0)]('adminButton'),'lockButton':document[_0x5b4ee9(0x2a0)]('lockButton'),'compactViewButton':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x2b0)),'comfortableViewButton':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x3d1)),'statusText':document['getElementById'](_0x5b4ee9(0x1b6)),'clockText':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x1e5)),'modalOverlay':document[_0x5b4ee9(0x2a0)]('modalOverlay'),'modalPanel':document[_0x5b4ee9(0x2a0)]('modalPanel'),'modalEyebrow':document[_0x5b4ee9(0x2a0)]('modalEyebrow'),'modalTitle':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x2d1)),'modalBody':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x1c9)),'modalFooter':document[_0x5b4ee9(0x2a0)]('modalFooter'),'modalCloseButton':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x2dd)),'importVaultAuthButton':document['getElementById']('importVaultAuthButton'),'vaultFileInput':document['getElementById']('vaultFileInput'),'totpQrFileInput':document[_0x5b4ee9(0x2a0)](_0x5b4ee9(0x3ee)),'csvFileInput':document[_0x5b4ee9(0x2a0)]('csvFileInput')};function _0x26022f(_0x3107d7){const _0x3efab1=_0x5b4ee9;return String(_0x3107d7??'')['replaceAll']('&',_0x3efab1(0x3c4))[_0x3efab1(0x33b)]('<','&lt;')[_0x3efab1(0x33b)]('>','&gt;')[_0x3efab1(0x33b)]('\x22',_0x3efab1(0x341))[_0x3efab1(0x33b)]('\x27',_0x3efab1(0x444));}function _0x5b8501(_0x6d23e9){const _0x269afb=_0x5b4ee9,_0x19ec49=String(_0x6d23e9||'')[_0x269afb(0x485)]();if(!_0x19ec49)return'';if(/^https?:\/\//i[_0x269afb(0x43d)](_0x19ec49))return _0x19ec49;return _0x269afb(0x4b4)+_0x19ec49;}function _0xe867a(_0x2356aa){const _0x3edd34=_0x5b4ee9;if(!_0x2356aa)return'';const _0x3be545=new Date(_0x2356aa);if(Number[_0x3edd34(0x44c)](_0x3be545['getTime']()))return'';return _0x3be545[_0x3edd34(0x33e)]([],{'year':_0x3edd34(0x1fe),'month':'short','day':_0x3edd34(0x1fe)});}function _0x2f352c(_0x1207da,_0xd24bc5){const _0x2f69dd=_0x5b4ee9;if(_0x1207da===_0x2f69dd(0x20a))return _0xd24bc5[_0x2f69dd(0x1f0)]||_0x2f69dd(0x3b8);if(_0x1207da===_0x2f69dd(0x1d1))return _0xd24bc5[_0x2f69dd(0x2de)]||_0x2f69dd(0x4b0);if(_0x1207da===_0x2f69dd(0x492))return _0xd24bc5[_0x2f69dd(0x1ff)]||_0xd24bc5[_0x2f69dd(0x2ff)]||_0x2f69dd(0x2df);return _0xd24bc5['title']||_0x2f69dd(0x331);}function _0x470d33(_0xa00c0f,_0x1782e2){const _0x342675=_0x5b4ee9;if(_0xa00c0f===_0x342675(0x20a))return _0x1782e2[_0x342675(0x1cc)]||_0x1782e2[_0x342675(0x34b)]||_0x1782e2[_0x342675(0x2b5)]||_0x342675(0x3f3);if(_0xa00c0f===_0x342675(0x1d1))return _0x1782e2[_0x342675(0x264)]||_0x1782e2[_0x342675(0x1ea)]||_0x342675(0x4ca);if(_0xa00c0f===_0x342675(0x492))return _0x1782e2[_0x342675(0x2ff)]||_0x1782e2['accountType']||'Bank\x20account';return _0x1782e2[_0x342675(0x3e2)]||_0x342675(0x4ce);}function _0x250833(_0x4ed838){return{'websites':'W','cards':'C','banking':'B','notes':'N'}[_0x4ed838]||'?';}function _0x48104e(_0x203e3a){return _0x1dbf97[_0x203e3a]||_0x203e3a;}async function _0x275e06(_0x2f5413,_0x4c80e3=null){const _0x4fc884=_0x5b4ee9,_0x2af4a5=String(_0x2f5413||'');if(!_0x2af4a5)return;try{await navigator[_0x4fc884(0x33d)]['writeText'](_0x2af4a5);if(_0x4c80e3){const _0x3d6af5=_0x4c80e3[_0x4fc884(0x2fd)];_0x4c80e3[_0x4fc884(0x2fd)]=_0x4fc884(0x1da),_0x4c80e3[_0x4fc884(0x292)][_0x4fc884(0x464)]('copy-success'),setTimeout(()=>{const _0xb13fce=_0x4fc884;_0x4c80e3[_0xb13fce(0x2fd)]=_0x3d6af5,_0x4c80e3[_0xb13fce(0x292)][_0xb13fce(0x1fb)](_0xb13fce(0x305));},0x4b0);}const _0x955473=Number(_0x5cd2a3?.[_0x4fc884(0x2d3)]?.['clipboardClearSeconds'])||0x1e;_0x47af87[_0x4fc884(0x1b6)][_0x4fc884(0x2fd)]='Copied\x20to\x20clipboard\x20·\x20clears\x20in\x20'+_0x955473+_0x4fc884(0x239),_0x955473>0x0&&setTimeout(async()=>{const _0x4ef30c=_0x4fc884;try{const _0x38e10c=await navigator['clipboard'][_0x4ef30c(0x31e)]();_0x38e10c===_0x2af4a5&&(await navigator[_0x4ef30c(0x33d)][_0x4ef30c(0x4ea)](''),_0x47af87[_0x4ef30c(0x1b6)]['textContent']='Clipboard\x20cleared');}catch{}},_0x955473*0x3e8);}catch{window[_0x4fc884(0x2f3)](_0x4fc884(0x433));}}function _0x325e4f(_0x1fc9f6){const _0x314824=_0x5b4ee9,_0x3fe324=[],_0x616b95=_0x1fc9f6['toLowerCase']();return Object['keys'](_0x1dbf97)[_0x314824(0x2eb)](_0x192eb9=>{const _0x35da78=_0x314824,_0x5cfb64=_0x5cd2a3[_0x35da78(0x2bd)]?.[_0x192eb9]||[];_0x5cfb64[_0x35da78(0x2eb)](_0x1d71d7=>{const _0x25e022=_0x5b770d;_0x5b770d=_0x192eb9;const _0xa8b3d1=_0x197533(_0x1d71d7)['includes'](_0x616b95);_0x5b770d=_0x25e022,_0xa8b3d1&&_0x3fe324['push']({'category':_0x192eb9,'record':_0x1d71d7});});}),_0x3fe324;}function _0x23c878(_0x3dead2){const _0x4bbca0=_0x5b4ee9;if(_0x3dead2['recordType']==='website'||_0x3dead2[_0x4bbca0(0x1f0)])return{'id':_0x3dead2['id']||crypto[_0x4bbca0(0x4c3)](),'recordType':_0x4bbca0(0x310),'siteName':_0x3dead2[_0x4bbca0(0x1f0)]||_0x3dead2[_0x4bbca0(0x302)]||'','url':_0x3dead2[_0x4bbca0(0x2b5)]||_0x3dead2[_0x4bbca0(0x2f1)]?.['Website\x20URL']||'','loginId':_0x3dead2[_0x4bbca0(0x1cc)]||_0x3dead2['details']?.[_0x4bbca0(0x354)]||_0x3dead2['subtitle']||'','password':_0x3dead2[_0x4bbca0(0x1f4)]||_0x3dead2[_0x4bbca0(0x2f1)]?.[_0x4bbca0(0x440)]||'','emailUsed':_0x3dead2[_0x4bbca0(0x34b)]||_0x3dead2[_0x4bbca0(0x2f1)]?.[_0x4bbca0(0x272)]||'','supports2FA':_0x3dead2['supports2FA']||'unknown','twoFAEnabled':_0x3dead2[_0x4bbca0(0x284)]||(String(_0x3dead2[_0x4bbca0(0x43f)]||'')[_0x4bbca0(0x404)]()[_0x4bbca0(0x3d6)](_0x4bbca0(0x2a7))?_0x4bbca0(0x238):_0x4bbca0(0x212)),'twoFAType':_0x3dead2[_0x4bbca0(0x47f)]||'none','totpSecret':_0x3dead2['totpSecret']||'','totpIssuer':_0x3dead2['totpIssuer']||_0x3dead2[_0x4bbca0(0x1f0)]||_0x3dead2['title']||'','totpAccount':_0x3dead2[_0x4bbca0(0x3df)]||_0x3dead2[_0x4bbca0(0x1cc)]||_0x3dead2[_0x4bbca0(0x34b)]||'','totpDigits':Number(_0x3dead2[_0x4bbca0(0x25d)])||0x6,'totpPeriod':Number(_0x3dead2[_0x4bbca0(0x257)])||0x1e,'totpAlgorithm':String(_0x3dead2[_0x4bbca0(0x41e)]||_0x4bbca0(0x4c0))[_0x4bbca0(0x1df)](),'twoFAEmail':_0x3dead2[_0x4bbca0(0x3ac)]||'','twoFAPhone':_0x3dead2[_0x4bbca0(0x4bc)]||'','recoveryCodes':_0x3dead2[_0x4bbca0(0x363)]||'','securityKeyName':_0x3dead2['securityKeyName']||'','notes':_0x3dead2[_0x4bbca0(0x2e9)]||_0x3dead2[_0x4bbca0(0x2f1)]?.[_0x4bbca0(0x4b3)]||'','tags':_0x3dead2[_0x4bbca0(0x4b6)]||'','createdAt':_0x3dead2[_0x4bbca0(0x3ef)]||new Date()[_0x4bbca0(0x3f7)](),'modifiedAt':_0x3dead2['modifiedAt']||new Date()[_0x4bbca0(0x3f7)]()};return _0x3dead2;}function _0x3bfa5c(_0x23c304){const _0x2d2c56=_0x5b4ee9;if(_0x23c304['recordType']===_0x2d2c56(0x35d)||_0x23c304[_0x2d2c56(0x2de)])return{'id':_0x23c304['id']||crypto[_0x2d2c56(0x4c3)](),'recordType':_0x2d2c56(0x35d),'cardNickname':_0x23c304['cardNickname']||_0x23c304['title']||'','cardholderName':_0x23c304[_0x2d2c56(0x1ea)]||_0x23c304[_0x2d2c56(0x2f1)]?.[_0x2d2c56(0x3ea)]||'','cardNumber':_0x23c304[_0x2d2c56(0x296)]||_0x23c304[_0x2d2c56(0x2f1)]?.[_0x2d2c56(0x376)]||'','expMonth':_0x23c304[_0x2d2c56(0x395)]||'','expYear':_0x23c304['expYear']||'','cvv':_0x23c304[_0x2d2c56(0x245)]||'','billingZip':_0x23c304[_0x2d2c56(0x327)]||'','issuingBank':_0x23c304['issuingBank']||_0x23c304[_0x2d2c56(0x2f1)]?.[_0x2d2c56(0x1d9)]||_0x23c304[_0x2d2c56(0x4d7)]||'','loginWebsite':_0x23c304[_0x2d2c56(0x365)]||'','loginId':_0x23c304[_0x2d2c56(0x1cc)]||'','password':_0x23c304['password']||'','customerService':_0x23c304[_0x2d2c56(0x43a)]||'','creditLimit':_0x23c304['creditLimit']||_0x23c304[_0x2d2c56(0x2f1)]?.[_0x2d2c56(0x4a2)]||'','notes':_0x23c304['notes']||_0x23c304[_0x2d2c56(0x2f1)]?.[_0x2d2c56(0x4b3)]||'','tags':_0x23c304[_0x2d2c56(0x4b6)]||'','createdAt':_0x23c304['createdAt']||new Date()['toISOString'](),'modifiedAt':_0x23c304[_0x2d2c56(0x1fa)]||new Date()[_0x2d2c56(0x3f7)]()};return _0x23c304;}function _0x5db73c(_0x3f11e4){const _0x2703dd=_0x5b4ee9;if(_0x3f11e4[_0x2703dd(0x3d7)]===_0x2703dd(0x43b)||_0x3f11e4[_0x2703dd(0x2ff)])return{'id':_0x3f11e4['id']||crypto[_0x2703dd(0x4c3)](),'recordType':_0x2703dd(0x43b),'bankName':_0x3f11e4['bankName']||_0x3f11e4[_0x2703dd(0x2f1)]?.[_0x2703dd(0x278)]||_0x3f11e4['title']||'','accountNickname':_0x3f11e4['accountNickname']||_0x3f11e4[_0x2703dd(0x302)]||'','accountType':_0x3f11e4['accountType']||_0x3f11e4['details']?.[_0x2703dd(0x4d4)]||_0x3f11e4[_0x2703dd(0x43f)]||'','routingNumber':_0x3f11e4[_0x2703dd(0x49f)]||_0x3f11e4[_0x2703dd(0x2f1)]?.[_0x2703dd(0x3c7)]||'','accountNumber':_0x3f11e4[_0x2703dd(0x3eb)]||_0x3f11e4[_0x2703dd(0x2f1)]?.[_0x2703dd(0x3f9)]||'','website':_0x3f11e4[_0x2703dd(0x310)]||'','loginId':_0x3f11e4['loginId']||_0x3f11e4[_0x2703dd(0x2f1)]?.['Login\x20ID']||'','password':_0x3f11e4[_0x2703dd(0x1f4)]||'','emailUsed':_0x3f11e4[_0x2703dd(0x34b)]||'','twoFAEnabled':_0x3f11e4[_0x2703dd(0x284)]||_0x2703dd(0x212),'twoFAType':_0x3f11e4[_0x2703dd(0x47f)]||_0x2703dd(0x34c),'phoneNumber':_0x3f11e4[_0x2703dd(0x26a)]||'','customerService':_0x3f11e4[_0x2703dd(0x43a)]||'','notes':_0x3f11e4[_0x2703dd(0x2e9)]||'','tags':_0x3f11e4[_0x2703dd(0x4b6)]||'','createdAt':_0x3f11e4[_0x2703dd(0x3ef)]||new Date()[_0x2703dd(0x3f7)](),'modifiedAt':_0x3f11e4[_0x2703dd(0x1fa)]||new Date()[_0x2703dd(0x3f7)]()};return _0x3f11e4;}function _0x5051f4(_0x3ad883){const _0x4c9266=_0x5b4ee9;if(_0x3ad883[_0x4c9266(0x3d7)]==='note'||_0x3ad883[_0x4c9266(0x342)])return{'id':_0x3ad883['id']||crypto[_0x4c9266(0x4c3)](),'recordType':_0x4c9266(0x36e),'title':_0x3ad883[_0x4c9266(0x302)]||'','category':_0x3ad883[_0x4c9266(0x3e2)]||_0x3ad883[_0x4c9266(0x2f1)]?.[_0x4c9266(0x35c)]||_0x3ad883['subtitle']||'','contents':_0x3ad883[_0x4c9266(0x342)]||_0x3ad883[_0x4c9266(0x2f1)]?.[_0x4c9266(0x36b)]||'','tags':_0x3ad883['tags']||_0x3ad883['details']?.[_0x4c9266(0x270)]||'','createdAt':_0x3ad883[_0x4c9266(0x3ef)]||new Date()['toISOString'](),'modifiedAt':_0x3ad883['modifiedAt']||new Date()[_0x4c9266(0x3f7)]()};return _0x3ad883;}function _0x16df25(){const _0x10d25f=_0x5b4ee9;if(!_0x5cd2a3?.[_0x10d25f(0x2bd)])return;_0x5cd2a3[_0x10d25f(0x2bd)][_0x10d25f(0x20a)]=(_0x5cd2a3['records'][_0x10d25f(0x20a)]||[])['map'](_0x23c878),_0x5cd2a3[_0x10d25f(0x2bd)][_0x10d25f(0x1d1)]=(_0x5cd2a3[_0x10d25f(0x2bd)][_0x10d25f(0x1d1)]||[])[_0x10d25f(0x27f)](_0x3bfa5c),_0x5cd2a3[_0x10d25f(0x2bd)][_0x10d25f(0x492)]=(_0x5cd2a3[_0x10d25f(0x2bd)][_0x10d25f(0x492)]||[])['map'](_0x5db73c),_0x5cd2a3['records'][_0x10d25f(0x2e9)]=(_0x5cd2a3[_0x10d25f(0x2bd)][_0x10d25f(0x2e9)]||[])[_0x10d25f(0x27f)](_0x5051f4),_0x5cd2a3[_0x10d25f(0x2d3)]={'idleTimeoutMinutes':0xa,'clipboardClearSeconds':0x1e,'autoHideSeconds':0x1e,'lockWhenHidden':![],'hiddenLockSeconds':0x3c,'confirmManualLock':![],'defaultCategory':_0x10d25f(0x20a),'compactView':!![],'pageSize':0x32,..._0x5cd2a3[_0x10d25f(0x2d3)]};}function _0x532f28(_0x1b9fc7,_0x23b96d,_0xee8b81=![]){const _0x965e21=_0x5b4ee9;_0x1b9fc7[_0x965e21(0x2fd)]=_0x23b96d,_0x1b9fc7[_0x965e21(0x1c7)]['color']=_0xee8b81?_0x965e21(0x35b):'';}function _0x29a643(_0x3e5a3f,_0x52179b,_0x500a5d){const _0x74c9a0=_0x5b4ee9,_0x48443c=_0x3e5a3f[_0x74c9a0(0x32c)](_0x74c9a0(0x24d));if(!_0x48443c)return;_0x52179b?(_0x48443c[_0x74c9a0(0x31d)]['originalText']=_0x48443c['textContent'],_0x48443c['textContent']=_0x500a5d,_0x48443c[_0x74c9a0(0x42e)]=!![]):(_0x48443c[_0x74c9a0(0x2fd)]=_0x48443c[_0x74c9a0(0x31d)]['originalText']||_0x48443c[_0x74c9a0(0x2fd)],_0x48443c[_0x74c9a0(0x42e)]=![]);}function _0x4e028d(_0x10c7b4){const _0x2212af=_0x5b4ee9,_0xd3fa8a=_0x10c7b4===_0x2212af(0x3a8);_0x47af87[_0x2212af(0x35a)][_0x2212af(0x292)][_0x2212af(0x3fd)](_0x2212af(0x1f9),_0xd3fa8a),_0x47af87[_0x2212af(0x43e)][_0x2212af(0x292)][_0x2212af(0x3fd)]('active',!_0xd3fa8a),_0x47af87[_0x2212af(0x35a)][_0x2212af(0x2fa)]('aria-selected',String(_0xd3fa8a)),_0x47af87[_0x2212af(0x43e)]['setAttribute'](_0x2212af(0x3ba),String(!_0xd3fa8a)),_0x47af87[_0x2212af(0x4dc)][_0x2212af(0x292)][_0x2212af(0x3fd)](_0x2212af(0x2c0),!_0xd3fa8a),_0x47af87[_0x2212af(0x202)][_0x2212af(0x292)]['toggle']('hidden',_0xd3fa8a);}function _0x846f42(){const _0x273a68=_0x5b4ee9;Object[_0x273a68(0x1cf)](_0x1dbf97)[_0x273a68(0x2eb)](_0x5f4e61=>{const _0x5dca7d=_0x273a68,_0x2d20cc=document['querySelector']('[data-count=\x22'+_0x5f4e61+'\x22]');_0x2d20cc&&(_0x2d20cc[_0x5dca7d(0x2fd)]=String(_0x5cd2a3?.[_0x5dca7d(0x2bd)]?.[_0x5f4e61]?.[_0x5dca7d(0x3b4)]||0x0));});}function _0x35b43b(_0x57fd21){const _0x1fe3f3=_0x5b4ee9;_0x16df25(),_0x47af87[_0x1fe3f3(0x48f)][_0x1fe3f3(0x292)][_0x1fe3f3(0x464)]('hidden'),_0x47af87['mainScreen']['classList']['remove'](_0x1fe3f3(0x2c0));const _0x27f53a=_0x5cd2a3['settings']||{};_0x5b770d=_0x27f53a[_0x1fe3f3(0x3e6)]||_0x1fe3f3(0x20a),_0x4c166f=_0x27f53a['compactView']===![]?_0x1fe3f3(0x313):'compact',_0x3ffe79=[0x19,0x32,0x64,0xc8][_0x1fe3f3(0x3d6)](Number(_0x27f53a[_0x1fe3f3(0x40a)]))?Number(_0x27f53a[_0x1fe3f3(0x40a)]):0x32,_0x47af87[_0x1fe3f3(0x254)][_0x1fe3f3(0x2b3)]=String(_0x3ffe79),_0x537187=0x1;const _0xd01a9b=document[_0x1fe3f3(0x32c)]('input[name=\x22category\x22][value=\x22'+_0x5b770d+'\x22]');_0xd01a9b&&(_0xd01a9b[_0x1fe3f3(0x2ca)]=!![]),_0x47af87['compactViewButton'][_0x1fe3f3(0x292)][_0x1fe3f3(0x3fd)](_0x1fe3f3(0x1f9),_0x4c166f===_0x1fe3f3(0x28d)),_0x47af87[_0x1fe3f3(0x3d1)][_0x1fe3f3(0x292)][_0x1fe3f3(0x3fd)](_0x1fe3f3(0x1f9),_0x4c166f===_0x1fe3f3(0x313)),_0x47af87['statusText'][_0x1fe3f3(0x2fd)]=(_0x57fd21||_0x1fe3f3(0x4d6))+'\x20·\x20Ctrl+F\x20search\x20·\x20Ctrl+N\x20add',_0x846f42(),_0x5f04d8(_0x5b770d),_0x57e5b7(),_0x233ab9(),_0x47af87['searchInput'][_0x1fe3f3(0x473)]();}function _0x4e4ce6(){_0x505acc&&(clearTimeout(_0x505acc),_0x505acc=null),_0xdfccc2&&(clearInterval(_0xdfccc2),_0xdfccc2=null),_0x4aac56&&(clearTimeout(_0x4aac56),_0x4aac56=null),_0x309acd=0x0;}function _0x50241b(){const _0x37584f=_0x5b4ee9;_0x4e4ce6(),_0x5cd2a3=null,window['TPWMVault'][_0x37584f(0x261)]();}function _0x26460f(_0x6a83c8=_0x5b4ee9(0x387),_0x423f0f=![]){const _0x1955a7=_0x5b4ee9;if(!_0x423f0f&&_0x5cd2a3?.[_0x1955a7(0x2d3)]?.[_0x1955a7(0x4a4)]&&_0x6a83c8===_0x1955a7(0x21f)&&!window[_0x1955a7(0x1e7)]('Lock\x20the\x20vault\x20now?')){_0x233ab9();return;}_0xdd8276(),_0x50241b(),_0x47af87[_0x1955a7(0x2a6)][_0x1955a7(0x292)][_0x1955a7(0x464)]('hidden'),_0x47af87[_0x1955a7(0x48f)][_0x1955a7(0x292)][_0x1955a7(0x1fb)]('hidden'),_0x47af87['searchInput'][_0x1955a7(0x2b3)]='',_0x47af87[_0x1955a7(0x2d2)]['classList'][_0x1955a7(0x464)](_0x1955a7(0x2c0)),_0x47af87[_0x1955a7(0x258)][_0x1955a7(0x292)]['remove']('open'),_0x4e028d('login'),document[_0x1955a7(0x2a0)]('loginPassword')[_0x1955a7(0x2b3)]='',_0x532f28(_0x47af87[_0x1955a7(0x4b7)],_0x6a83c8),document[_0x1955a7(0x2a0)](_0x1955a7(0x1cc))[_0x1955a7(0x473)]();}function _0x581f82(){const _0x51f89d=_0x5b4ee9;if(!_0x5cd2a3||!_0x309acd)return;const _0x26332c=Math[_0x51f89d(0x42c)](0x0,Math[_0x51f89d(0x47e)]((_0x309acd-Date[_0x51f89d(0x22a)]())/0x3e8)),_0x52e140=Math[_0x51f89d(0x345)](_0x26332c/0x3c),_0x1c6e3f=_0x26332c%0x3c,_0x32d5ec=_0x52e140+':'+String(_0x1c6e3f)[_0x51f89d(0x4b2)](0x2,'0');_0x26332c<=0x3c?(_0x47af87[_0x51f89d(0x1b6)][_0x51f89d(0x2fd)]=_0x51f89d(0x2c2)+_0x32d5ec,_0x47af87[_0x51f89d(0x1b6)][_0x51f89d(0x292)][_0x51f89d(0x464)](_0x51f89d(0x406))):_0x47af87['statusText'][_0x51f89d(0x292)]['remove'](_0x51f89d(0x406));}function _0x233ab9(){const _0x2b97e9=_0x5b4ee9;if(!window[_0x2b97e9(0x1d4)][_0x2b97e9(0x280)]()||!_0x5cd2a3)return;if(_0x505acc)clearTimeout(_0x505acc);if(_0xdfccc2)clearInterval(_0xdfccc2);const _0x7ee364=Number(_0x5cd2a3[_0x2b97e9(0x2d3)]?.[_0x2b97e9(0x4d5)])||0xa;_0x309acd=Date['now']()+_0x7ee364*0x3c*0x3e8,_0x505acc=setTimeout(()=>{const _0x3ef12f=_0x2b97e9;_0x26460f(_0x3ef12f(0x3d2)+_0x7ee364+'\x20minutes\x20of\x20inactivity.',!![]);},_0x7ee364*0x3c*0x3e8),_0xdfccc2=setInterval(_0x581f82,0x3e8),_0x47af87['statusText'][_0x2b97e9(0x292)][_0x2b97e9(0x1fb)]('idle-warning');}function _0x13fe92(){const _0xf98912=_0x5b4ee9;if(!_0x5cd2a3?.[_0xf98912(0x2d3)]?.[_0xf98912(0x4a8)]||document[_0xf98912(0x29a)]!==_0xf98912(0x2c0))return;if(_0x4aac56)clearTimeout(_0x4aac56);const _0x48f46c=Math['max'](0x5,Number(_0x5cd2a3[_0xf98912(0x2d3)][_0xf98912(0x344)])||0x3c);_0x4aac56=setTimeout(()=>{const _0x3747b6=_0xf98912;_0x26460f(_0x3747b6(0x1c6)+_0x48f46c+'\x20seconds.',!![]);},_0x48f46c*0x3e8);}function _0x5f04d8(_0x3f169a){const _0xc6c8bb=_0x5b4ee9;_0x5b770d=_0x3f169a,_0x537187=0x1,_0x47af87[_0xc6c8bb(0x258)][_0xc6c8bb(0x292)]['remove'](_0xc6c8bb(0x495)),_0x47af87[_0xc6c8bb(0x2f4)]['value']='',_0x47af87[_0xc6c8bb(0x2d2)][_0xc6c8bb(0x292)]['add']('hidden'),_0x47af87[_0xc6c8bb(0x3ad)][_0xc6c8bb(0x2ca)]=![],_0x47af87[_0xc6c8bb(0x3cd)][_0xc6c8bb(0x2fd)]=_0x1dbf97[_0x3f169a],document[_0xc6c8bb(0x48e)]('.category-option')['forEach'](_0x592cfc=>{const _0x2a920e=_0xc6c8bb,_0x23bd8a=_0x592cfc[_0x2a920e(0x32c)](_0x2a920e(0x298));_0x592cfc[_0x2a920e(0x292)][_0x2a920e(0x3fd)](_0x2a920e(0x1f9),_0x23bd8a[_0x2a920e(0x2b3)]===_0x3f169a);}),_0x116fd9();}function _0x5cadce(_0x4ae8ce){const _0x1cb620=_0x5b4ee9;return String(_0x4ae8ce||'')[_0x1cb620(0x1df)]()[_0x1cb620(0x1be)](/\s+/g,'')[_0x1cb620(0x1be)](/-/g,'')['replace'](/=+$/g,'');}function _0x51b64b(_0x46b21f){const _0x464d89=_0x5b4ee9,_0x1a4422=_0x464d89(0x3cc),_0x2a3bd9=_0x5cadce(_0x46b21f);if(!_0x2a3bd9)throw new Error(_0x464d89(0x234));let _0x415549='';for(const _0x3c0041 of _0x2a3bd9){const _0x5ce93a=_0x1a4422[_0x464d89(0x457)](_0x3c0041);if(_0x5ce93a<0x0)throw new Error(_0x464d89(0x4a1)+_0x3c0041);_0x415549+=_0x5ce93a['toString'](0x2)['padStart'](0x5,'0');}const _0x192512=[];for(let _0x422be7=0x0;_0x422be7+0x8<=_0x415549[_0x464d89(0x3b4)];_0x422be7+=0x8){_0x192512[_0x464d89(0x4d1)](parseInt(_0x415549[_0x464d89(0x246)](_0x422be7,_0x422be7+0x8),0x2));}return new Uint8Array(_0x192512);}function _0x11c6d5(_0x3caaf3){const _0x168bd3=new Uint8Array(0x8);let _0x4d2c10=BigInt(_0x3caaf3);for(let _0x485632=0x7;_0x485632>=0x0;_0x485632-=0x1){_0x168bd3[_0x485632]=Number(_0x4d2c10&0xffn),_0x4d2c10>>=0x8n;}return _0x168bd3;}async function _0x5c9882(_0x51dbc2,_0x508227={}){const _0x4cba4c=_0x5b4ee9,_0x57313f=Number(_0x508227[_0x4cba4c(0x384)])||0x1e,_0x1bacfd=Number(_0x508227[_0x4cba4c(0x4a7)])||0x6,_0x32689a=String(_0x508227[_0x4cba4c(0x33f)]||_0x4cba4c(0x4c0))[_0x4cba4c(0x1df)](),_0x30a9f1={'SHA1':'SHA-1','SHA256':_0x4cba4c(0x2b4),'SHA512':_0x4cba4c(0x31f)};if(!_0x30a9f1[_0x32689a])throw new Error(_0x4cba4c(0x333)+_0x32689a);const _0x42c7cd=Number(_0x508227['timestamp'])||Date[_0x4cba4c(0x22a)](),_0x5c3dbf=Math[_0x4cba4c(0x345)](_0x42c7cd/0x3e8/_0x57313f),_0x5040d9=await crypto['subtle'][_0x4cba4c(0x3c0)](_0x4cba4c(0x3dd),_0x51b64b(_0x51dbc2),{'name':'HMAC','hash':_0x30a9f1[_0x32689a]},![],[_0x4cba4c(0x412)]),_0x3c034a=new Uint8Array(await crypto['subtle'][_0x4cba4c(0x412)](_0x4cba4c(0x242),_0x5040d9,_0x11c6d5(_0x5c3dbf))),_0x34ef54=_0x3c034a[_0x3c034a[_0x4cba4c(0x3b4)]-0x1]&0xf,_0x25d6ca=(_0x3c034a[_0x34ef54]&0x7f)<<0x18|(_0x3c034a[_0x34ef54+0x1]&0xff)<<0x10|(_0x3c034a[_0x34ef54+0x2]&0xff)<<0x8|_0x3c034a[_0x34ef54+0x3]&0xff,_0x4e1210=String(_0x25d6ca%0xa**_0x1bacfd)[_0x4cba4c(0x4b2)](_0x1bacfd,'0'),_0x448bc1=Math[_0x4cba4c(0x345)](_0x42c7cd/0x3e8)%_0x57313f,_0x1e5cca=_0x57313f-_0x448bc1;return{'code':_0x4e1210,'remaining':_0x1e5cca,'period':_0x57313f};}function _0x414a7a(_0x4dadaa){const _0x358805=_0x5b4ee9;if(_0x4dadaa[_0x358805(0x3b4)]===0x6)return _0x4dadaa['slice'](0x0,0x3)+'\x20'+_0x4dadaa['slice'](0x3);if(_0x4dadaa[_0x358805(0x3b4)]===0x8)return _0x4dadaa[_0x358805(0x246)](0x0,0x4)+'\x20'+_0x4dadaa[_0x358805(0x246)](0x4);return _0x4dadaa;}function _0x23a450(_0x241e98){const _0x3fbe4f=_0x5b4ee9,_0x54c0cd=String(_0x241e98||'')[_0x3fbe4f(0x485)]();if(!_0x54c0cd['toLowerCase']()[_0x3fbe4f(0x353)](_0x3fbe4f(0x369)))throw new Error('Only\x20otpauth://totp/\x20authenticator\x20links\x20are\x20supported.');const _0x30b390=new URL(_0x54c0cd),_0x2145c2=decodeURIComponent(_0x30b390['pathname']['replace'](/^\/+/,'')),_0xa861be=_0x2145c2[_0x3fbe4f(0x3c5)](':'),_0x370548=_0xa861be[_0x3fbe4f(0x3b4)]>0x1?_0xa861be[_0x3fbe4f(0x3f1)]():'',_0x2585c4=_0xa861be['join'](':')||_0x2145c2,_0x5aff56=_0x5cadce(_0x30b390['searchParams'][_0x3fbe4f(0x4ec)](_0x3fbe4f(0x20f))),_0x2a76a6=_0x30b390[_0x3fbe4f(0x3c9)]['get'](_0x3fbe4f(0x1cd))||_0x370548,_0x38ca9f=String(_0x30b390[_0x3fbe4f(0x3c9)][_0x3fbe4f(0x4ec)]('algorithm')||_0x3fbe4f(0x4c0))['toUpperCase'](),_0x538c7c=Number(_0x30b390['searchParams']['get']('digits')||0x6),_0x35d722=Number(_0x30b390[_0x3fbe4f(0x3c9)][_0x3fbe4f(0x4ec)](_0x3fbe4f(0x384))||0x1e);if(!_0x5aff56)throw new Error(_0x3fbe4f(0x1d7));if(![0x6,0x8][_0x3fbe4f(0x3d6)](_0x538c7c))throw new Error(_0x3fbe4f(0x281));if(![0xf,0x1e,0x3c][_0x3fbe4f(0x3d6)](_0x35d722))throw new Error(_0x3fbe4f(0x421));if(!['SHA1','SHA256',_0x3fbe4f(0x3fb)][_0x3fbe4f(0x3d6)](_0x38ca9f))throw new Error(_0x3fbe4f(0x4e6));return{'secret':_0x5aff56,'issuer':_0x2a76a6,'account':_0x2585c4,'algorithm':_0x38ca9f,'digits':_0x538c7c,'period':_0x35d722};}function _0x1b61cc(){_0x599d02&&(clearInterval(_0x599d02),_0x599d02=null);}async function _0x18b5e0(_0x2698ea){const _0x226fc8=_0x5b4ee9,_0x5a108c=document[_0x226fc8(0x2a0)](_0x226fc8(0x3b3)),_0x3bab26=document[_0x226fc8(0x2a0)]('totpRemaining'),_0x22c6df=document['getElementById'](_0x226fc8(0x413));if(!_0x5a108c||!_0x3bab26||!_0x22c6df||!_0x2698ea[_0x226fc8(0x418)])return;try{const _0x1d100b=await _0x5c9882(_0x2698ea['totpSecret'],{'period':_0x2698ea[_0x226fc8(0x257)],'digits':_0x2698ea[_0x226fc8(0x25d)],'algorithm':_0x2698ea[_0x226fc8(0x41e)]});_0x5a108c[_0x226fc8(0x2fd)]=_0x414a7a(_0x1d100b[_0x226fc8(0x42b)]),_0x5a108c[_0x226fc8(0x31d)]['rawCode']=_0x1d100b[_0x226fc8(0x42b)],_0x3bab26[_0x226fc8(0x2fd)]=_0x1d100b[_0x226fc8(0x26e)]+'s',_0x22c6df[_0x226fc8(0x1c7)]['width']=_0x1d100b[_0x226fc8(0x26e)]/_0x1d100b[_0x226fc8(0x384)]*0x64+'%',_0x22c6df[_0x226fc8(0x292)][_0x226fc8(0x3fd)](_0x226fc8(0x2f7),_0x1d100b[_0x226fc8(0x26e)]<=0x7);}catch(_0x1e1070){_0x5a108c[_0x226fc8(0x2fd)]='Invalid\x20secret',_0x5a108c[_0x226fc8(0x31d)][_0x226fc8(0x398)]='',_0x3bab26[_0x226fc8(0x2fd)]='',_0x22c6df[_0x226fc8(0x1c7)]['width']='0';}}function _0x330d1b(_0x112b31){_0x1b61cc(),_0x18b5e0(_0x112b31),_0x599d02=setInterval(()=>_0x18b5e0(_0x112b31),0x3e8);}function _0x14c0b4(_0xc98209){const _0x2a0afa=_0x5b4ee9;if(_0xc98209[_0x2a0afa(0x284)]===_0x2a0afa(0x238)){const _0x2ff365=_0xc98209[_0x2a0afa(0x47f)]||'none';if(_0x2ff365===_0x2a0afa(0x1f2)&&_0xc98209[_0x2a0afa(0x418)])return{'className':'status-good','label':_0x2a0afa(0x34a)};if(_0x2ff365===_0x2a0afa(0x1f2)&&!_0xc98209[_0x2a0afa(0x418)])return{'className':_0x2a0afa(0x4a3),'label':'Authenticator\x20·\x20Secret\x20missing'};if(_0x2ff365!==_0x2a0afa(0x34c))return{'className':_0x2ff365==='sms'?'status-warning':_0x2a0afa(0x340),'label':'2FA:\x20'+(_0xfeb4a6[_0x2ff365]||_0x2a0afa(0x399))};return{'className':_0x2a0afa(0x2c6),'label':_0x2a0afa(0x22e)};}if(_0xc98209[_0x2a0afa(0x401)]===_0x2a0afa(0x238)&&_0xc98209[_0x2a0afa(0x284)]==='no')return{'className':_0x2a0afa(0x4a3),'label':'Supports\x202FA\x20·\x20Not\x20enabled'};if(_0xc98209[_0x2a0afa(0x401)]==='no')return{'className':_0x2a0afa(0x328),'label':'2FA\x20not\x20supported'};return{'className':'status-unknown','label':_0x2a0afa(0x217)};}function _0x197533(_0x2e068c){const _0x4dc6c9=_0x5b4ee9;if(_0x5b770d===_0x4dc6c9(0x20a))return[_0x2e068c[_0x4dc6c9(0x1f0)],_0x2e068c[_0x4dc6c9(0x2b5)],_0x2e068c[_0x4dc6c9(0x1cc)],_0x2e068c[_0x4dc6c9(0x34b)],_0x2e068c[_0x4dc6c9(0x2e9)],_0x2e068c[_0x4dc6c9(0x4b6)],_0x2e068c[_0x4dc6c9(0x47f)],_0x2e068c['twoFAEnabled'],_0x2e068c[_0x4dc6c9(0x401)]]['join']('\x20')[_0x4dc6c9(0x404)]();if(_0x5b770d===_0x4dc6c9(0x1d1))return[_0x2e068c[_0x4dc6c9(0x2de)],_0x2e068c['cardholderName'],_0x2e068c[_0x4dc6c9(0x296)],_0x2e068c[_0x4dc6c9(0x264)],_0x2e068c[_0x4dc6c9(0x365)],_0x2e068c[_0x4dc6c9(0x1cc)],_0x2e068c['notes'],_0x2e068c['tags']][_0x4dc6c9(0x2b6)]('\x20')[_0x4dc6c9(0x404)]();if(_0x5b770d===_0x4dc6c9(0x492))return[_0x2e068c['bankName'],_0x2e068c[_0x4dc6c9(0x1ff)],_0x2e068c[_0x4dc6c9(0x267)],_0x2e068c['website'],_0x2e068c[_0x4dc6c9(0x1cc)],_0x2e068c[_0x4dc6c9(0x34b)],_0x2e068c[_0x4dc6c9(0x2e9)],_0x2e068c[_0x4dc6c9(0x4b6)]][_0x4dc6c9(0x2b6)]('\x20')[_0x4dc6c9(0x404)]();return[_0x2e068c[_0x4dc6c9(0x302)],_0x2e068c[_0x4dc6c9(0x3e2)],_0x2e068c['contents'],_0x2e068c[_0x4dc6c9(0x4b6)]][_0x4dc6c9(0x2b6)]('\x20')[_0x4dc6c9(0x404)]();}function _0x33be99(_0x295419){const _0x5087b=_0x5b4ee9,_0x47a6d5=_0x14c0b4(_0x295419);return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22record-item\x20website-record\x22\x20type=\x22button\x22\x20data-record-id=\x22'+_0x26022f(_0x295419['id'])+_0x5087b(0x4c9)+_0x26022f(_0x295419['siteName']||'Untitled\x20Website')+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22record-subtitle\x22>'+_0x26022f(_0x295419[_0x5087b(0x1cc)]||_0x295419[_0x5087b(0x34b)]||_0x295419[_0x5087b(0x2b5)]||_0x5087b(0x3f3))+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22record-meta\x20'+_0x47a6d5[_0x5087b(0x301)]+'\x22>'+_0x26022f(_0x47a6d5[_0x5087b(0x37f)])+_0x5087b(0x44d);}function _0x48f330(_0x161139){const _0x9777e9=_0x5b4ee9,_0x4cebc4=String(_0x161139||'')[_0x9777e9(0x1be)](/\D/g,'');return _0x4cebc4?_0x4cebc4[_0x9777e9(0x246)](-0x4):'';}function _0x581edf(_0x6c7b1e){const _0x4cf54f=_0x5b4ee9;let _0x28a886='',_0x13d097='',_0x78fb54='';if(_0x5b770d==='cards')_0x28a886=_0x6c7b1e[_0x4cf54f(0x2de)]||_0x4cf54f(0x4b0),_0x13d097=_0x6c7b1e['issuingBank']||_0x6c7b1e['cardholderName']||_0x4cf54f(0x4ca),_0x78fb54=_0x48f330(_0x6c7b1e[_0x4cf54f(0x296)])?_0x4cf54f(0x27b)+_0x48f330(_0x6c7b1e['cardNumber']):_0x4cf54f(0x314);else _0x5b770d===_0x4cf54f(0x492)?(_0x28a886=_0x6c7b1e[_0x4cf54f(0x1ff)]||_0x6c7b1e['bankName']||'Untitled\x20Account',_0x13d097=_0x6c7b1e['bankName']||_0x4cf54f(0x41f),_0x78fb54=_0x6c7b1e[_0x4cf54f(0x267)]||_0x4cf54f(0x385)):(_0x28a886=_0x6c7b1e[_0x4cf54f(0x302)]||_0x4cf54f(0x331),_0x13d097=_0x6c7b1e[_0x4cf54f(0x3e2)]||_0x4cf54f(0x4ce),_0x78fb54=_0x6c7b1e[_0x4cf54f(0x1fa)]?_0x4cf54f(0x378)+_0xe867a(_0x6c7b1e['modifiedAt']):'');return _0x4cf54f(0x3e3)+_0x26022f(_0x6c7b1e['id'])+_0x4cf54f(0x4c9)+_0x26022f(_0x28a886)+_0x4cf54f(0x36d)+_0x26022f(_0x13d097)+_0x4cf54f(0x20e)+_0x26022f(_0x78fb54)+_0x4cf54f(0x44d);}function _0x5b2902(_0x373899){const _0x41aaf6=_0x5b4ee9,_0x4d26e9=_0x373899['length'];_0x314455=Math[_0x41aaf6(0x42c)](0x1,Math[_0x41aaf6(0x47e)](_0x4d26e9/_0x3ffe79));_0x537187>_0x314455&&(_0x537187=_0x314455);_0x537187<0x1&&(_0x537187=0x1);const _0x2d2229=(_0x537187-0x1)*_0x3ffe79,_0x44d6d6=Math[_0x41aaf6(0x383)](_0x2d2229+_0x3ffe79,_0x4d26e9);return{'items':_0x373899[_0x41aaf6(0x246)](_0x2d2229,_0x44d6d6),'totalItems':_0x4d26e9,'startIndex':_0x2d2229,'endIndex':_0x44d6d6};}function _0x14ba04(_0xe31942,_0x3e2319,_0x5efd5b){const _0x194b66=_0x5b4ee9,_0x378d5d=_0xe31942>0x0;_0x47af87[_0x194b66(0x39c)][_0x194b66(0x292)][_0x194b66(0x3fd)]('hidden',!_0x378d5d);if(!_0x378d5d)return;_0x47af87[_0x194b66(0x466)][_0x194b66(0x2fd)]=(_0x3e2319+0x1)[_0x194b66(0x31c)]()+'–'+_0x5efd5b[_0x194b66(0x31c)]()+'\x20of\x20'+_0xe31942[_0x194b66(0x31c)](),_0x47af87['paginationPageText'][_0x194b66(0x2fd)]=_0x194b66(0x3af)+_0x537187[_0x194b66(0x31c)]()+_0x194b66(0x479)+_0x314455[_0x194b66(0x31c)](),_0x47af87['firstPageButton'][_0x194b66(0x42e)]=_0x537187<=0x1,_0x47af87[_0x194b66(0x39f)]['disabled']=_0x537187<=0x1,_0x47af87[_0x194b66(0x47d)][_0x194b66(0x42e)]=_0x537187>=_0x314455,_0x47af87[_0x194b66(0x462)][_0x194b66(0x42e)]=_0x537187>=_0x314455;}function _0x3cd2a5(_0xd70e9){const _0x336332=_0x5b4ee9;_0x537187=Math[_0x336332(0x42c)](0x1,Math[_0x336332(0x383)](Number(_0xd70e9)||0x1,_0x314455)),_0x116fd9();const _0x4988a4=_0x47af87[_0x336332(0x316)][_0x336332(0x332)]()[_0x336332(0x32e)]+window[_0x336332(0x3be)]-0x64;window[_0x336332(0x2e2)]({'top':Math[_0x336332(0x42c)](0x0,_0x4988a4),'behavior':_0x336332(0x38d)});}function _0x116fd9(){const _0x3d9442=_0x5b4ee9;if(!_0x5cd2a3)return;const _0x54d322=_0x47af87[_0x3d9442(0x2f4)][_0x3d9442(0x2b3)]['trim']()['toLowerCase'](),_0x1291e1=_0x47af87[_0x3d9442(0x3ad)][_0x3d9442(0x2ca)]&&_0x54d322['length']>0x0;if(_0x1291e1){const _0x5f16a3=_0x325e4f(_0x54d322),_0x4e3bdf=_0x5b2902(_0x5f16a3),_0x47b82e=_0x4e3bdf[_0x3d9442(0x3e8)];_0x47af87[_0x3d9442(0x3cd)][_0x3d9442(0x2fd)]=_0x3d9442(0x416)+_0x5f16a3['length'][_0x3d9442(0x31c)]()+')',_0x47af87[_0x3d9442(0x316)]['classList']['toggle'](_0x3d9442(0x313),_0x4c166f===_0x3d9442(0x313)),_0x47af87[_0x3d9442(0x316)]['innerHTML']=_0x47b82e[_0x3d9442(0x27f)](({category:_0x4364f4,record:_0xb7510f})=>'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22record-item\x20global-search-record\x22\x20type=\x22button\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20data-record-id=\x22'+_0x26022f(_0xb7510f['id'])+_0x3d9442(0x3ff)+_0x26022f(_0x4364f4)+_0x3d9442(0x3fc)+_0x250833(_0x4364f4)+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22record-title\x22>'+_0x26022f(_0x2f352c(_0x4364f4,_0xb7510f))+_0x3d9442(0x4af)+_0x26022f(_0x470d33(_0x4364f4,_0xb7510f))+_0x3d9442(0x24a)+_0x26022f(_0x48104e(_0x4364f4))+_0x3d9442(0x29d))[_0x3d9442(0x2b6)](''),_0x47af87[_0x3d9442(0x316)][_0x3d9442(0x292)][_0x3d9442(0x3fd)](_0x3d9442(0x2c0),_0x5f16a3[_0x3d9442(0x3b4)]===0x0),_0x47af87[_0x3d9442(0x211)][_0x3d9442(0x292)][_0x3d9442(0x3fd)](_0x3d9442(0x2c0),_0x5f16a3[_0x3d9442(0x3b4)]!==0x0),_0x14ba04(_0x4e3bdf['totalItems'],_0x4e3bdf[_0x3d9442(0x41c)],_0x4e3bdf[_0x3d9442(0x287)]),_0x47af87[_0x3d9442(0x316)][_0x3d9442(0x48e)](_0x3d9442(0x2cb))[_0x3d9442(0x2eb)](_0x7089b2=>{const _0x262204=_0x3d9442;_0x7089b2[_0x262204(0x36c)](_0x262204(0x448),()=>{const _0x4dbd9e=_0x262204,_0x4af4fd=_0x7089b2[_0x4dbd9e(0x31d)]['recordCategory'],_0x52f4eb=_0x5cd2a3['records'][_0x4af4fd][_0x4dbd9e(0x439)](_0x4ae139=>_0x4ae139['id']===_0x7089b2[_0x4dbd9e(0x31d)][_0x4dbd9e(0x3f6)]);if(!_0x52f4eb)return;_0x5b770d=_0x4af4fd;const _0x5dbc49=document['querySelector']('input[name=\x22category\x22][value=\x22'+_0x4af4fd+'\x22]');if(_0x5dbc49)_0x5dbc49[_0x4dbd9e(0x2ca)]=!![];document[_0x4dbd9e(0x48e)](_0x4dbd9e(0x3bb))['forEach'](_0x2a1c9e=>{const _0x2da542=_0x4dbd9e,_0x24d53a=_0x2a1c9e['querySelector'](_0x2da542(0x298));_0x2a1c9e[_0x2da542(0x292)][_0x2da542(0x3fd)](_0x2da542(0x1f9),_0x24d53a[_0x2da542(0x2b3)]===_0x4af4fd);});if(_0x4af4fd==='websites')_0x43f6cd(_0x52f4eb);else{if(_0x4af4fd===_0x4dbd9e(0x1d1))_0x5d069a(_0x52f4eb);else{if(_0x4af4fd===_0x4dbd9e(0x492))_0x2a1993(_0x52f4eb);else _0x838c0d(_0x52f4eb);}}});});return;}_0x47af87[_0x3d9442(0x3cd)][_0x3d9442(0x2fd)]=_0x1dbf97[_0x5b770d];const _0x338040=_0x5cd2a3[_0x3d9442(0x2bd)]?.[_0x5b770d]||[],_0x154a56=_0x338040[_0x3d9442(0x3ae)](_0x3b9aad=>_0x197533(_0x3b9aad)[_0x3d9442(0x3d6)](_0x54d322)),_0x5bc4f5=_0x5b2902(_0x154a56),_0x145175=_0x5bc4f5[_0x3d9442(0x3e8)];_0x47af87[_0x3d9442(0x316)][_0x3d9442(0x292)][_0x3d9442(0x3fd)](_0x3d9442(0x313),_0x4c166f==='comfortable'),_0x47af87[_0x3d9442(0x316)]['innerHTML']=_0x145175['map'](_0x5d3d88=>_0x5b770d===_0x3d9442(0x20a)?_0x33be99(_0x5d3d88):_0x581edf(_0x5d3d88))['join'](''),_0x47af87[_0x3d9442(0x316)]['classList'][_0x3d9442(0x3fd)]('hidden',_0x154a56[_0x3d9442(0x3b4)]===0x0),_0x47af87[_0x3d9442(0x211)][_0x3d9442(0x292)][_0x3d9442(0x3fd)](_0x3d9442(0x2c0),_0x154a56[_0x3d9442(0x3b4)]!==0x0),_0x14ba04(_0x5bc4f5['totalItems'],_0x5bc4f5[_0x3d9442(0x41c)],_0x5bc4f5['endIndex']),_0x47af87[_0x3d9442(0x316)][_0x3d9442(0x48e)](_0x3d9442(0x2cb))[_0x3d9442(0x2eb)](_0x2ae62e=>{const _0x5db45b=_0x3d9442;_0x2ae62e[_0x5db45b(0x36c)](_0x5db45b(0x448),()=>{const _0x5bd0a6=_0x5db45b,_0x19898c=_0x338040[_0x5bd0a6(0x439)](_0x5126a1=>_0x5126a1['id']===_0x2ae62e['dataset']['recordId']);if(!_0x19898c)return;if(_0x5b770d===_0x5bd0a6(0x20a))_0x43f6cd(_0x19898c);else{if(_0x5b770d===_0x5bd0a6(0x1d1))_0x5d069a(_0x19898c);else _0x5b770d===_0x5bd0a6(0x492)?_0x2a1993(_0x19898c):_0x838c0d(_0x19898c);}});});}function _0x1facd8(_0x2089fd,_0x24d8ad,_0x3ded05,_0x222002=''){const _0xf9ef08=_0x5b4ee9,_0xde0d84=String(_0x24d8ad||'')[_0xf9ef08(0x3b4)]>0x0;return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-card\x20'+_0x222002+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-label\x22>'+_0x26022f(_0x2089fd)+_0xf9ef08(0x23e)+_0x26022f(_0x3ded05)+'\x22\x20class=\x22detail-value\x20'+(_0xde0d84?_0xf9ef08(0x4de):'')+_0xf9ef08(0x49c)+_0x26022f(_0x24d8ad)+'\x22>'+(_0xde0d84?'••••••••••••':_0xf9ef08(0x277))+_0xf9ef08(0x346)+(_0xde0d84?_0xf9ef08(0x22b)+_0x26022f(_0x3ded05)+_0xf9ef08(0x2f9)+_0x26022f(_0x24d8ad)+_0xf9ef08(0x1c8):'')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20';}function _0x43f6cd(_0x216b52){const _0x52d9e5=_0x5b4ee9;_0x306596=_0x216b52['id'];const _0x3a37fb=_0x14c0b4(_0x216b52),_0x454fb9=_0x52d9e5(0x236)+_0x3a37fb[_0x52d9e5(0x301)]+_0x52d9e5(0x222)+_0x26022f(_0x3a37fb[_0x52d9e5(0x37f)])+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-grid\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-label\x22>Website\x20URL</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-value\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x216b52[_0x52d9e5(0x2b5)]?_0x52d9e5(0x27c)+_0x26022f(_0x5b8501(_0x216b52[_0x52d9e5(0x2b5)]))+_0x52d9e5(0x480)+_0x26022f(_0x216b52['url'])+_0x52d9e5(0x3e1):'Not\x20entered')+_0x52d9e5(0x3d9)+_0x26022f(_0x216b52[_0x52d9e5(0x1cc)]||_0x52d9e5(0x277))+_0x52d9e5(0x303)+(_0x216b52[_0x52d9e5(0x1cc)]?'<button\x20class=\x22inline-button\x20copy-detail\x22\x20type=\x22button\x22\x20data-copy-value=\x22'+_0x26022f(_0x216b52[_0x52d9e5(0x1cc)])+_0x52d9e5(0x2be):'')+_0x52d9e5(0x329)+_0x1facd8('Password',_0x216b52[_0x52d9e5(0x1f4)]||'',_0x52d9e5(0x255))+_0x52d9e5(0x484)+_0x26022f(_0x216b52['emailUsed']||_0x52d9e5(0x277))+_0x52d9e5(0x303)+(_0x216b52[_0x52d9e5(0x34b)]?_0x52d9e5(0x4ac)+_0x26022f(_0x216b52[_0x52d9e5(0x34b)])+_0x52d9e5(0x2be):'')+_0x52d9e5(0x318)+_0x26022f(_0x216b52[_0x52d9e5(0x401)]===_0x52d9e5(0x238)?'Yes':_0x216b52[_0x52d9e5(0x401)]==='no'?'No':_0x52d9e5(0x2e3))+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-label\x22>2FA\x20Enabled\x20on\x20This\x20Account</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-value\x22>'+_0x26022f(_0x216b52['twoFAEnabled']===_0x52d9e5(0x238)?'Yes':_0x216b52['twoFAEnabled']==='no'?'No':_0x52d9e5(0x2e3))+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-label\x22>2FA\x20Type</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-value\x22>'+_0x26022f(_0xfeb4a6[_0x216b52[_0x52d9e5(0x47f)]]||_0x52d9e5(0x37e))+_0x52d9e5(0x45e)+(_0x216b52[_0x52d9e5(0x47f)]===_0x52d9e5(0x1f2)&&_0x216b52[_0x52d9e5(0x418)]?'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22totp-display-card\x20full\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22totp-display-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22detail-label\x22>Current\x20Authenticator\x20Code</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>'+_0x26022f(_0x216b52['totpIssuer']||_0x216b52[_0x52d9e5(0x1f0)]||'')+_0x52d9e5(0x429)+_0x26022f(_0x216b52[_0x52d9e5(0x3df)]||_0x216b52[_0x52d9e5(0x1cc)]||'')+_0x52d9e5(0x407)+_0x26022f(_0x216b52[_0x52d9e5(0x25d)]||0x6)+'\x20digits\x20·\x20'+_0x26022f(_0x216b52[_0x52d9e5(0x257)]||0x1e)+'\x20seconds\x20·\x20'+_0x26022f(_0x216b52[_0x52d9e5(0x41e)]||_0x52d9e5(0x4c0))+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22copyTotpCodeButton\x22\x20class=\x22secondary-button\x22\x20type=\x22button\x22>Copy\x20Code</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20':'')+_0x52d9e5(0x288)+_0x26022f(_0x216b52[_0x52d9e5(0x3ac)]||_0x52d9e5(0x277))+_0x52d9e5(0x475)+_0x26022f(_0x216b52[_0x52d9e5(0x4bc)]||_0x52d9e5(0x277))+_0x52d9e5(0x4c7)+_0x26022f(_0x216b52[_0x52d9e5(0x461)]||_0x52d9e5(0x277))+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x216b52['totpSecret']?_0x1facd8('TOTP\x20Secret',_0x216b52['totpSecret'],_0x52d9e5(0x47b),_0x52d9e5(0x26c)):'')+_0x52d9e5(0x265)+(_0x216b52['recoveryCodes']?_0x1facd8('Recovery\x20Codes',_0x216b52[_0x52d9e5(0x363)],_0x52d9e5(0x34e),_0x52d9e5(0x26c)):'')+_0x52d9e5(0x458)+_0x26022f(_0x216b52[_0x52d9e5(0x2e9)]||_0x52d9e5(0x29c))+_0x52d9e5(0x409)+_0x26022f(_0x216b52[_0x52d9e5(0x4b6)]||_0x52d9e5(0x273))+_0x52d9e5(0x3e5)+_0x26022f(_0xe867a(_0x216b52['createdAt']))+_0x52d9e5(0x1ba)+_0x26022f(_0xe867a(_0x216b52[_0x52d9e5(0x1fa)]))+_0x52d9e5(0x312);_0x522697({'eyebrow':_0x52d9e5(0x4b5),'title':_0x216b52[_0x52d9e5(0x1f0)]||'Website','body':_0x454fb9,'footer':_0x52d9e5(0x336)}),_0xbfac8c();if(_0x216b52[_0x52d9e5(0x47f)]===_0x52d9e5(0x1f2)&&_0x216b52[_0x52d9e5(0x418)]){_0x330d1b(_0x216b52);const _0x1a6c91=document[_0x52d9e5(0x2a0)](_0x52d9e5(0x38a)),_0x378e62=document[_0x52d9e5(0x2a0)](_0x52d9e5(0x3b3)),_0x35dc66=async _0x30c92f=>{const _0x1dc929=_0x52d9e5,_0x316c4f=document['getElementById'](_0x1dc929(0x3b3))?.['dataset'][_0x1dc929(0x398)]||'';if(_0x316c4f)await _0x275e06(_0x316c4f,_0x30c92f[_0x1dc929(0x3d0)]);};_0x1a6c91?.[_0x52d9e5(0x36c)]('click',_0x35dc66),_0x378e62?.[_0x52d9e5(0x36c)](_0x52d9e5(0x448),_0x35dc66);}}function _0x5044e6(_0x12c9f1,_0x12dcba,_0x4cac6d=''){const _0x234918=_0x5b4ee9;return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-card\x20'+_0x4cac6d+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-label\x22>'+_0x26022f(_0x12c9f1)+_0x234918(0x32f)+_0x26022f(_0x12dcba||'Not\x20entered')+_0x234918(0x291);}function _0x573eb8(_0xf4deb9,_0x50d94b,_0x21de8f=''){const _0x3267b8=_0x5b4ee9;return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-card\x20'+_0x21de8f+_0x3267b8(0x253)+_0x26022f(_0xf4deb9)+_0x3267b8(0x460)+_0x26022f(_0x50d94b||'Not\x20entered')+_0x3267b8(0x346)+(_0x50d94b?_0x3267b8(0x4ac)+_0x26022f(_0x50d94b)+'\x22>Copy</button>':'')+_0x3267b8(0x361);}function _0x5d069a(_0x3b2f32){const _0x4afca6=_0x5b4ee9;_0x306596=_0x3b2f32['id'];const _0x1f7c35=[_0x3b2f32[_0x4afca6(0x395)],_0x3b2f32[_0x4afca6(0x3b9)]]['filter'](Boolean)['join']('/')||_0x4afca6(0x277);_0x522697({'eyebrow':_0x4afca6(0x32d),'title':_0x3b2f32['cardNickname']||_0x4afca6(0x4b8),'body':'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-grid\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x5044e6('Cardholder\x20Name',_0x3b2f32[_0x4afca6(0x1ea)])+_0x4afca6(0x452)+_0x5044e6(_0x4afca6(0x1d9),_0x3b2f32[_0x4afca6(0x264)])+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x1facd8(_0x4afca6(0x376),_0x3b2f32['cardNumber'],_0x4afca6(0x3c1),_0x4afca6(0x26c))+_0x4afca6(0x452)+_0x5044e6('Expiration',_0x1f7c35)+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x1facd8(_0x4afca6(0x30c),_0x3b2f32[_0x4afca6(0x245)],'cardCvvDetail')+_0x4afca6(0x452)+_0x573eb8(_0x4afca6(0x225),_0x3b2f32[_0x4afca6(0x327)])+_0x4afca6(0x452)+_0x5044e6(_0x4afca6(0x4a2),_0x3b2f32['creditLimit'])+_0x4afca6(0x452)+(_0x3b2f32[_0x4afca6(0x365)]?_0x4afca6(0x47c)+_0x26022f(_0x5b8501(_0x3b2f32[_0x4afca6(0x365)]))+'\x22\x20target=\x22_blank\x22\x20rel=\x22noopener\x20noreferrer\x22>'+_0x26022f(_0x3b2f32[_0x4afca6(0x365)])+_0x4afca6(0x4c6):_0x5044e6(_0x4afca6(0x428),''))+_0x4afca6(0x452)+_0x573eb8('Login\x20ID',_0x3b2f32[_0x4afca6(0x1cc)])+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x1facd8('Login\x20Password',_0x3b2f32[_0x4afca6(0x1f4)],_0x4afca6(0x315))+_0x4afca6(0x452)+_0x573eb8(_0x4afca6(0x4e4),_0x3b2f32[_0x4afca6(0x43a)])+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x5044e6('Notes',_0x3b2f32[_0x4afca6(0x2e9)],_0x4afca6(0x454))+_0x4afca6(0x452)+_0x5044e6(_0x4afca6(0x270),_0x3b2f32[_0x4afca6(0x4b6)],_0x4afca6(0x26c))+_0x4afca6(0x452)+_0x5044e6('Created',_0xe867a(_0x3b2f32[_0x4afca6(0x3ef)]))+_0x4afca6(0x452)+_0x5044e6(_0x4afca6(0x434),_0xe867a(_0x3b2f32[_0x4afca6(0x1fa)]))+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','footer':_0x4afca6(0x1fd)}),_0xbfac8c();}function _0x2a1993(_0x1c7cdc){const _0x201602=_0x5b4ee9;_0x306596=_0x1c7cdc['id'];const _0x4c0277=_0x1c7cdc[_0x201602(0x284)]==='yes'?_0x201602(0x45b)+(_0xfeb4a6[_0x1c7cdc['twoFAType']]||_0x201602(0x399)):_0x1c7cdc[_0x201602(0x284)]==='no'?_0x201602(0x3ab):_0x201602(0x217);_0x522697({'eyebrow':_0x201602(0x2ee),'title':_0x1c7cdc[_0x201602(0x1ff)]||_0x1c7cdc[_0x201602(0x2ff)]||_0x201602(0x262),'body':'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22website-detail-status\x20'+(_0x1c7cdc['twoFAEnabled']===_0x201602(0x238)?_0x201602(0x340):_0x1c7cdc[_0x201602(0x284)]==='no'?_0x201602(0x4a3):_0x201602(0x2c6))+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x26022f(_0x4c0277)+_0x201602(0x251)+_0x5044e6('Bank\x20Name',_0x1c7cdc[_0x201602(0x2ff)])+_0x201602(0x452)+_0x5044e6('Account\x20Nickname',_0x1c7cdc[_0x201602(0x1ff)])+_0x201602(0x452)+_0x5044e6(_0x201602(0x4d4),_0x1c7cdc[_0x201602(0x267)])+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x1facd8('Routing\x20Number',_0x1c7cdc['routingNumber'],'bankRoutingDetail')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x1facd8(_0x201602(0x3f9),_0x1c7cdc[_0x201602(0x3eb)],_0x201602(0x483))+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x1c7cdc[_0x201602(0x310)]?_0x201602(0x4cf)+_0x26022f(_0x5b8501(_0x1c7cdc[_0x201602(0x310)]))+'\x22\x20target=\x22_blank\x22\x20rel=\x22noopener\x20noreferrer\x22>'+_0x26022f(_0x1c7cdc[_0x201602(0x310)])+_0x201602(0x4c6):_0x5044e6('Website',''))+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x573eb8(_0x201602(0x354),_0x1c7cdc[_0x201602(0x1cc)])+_0x201602(0x452)+_0x1facd8('Password',_0x1c7cdc[_0x201602(0x1f4)],_0x201602(0x208))+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x573eb8('Email\x20Used',_0x1c7cdc[_0x201602(0x34b)])+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x5044e6(_0x201602(0x37c),_0x1c7cdc[_0x201602(0x284)]==='yes'?_0x201602(0x28e):_0x1c7cdc['twoFAEnabled']==='no'?'No':_0x201602(0x2e3))+_0x201602(0x452)+_0x5044e6(_0x201602(0x223),_0xfeb4a6[_0x1c7cdc['twoFAType']]||'Not\x20specified')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x573eb8('Phone\x20Number',_0x1c7cdc[_0x201602(0x26a)])+_0x201602(0x452)+_0x573eb8('Customer\x20Service',_0x1c7cdc[_0x201602(0x43a)])+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x5044e6(_0x201602(0x4b3),_0x1c7cdc[_0x201602(0x2e9)],_0x201602(0x454))+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x5044e6(_0x201602(0x270),_0x1c7cdc[_0x201602(0x4b6)],'full')+_0x201602(0x452)+_0x5044e6(_0x201602(0x39a),_0xe867a(_0x1c7cdc[_0x201602(0x3ef)]))+_0x201602(0x452)+_0x5044e6(_0x201602(0x434),_0xe867a(_0x1c7cdc['modifiedAt']))+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','footer':'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22secondary-button\x20danger-text\x22\x20type=\x22button\x22\x20data-modal-action=\x22delete-bank\x22>Delete</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22secondary-button\x22\x20type=\x22button\x22\x20data-modal-action=\x22edit-bank\x22>Edit</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22primary-button\x22\x20type=\x22button\x22\x20data-modal-action=\x22close\x22>Done</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'}),_0xbfac8c();}function _0x838c0d(_0x3f8b85){const _0x1c9fa4=_0x5b4ee9;_0x306596=_0x3f8b85['id'],_0x522697({'eyebrow':_0x1c9fa4(0x215),'title':_0x3f8b85[_0x1c9fa4(0x302)]||_0x1c9fa4(0x4ce),'body':_0x1c9fa4(0x23c)+_0x5044e6(_0x1c9fa4(0x35c),_0x3f8b85[_0x1c9fa4(0x3e2)])+_0x1c9fa4(0x452)+_0x5044e6(_0x1c9fa4(0x270),_0x3f8b85['tags'])+_0x1c9fa4(0x357)+_0x26022f(_0x3f8b85[_0x1c9fa4(0x342)]||'Empty\x20note')+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x5044e6(_0x1c9fa4(0x39a),_0xe867a(_0x3f8b85[_0x1c9fa4(0x3ef)]))+_0x1c9fa4(0x452)+_0x5044e6(_0x1c9fa4(0x434),_0xe867a(_0x3f8b85[_0x1c9fa4(0x1fa)]))+_0x1c9fa4(0x232),'footer':_0x1c9fa4(0x4d0)});}function _0xcbc98d(_0x9d72b6,_0x32d9a2,_0x3e9c65=''){return _0x26022f(_0x9d72b6?.[_0x32d9a2]??_0x3e9c65);}function _0x12bdf8(_0x7156a9=null){const _0xcb7495=_0x5b4ee9;return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<form\x20id=\x22cardRecordForm\x22\x20class=\x22record-form\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-section-heading\x22>Card\x20Information</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-two-column\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>Card\x20Nickname\x20*<input\x20id=\x22cardNickname\x22\x20type=\x22text\x22\x20required\x20value=\x22'+_0xcbc98d(_0x7156a9,_0xcb7495(0x2de))+_0xcb7495(0x3d8)+_0xcbc98d(_0x7156a9,_0xcb7495(0x1ea))+_0xcb7495(0x435)+_0xcbc98d(_0x7156a9,_0xcb7495(0x296))+'\x22><button\x20class=\x22inline-button\x20toggle-password\x22\x20type=\x22button\x22\x20data-target=\x22cardNumber\x22>Show</button></div></label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-three-column\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>Expiration\x20Month<input\x20id=\x22cardExpMonth\x22\x20type=\x22text\x22\x20inputmode=\x22numeric\x22\x20maxlength=\x222\x22\x20value=\x22'+_0xcbc98d(_0x7156a9,_0xcb7495(0x395))+'\x22\x20placeholder=\x22MM\x22></label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>Expiration\x20Year<input\x20id=\x22cardExpYear\x22\x20type=\x22text\x22\x20inputmode=\x22numeric\x22\x20maxlength=\x224\x22\x20value=\x22'+_0xcbc98d(_0x7156a9,_0xcb7495(0x3b9))+_0xcb7495(0x358)+_0xcbc98d(_0x7156a9,_0xcb7495(0x245))+_0xcb7495(0x2aa)+_0xcbc98d(_0x7156a9,'billingZip')+'\x22></label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>Issuing\x20Bank<input\x20id=\x22cardIssuingBank\x22\x20type=\x22text\x22\x20value=\x22'+_0xcbc98d(_0x7156a9,_0xcb7495(0x264))+'\x22></label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-section-heading\x22>Online\x20Account</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>Login\x20Website<input\x20id=\x22cardLoginWebsite\x22\x20type=\x22url\x22\x20value=\x22'+_0xcbc98d(_0x7156a9,'loginWebsite')+_0xcb7495(0x37d)+_0xcbc98d(_0x7156a9,'loginId')+'\x22></label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>Password<div\x20class=\x22input-action-row\x22><input\x20id=\x22cardLoginPassword\x22\x20type=\x22password\x22\x20value=\x22'+_0xcbc98d(_0x7156a9,_0xcb7495(0x1f4))+_0xcb7495(0x2e6)+_0xcbc98d(_0x7156a9,_0xcb7495(0x43a))+_0xcb7495(0x459)+_0xcbc98d(_0x7156a9,'creditLimit')+_0xcb7495(0x3b0)+_0xcbc98d(_0x7156a9,'notes')+_0xcb7495(0x1f8)+_0xcbc98d(_0x7156a9,_0xcb7495(0x4b6))+_0xcb7495(0x442);}function _0x5ed149(_0x15b9c8=null){const _0x10af25=_0x5b4ee9;return _0x10af25(0x4e8)+_0xcbc98d(_0x15b9c8,_0x10af25(0x2ff))+'\x22></label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>Account\x20Nickname<input\x20id=\x22bankNickname\x22\x20type=\x22text\x22\x20value=\x22'+_0xcbc98d(_0x15b9c8,_0x10af25(0x1ff))+_0x10af25(0x2c1)+['Checking',_0x10af25(0x321),'Money\x20Market','Certificate\x20of\x20Deposit',_0x10af25(0x39b),'Investment',_0x10af25(0x226)][_0x10af25(0x27f)](_0x200690=>'<option\x20value=\x22'+_0x200690+'\x22\x20'+(_0x15b9c8?.[_0x10af25(0x267)]===_0x200690?'selected':'')+'>'+_0x200690+'</option>')['join']('')+_0x10af25(0x499)+_0xcbc98d(_0x15b9c8,_0x10af25(0x49f))+'\x22><button\x20class=\x22inline-button\x20toggle-password\x22\x20type=\x22button\x22\x20data-target=\x22bankRouting\x22>Show</button></div></label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>Account\x20Number<div\x20class=\x22input-action-row\x22><input\x20id=\x22bankAccountNumber\x22\x20type=\x22password\x22\x20value=\x22'+_0xcbc98d(_0x15b9c8,'accountNumber')+_0x10af25(0x1b9)+_0xcbc98d(_0x15b9c8,'website')+'\x22\x20placeholder=\x22https://example.com\x22></label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-two-column\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>Login\x20ID<input\x20id=\x22bankLoginId\x22\x20type=\x22text\x22\x20value=\x22'+_0xcbc98d(_0x15b9c8,_0x10af25(0x1cc))+_0x10af25(0x2e5)+_0xcbc98d(_0x15b9c8,_0x10af25(0x1f4))+'\x22><button\x20class=\x22inline-button\x20toggle-password\x22\x20type=\x22button\x22\x20data-target=\x22bankPassword\x22>Show</button></div></label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-two-column\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>Email\x20Used<input\x20id=\x22bankEmail\x22\x20type=\x22email\x22\x20value=\x22'+_0xcbc98d(_0x15b9c8,_0x10af25(0x34b))+_0x10af25(0x2ab)+_0xcbc98d(_0x15b9c8,_0x10af25(0x26a))+_0x10af25(0x2f2)+(!_0x15b9c8||_0x15b9c8[_0x10af25(0x284)]==='unknown'?'selected':'')+'>Unknown</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22yes\x22\x20'+(_0x15b9c8?.[_0x10af25(0x284)]==='yes'?'selected':'')+_0x10af25(0x1f7)+(_0x15b9c8?.[_0x10af25(0x284)]==='no'?_0x10af25(0x2f5):'')+_0x10af25(0x4c1)+Object[_0x10af25(0x2cf)](_0xfeb4a6)['map'](([_0x1f3f21,_0x598449])=>_0x10af25(0x4cc)+_0x1f3f21+'\x22\x20'+(_0x15b9c8?.[_0x10af25(0x47f)]===_0x1f3f21||!_0x15b9c8&&_0x1f3f21===_0x10af25(0x34c)?_0x10af25(0x2f5):'')+'>'+_0x598449+_0x10af25(0x3bd))[_0x10af25(0x2b6)]('')+_0x10af25(0x348)+_0xcbc98d(_0x15b9c8,_0x10af25(0x43a))+_0x10af25(0x4d8)+_0xcbc98d(_0x15b9c8,_0x10af25(0x2e9))+_0x10af25(0x49b)+_0xcbc98d(_0x15b9c8,_0x10af25(0x4b6))+'\x22></label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22bankFormMessage\x22\x20class=\x22form-note\x22>Routing,\x20account,\x20login,\x20and\x20other\x20information\x20is\x20encrypted\x20before\x20saving.</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</form>\x0a\x20\x20\x20\x20\x20\x20\x20\x20';}function _0x4044b7(_0x500bc4=null){const _0x2d5145=_0x5b4ee9;return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<form\x20id=\x22noteRecordForm\x22\x20class=\x22record-form\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-two-column\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>Title\x20*<input\x20id=\x22noteTitle\x22\x20type=\x22text\x22\x20required\x20value=\x22'+_0xcbc98d(_0x500bc4,_0x2d5145(0x302))+'\x22></label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>Category<input\x20id=\x22noteCategory\x22\x20type=\x22text\x22\x20value=\x22'+_0xcbc98d(_0x500bc4,_0x2d5145(0x3e2))+_0x2d5145(0x3dc)+_0xcbc98d(_0x500bc4,_0x2d5145(0x342))+_0x2d5145(0x359)+_0xcbc98d(_0x500bc4,_0x2d5145(0x4b6))+'\x22></label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22noteFormMessage\x22\x20class=\x22form-note\x22>The\x20title,\x20category,\x20contents,\x20and\x20tags\x20are\x20stored\x20inside\x20the\x20encrypted\x20vault.</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</form>\x0a\x20\x20\x20\x20\x20\x20\x20\x20';}function _0x425022(_0x4c8761=null){const _0x184cc5=_0x5b4ee9;_0x306596=_0x4c8761?.['id']||null,_0x522697({'eyebrow':_0x4c8761?_0x184cc5(0x1e2):_0x184cc5(0x2b1),'title':_0x4c8761?.[_0x184cc5(0x2de)]||_0x184cc5(0x220),'body':_0x12bdf8(_0x4c8761),'footer':'<button\x20class=\x22secondary-button\x22\x20type=\x22button\x22\x20data-modal-action=\x22close\x22>Cancel</button><button\x20class=\x22primary-button\x22\x20type=\x22button\x22\x20data-modal-action=\x22save-card\x22>'+(_0x4c8761?_0x184cc5(0x4c8):_0x184cc5(0x364))+_0x184cc5(0x3f0)}),_0x432b64(_0x47af87[_0x184cc5(0x1c9)]),document[_0x184cc5(0x2a0)](_0x184cc5(0x2de))[_0x184cc5(0x473)]();}function _0x1dcfdb(_0x3d1457=null){const _0xa59234=_0x5b4ee9;_0x306596=_0x3d1457?.['id']||null,_0x522697({'eyebrow':_0x3d1457?'Edit\x20Encrypted\x20Bank\x20Account':_0xa59234(0x2ae),'title':_0x3d1457?.[_0xa59234(0x1ff)]||_0x3d1457?.[_0xa59234(0x2ff)]||_0xa59234(0x317),'body':_0x5ed149(_0x3d1457),'footer':'<button\x20class=\x22secondary-button\x22\x20type=\x22button\x22\x20data-modal-action=\x22close\x22>Cancel</button><button\x20class=\x22primary-button\x22\x20type=\x22button\x22\x20data-modal-action=\x22save-bank\x22>'+(_0x3d1457?'Save\x20Changes':_0xa59234(0x269))+'</button>'}),_0x432b64(_0x47af87[_0xa59234(0x1c9)]),document['getElementById'](_0xa59234(0x2ff))['focus']();}function _0x2513b2(_0x5b442c=null){const _0x24116f=_0x5b4ee9;_0x306596=_0x5b442c?.['id']||null,_0x522697({'eyebrow':_0x5b442c?'Edit\x20Encrypted\x20Note':_0x24116f(0x4cd),'title':_0x5b442c?.['title']||_0x24116f(0x431),'body':_0x4044b7(_0x5b442c),'footer':_0x24116f(0x3db)+(_0x5b442c?_0x24116f(0x4c8):'Add\x20Note')+_0x24116f(0x3f0)}),document[_0x24116f(0x2a0)](_0x24116f(0x2ad))[_0x24116f(0x473)]();}function _0x519e56(){const _0x168a75=_0x5b4ee9,_0x45bebb=document[_0x168a75(0x2a0)](_0x168a75(0x2de))[_0x168a75(0x2b3)]['trim']();if(!_0x45bebb){const _0x24cad9=document[_0x168a75(0x2a0)](_0x168a75(0x2a5));return _0x24cad9[_0x168a75(0x2fd)]=_0x168a75(0x2d5),_0x24cad9[_0x168a75(0x1c7)]['color']='var(--danger)',document[_0x168a75(0x2a0)](_0x168a75(0x2de))[_0x168a75(0x473)](),null;}const _0x3c1b1b=_0x306596?_0x5cd2a3[_0x168a75(0x2bd)][_0x168a75(0x1d1)][_0x168a75(0x439)](_0x4266cf=>_0x4266cf['id']===_0x306596):null,_0x14b10b=new Date()[_0x168a75(0x3f7)]();return{'id':_0x3c1b1b?.['id']||crypto[_0x168a75(0x4c3)](),'recordType':'card','cardNickname':_0x45bebb,'cardholderName':document[_0x168a75(0x2a0)](_0x168a75(0x1ea))[_0x168a75(0x2b3)][_0x168a75(0x485)](),'cardNumber':document[_0x168a75(0x2a0)](_0x168a75(0x296))[_0x168a75(0x2b3)][_0x168a75(0x485)](),'expMonth':document[_0x168a75(0x2a0)](_0x168a75(0x2b8))[_0x168a75(0x2b3)][_0x168a75(0x485)](),'expYear':document[_0x168a75(0x2a0)](_0x168a75(0x2a8))['value'][_0x168a75(0x485)](),'cvv':document[_0x168a75(0x2a0)](_0x168a75(0x371))[_0x168a75(0x2b3)][_0x168a75(0x485)](),'billingZip':document['getElementById']('cardBillingZip')[_0x168a75(0x2b3)]['trim'](),'issuingBank':document[_0x168a75(0x2a0)]('cardIssuingBank')[_0x168a75(0x2b3)][_0x168a75(0x485)](),'loginWebsite':document[_0x168a75(0x2a0)]('cardLoginWebsite')[_0x168a75(0x2b3)][_0x168a75(0x485)](),'loginId':document[_0x168a75(0x2a0)](_0x168a75(0x32b))['value'][_0x168a75(0x485)](),'password':document['getElementById']('cardLoginPassword')['value'],'customerService':document[_0x168a75(0x2a0)]('cardCustomerService')[_0x168a75(0x2b3)][_0x168a75(0x485)](),'creditLimit':document[_0x168a75(0x2a0)](_0x168a75(0x3fe))[_0x168a75(0x2b3)][_0x168a75(0x485)](),'notes':document[_0x168a75(0x2a0)]('cardNotes')['value'][_0x168a75(0x485)](),'tags':document[_0x168a75(0x2a0)](_0x168a75(0x2a1))[_0x168a75(0x2b3)][_0x168a75(0x485)](),'createdAt':_0x3c1b1b?.[_0x168a75(0x3ef)]||_0x14b10b,'modifiedAt':_0x14b10b};}function _0x12b981(){const _0xd5ca02=_0x5b4ee9,_0x3ab258=document[_0xd5ca02(0x2a0)](_0xd5ca02(0x2ff))[_0xd5ca02(0x2b3)]['trim']();if(!_0x3ab258){const _0x5984eb=document['getElementById'](_0xd5ca02(0x3bc));return _0x5984eb[_0xd5ca02(0x2fd)]='Bank\x20Name\x20is\x20required.',_0x5984eb['style'][_0xd5ca02(0x22c)]=_0xd5ca02(0x35b),document[_0xd5ca02(0x2a0)]('bankName')['focus'](),null;}const _0x393342=_0x306596?_0x5cd2a3[_0xd5ca02(0x2bd)][_0xd5ca02(0x492)][_0xd5ca02(0x439)](_0x513724=>_0x513724['id']===_0x306596):null,_0x178725=new Date()['toISOString']();return{'id':_0x393342?.['id']||crypto[_0xd5ca02(0x4c3)](),'recordType':_0xd5ca02(0x43b),'bankName':_0x3ab258,'accountNickname':document[_0xd5ca02(0x2a0)]('bankNickname')['value'][_0xd5ca02(0x485)](),'accountType':document[_0xd5ca02(0x2a0)](_0xd5ca02(0x390))[_0xd5ca02(0x2b3)],'routingNumber':document['getElementById'](_0xd5ca02(0x436))[_0xd5ca02(0x2b3)]['trim'](),'accountNumber':document[_0xd5ca02(0x2a0)]('bankAccountNumber')[_0xd5ca02(0x2b3)][_0xd5ca02(0x485)](),'website':document[_0xd5ca02(0x2a0)](_0xd5ca02(0x4d3))[_0xd5ca02(0x2b3)][_0xd5ca02(0x485)](),'loginId':document[_0xd5ca02(0x2a0)]('bankLoginId')[_0xd5ca02(0x2b3)][_0xd5ca02(0x485)](),'password':document[_0xd5ca02(0x2a0)](_0xd5ca02(0x243))[_0xd5ca02(0x2b3)],'emailUsed':document[_0xd5ca02(0x2a0)](_0xd5ca02(0x487))[_0xd5ca02(0x2b3)][_0xd5ca02(0x485)](),'twoFAEnabled':document[_0xd5ca02(0x2a0)](_0xd5ca02(0x360))['value'],'twoFAType':document[_0xd5ca02(0x2a0)](_0xd5ca02(0x489))['value'],'phoneNumber':document[_0xd5ca02(0x2a0)]('bankPhone')[_0xd5ca02(0x2b3)][_0xd5ca02(0x485)](),'customerService':document[_0xd5ca02(0x2a0)]('bankCustomerService')[_0xd5ca02(0x2b3)][_0xd5ca02(0x485)](),'notes':document[_0xd5ca02(0x2a0)]('bankNotes')[_0xd5ca02(0x2b3)][_0xd5ca02(0x485)](),'tags':document['getElementById'](_0xd5ca02(0x260))[_0xd5ca02(0x2b3)][_0xd5ca02(0x485)](),'createdAt':_0x393342?.['createdAt']||_0x178725,'modifiedAt':_0x178725};}function _0x353c2a(){const _0x653e5c=_0x5b4ee9,_0x5d181b=document['getElementById']('noteTitle')[_0x653e5c(0x2b3)][_0x653e5c(0x485)]();if(!_0x5d181b){const _0x2e0544=document[_0x653e5c(0x2a0)]('noteFormMessage');return _0x2e0544[_0x653e5c(0x2fd)]=_0x653e5c(0x4dd),_0x2e0544[_0x653e5c(0x1c7)][_0x653e5c(0x22c)]=_0x653e5c(0x35b),document[_0x653e5c(0x2a0)](_0x653e5c(0x2ad))[_0x653e5c(0x473)](),null;}const _0x2a9662=_0x306596?_0x5cd2a3[_0x653e5c(0x2bd)][_0x653e5c(0x2e9)][_0x653e5c(0x439)](_0x1699f8=>_0x1699f8['id']===_0x306596):null,_0x3ca186=new Date()[_0x653e5c(0x3f7)]();return{'id':_0x2a9662?.['id']||crypto[_0x653e5c(0x4c3)](),'recordType':_0x653e5c(0x36e),'title':_0x5d181b,'category':document[_0x653e5c(0x2a0)]('noteCategory')[_0x653e5c(0x2b3)]['trim'](),'contents':document['getElementById'](_0x653e5c(0x445))[_0x653e5c(0x2b3)],'tags':document[_0x653e5c(0x2a0)](_0x653e5c(0x467))[_0x653e5c(0x2b3)][_0x653e5c(0x485)](),'createdAt':_0x2a9662?.[_0x653e5c(0x3ef)]||_0x3ca186,'modifiedAt':_0x3ca186};}async function _0x1a0bc8(_0x13c6b6,_0x408018,_0xd283b2,_0x14685e,_0x5cae97){const _0x5aa9c7=_0x5b4ee9;if(!_0x408018)return;const _0x180b06=_0x13c6b6===_0x5aa9c7(0x35d)?_0x5aa9c7(0x1d1):_0x13c6b6==='bank'?_0x5aa9c7(0x492):_0x5aa9c7(0x2e9),_0x3c6fcc=_0x47af87[_0x5aa9c7(0x414)]['querySelector'](_0x5aa9c7(0x3a2)+_0x14685e+'\x22]'),_0x3fea5a=_0x5cd2a3[_0x5aa9c7(0x2bd)][_0x180b06],_0x2708d0=_0x3fea5a[_0x5aa9c7(0x294)](_0x4c3f78=>_0x4c3f78['id']===_0x408018['id']),_0x5ddf1e=_0x2708d0>=0x0?_0x3fea5a[_0x2708d0]:null;_0x3c6fcc['disabled']=!![],_0x3c6fcc[_0x5aa9c7(0x2fd)]='Encrypting...';if(_0x2708d0>=0x0)_0x3fea5a[_0x2708d0]=_0x408018;else _0x3fea5a[_0x5aa9c7(0x21a)](_0x408018);try{await window[_0x5aa9c7(0x1d4)][_0x5aa9c7(0x1f6)](_0x5cd2a3),_0x846f42(),_0x116fd9(),_0x47af87[_0x5aa9c7(0x1b6)][_0x5aa9c7(0x2fd)]=_0x5cae97+'\x20'+(_0x2708d0>=0x0?_0x5aa9c7(0x285):_0x5aa9c7(0x424))+_0x5aa9c7(0x38c),_0xdd8276();}catch(_0x87246e){if(_0x2708d0>=0x0)_0x3fea5a[_0x2708d0]=_0x5ddf1e;else _0x3fea5a[_0x5aa9c7(0x3f1)]();const _0x3470ea=document[_0x5aa9c7(0x2a0)](_0xd283b2);_0x3470ea[_0x5aa9c7(0x2fd)]=_0x5aa9c7(0x25a)+_0x87246e[_0x5aa9c7(0x4bf)],_0x3470ea['style'][_0x5aa9c7(0x22c)]=_0x5aa9c7(0x35b),_0x3c6fcc[_0x5aa9c7(0x42e)]=![],_0x3c6fcc[_0x5aa9c7(0x2fd)]=_0x2708d0>=0x0?'Save\x20Changes':'Add\x20'+_0x5cae97;}}async function _0x15d7b0(_0x36a2c6,_0x1ebf81){const _0x1cc591=_0x5b4ee9,_0x1b7562=_0x5cd2a3['records'][_0x36a2c6][_0x1cc591(0x439)](_0x4253a4=>_0x4253a4['id']===_0x306596);if(!_0x1b7562)return;const _0x5e337f=_0x1b7562['cardNickname']||_0x1b7562[_0x1cc591(0x1ff)]||_0x1b7562['bankName']||_0x1b7562['title']||_0x1ebf81;if(!window[_0x1cc591(0x1e7)]('Delete\x20\x22'+_0x5e337f+_0x1cc591(0x308)))return;const _0x83d7d3=[..._0x5cd2a3[_0x1cc591(0x2bd)][_0x36a2c6]];_0x5cd2a3[_0x1cc591(0x2bd)][_0x36a2c6]=_0x83d7d3[_0x1cc591(0x3ae)](_0x450831=>_0x450831['id']!==_0x306596);try{await window[_0x1cc591(0x1d4)][_0x1cc591(0x1f6)](_0x5cd2a3),_0x846f42(),_0x116fd9(),_0x47af87[_0x1cc591(0x1b6)][_0x1cc591(0x2fd)]=_0x1ebf81+_0x1cc591(0x40d),_0xdd8276();}catch(_0x3c963b){_0x5cd2a3[_0x1cc591(0x2bd)][_0x36a2c6]=_0x83d7d3,window[_0x1cc591(0x2f3)](_0x1cc591(0x1ec)+_0x3c963b[_0x1cc591(0x4bf)]);}}function _0x21ee7d(_0x40ae43=null){const _0x516d3e=_0x5b4ee9,_0x285436=(_0x1f7e11,_0x2d9a39='')=>_0x26022f(_0x40ae43?.[_0x1f7e11]??_0x2d9a39);return _0x516d3e(0x36a)+_0x285436(_0x516d3e(0x1f0))+_0x516d3e(0x4a5)+_0x285436('url')+_0x516d3e(0x309)+_0x285436(_0x516d3e(0x1cc))+_0x516d3e(0x350)+_0x285436(_0x516d3e(0x34b))+_0x516d3e(0x3c8)+_0x285436(_0x516d3e(0x1f4))+_0x516d3e(0x3aa)+(_0x40ae43?.[_0x516d3e(0x401)]===_0x516d3e(0x212)||!_0x40ae43?'selected':'')+'>Unknown</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22yes\x22\x20'+(_0x40ae43?.['supports2FA']===_0x516d3e(0x238)?_0x516d3e(0x2f5):'')+_0x516d3e(0x4a9)+(_0x40ae43?.['supports2FA']==='no'?_0x516d3e(0x2f5):'')+'>No</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Is\x202FA\x20Enabled\x20on\x20This\x20Account?\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20id=\x22site2FAEnabled\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22unknown\x22\x20'+(_0x40ae43?.['twoFAEnabled']==='unknown'||!_0x40ae43?_0x516d3e(0x2f5):'')+_0x516d3e(0x373)+(_0x40ae43?.[_0x516d3e(0x284)]===_0x516d3e(0x238)?'selected':'')+_0x516d3e(0x4a9)+(_0x40ae43?.[_0x516d3e(0x284)]==='no'?_0x516d3e(0x2f5):'')+'>No</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x202FA\x20Type\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20id=\x22site2FAType\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22none\x22\x20'+(_0x40ae43?.[_0x516d3e(0x47f)]===_0x516d3e(0x34c)||!_0x40ae43?_0x516d3e(0x2f5):'')+_0x516d3e(0x241)+(_0x40ae43?.[_0x516d3e(0x47f)]==='authenticator'?_0x516d3e(0x2f5):'')+'>Authenticator\x20App</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22email\x22\x20'+(_0x40ae43?.['twoFAType']===_0x516d3e(0x2ac)?_0x516d3e(0x2f5):'')+_0x516d3e(0x40b)+(_0x40ae43?.[_0x516d3e(0x47f)]===_0x516d3e(0x248)?_0x516d3e(0x2f5):'')+'>SMS</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22securityKey\x22\x20'+(_0x40ae43?.[_0x516d3e(0x47f)]===_0x516d3e(0x4df)?_0x516d3e(0x2f5):'')+_0x516d3e(0x1c3)+(_0x40ae43?.[_0x516d3e(0x47f)]===_0x516d3e(0x27d)?'selected':'')+_0x516d3e(0x417)+(_0x40ae43?.[_0x516d3e(0x47f)]===_0x516d3e(0x1f5)?_0x516d3e(0x2f5):'')+_0x516d3e(0x25c)+(_0x40ae43?.[_0x516d3e(0x47f)]==='other'?'selected':'')+_0x516d3e(0x1bb)+_0x285436(_0x516d3e(0x210))+_0x516d3e(0x26f)+_0x285436('totpAccount')+_0x516d3e(0x25f)+(Number(_0x40ae43?.['totpDigits']||0x6)===0x6?'selected':'')+'>6\x20digits</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x228\x22\x20'+(Number(_0x40ae43?.['totpDigits'])===0x8?_0x516d3e(0x2f5):'')+_0x516d3e(0x441)+(Number(_0x40ae43?.[_0x516d3e(0x257)])===0xf?_0x516d3e(0x2f5):'')+'>15\x20seconds</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x2230\x22\x20'+(Number(_0x40ae43?.[_0x516d3e(0x257)]||0x1e)===0x1e?_0x516d3e(0x2f5):'')+_0x516d3e(0x4b1)+(Number(_0x40ae43?.[_0x516d3e(0x257)])===0x3c?_0x516d3e(0x2f5):'')+_0x516d3e(0x34d)+((_0x40ae43?.[_0x516d3e(0x41e)]||_0x516d3e(0x4c0))===_0x516d3e(0x4c0)?_0x516d3e(0x2f5):'')+_0x516d3e(0x474)+(_0x40ae43?.['totpAlgorithm']===_0x516d3e(0x3a9)?_0x516d3e(0x2f5):'')+_0x516d3e(0x4c4)+(_0x40ae43?.[_0x516d3e(0x41e)]==='SHA512'?_0x516d3e(0x2f5):'')+'>SHA-512</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22totpPreviewCard\x22\x20class=\x22totp-preview-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>Preview</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong\x20id=\x22totpPreviewCode\x22>Enter\x20a\x20secret</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20id=\x22totpPreviewStatus\x22>The\x20code\x20will\x20update\x20automatically.</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-two-column\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20TOTP\x20Secret\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22input-action-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20id=\x22siteTotpSecret\x22\x20type=\x22password\x22\x20value=\x22'+_0x285436(_0x516d3e(0x418))+'\x22\x20placeholder=\x22Optional\x20authenticator\x20secret\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22inline-button\x20toggle-password\x22\x20type=\x22button\x22\x20data-target=\x22siteTotpSecret\x22>Show</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Security\x20Key\x20Name\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20id=\x22siteSecurityKeyName\x22\x20type=\x22text\x22\x20value=\x22'+_0x285436(_0x516d3e(0x461))+_0x516d3e(0x3b1)+_0x285436('twoFAEmail')+_0x516d3e(0x4be)+_0x285436(_0x516d3e(0x4bc))+_0x516d3e(0x200)+_0x285436(_0x516d3e(0x363))+'</textarea>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-section-heading\x22>Additional\x20Information</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Notes\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20id=\x22siteNotes\x22\x20placeholder=\x22Optional\x20notes\x22>'+_0x285436(_0x516d3e(0x2e9))+_0x516d3e(0x493)+_0x285436(_0x516d3e(0x4b6))+_0x516d3e(0x1c2);}function _0x53a77d(_0x4bf35a=null){const _0x5a528a=_0x5b4ee9;_0x306596=_0x4bf35a?.['id']||null,_0x522697({'eyebrow':_0x4bf35a?_0x5a528a(0x455):_0x5a528a(0x36f),'title':_0x4bf35a?_0x4bf35a['siteName']:_0x5a528a(0x2fe),'body':_0x21ee7d(_0x4bf35a),'footer':_0x5a528a(0x3a4)+(_0x4bf35a?_0x5a528a(0x4c8):'Add\x20Website')+_0x5a528a(0x4ba)}),_0x432b64(_0x47af87[_0x5a528a(0x1c9)]);const _0x2acf20=document['getElementById'](_0x5a528a(0x31a)),_0x8010b0=document[_0x5a528a(0x2a0)](_0x5a528a(0x33a)),_0x232d95=document['getElementById']('siteSupports2FA'),_0x2376c2=document['getElementById'](_0x5a528a(0x205)),_0x5a64e2=document[_0x5a528a(0x2a0)](_0x5a528a(0x1e6)),_0x483a5b=()=>{const _0x46d095=_0x5a528a,_0x4e3ef6=_0x2acf20[_0x46d095(0x2b3)]===_0x46d095(0x1f2);_0x2376c2[_0x46d095(0x292)]['toggle'](_0x46d095(0x2c0),!_0x4e3ef6),_0x4e3ef6&&(_0x232d95[_0x46d095(0x2b3)]=_0x46d095(0x238),_0x8010b0[_0x46d095(0x2b3)]=_0x46d095(0x238));},_0x4be601=async()=>{const _0x54292e=_0x5a528a,_0x33d798=document[_0x54292e(0x2a0)](_0x54292e(0x362)),_0x1a43a0=document['getElementById']('totpPreviewStatus'),_0x48ebff=_0x5a64e2[_0x54292e(0x2b3)];if(!_0x48ebff){_0x33d798['textContent']=_0x54292e(0x30e),_0x1a43a0[_0x54292e(0x2fd)]=_0x54292e(0x3a6);return;}try{const _0x115045=await _0x5c9882(_0x48ebff,{'digits':Number(document[_0x54292e(0x2a0)](_0x54292e(0x1d3))['value']),'period':Number(document[_0x54292e(0x2a0)](_0x54292e(0x393))['value']),'algorithm':document['getElementById'](_0x54292e(0x1f3))[_0x54292e(0x2b3)]});_0x33d798[_0x54292e(0x2fd)]=_0x414a7a(_0x115045[_0x54292e(0x42b)]),_0x1a43a0[_0x54292e(0x2fd)]=_0x115045[_0x54292e(0x26e)]+_0x54292e(0x422);}catch(_0x5646d2){_0x33d798[_0x54292e(0x2fd)]=_0x54292e(0x45f),_0x1a43a0[_0x54292e(0x2fd)]=_0x5646d2['message'];}},_0x214303=()=>{const _0xccec34=_0x5a528a,_0x468e8a=document[_0xccec34(0x2a0)]('websiteFormMessage');try{const _0x5ee203=_0x23a450(document[_0xccec34(0x2a0)](_0xccec34(0x2f6))[_0xccec34(0x2b3)]);_0x5a64e2[_0xccec34(0x2b3)]=_0x5ee203['secret'],document[_0xccec34(0x2a0)](_0xccec34(0x45d))[_0xccec34(0x2b3)]=_0x5ee203[_0xccec34(0x1cd)],document['getElementById']('siteTotpAccount')[_0xccec34(0x2b3)]=_0x5ee203[_0xccec34(0x4da)],document[_0xccec34(0x2a0)](_0xccec34(0x1d3))[_0xccec34(0x2b3)]=String(_0x5ee203[_0xccec34(0x4a7)]),document['getElementById'](_0xccec34(0x393))[_0xccec34(0x2b3)]=String(_0x5ee203['period']),document[_0xccec34(0x2a0)]('siteTotpAlgorithm')[_0xccec34(0x2b3)]=_0x5ee203['algorithm'],_0x2acf20[_0xccec34(0x2b3)]=_0xccec34(0x1f2),_0x232d95[_0xccec34(0x2b3)]=_0xccec34(0x238),_0x8010b0[_0xccec34(0x2b3)]=_0xccec34(0x238),_0x483a5b(),_0x4be601(),_0x468e8a['textContent']=_0xccec34(0x437),_0x468e8a[_0xccec34(0x1c7)][_0xccec34(0x22c)]=_0xccec34(0x3ed);}catch(_0x2998fc){_0x468e8a[_0xccec34(0x2fd)]=_0x2998fc[_0xccec34(0x4bf)],_0x468e8a[_0xccec34(0x1c7)][_0xccec34(0x22c)]=_0xccec34(0x35b);}};_0x2acf20['addEventListener'](_0x5a528a(0x299),_0x483a5b),document['getElementById'](_0x5a528a(0x214))[_0x5a528a(0x36c)]('click',_0x214303),document[_0x5a528a(0x2a0)]('readQrImageButton')[_0x5a528a(0x36c)](_0x5a528a(0x448),()=>{const _0x377c13=_0x5a528a;_0x18c968=_0x377c13(0x310),_0x47af87[_0x377c13(0x3ee)]['click']();}),[_0x5a64e2,document[_0x5a528a(0x2a0)](_0x5a528a(0x1d3)),document[_0x5a528a(0x2a0)](_0x5a528a(0x393)),document[_0x5a528a(0x2a0)](_0x5a528a(0x1f3))]['forEach'](_0x21d660=>_0x21d660[_0x5a528a(0x36c)](_0x5a528a(0x298),_0x4be601)),_0x483a5b(),_0x4be601();if(_0x599d02)clearInterval(_0x599d02);_0x599d02=setInterval(_0x4be601,0x3e8),document['getElementById']('siteName')[_0x5a528a(0x473)]();}function _0x25b490(){const _0x3595f0=_0x5b4ee9;if(_0x5b770d===_0x3595f0(0x20a))_0x53a77d();else{if(_0x5b770d===_0x3595f0(0x1d1))_0x425022();else _0x5b770d===_0x3595f0(0x492)?_0x1dcfdb():_0x2513b2();}}function _0xaaaefc(){const _0xe8fc3d=_0x5b4ee9,_0x139ac1=document[_0xe8fc3d(0x2a0)](_0xe8fc3d(0x402)),_0x2d8904=document[_0xe8fc3d(0x2a0)](_0xe8fc3d(0x1f0))['value'][_0xe8fc3d(0x485)]();if(!_0x2d8904)return _0x139ac1['textContent']=_0xe8fc3d(0x3b2),_0x139ac1['style'][_0xe8fc3d(0x22c)]='var(--danger)',document[_0xe8fc3d(0x2a0)](_0xe8fc3d(0x1f0))[_0xe8fc3d(0x473)](),null;const _0x1ca643=new Date()[_0xe8fc3d(0x3f7)](),_0x14318c=_0x306596?_0x5cd2a3[_0xe8fc3d(0x2bd)]['websites']['find'](_0x26fad8=>_0x26fad8['id']===_0x306596):null;return{'id':_0x14318c?.['id']||crypto[_0xe8fc3d(0x4c3)](),'recordType':_0xe8fc3d(0x310),'siteName':_0x2d8904,'url':document[_0xe8fc3d(0x2a0)](_0xe8fc3d(0x219))['value'][_0xe8fc3d(0x485)](),'loginId':document['getElementById']('siteLoginId')['value'][_0xe8fc3d(0x485)](),'password':document[_0xe8fc3d(0x2a0)](_0xe8fc3d(0x337))[_0xe8fc3d(0x2b3)],'emailUsed':document[_0xe8fc3d(0x2a0)]('siteEmailUsed')['value'][_0xe8fc3d(0x485)](),'supports2FA':document[_0xe8fc3d(0x2a0)](_0xe8fc3d(0x37b))[_0xe8fc3d(0x2b3)],'twoFAEnabled':document['getElementById']('site2FAEnabled')[_0xe8fc3d(0x2b3)],'twoFAType':document[_0xe8fc3d(0x2a0)](_0xe8fc3d(0x31a))[_0xe8fc3d(0x2b3)],'totpSecret':_0x5cadce(document[_0xe8fc3d(0x2a0)](_0xe8fc3d(0x1e6))[_0xe8fc3d(0x2b3)]),'totpIssuer':document[_0xe8fc3d(0x2a0)]('siteTotpIssuer')[_0xe8fc3d(0x2b3)][_0xe8fc3d(0x485)](),'totpAccount':document[_0xe8fc3d(0x2a0)](_0xe8fc3d(0x228))[_0xe8fc3d(0x2b3)][_0xe8fc3d(0x485)](),'totpDigits':Number(document[_0xe8fc3d(0x2a0)](_0xe8fc3d(0x1d3))['value'])||0x6,'totpPeriod':Number(document[_0xe8fc3d(0x2a0)]('siteTotpPeriod')['value'])||0x1e,'totpAlgorithm':document[_0xe8fc3d(0x2a0)](_0xe8fc3d(0x1f3))[_0xe8fc3d(0x2b3)],'twoFAEmail':document[_0xe8fc3d(0x2a0)](_0xe8fc3d(0x46a))[_0xe8fc3d(0x2b3)][_0xe8fc3d(0x485)](),'twoFAPhone':document[_0xe8fc3d(0x2a0)]('site2FAPhone')[_0xe8fc3d(0x2b3)]['trim'](),'recoveryCodes':document[_0xe8fc3d(0x2a0)](_0xe8fc3d(0x1ca))['value']['trim'](),'securityKeyName':document[_0xe8fc3d(0x2a0)]('siteSecurityKeyName')[_0xe8fc3d(0x2b3)][_0xe8fc3d(0x485)](),'notes':document[_0xe8fc3d(0x2a0)](_0xe8fc3d(0x2c5))[_0xe8fc3d(0x2b3)][_0xe8fc3d(0x485)](),'tags':document[_0xe8fc3d(0x2a0)]('siteTags')[_0xe8fc3d(0x2b3)][_0xe8fc3d(0x485)](),'createdAt':_0x14318c?.[_0xe8fc3d(0x3ef)]||_0x1ca643,'modifiedAt':_0x1ca643};}async function _0xff2438(){const _0x284dac=_0x5b4ee9,_0x2f4733=_0xaaaefc();if(!_0x2f4733)return;const _0x51b803=_0x47af87[_0x284dac(0x414)][_0x284dac(0x32c)]('[data-modal-action=\x22save-website\x22]');_0x51b803[_0x284dac(0x42e)]=!![],_0x51b803[_0x284dac(0x2fd)]=_0x284dac(0x237);const _0x28ed5d=_0x5cd2a3[_0x284dac(0x2bd)][_0x284dac(0x20a)][_0x284dac(0x294)](_0x3c4990=>_0x3c4990['id']===_0x2f4733['id']);_0x28ed5d>=0x0?_0x5cd2a3[_0x284dac(0x2bd)][_0x284dac(0x20a)][_0x28ed5d]=_0x2f4733:_0x5cd2a3[_0x284dac(0x2bd)][_0x284dac(0x20a)][_0x284dac(0x21a)](_0x2f4733);try{await window[_0x284dac(0x1d4)]['saveData'](_0x5cd2a3),_0x846f42(),_0x116fd9(),_0x47af87[_0x284dac(0x1b6)][_0x284dac(0x2fd)]=_0x28ed5d>=0x0?'Website\x20updated\x20and\x20encrypted:\x20'+_0x2f4733[_0x284dac(0x1f0)]:_0x284dac(0x21d)+_0x2f4733[_0x284dac(0x1f0)],_0xdd8276();}catch(_0x50780f){const _0xbfb9c=document['getElementById'](_0x284dac(0x402));_0xbfb9c[_0x284dac(0x2fd)]='Unable\x20to\x20save:\x20'+_0x50780f[_0x284dac(0x4bf)],_0xbfb9c[_0x284dac(0x1c7)][_0x284dac(0x22c)]=_0x284dac(0x35b),_0x51b803[_0x284dac(0x42e)]=![],_0x51b803[_0x284dac(0x2fd)]=_0x28ed5d>=0x0?'Save\x20Changes':'Add\x20Website';}}async function _0x19182a(){const _0x284af0=_0x5b4ee9,_0x41aaae=_0x5cd2a3[_0x284af0(0x2bd)][_0x284af0(0x20a)][_0x284af0(0x439)](_0x3ebce6=>_0x3ebce6['id']===_0x306596);if(!_0x41aaae)return;const _0x1115aa=window[_0x284af0(0x1e7)]('Delete\x20\x22'+_0x41aaae[_0x284af0(0x1f0)]+_0x284af0(0x2e1));if(!_0x1115aa)return;const _0x8abad8=[..._0x5cd2a3[_0x284af0(0x2bd)][_0x284af0(0x20a)]];_0x5cd2a3[_0x284af0(0x2bd)][_0x284af0(0x20a)]=_0x5cd2a3[_0x284af0(0x2bd)][_0x284af0(0x20a)]['filter'](_0x55b497=>_0x55b497['id']!==_0x306596);try{await window[_0x284af0(0x1d4)][_0x284af0(0x1f6)](_0x5cd2a3),_0x846f42(),_0x116fd9(),_0x47af87[_0x284af0(0x1b6)][_0x284af0(0x2fd)]=_0x284af0(0x23b)+_0x41aaae[_0x284af0(0x1f0)],_0xdd8276();}catch(_0x2884e2){_0x5cd2a3['records'][_0x284af0(0x20a)]=_0x8abad8,window[_0x284af0(0x2f3)]('Unable\x20to\x20delete\x20the\x20website:\x20'+_0x2884e2[_0x284af0(0x4bf)]);}}function _0x1d9b58(_0x2a7b6b){const _0x325f36=_0x5b4ee9,_0x251ec1=Math[_0x325f36(0x345)](0x100000000/_0x2a7b6b)*_0x2a7b6b,_0x5da641=new Uint32Array(0x1);let _0x3a3896;do{crypto[_0x325f36(0x41d)](_0x5da641),_0x3a3896=_0x5da641[0x0];}while(_0x3a3896>=_0x251ec1);return _0x3a3896%_0x2a7b6b;}function _0x479b2a(_0x85cc44){const _0x3b957a=_0x5b4ee9,_0x44182d=[..._0x85cc44];for(let _0x516808=_0x44182d[_0x3b957a(0x3b4)]-0x1;_0x516808>0x0;_0x516808-=0x1){const _0x3405e2=_0x1d9b58(_0x516808+0x1);[_0x44182d[_0x516808],_0x44182d[_0x3405e2]]=[_0x44182d[_0x3405e2],_0x44182d[_0x516808]];}return _0x44182d;}function _0x5c06ec(){const _0x4d5cc4=_0x5b4ee9;return{'length':Math[_0x4d5cc4(0x42c)](0x4,Math[_0x4d5cc4(0x383)](0x80,Number(document['getElementById']('generatorLength')[_0x4d5cc4(0x2b3)])||0x14)),'lowercase':document[_0x4d5cc4(0x2a0)]('generatorLower')[_0x4d5cc4(0x2ca)],'uppercase':document[_0x4d5cc4(0x2a0)]('generatorUpper')['checked'],'numbers':document[_0x4d5cc4(0x2a0)](_0x4d5cc4(0x2a4))[_0x4d5cc4(0x2ca)],'symbols':document[_0x4d5cc4(0x2a0)](_0x4d5cc4(0x3f8))[_0x4d5cc4(0x2ca)],'excludeAmbiguous':document['getElementById'](_0x4d5cc4(0x1f1))[_0x4d5cc4(0x2ca)]};}function _0x2a24da(_0x35a6dc){const _0x37f9b4=_0x5b4ee9;let _0x26ef17=_0x37f9b4(0x2c4),_0x512b7e=_0x37f9b4(0x266),_0x18e668=_0x37f9b4(0x271),_0x2338de='!@#$%^&*()-_=+[]{};:,.?';if(_0x35a6dc[_0x37f9b4(0x486)]){const _0x434b7b=new Set(['I','l','1','O','0','o','|','`','\x27','\x22']),_0x311507=_0x2babbc=>[..._0x2babbc]['filter'](_0x47a1ae=>!_0x434b7b[_0x37f9b4(0x338)](_0x47a1ae))[_0x37f9b4(0x2b6)]('');_0x26ef17=_0x311507(_0x26ef17),_0x512b7e=_0x311507(_0x512b7e),_0x18e668=_0x311507(_0x18e668),_0x2338de=_0x311507(_0x2338de);}const _0x55c0cc=[];if(_0x35a6dc[_0x37f9b4(0x1d5)])_0x55c0cc['push'](_0x26ef17);if(_0x35a6dc[_0x37f9b4(0x247)])_0x55c0cc['push'](_0x512b7e);if(_0x35a6dc[_0x37f9b4(0x4e3)])_0x55c0cc[_0x37f9b4(0x4d1)](_0x18e668);if(_0x35a6dc[_0x37f9b4(0x1db)])_0x55c0cc[_0x37f9b4(0x4d1)](_0x2338de);return _0x55c0cc;}function _0x5682d1(){const _0x49b78f=_0x5b4ee9,_0x43b153=_0x5c06ec(),_0x5bb2f8=_0x2a24da(_0x43b153);if(_0x5bb2f8[_0x49b78f(0x3b4)]===0x0)throw new Error(_0x49b78f(0x375));if(_0x43b153['length']<_0x5bb2f8['length'])throw new Error(_0x49b78f(0x453)+_0x5bb2f8[_0x49b78f(0x3b4)]+'.');const _0x14defd=_0x5bb2f8[_0x49b78f(0x2b6)](''),_0x5f486b=_0x5bb2f8[_0x49b78f(0x27f)](_0x186cde=>_0x186cde[_0x1d9b58(_0x186cde[_0x49b78f(0x3b4)])]);while(_0x5f486b['length']<_0x43b153[_0x49b78f(0x3b4)]){_0x5f486b['push'](_0x14defd[_0x1d9b58(_0x14defd[_0x49b78f(0x3b4)])]);}return _0x479b2a(_0x5f486b)['join']('');}function _0x2454c6(){const _0x3fbaf5=_0x5b4ee9,_0x4149e5=_0x5c06ec(),_0x4a1e23=_0x2a24da(_0x4149e5)[_0x3fbaf5(0x322)]((_0x2bc995,_0x3b520b)=>_0x2bc995+_0x3b520b[_0x3fbaf5(0x3b4)],0x0);return _0x4a1e23?Math[_0x3fbaf5(0x275)](_0x4149e5[_0x3fbaf5(0x3b4)]*Math[_0x3fbaf5(0x23d)](_0x4a1e23)):0x0;}function _0x37263b(_0x6627a3){const _0x341e8a=_0x5b4ee9,_0x8c925=_0x2454c6(),_0x322c88=document[_0x341e8a(0x2a0)](_0x341e8a(0x497)),_0x14799b=document[_0x341e8a(0x2a0)](_0x341e8a(0x3c3)),_0x2620ce=document['getElementById'](_0x341e8a(0x2ec)),_0x23a114=document['getElementById'](_0x341e8a(0x39e)),_0x4d7f34=document[_0x341e8a(0x2a0)](_0x341e8a(0x249));let _0x535f44=_0x341e8a(0x46e),_0x84ff71=_0x341e8a(0x29f),_0x51f121=0x16;if(_0x8c925>=0x64)_0x535f44='Excellent',_0x84ff71='strength-excellent',_0x51f121=0x64;else{if(_0x8c925>=0x4b)_0x535f44=_0x341e8a(0x2cc),_0x84ff71=_0x341e8a(0x4b9),_0x51f121=0x4e;else _0x8c925>=0x32&&(_0x535f44=_0x341e8a(0x3b7),_0x84ff71='strength-good',_0x51f121=0x38);}_0x322c88[_0x341e8a(0x2b3)]=_0x6627a3,_0x14799b[_0x341e8a(0x301)]=_0x341e8a(0x3a1)+_0x84ff71,_0x14799b['style']['width']=_0x51f121+'%',_0x2620ce['className']=_0x341e8a(0x3f5)+_0x84ff71,_0x2620ce['textContent']=_0x535f44,_0x23a114[_0x341e8a(0x2fd)]=_0x8c925+_0x341e8a(0x213),_0x4d7f34[_0x341e8a(0x2fd)]=_0x5c06ec()[_0x341e8a(0x3b4)]+_0x341e8a(0x21b);const _0x30976e=document[_0x341e8a(0x32c)](_0x341e8a(0x443));_0x30976e[_0x341e8a(0x292)][_0x341e8a(0x1fb)](_0x341e8a(0x33c)),void _0x30976e['offsetWidth'],_0x30976e[_0x341e8a(0x292)][_0x341e8a(0x464)](_0x341e8a(0x33c));}function _0x37c762(){const _0x180849=_0x5b4ee9,_0x2ddc27=document[_0x180849(0x2a0)](_0x180849(0x1cb));try{const _0x3881c8=_0x5682d1();return _0x37263b(_0x3881c8),_0x2ddc27[_0x180849(0x2fd)]=_0x180849(0x45a),_0x2ddc27[_0x180849(0x1c7)][_0x180849(0x22c)]='',_0x3881c8;}catch(_0x4f41ce){return _0x2ddc27[_0x180849(0x2fd)]=_0x4f41ce[_0x180849(0x4bf)],_0x2ddc27[_0x180849(0x1c7)][_0x180849(0x22c)]='var(--danger)','';}}function _0x482efb(){const _0x1d4351=_0x5b4ee9;return document['querySelector'](_0x1d4351(0x3f4));}function _0x230392(){const _0x113ac3=_0x5b4ee9,_0x153bf6=_0x482efb();_0x522697({'eyebrow':_0x113ac3(0x352),'title':_0x113ac3(0x468),'body':_0x113ac3(0x30d),'footer':'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22secondary-button\x22\x20type=\x22button\x22\x20data-modal-action=\x22close\x22>Close</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x153bf6?'<button\x20class=\x22secondary-button\x22\x20type=\x22button\x22\x20data-modal-action=\x22use-generated\x22>Use\x20in\x20Record</button>':'')+_0x113ac3(0x256)});const _0x55ce99=document[_0x113ac3(0x2a0)](_0x113ac3(0x2bb)),_0x250bc5=document[_0x113ac3(0x2a0)](_0x113ac3(0x372));_0x55ce99['addEventListener']('input',()=>{const _0x310565=_0x113ac3,_0x42f772=Math['max'](0x4,Math[_0x310565(0x383)](0x80,Number(_0x55ce99[_0x310565(0x2b3)])||0x14));_0x55ce99[_0x310565(0x2b3)]=_0x42f772,_0x250bc5[_0x310565(0x2b3)]=Math[_0x310565(0x383)](0x40,_0x42f772),_0x37c762();}),_0x250bc5['addEventListener'](_0x113ac3(0x298),()=>{const _0x8c25e1=_0x113ac3;_0x55ce99['value']=_0x250bc5[_0x8c25e1(0x2b3)],_0x37c762();}),_0x47af87[_0x113ac3(0x1c9)]['querySelectorAll'](_0x113ac3(0x283))[_0x113ac3(0x2eb)](_0x3f1958=>{const _0x4ae942=_0x113ac3;_0x3f1958[_0x4ae942(0x36c)](_0x4ae942(0x299),()=>{const _0x1fbbca=_0x4ae942,_0x1e7ff9=_0x3f1958[_0x1fbbca(0x38b)](_0x1fbbca(0x268));_0x1e7ff9&&_0x1e7ff9['classList'][_0x1fbbca(0x3fd)]('active',_0x3f1958[_0x1fbbca(0x2ca)]),_0x37c762();});}),document[_0x113ac3(0x2a0)](_0x113ac3(0x46b))['addEventListener']('click',async _0x824f2=>{const _0x5e7f11=_0x113ac3;await _0x275e06(document[_0x5e7f11(0x2a0)](_0x5e7f11(0x497))['value'],_0x824f2[_0x5e7f11(0x3d0)]);}),_0x37c762();}function _0x587cca(_0x43db93){const _0x2f2f04=_0x5b4ee9,_0x4b36f6=[];let _0x253738=[],_0x4d429b='',_0x34a410=![];for(let _0x170b91=0x0;_0x170b91<_0x43db93['length'];_0x170b91+=0x1){const _0x171fcc=_0x43db93[_0x170b91];if(_0x34a410)_0x171fcc==='\x22'?_0x43db93[_0x170b91+0x1]==='\x22'?(_0x4d429b+='\x22',_0x170b91+=0x1):_0x34a410=![]:_0x4d429b+=_0x171fcc;else{if(_0x171fcc==='\x22')_0x34a410=!![];else{if(_0x171fcc===',')_0x253738[_0x2f2f04(0x4d1)](_0x4d429b),_0x4d429b='';else _0x171fcc==='\x0a'?(_0x253738[_0x2f2f04(0x4d1)](_0x4d429b[_0x2f2f04(0x1be)](/\r$/,'')),_0x4b36f6['push'](_0x253738),_0x253738=[],_0x4d429b=''):_0x4d429b+=_0x171fcc;}}}_0x253738[_0x2f2f04(0x4d1)](_0x4d429b[_0x2f2f04(0x1be)](/\r$/,''));if(_0x253738[_0x2f2f04(0x41a)](_0xca4dc8=>_0xca4dc8[_0x2f2f04(0x3b4)]>0x0))_0x4b36f6[_0x2f2f04(0x4d1)](_0x253738);if(!_0x4b36f6[_0x2f2f04(0x3b4)])throw new Error(_0x2f2f04(0x386));const _0x5491b5=_0x4b36f6[0x0][_0x2f2f04(0x27f)]((_0x4c3948,_0x5074fd)=>String(_0x4c3948||'')[_0x2f2f04(0x1be)](/^\uFEFF/,'')['trim']()||_0x2f2f04(0x29b)+(_0x5074fd+0x1)),_0x569258=_0x4b36f6[_0x2f2f04(0x246)](0x1)['filter'](_0x4aaa41=>_0x4aaa41[_0x2f2f04(0x41a)](_0x329c46=>String(_0x329c46)[_0x2f2f04(0x485)]()!==''))[_0x2f2f04(0x27f)](_0x56d460=>{const _0x522eb1=_0x2f2f04,_0x5980ee={};return _0x5491b5[_0x522eb1(0x2eb)]((_0x161a5b,_0x317be7)=>_0x5980ee[_0x161a5b]=_0x56d460[_0x317be7]??''),_0x5980ee;});return{'headers':_0x5491b5,'rows':_0x569258};}function _0x410d73(_0x548321){const _0xdfd6c3=_0x5b4ee9,_0x5c129a=new Map(_0x548321['map'](_0x2f7262=>[String(_0x2f7262)['toLowerCase']()[_0xdfd6c3(0x1be)](/[^a-z0-9]/g,''),_0x2f7262])),_0x196241=_0x224d2d=>_0x224d2d[_0xdfd6c3(0x439)](_0x4bc181=>_0x5c129a[_0xdfd6c3(0x338)](_0x4bc181))?_0x5c129a[_0xdfd6c3(0x4ec)](_0x224d2d[_0xdfd6c3(0x439)](_0x2fb7f8=>_0x5c129a['has'](_0x2fb7f8))):'';return{'name':_0x196241([_0xdfd6c3(0x351),'title',_0xdfd6c3(0x355),_0xdfd6c3(0x310),_0xdfd6c3(0x216)]),'url':_0x196241(['url','origin',_0xdfd6c3(0x24b),_0xdfd6c3(0x2bf),_0xdfd6c3(0x368)]),'username':_0x196241([_0xdfd6c3(0x293),_0xdfd6c3(0x456),_0xdfd6c3(0x4bb),_0xdfd6c3(0x250),_0xdfd6c3(0x20d)]),'password':_0x196241([_0xdfd6c3(0x1f4),_0xdfd6c3(0x366),_0xdfd6c3(0x2db)]),'notes':_0x196241([_0xdfd6c3(0x2e9),'note','comment','comments',_0xdfd6c3(0x2c3)]),'otp':_0x196241([_0xdfd6c3(0x389),'totp','otpauth','totpsecret'])};}function _0x709a5e(_0x19484f,_0xbe1280){const _0x458780=_0x5b4ee9;return _0x458780(0x221)+_0x19484f[_0x458780(0x27f)](_0x382877=>_0x458780(0x4cc)+_0x26022f(_0x382877)+'\x22\x20'+(_0x382877===_0xbe1280?_0x458780(0x2f5):'')+'>'+_0x26022f(_0x382877)+_0x458780(0x3bd))['join']('');}function _0x44a349(_0xc1bdfc,_0x4490ff){const _0x35b3a9=_0x5b4ee9;return _0x4490ff?String(_0xc1bdfc[_0x4490ff]??'')[_0x35b3a9(0x485)]():'';}function _0x58c5e0(_0x4a5ba){const _0x4252a3=_0x5b4ee9;try{return new URL(_0x5b8501(_0x4a5ba))[_0x4252a3(0x216)]['replace'](/^www\./i,'')||_0x4a5ba;}catch{return _0x4a5ba||_0x4252a3(0x4cb);}}function _0x2b53db(_0x1d2127){const _0x3d851f=_0x5b4ee9;return[String(_0x1d2127[_0x3d851f(0x2b5)]||'')[_0x3d851f(0x485)]()[_0x3d851f(0x404)](),String(_0x1d2127[_0x3d851f(0x1cc)]||'')[_0x3d851f(0x485)]()[_0x3d851f(0x404)](),String(_0x1d2127[_0x3d851f(0x1f4)]||'')][_0x3d851f(0x2b6)]('|');}function _0x16129b(){const _0x240741=_0x5b4ee9;if(!_0x120a67)return;const _0x3b36ed={'name':document[_0x240741(0x2a0)](_0x240741(0x46c))[_0x240741(0x2b3)],'url':document['getElementById']('csvMapUrl')[_0x240741(0x2b3)],'username':document[_0x240741(0x2a0)]('csvMapUsername')[_0x240741(0x2b3)],'password':document[_0x240741(0x2a0)](_0x240741(0x4c5))[_0x240741(0x2b3)]},_0x3294cd=_0x120a67['rows'][_0x240741(0x3ae)](_0x54242b=>_0x44a349(_0x54242b,_0x3b36ed['url'])||_0x44a349(_0x54242b,_0x3b36ed[_0x240741(0x351)])||_0x44a349(_0x54242b,_0x3b36ed['username']))[_0x240741(0x3b4)];document['getElementById'](_0x240741(0x370))[_0x240741(0x2fd)]=_0x3294cd[_0x240741(0x31c)]()+_0x240741(0x2b9)+(_0x3294cd===0x1?'':'s'),document[_0x240741(0x2a0)]('csvPreviewBody')['innerHTML']=_0x120a67[_0x240741(0x496)]['slice'](0x0,0x5)[_0x240741(0x27f)](_0x28906c=>{const _0x332a0f=_0x240741,_0x20cf76=_0x44a349(_0x28906c,_0x3b36ed[_0x332a0f(0x2b5)]),_0x5c8535=_0x44a349(_0x28906c,_0x3b36ed[_0x332a0f(0x351)])||_0x58c5e0(_0x20cf76),_0x2ffe06=_0x44a349(_0x28906c,_0x3b36ed[_0x332a0f(0x293)]),_0x23b00f=_0x44a349(_0x28906c,_0x3b36ed[_0x332a0f(0x1f4)]);return'<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>'+_0x26022f(_0x5c8535)+'</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>'+_0x26022f(_0x2ffe06||'—')+'</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>'+(_0x23b00f?_0x332a0f(0x451):'—')+_0x332a0f(0x3ca);})[_0x240741(0x2b6)]('');}function _0x49ce5c(){const _0x52f111=_0x5b4ee9;_0x120a67=null,_0x522697({'eyebrow':'Browser\x20Password\x20Transfer','title':'Paste\x20Browser\x20Password\x20CSV','body':_0x52f111(0x1d0),'footer':_0x52f111(0x4db)});const _0x4d359d=document['getElementById']('csvPasteText'),_0x588ab3=document['getElementById'](_0x52f111(0x469));document['getElementById'](_0x52f111(0x282))[_0x52f111(0x36c)](_0x52f111(0x448),async()=>{const _0x378442=_0x52f111;try{_0x4d359d[_0x378442(0x2b3)]=await navigator['clipboard'][_0x378442(0x31e)](),_0x588ab3[_0x378442(0x2fd)]=_0x378442(0x4c2),_0x588ab3['style']['color']='var(--accent)';}catch{_0x588ab3[_0x378442(0x2fd)]='The\x20browser\x20blocked\x20clipboard\x20reading.\x20Paste\x20manually\x20with\x20Ctrl+V.',_0x588ab3[_0x378442(0x1c7)]['color']=_0x378442(0x35b),_0x4d359d['focus']();}}),document[_0x52f111(0x2a0)](_0x52f111(0x289))[_0x52f111(0x36c)](_0x52f111(0x448),()=>{const _0x1a2f12=_0x52f111,_0x11a9b9=_0x4d359d[_0x1a2f12(0x2b3)][_0x1a2f12(0x485)]();if(!_0x11a9b9){_0x588ab3['textContent']=_0x1a2f12(0x32a),_0x588ab3[_0x1a2f12(0x1c7)][_0x1a2f12(0x22c)]='var(--danger)',_0x4d359d[_0x1a2f12(0x473)]();return;}try{const _0x210c99=_0x587cca(_0x11a9b9);_0x638245(_0x1a2f12(0x49a),_0x210c99);}catch(_0x438268){_0x588ab3[_0x1a2f12(0x2fd)]=_0x438268['message'],_0x588ab3[_0x1a2f12(0x1c7)][_0x1a2f12(0x22c)]=_0x1a2f12(0x35b);}}),_0x4d359d[_0x52f111(0x473)]();}function _0x638245(_0x3d0c5e,_0xd5348d){const _0x4beef3=_0x5b4ee9,_0x337968=_0x410d73(_0xd5348d[_0x4beef3(0x410)]);_0x120a67={'filename':_0x3d0c5e,'headers':_0xd5348d[_0x4beef3(0x410)],'rows':_0xd5348d[_0x4beef3(0x496)]},_0x522697({'eyebrow':_0x4beef3(0x24e),'title':'Import\x20Passwords\x20from\x20CSV','body':'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22csv-import-shell\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22import-file-summary\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22import-file-mark\x20csv-mark\x22>CSV</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>'+_0x26022f(_0x3d0c5e)+_0x4beef3(0x2d0)+_0xd5348d[_0x4beef3(0x496)][_0x4beef3(0x3b4)]['toLocaleString']()+_0x4beef3(0x415)+_0x709a5e(_0xd5348d[_0x4beef3(0x410)],_0x337968[_0x4beef3(0x351)])+_0x4beef3(0x379)+_0x709a5e(_0xd5348d[_0x4beef3(0x410)],_0x337968[_0x4beef3(0x2b5)])+_0x4beef3(0x2b7)+_0x709a5e(_0xd5348d['headers'],_0x337968[_0x4beef3(0x293)])+_0x4beef3(0x1c0)+_0x709a5e(_0xd5348d[_0x4beef3(0x410)],_0x337968['password'])+_0x4beef3(0x2a3)+_0x709a5e(_0xd5348d[_0x4beef3(0x410)],_0x337968[_0x4beef3(0x2e9)])+_0x4beef3(0x48b)+_0x709a5e(_0xd5348d[_0x4beef3(0x410)],_0x337968['otp'])+_0x4beef3(0x478),'footer':'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22secondary-button\x22\x20type=\x22button\x22\x20data-modal-action=\x22cancel-csv-import\x22>Cancel</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22primary-button\x22\x20type=\x22button\x22\x20data-modal-action=\x22run-csv-import\x22>Import\x20Passwords</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'}),[_0x4beef3(0x46c),_0x4beef3(0x204),_0x4beef3(0x2fb),_0x4beef3(0x4c5),_0x4beef3(0x411),'csvMapOtp'][_0x4beef3(0x2eb)](_0x11669a=>document[_0x4beef3(0x2a0)](_0x11669a)['addEventListener'](_0x4beef3(0x299),_0x16129b)),_0x16129b();}async function _0x5cacc2(){const _0x407ab8=_0x5b4ee9;if(!_0x120a67)throw new Error(_0x407ab8(0x286));const _0x4da38a={'name':document[_0x407ab8(0x2a0)](_0x407ab8(0x46c))['value'],'url':document[_0x407ab8(0x2a0)](_0x407ab8(0x204))['value'],'username':document[_0x407ab8(0x2a0)](_0x407ab8(0x2fb))[_0x407ab8(0x2b3)],'password':document[_0x407ab8(0x2a0)](_0x407ab8(0x4c5))[_0x407ab8(0x2b3)],'notes':document[_0x407ab8(0x2a0)](_0x407ab8(0x411))[_0x407ab8(0x2b3)],'otp':document[_0x407ab8(0x2a0)](_0x407ab8(0x28f))[_0x407ab8(0x2b3)]};if(!_0x4da38a[_0x407ab8(0x2b5)]&&!_0x4da38a[_0x407ab8(0x351)])throw new Error('Map\x20at\x20least\x20Website\x20Name\x20or\x20Website\x20URL.');const _0x3c836f=new Set(_0x5cd2a3[_0x407ab8(0x2bd)]['websites'][_0x407ab8(0x27f)](_0x2b53db)),_0x51e369=document[_0x407ab8(0x2a0)](_0x407ab8(0x324))[_0x407ab8(0x2ca)],_0xcf54a0=new Date()[_0x407ab8(0x3f7)]();let _0x2b511f=0x0,_0x2a80de=0x0,_0x89ee65=0x0,_0x2572f9=0x0;for(const _0x5c8f2b of _0x120a67[_0x407ab8(0x496)]){const _0x4dfce4=_0x44a349(_0x5c8f2b,_0x4da38a['url']),_0x4ca31e=_0x44a349(_0x5c8f2b,_0x4da38a['name'])||_0x58c5e0(_0x4dfce4),_0x1d30df=_0x44a349(_0x5c8f2b,_0x4da38a['username']),_0x5943b8=_0x44a349(_0x5c8f2b,_0x4da38a[_0x407ab8(0x1f4)]),_0x4357c7=_0x44a349(_0x5c8f2b,_0x4da38a[_0x407ab8(0x2e9)]),_0x12ce0b=_0x44a349(_0x5c8f2b,_0x4da38a[_0x407ab8(0x389)]);if(!_0x4dfce4&&!_0x4ca31e&&!_0x1d30df){_0x89ee65+=0x1;continue;}const _0x2488a4={'id':crypto[_0x407ab8(0x4c3)](),'recordType':_0x407ab8(0x310),'siteName':_0x4ca31e||_0x407ab8(0x4cb),'url':_0x4dfce4,'loginId':_0x1d30df,'password':_0x5943b8,'emailUsed':_0x1d30df[_0x407ab8(0x3d6)]('@')?_0x1d30df:'','supports2FA':'unknown','twoFAEnabled':_0x407ab8(0x212),'twoFAType':_0x407ab8(0x34c),'totpSecret':'','totpIssuer':_0x4ca31e||_0x58c5e0(_0x4dfce4),'totpAccount':_0x1d30df,'totpDigits':0x6,'totpPeriod':0x1e,'totpAlgorithm':_0x407ab8(0x4c0),'twoFAEmail':'','twoFAPhone':'','recoveryCodes':'','securityKeyName':'','notes':_0x4357c7,'tags':_0x407ab8(0x229),'createdAt':_0xcf54a0,'modifiedAt':_0xcf54a0};if(_0x12ce0b)try{if(_0x12ce0b[_0x407ab8(0x404)]()[_0x407ab8(0x353)](_0x407ab8(0x2e8))){const _0x210bd3=_0x23a450(_0x12ce0b);Object[_0x407ab8(0x43c)](_0x2488a4,{'totpSecret':_0x210bd3[_0x407ab8(0x20f)],'totpIssuer':_0x210bd3[_0x407ab8(0x1cd)]||_0x2488a4[_0x407ab8(0x1f0)],'totpAccount':_0x210bd3[_0x407ab8(0x4da)]||_0x1d30df,'totpDigits':_0x210bd3[_0x407ab8(0x4a7)],'totpPeriod':_0x210bd3[_0x407ab8(0x384)],'totpAlgorithm':_0x210bd3[_0x407ab8(0x33f)]});}else _0x2488a4[_0x407ab8(0x418)]=_0x5cadce(_0x12ce0b);_0x2488a4[_0x407ab8(0x418)]&&(_0x2488a4[_0x407ab8(0x401)]='yes',_0x2488a4[_0x407ab8(0x284)]=_0x407ab8(0x238),_0x2488a4[_0x407ab8(0x47f)]=_0x407ab8(0x1f2),_0x2572f9+=0x1);}catch{_0x2488a4[_0x407ab8(0x2e9)]=[_0x2488a4[_0x407ab8(0x2e9)],_0x407ab8(0x4e5)+_0x12ce0b][_0x407ab8(0x3ae)](Boolean)['join']('\x0a');}const _0x5e12d3=_0x2b53db(_0x2488a4);if(_0x51e369&&_0x3c836f[_0x407ab8(0x338)](_0x5e12d3)){_0x2a80de+=0x1;continue;}_0x5cd2a3[_0x407ab8(0x2bd)]['websites'][_0x407ab8(0x4d1)](_0x2488a4),_0x3c836f[_0x407ab8(0x464)](_0x5e12d3),_0x2b511f+=0x1;}return await window[_0x407ab8(0x1d4)]['saveData'](_0x5cd2a3),{'added':_0x2b511f,'skipped':_0x2a80de,'invalid':_0x89ee65,'otpImported':_0x2572f9};}function _0x2bba66(_0x2b361f){const _0x1ccc70=_0x5b4ee9;_0x522697({'eyebrow':_0x1ccc70(0x31b),'title':_0x1ccc70(0x2da),'body':_0x1ccc70(0x274)+_0x2b361f[_0x1ccc70(0x424)]+_0x1ccc70(0x380)+_0x2b361f[_0x1ccc70(0x22f)]+_0x1ccc70(0x349)+_0x2b361f['invalid']+_0x1ccc70(0x2e7)+_0x2b361f['added']+_0x1ccc70(0x4e2)+_0x2b361f[_0x1ccc70(0x22f)]+'</strong></div></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22admin-summary-card\x22><span\x20class=\x22admin-summary-icon\x20yellow\x22>2</span><div><small>TOTP</small><strong>'+_0x2b361f[_0x1ccc70(0x20b)]+_0x1ccc70(0x494),'footer':_0x1ccc70(0x2c7)});}function _0x410a8f(_0x177e1e,_0x3146a4,_0x20ee5d='application/json'){const _0x47b4d5=_0x5b4ee9,_0x367d69=new Blob([_0x3146a4],{'type':_0x20ee5d}),_0x1bdffb=URL[_0x47b4d5(0x419)](_0x367d69),_0x10adf5=document[_0x47b4d5(0x426)]('a');_0x10adf5['href']=_0x1bdffb,_0x10adf5[_0x47b4d5(0x326)]=_0x177e1e,document[_0x47b4d5(0x325)]['appendChild'](_0x10adf5),_0x10adf5[_0x47b4d5(0x448)](),_0x10adf5[_0x47b4d5(0x1fb)](),setTimeout(()=>URL['revokeObjectURL'](_0x1bdffb),0x3e8);}function _0x25f033(_0x144ec7){const _0x1760b8=_0x5b4ee9;return String(_0x144ec7||_0x1760b8(0x38e))[_0x1760b8(0x485)]()[_0x1760b8(0x1be)](/[^a-z0-9_-]+/gi,'_')['replace'](/^_+|_+$/g,'')[_0x1760b8(0x246)](0x0,0x32)||_0x1760b8(0x38e);}async function _0x43d2e2(){const _0x25af32=_0x5b4ee9,_0x43177c=await window[_0x25af32(0x1d4)][_0x25af32(0x21e)](),_0xbfbeea=_0x25f033(_0x43177c['vault'][_0x25af32(0x26d)]),_0x2b39cc=new Date()[_0x25af32(0x3f7)]()[_0x25af32(0x246)](0x0,0xa),_0x3144d5=_0x25af32(0x374)+_0xbfbeea+'_'+_0x2b39cc+_0x25af32(0x4aa);_0x410a8f(_0x3144d5,JSON[_0x25af32(0x463)](_0x43177c,null,0x2)),_0x47af87[_0x25af32(0x1b6)]['textContent']=_0x25af32(0x22d)+_0x3144d5;}async function _0x353c24(_0x390f3b){const _0x39d844=_0x5b4ee9;if(_0x390f3b[_0x39d844(0x4eb)]>0x64*0x400*0x400)throw new Error('The\x20selected\x20TPWM\x20file\x20is\x20larger\x20than\x20100\x20MB.');let _0x49d5d5;try{_0x49d5d5=JSON['parse'](await _0x390f3b[_0x39d844(0x203)]());}catch{throw new Error('The\x20selected\x20file\x20is\x20not\x20valid\x20JSON.');}const _0x452a3b=await window['TPWMVault'][_0x39d844(0x4ab)](_0x49d5d5);return _0x4d740b=_0x49d5d5,_0x452a3b;}function _0x41bef0(_0x4cf219,_0x1000dd,_0x366739){const _0x37f6d1=_0x5b4ee9;_0x549e03=_0x366739;const _0x4e9643=window['TPWMVault'][_0x37f6d1(0x280)]();_0x522697({'eyebrow':_0x37f6d1(0x498),'title':'Import\x20TPWM\x20Vault','body':_0x37f6d1(0x26b)+_0x26022f(_0x1000dd)+_0x37f6d1(0x1e3)+_0x5044e6('Account\x20ID',_0x4cf219[_0x37f6d1(0x26d)])+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x5044e6(_0x37f6d1(0x42a),_0x4cf219[_0x37f6d1(0x44b)])+_0x37f6d1(0x1e9)+_0x5044e6(_0x37f6d1(0x1dd),Number(_0x4cf219[_0x37f6d1(0x233)])[_0x37f6d1(0x31c)]())+_0x37f6d1(0x1e9)+_0x5044e6('Modified',_0xe867a(_0x4cf219[_0x37f6d1(0x1fa)]))+_0x37f6d1(0x4e9)+(_0x4e9643?_0x37f6d1(0x4a6):_0x37f6d1(0x488))+_0x37f6d1(0x343),'footer':_0x37f6d1(0x1d8)}),_0x432b64(_0x47af87[_0x37f6d1(0x1c9)]),_0x47af87[_0x37f6d1(0x1c9)][_0x37f6d1(0x48e)](_0x37f6d1(0x382))[_0x37f6d1(0x2eb)](_0x47d0a9=>{const _0x39ae91=_0x37f6d1;_0x47d0a9[_0x39ae91(0x36c)](_0x39ae91(0x299),()=>{const _0x4a8d1c=_0x39ae91;_0x47af87[_0x4a8d1c(0x1c9)][_0x4a8d1c(0x48e)](_0x4a8d1c(0x4bd))[_0x4a8d1c(0x2eb)](_0x56f22c=>{const _0x54fb24=_0x4a8d1c;_0x56f22c['classList'][_0x54fb24(0x3fd)](_0x54fb24(0x1f9),_0x56f22c[_0x54fb24(0x32c)](_0x54fb24(0x298))['checked']);});});}),document[_0x37f6d1(0x2a0)](_0x37f6d1(0x27a))[_0x37f6d1(0x473)]();}function _0x402de7(_0x5efbf9){const _0x512fbd=_0x5b4ee9;_0x522697({'eyebrow':'Import\x20Complete','title':_0x512fbd(0x304),'body':_0x512fbd(0x274)+_0x5efbf9[_0x512fbd(0x424)]+_0x512fbd(0x35e)+_0x5efbf9['skipped']+_0x512fbd(0x471)+Object[_0x512fbd(0x2cf)](_0x5efbf9[_0x512fbd(0x263)])['map'](([_0x271dcb,_0x12f10c])=>'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22admin-summary-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22admin-summary-icon\x22>'+_0x250833(_0x271dcb)+_0x512fbd(0x2d6)+_0x26022f(_0x48104e(_0x271dcb))+_0x512fbd(0x1d6)+_0x12f10c['added']+_0x512fbd(0x3a5)+_0x12f10c[_0x512fbd(0x22f)]+_0x512fbd(0x2cd))['join']('')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x5efbf9['reassignedIds']?_0x512fbd(0x381)+_0x5efbf9[_0x512fbd(0x279)]+_0x512fbd(0x472)+(_0x5efbf9[_0x512fbd(0x279)]===0x1?'':'s')+'\x20were\x20safely\x20reassigned.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20':'')+_0x512fbd(0x394),'footer':_0x512fbd(0x2c7)});}function _0x1d628e(){const _0x567934=_0x5b4ee9,_0x32685a=_0x5cd2a3[_0x567934(0x2d3)];_0x522697({'eyebrow':_0x567934(0x2c8),'title':_0x567934(0x408),'body':_0x567934(0x3de)+Object[_0x567934(0x2e0)](_0x5cd2a3[_0x567934(0x2bd)])[_0x567934(0x322)]((_0xe727f4,_0x42904a)=>_0xe727f4+_0x42904a[_0x567934(0x3b4)],0x0)+_0x567934(0x40f)+_0x26022f(_0x5cd2a3[_0x567934(0x4da)]['id'])+_0x567934(0x2d4)+[0x1,0x2,0x5,0xa,0xf,0x1e,0x3c][_0x567934(0x27f)](_0x1fd4bd=>'<option\x20value=\x22'+_0x1fd4bd+'\x22\x20'+(Number(_0x32685a[_0x567934(0x4d5)])===_0x1fd4bd?'selected':'')+'>'+(_0x1fd4bd===0x3c?_0x567934(0x2d7):_0x1fd4bd+_0x567934(0x2a2)+(_0x1fd4bd===0x1?'':'s'))+_0x567934(0x3bd))[_0x567934(0x2b6)]('')+_0x567934(0x1e8)+[0xa,0x14,0x1e,0x3c,0x0]['map'](_0xcb527b=>'<option\x20value=\x22'+_0xcb527b+'\x22\x20'+(Number(_0x32685a['autoHideSeconds'])===_0xcb527b?_0x567934(0x2f5):'')+'>'+(_0xcb527b===0x0?'Never':_0xcb527b+_0x567934(0x239))+_0x567934(0x3bd))[_0x567934(0x2b6)]('')+_0x567934(0x1b8)+(_0x32685a['lockWhenHidden']?_0x567934(0x2ca):'')+_0x567934(0x45c)+[0xf,0x1e,0x3c,0x78,0x12c]['map'](_0x1704d3=>'<option\x20value=\x22'+_0x1704d3+'\x22\x20'+(Number(_0x32685a[_0x567934(0x344)])===_0x1704d3?_0x567934(0x2f5):'')+'>'+(_0x1704d3<0x3c?_0x1704d3+_0x567934(0x239):_0x1704d3/0x3c+_0x567934(0x2a2)+(_0x1704d3===0x3c?'':'s'))+_0x567934(0x3bd))['join']('')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22admin-toggle-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20id=\x22adminConfirmLock\x22\x20type=\x22checkbox\x22\x20'+(_0x32685a[_0x567934(0x4a4)]?_0x567934(0x2ca):'')+'>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>Confirm\x20manual\x20locking</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small>Ask\x20before\x20the\x20toolbar\x20Lock\x20button\x20closes\x20the\x20vault.</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</section>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<section\x20class=\x22admin-section\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22admin-section-heading\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><span>03</span><strong>Clipboard\x20and\x20Display</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small>Reduces\x20how\x20long\x20copied\x20secrets\x20remain\x20exposed.</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-two-column\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Clipboard\x20Clear\x20Delay\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20id=\x22adminClipboardDelay\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+[0xf,0x1e,0x3c,0x78,0x0][_0x567934(0x27f)](_0x26c1d3=>_0x567934(0x4cc)+_0x26c1d3+'\x22\x20'+(Number(_0x32685a[_0x567934(0x3cb)])===_0x26c1d3?_0x567934(0x2f5):'')+'>'+(_0x26c1d3===0x0?_0x567934(0x4ae):_0x26c1d3+_0x567934(0x239))+_0x567934(0x3bd))[_0x567934(0x2b6)]('')+_0x567934(0x427)+Object[_0x567934(0x2cf)](_0x1dbf97)[_0x567934(0x27f)](([_0xbbd34b,_0x217e3f])=>_0x567934(0x4cc)+_0xbbd34b+'\x22\x20'+(_0x32685a['defaultCategory']===_0xbbd34b?_0x567934(0x2f5):'')+'>'+_0x217e3f+_0x567934(0x3bd))[_0x567934(0x2b6)]('')+_0x567934(0x2e4)+[0x19,0x32,0x64,0xc8][_0x567934(0x27f)](_0x3beb86=>_0x567934(0x4cc)+_0x3beb86+'\x22\x20'+(Number(_0x32685a[_0x567934(0x40a)]||0x32)===_0x3beb86?_0x567934(0x2f5):'')+'>'+_0x3beb86+_0x567934(0x3e9))['join']('')+_0x567934(0x224)+(_0x32685a[_0x567934(0x1b7)]!==![]?_0x567934(0x2ca):'')+'>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>Use\x20compact\x20record\x20lists</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small>Shows\x20more\x20vault\x20records\x20on\x20screen.</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</section>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<section\x20class=\x22admin-section\x20admin-danger-section\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22admin-section-heading\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><span>04</span><strong>Vault\x20Operations</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small>Create\x20portable\x20encrypted\x20backups\x20or\x20merge\x20another\x20TPWM\x20vault.</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22admin-operation-grid\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22secondary-button\x22\x20type=\x22button\x22\x20data-modal-action=\x22paste-csv\x22>Paste\x20Browser\x20Password\x20CSV</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22secondary-button\x22\x20type=\x22button\x22\x20data-modal-action=\x22import\x22>Import\x20Encrypted\x20Vault</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22secondary-button\x22\x20type=\x22button\x22\x20data-modal-action=\x22export-vault\x22>Export\x20Encrypted\x20Vault</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22secondary-button\x20danger-text\x22\x20type=\x22button\x22\x20data-modal-action=\x22delete-placeholder\x22>Delete\x20Local\x20Vault</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</section>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22adminFormMessage\x22\x20class=\x22form-note\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Security\x20settings\x20and\x20account\x20changes\x20are\x20encrypted\x20before\x20being\x20saved.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','footer':'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22secondary-button\x22\x20type=\x22button\x22\x20data-modal-action=\x22lock-now\x22>Lock\x20Now</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22secondary-button\x22\x20type=\x22button\x22\x20data-modal-action=\x22close\x22>Cancel</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22primary-button\x22\x20type=\x22button\x22\x20data-modal-action=\x22save-admin\x22>Save\x20Admin\x20Settings</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'}),_0x432b64(_0x47af87[_0x567934(0x1c9)]);}function _0x522697({eyebrow:_0x23c4e8,title:_0x726ad8,body:_0x4d5f3a,footer:_0x21b34b}){const _0x52ff31=_0x5b4ee9;_0x2d9d74=document[_0x52ff31(0x1ce)],_0x47af87['modalEyebrow']['textContent']=_0x23c4e8,_0x47af87['modalTitle'][_0x52ff31(0x2fd)]=_0x726ad8,_0x47af87[_0x52ff31(0x1c9)][_0x52ff31(0x477)]=_0x4d5f3a,_0x47af87[_0x52ff31(0x414)][_0x52ff31(0x477)]=_0x21b34b,_0x47af87[_0x52ff31(0x1bd)]['classList'][_0x52ff31(0x1fb)](_0x52ff31(0x2c0)),document[_0x52ff31(0x325)][_0x52ff31(0x1c7)][_0x52ff31(0x307)]='hidden',_0x47af87[_0x52ff31(0x2dd)]['focus']();}function _0xdd8276(){const _0x1f0a4c=_0x5b4ee9;_0x1b61cc();if(_0x47af87['modalOverlay']['classList'][_0x1f0a4c(0x2af)](_0x1f0a4c(0x2c0)))return;_0x306596=null,_0x47af87[_0x1f0a4c(0x1bd)][_0x1f0a4c(0x292)]['add'](_0x1f0a4c(0x2c0)),_0x47af87[_0x1f0a4c(0x1c9)][_0x1f0a4c(0x477)]='',_0x47af87[_0x1f0a4c(0x414)][_0x1f0a4c(0x477)]='',document[_0x1f0a4c(0x325)][_0x1f0a4c(0x1c7)][_0x1f0a4c(0x307)]='',_0x2d9d74 instanceof HTMLElement&&_0x2d9d74[_0x1f0a4c(0x473)]();}function _0x432b64(_0x34de05=document){const _0x1ed643=_0x5b4ee9;_0x34de05[_0x1ed643(0x48e)](_0x1ed643(0x3a7))[_0x1ed643(0x2eb)](_0xb34fe7=>{const _0x5d6c48=_0x1ed643;if(_0xb34fe7[_0x5d6c48(0x31d)]['bound']===_0x5d6c48(0x1bc))return;_0xb34fe7['dataset'][_0x5d6c48(0x24c)]='true',_0xb34fe7[_0x5d6c48(0x36c)]('click',()=>{const _0x33cbd9=_0x5d6c48,_0x25967e=document[_0x33cbd9(0x2a0)](_0xb34fe7['dataset']['target']);if(!_0x25967e)return;const _0x81ac63=_0x25967e['type']===_0x33cbd9(0x1f4);_0x25967e[_0x33cbd9(0x1e0)]=_0x81ac63?_0x33cbd9(0x203):'password',_0xb34fe7['textContent']=_0x81ac63?_0x33cbd9(0x1c5):'Show';});});}function _0xbfac8c(){const _0x31900a=_0x5b4ee9;_0x47af87[_0x31900a(0x1c9)][_0x31900a(0x48e)](_0x31900a(0x2bc))['forEach'](_0x7541c4=>{const _0xf2d589=_0x31900a;_0x7541c4['addEventListener'](_0xf2d589(0x448),()=>{const _0x81af8a=_0xf2d589,_0x43a087=document[_0x81af8a(0x2a0)](_0x7541c4['dataset'][_0x81af8a(0x403)]),_0x2040a1=_0x43a087[_0x81af8a(0x292)]['contains'](_0x81af8a(0x4de));if(_0x2040a1){_0x43a087['textContent']=_0x43a087[_0x81af8a(0x31d)][_0x81af8a(0x227)]||'',_0x43a087[_0x81af8a(0x292)][_0x81af8a(0x1fb)](_0x81af8a(0x4de)),_0x7541c4[_0x81af8a(0x2fd)]='Hide';const _0x39738e=Number(_0x5cd2a3?.[_0x81af8a(0x2d3)]?.[_0x81af8a(0x3d5)])||0x0;_0x39738e>0x0&&setTimeout(()=>{const _0xe56076=_0x81af8a;_0x43a087&&!_0x43a087['classList'][_0xe56076(0x2af)](_0xe56076(0x4de))&&(_0x43a087[_0xe56076(0x2fd)]=_0xe56076(0x449),_0x43a087['classList'][_0xe56076(0x464)]('masked-value'),_0x7541c4['textContent']=_0xe56076(0x39d));},_0x39738e*0x3e8);}else _0x43a087[_0x81af8a(0x2fd)]=_0x81af8a(0x449),_0x43a087[_0x81af8a(0x292)][_0x81af8a(0x464)]('masked-value'),_0x7541c4[_0x81af8a(0x2fd)]=_0x81af8a(0x39d);});}),_0x47af87[_0x31900a(0x1c9)][_0x31900a(0x48e)]('.copy-detail')[_0x31900a(0x2eb)](_0x1310cf=>{const _0x20a6b8=_0x31900a;_0x1310cf[_0x20a6b8(0x36c)]('click',async()=>{const _0x4d167b=_0x20a6b8;await _0x275e06(_0x1310cf[_0x4d167b(0x31d)]['copyValue']||'',_0x1310cf);});});}function _0x57e5b7(){const _0x39a262=_0x5b4ee9;_0x47af87[_0x39a262(0x1e5)]['textContent']=new Date()[_0x39a262(0x31c)]([],{'month':'short','day':_0x39a262(0x1fe),'hour':_0x39a262(0x1fe),'minute':_0x39a262(0x276)});}async function _0xb0b0e5(){const _0x42ea54=_0x5b4ee9;try{const _0x1c4efa=await window[_0x42ea54(0x1d4)][_0x42ea54(0x446)]();_0x1c4efa?(_0x4e028d(_0x42ea54(0x3a8)),_0x532f28(_0x47af87['loginMessage'],_0x42ea54(0x4e1))):(_0x4e028d('signup'),_0x532f28(_0x47af87[_0x42ea54(0x397)],_0x42ea54(0x3f2)));}catch(_0x1a8799){_0x532f28(_0x47af87[_0x42ea54(0x4b7)],'Storage\x20error:\x20'+_0x1a8799['message'],!![]),_0x532f28(_0x47af87[_0x42ea54(0x397)],'Storage\x20error:\x20'+_0x1a8799[_0x42ea54(0x4bf)],!![]);}}_0x47af87['loginTab'][_0x5b4ee9(0x36c)]('click',()=>_0x4e028d(_0x5b4ee9(0x3a8))),_0x47af87[_0x5b4ee9(0x43e)][_0x5b4ee9(0x36c)](_0x5b4ee9(0x448),()=>_0x4e028d('signup')),_0x47af87[_0x5b4ee9(0x4dc)][_0x5b4ee9(0x36c)](_0x5b4ee9(0x240),async _0x19f38c=>{const _0x3fc21e=_0x5b4ee9;_0x19f38c[_0x3fc21e(0x2b2)]();if(_0x1be6e4)return;const _0x369b49=document[_0x3fc21e(0x2a0)](_0x3fc21e(0x1cc))['value'],_0x3e3d99=document[_0x3fc21e(0x2a0)](_0x3fc21e(0x1eb)),_0x1e1654=_0x3e3d99['value'];if(!_0x369b49[_0x3fc21e(0x485)]()||!_0x1e1654){_0x532f28(_0x47af87['loginMessage'],_0x3fc21e(0x1d2),!![]);return;}_0x1be6e4=!![],_0x29a643(_0x47af87[_0x3fc21e(0x4dc)],!![],_0x3fc21e(0x295)),_0x532f28(_0x47af87[_0x3fc21e(0x4b7)],_0x3fc21e(0x2d9));try{_0x5cd2a3=await window[_0x3fc21e(0x1d4)]['unlock'](_0x369b49,_0x1e1654),_0x3e3d99[_0x3fc21e(0x2b3)]='',_0x35b43b(_0x3fc21e(0x3d4));}catch(_0x573c30){_0x3e3d99[_0x3fc21e(0x2b3)]='',_0x532f28(_0x47af87[_0x3fc21e(0x4b7)],_0x573c30[_0x3fc21e(0x4bf)],!![]),_0x3e3d99[_0x3fc21e(0x473)]();}finally{_0x1be6e4=![],_0x29a643(_0x47af87[_0x3fc21e(0x4dc)],![]);}}),_0x47af87[_0x5b4ee9(0x202)][_0x5b4ee9(0x36c)](_0x5b4ee9(0x240),async _0x13131f=>{const _0x3357a3=_0x5b4ee9;_0x13131f['preventDefault']();if(_0x1be6e4)return;const _0x369aa0=document[_0x3357a3(0x2a0)](_0x3357a3(0x465))[_0x3357a3(0x2b3)],_0x94dd94=document[_0x3357a3(0x2a0)]('signupPassword'),_0x20f1fa=document[_0x3357a3(0x2a0)](_0x3357a3(0x430)),_0x318917=_0x94dd94[_0x3357a3(0x2b3)],_0x2af59b=_0x20f1fa['value'],_0x3d6daf=Number(document[_0x3357a3(0x2a0)]('signupTimeout')[_0x3357a3(0x2b3)])||0xa;if(!_0x369aa0[_0x3357a3(0x485)]()){_0x532f28(_0x47af87[_0x3357a3(0x397)],_0x3357a3(0x218),!![]);return;}if(_0x318917!==_0x2af59b){_0x532f28(_0x47af87[_0x3357a3(0x397)],_0x3357a3(0x396),!![]),_0x20f1fa[_0x3357a3(0x473)]();return;}_0x1be6e4=!![],_0x29a643(_0x47af87[_0x3357a3(0x202)],!![],_0x3357a3(0x237)),_0x532f28(_0x47af87[_0x3357a3(0x397)],_0x3357a3(0x306));try{_0x5cd2a3=await window[_0x3357a3(0x1d4)][_0x3357a3(0x311)](_0x369aa0,_0x318917,_0x3d6daf),_0x94dd94[_0x3357a3(0x2b3)]='',_0x20f1fa['value']='',_0x35b43b(_0x3357a3(0x2c9));}catch(_0x297750){_0x532f28(_0x47af87['signupMessage'],_0x297750[_0x3357a3(0x4bf)],!![]);}finally{_0x1be6e4=![],_0x29a643(_0x47af87[_0x3357a3(0x202)],![]);}}),document[_0x5b4ee9(0x48e)]('input[name=\x22category\x22]')['forEach'](_0x4bd25e=>{const _0x16bb50=_0x5b4ee9;_0x4bd25e[_0x16bb50(0x36c)]('change',()=>_0x5f04d8(_0x4bd25e[_0x16bb50(0x2b3)]));}),_0x47af87[_0x5b4ee9(0x2f4)][_0x5b4ee9(0x36c)]('input',()=>{const _0xc042bb=_0x5b4ee9;_0x537187=0x1,_0x47af87[_0xc042bb(0x2d2)]['classList'][_0xc042bb(0x3fd)]('hidden',_0x47af87[_0xc042bb(0x2f4)][_0xc042bb(0x2b3)][_0xc042bb(0x3b4)]===0x0),_0x116fd9();}),_0x47af87['clearSearchButton'][_0x5b4ee9(0x36c)](_0x5b4ee9(0x448),()=>{const _0x4ca37e=_0x5b4ee9;_0x537187=0x1,_0x47af87[_0x4ca37e(0x2f4)][_0x4ca37e(0x2b3)]='',_0x47af87[_0x4ca37e(0x2d2)][_0x4ca37e(0x292)][_0x4ca37e(0x464)]('hidden'),_0x116fd9(),_0x47af87[_0x4ca37e(0x2f4)][_0x4ca37e(0x473)]();}),_0x47af87[_0x5b4ee9(0x3ad)][_0x5b4ee9(0x36c)](_0x5b4ee9(0x299),()=>{const _0x1c5a27=_0x5b4ee9;_0x537187=0x1,_0x116fd9(),_0x47af87[_0x1c5a27(0x2f4)]['focus']();}),_0x47af87[_0x5b4ee9(0x3c2)][_0x5b4ee9(0x36c)]('click',()=>_0x3cd2a5(0x1)),_0x47af87[_0x5b4ee9(0x39f)]['addEventListener'](_0x5b4ee9(0x448),()=>_0x3cd2a5(_0x537187-0x1)),_0x47af87[_0x5b4ee9(0x47d)][_0x5b4ee9(0x36c)]('click',()=>_0x3cd2a5(_0x537187+0x1)),_0x47af87[_0x5b4ee9(0x462)][_0x5b4ee9(0x36c)](_0x5b4ee9(0x448),()=>_0x3cd2a5(_0x314455)),_0x47af87['pageSizeSelect'][_0x5b4ee9(0x36c)]('change',async()=>{const _0x532aa6=_0x5b4ee9;_0x3ffe79=Number(_0x47af87[_0x532aa6(0x254)][_0x532aa6(0x2b3)])||0x32,_0x537187=0x1;if(_0x5cd2a3?.[_0x532aa6(0x2d3)]){_0x5cd2a3[_0x532aa6(0x2d3)]['pageSize']=_0x3ffe79;try{await window[_0x532aa6(0x1d4)][_0x532aa6(0x1f6)](_0x5cd2a3),_0x47af87[_0x532aa6(0x1b6)][_0x532aa6(0x2fd)]=_0x532aa6(0x4a0)+_0x3ffe79;}catch(_0x1cb3b5){_0x47af87[_0x532aa6(0x1b6)]['textContent']=_0x532aa6(0x244)+_0x1cb3b5['message'];}}_0x116fd9();}),_0x47af87['mobileMenuButton'][_0x5b4ee9(0x36c)](_0x5b4ee9(0x448),()=>_0x47af87[_0x5b4ee9(0x258)][_0x5b4ee9(0x292)][_0x5b4ee9(0x3fd)](_0x5b4ee9(0x495))),_0x47af87[_0x5b4ee9(0x25e)]['addEventListener'](_0x5b4ee9(0x448),_0x25b490),_0x47af87[_0x5b4ee9(0x47a)][_0x5b4ee9(0x36c)]('click',_0x25b490),_0x47af87[_0x5b4ee9(0x3e7)][_0x5b4ee9(0x36c)](_0x5b4ee9(0x448),_0x230392),_0x47af87[_0x5b4ee9(0x23f)][_0x5b4ee9(0x36c)](_0x5b4ee9(0x448),_0x1d628e),_0x47af87[_0x5b4ee9(0x3a3)]['addEventListener'](_0x5b4ee9(0x448),()=>_0x26460f(_0x5b4ee9(0x21f))),_0x47af87[_0x5b4ee9(0x2b0)][_0x5b4ee9(0x36c)](_0x5b4ee9(0x448),()=>{const _0x455989=_0x5b4ee9;_0x4c166f=_0x455989(0x28d),_0x47af87[_0x455989(0x2b0)][_0x455989(0x292)]['add'](_0x455989(0x1f9)),_0x47af87[_0x455989(0x3d1)][_0x455989(0x292)][_0x455989(0x1fb)](_0x455989(0x1f9)),_0x116fd9();}),_0x47af87[_0x5b4ee9(0x3d1)][_0x5b4ee9(0x36c)](_0x5b4ee9(0x448),()=>{const _0x450781=_0x5b4ee9;_0x4c166f=_0x450781(0x313),_0x47af87[_0x450781(0x3d1)][_0x450781(0x292)][_0x450781(0x464)]('active'),_0x47af87[_0x450781(0x2b0)][_0x450781(0x292)]['remove'](_0x450781(0x1f9)),_0x116fd9();}),_0x47af87['modalCloseButton'][_0x5b4ee9(0x36c)]('click',_0xdd8276),_0x47af87[_0x5b4ee9(0x1bd)][_0x5b4ee9(0x36c)](_0x5b4ee9(0x448),_0x28cb6a=>{const _0x52b9ad=_0x5b4ee9;_0x28cb6a[_0x52b9ad(0x403)]===_0x47af87[_0x52b9ad(0x1bd)]&&_0xdd8276();}),_0x47af87['modalPanel'][_0x5b4ee9(0x36c)](_0x5b4ee9(0x448),async _0x5b22b1=>{const _0x35e6fc=_0x5b4ee9,_0xb13477=_0x5b22b1[_0x35e6fc(0x403)][_0x35e6fc(0x38b)](_0x35e6fc(0x21c));if(!_0xb13477)return;const _0x208e9d=_0xb13477[_0x35e6fc(0x31d)]['modalAction'];if(_0x208e9d===_0x35e6fc(0x44e))_0xdd8276();else{if(_0x208e9d===_0x35e6fc(0x482))await _0xff2438();else{if(_0x208e9d===_0x35e6fc(0x1e4)){const _0xa401bd=_0x5cd2a3[_0x35e6fc(0x2bd)][_0x35e6fc(0x20a)][_0x35e6fc(0x439)](_0x54afbf=>_0x54afbf['id']===_0x306596);_0xa401bd&&_0x53a77d(_0xa401bd);}else{if(_0x208e9d===_0x35e6fc(0x391))await _0x19182a();else{if(_0x208e9d==='save-card')await _0x1a0bc8(_0x35e6fc(0x35d),_0x519e56(),'cardFormMessage',_0x35e6fc(0x49e),_0x35e6fc(0x1de));else{if(_0x208e9d==='edit-card'){const _0x16bac5=_0x5cd2a3['records'][_0x35e6fc(0x1d1)]['find'](_0xab3231=>_0xab3231['id']===_0x306596);if(_0x16bac5)_0x425022(_0x16bac5);}else{if(_0x208e9d==='delete-card')await _0x15d7b0(_0x35e6fc(0x1d1),'Card');else{if(_0x208e9d==='save-bank')await _0x1a0bc8(_0x35e6fc(0x43b),_0x12b981(),_0x35e6fc(0x3bc),_0x35e6fc(0x3e4),'Bank\x20account');else{if(_0x208e9d==='edit-bank'){const _0x24cb2c=_0x5cd2a3[_0x35e6fc(0x2bd)][_0x35e6fc(0x492)][_0x35e6fc(0x439)](_0x154efb=>_0x154efb['id']===_0x306596);if(_0x24cb2c)_0x1dcfdb(_0x24cb2c);}else{if(_0x208e9d==='delete-bank')await _0x15d7b0(_0x35e6fc(0x492),_0x35e6fc(0x388));else{if(_0x208e9d===_0x35e6fc(0x3b5))await _0x1a0bc8('note',_0x353c2a(),_0x35e6fc(0x1ee),_0x35e6fc(0x3b5),_0x35e6fc(0x476));else{if(_0x208e9d===_0x35e6fc(0x1dc)){const _0x2d2f18=_0x5cd2a3[_0x35e6fc(0x2bd)][_0x35e6fc(0x2e9)]['find'](_0x41b676=>_0x41b676['id']===_0x306596);if(_0x2d2f18)_0x2513b2(_0x2d2f18);}else{if(_0x208e9d===_0x35e6fc(0x4d2))await _0x15d7b0('notes','Secure\x20note');else{if(_0x208e9d===_0x35e6fc(0x44f))_0x49ce5c();else{if(_0x208e9d===_0x35e6fc(0x2a9))_0x47af87[_0x35e6fc(0x470)]['click']();else{if(_0x208e9d===_0x35e6fc(0x2ed))_0x120a67=null,_0xdd8276();else{if(_0x208e9d===_0x35e6fc(0x1c4)){const _0x44e03e=document['getElementById'](_0x35e6fc(0x3b6));_0xb13477['disabled']=!![],_0xb13477[_0x35e6fc(0x2fd)]=_0x35e6fc(0x400);try{const _0x13f2ac=await _0x5cacc2();_0x120a67=null,_0x16df25(),_0x846f42(),_0x116fd9(),_0x47af87[_0x35e6fc(0x1b6)][_0x35e6fc(0x2fd)]=_0x13f2ac[_0x35e6fc(0x424)]+_0x35e6fc(0x339),_0x2bba66(_0x13f2ac);}catch(_0x181910){_0x44e03e['textContent']=_0x181910[_0x35e6fc(0x4bf)],_0x44e03e[_0x35e6fc(0x1c7)][_0x35e6fc(0x22c)]=_0x35e6fc(0x35b),_0xb13477[_0x35e6fc(0x42e)]=![],_0xb13477[_0x35e6fc(0x2fd)]='Import\x20Passwords';}}else{if(_0x208e9d===_0x35e6fc(0x405))_0x549e03=_0x35e6fc(0x3e0),_0x47af87[_0x35e6fc(0x3cf)]['click']();else{if(_0x208e9d===_0x35e6fc(0x4e0))_0x26460f(_0x35e6fc(0x423),!![]);else{if(_0x208e9d==='export-vault'){_0xb13477[_0x35e6fc(0x42e)]=!![],_0xb13477['textContent']=_0x35e6fc(0x1bf);try{await _0x43d2e2(),_0xb13477[_0x35e6fc(0x2fd)]='Exported',setTimeout(()=>{const _0x37822f=_0x35e6fc;_0xb13477['disabled']=![],_0xb13477['textContent']=_0x37822f(0x297);},0x4b0);}catch(_0x584bd0){_0xb13477[_0x35e6fc(0x42e)]=![],_0xb13477['textContent']=_0x35e6fc(0x297),window['alert']('Unable\x20to\x20export\x20the\x20vault:\x0a\x0a'+_0x584bd0[_0x35e6fc(0x4bf)]);}}else{if(_0x208e9d===_0x35e6fc(0x491))_0x4d740b=null,_0xdd8276();else{if(_0x208e9d==='run-import'){const _0x306059=document[_0x35e6fc(0x2a0)](_0x35e6fc(0x1c1)),_0xf16cc2=document[_0x35e6fc(0x2a0)]('importVaultPassword')['value'],_0x1ba9c2=document['querySelector'](_0x35e6fc(0x207)),_0x2bfba7=_0x1ba9c2?.[_0x35e6fc(0x2b3)]||_0x35e6fc(0x1be);if(!_0xf16cc2){_0x306059['textContent']=_0x35e6fc(0x2ba),_0x306059['style'][_0x35e6fc(0x22c)]='var(--danger)';return;}if(!_0x4d740b){_0x306059[_0x35e6fc(0x2fd)]=_0x35e6fc(0x28b),_0x306059[_0x35e6fc(0x1c7)][_0x35e6fc(0x22c)]='var(--danger)';return;}if(_0x2bfba7==='replace'&&!window[_0x35e6fc(0x1e7)]('Replace\x20the\x20complete\x20local\x20vault\x20with\x20the\x20imported\x20vault?\x0a\x0aExport\x20a\x20backup\x20first\x20if\x20you\x20may\x20need\x20the\x20current\x20vault\x20later.'))return;_0xb13477[_0x35e6fc(0x42e)]=!![],_0xb13477['textContent']=_0x2bfba7==='merge'?_0x35e6fc(0x2f8):_0x35e6fc(0x209);try{if(_0x2bfba7===_0x35e6fc(0x356)&&window[_0x35e6fc(0x1d4)][_0x35e6fc(0x280)]()){const _0x130d09=await window[_0x35e6fc(0x1d4)][_0x35e6fc(0x230)](_0x4d740b,_0xf16cc2);_0x5cd2a3=_0x130d09[_0x35e6fc(0x1fc)],_0x4d740b=null,_0x846f42(),_0x116fd9(),_0x47af87[_0x35e6fc(0x1b6)][_0x35e6fc(0x2fd)]=_0x130d09[_0x35e6fc(0x3d3)]['added']+'\x20imported\x20records\x20added',_0x402de7(_0x130d09[_0x35e6fc(0x3d3)]);}else _0x5cd2a3=await window[_0x35e6fc(0x1d4)][_0x35e6fc(0x290)](_0x4d740b,_0xf16cc2),_0x4d740b=null,_0x35b43b(_0x35e6fc(0x2ea));}catch(_0x34e6a9){_0x306059[_0x35e6fc(0x2fd)]=_0x34e6a9[_0x35e6fc(0x4bf)],_0x306059[_0x35e6fc(0x1c7)]['color']=_0x35e6fc(0x35b),_0xb13477['disabled']=![],_0xb13477[_0x35e6fc(0x2fd)]=_0x35e6fc(0x40c),document[_0x35e6fc(0x2a0)](_0x35e6fc(0x27a))[_0x35e6fc(0x2b3)]='',document[_0x35e6fc(0x2a0)](_0x35e6fc(0x27a))[_0x35e6fc(0x473)]();}}else{if(_0x208e9d==='save-admin'){const _0x363fad=document[_0x35e6fc(0x2a0)](_0x35e6fc(0x34f)),_0xf3e08d=document[_0x35e6fc(0x2a0)](_0x35e6fc(0x206))[_0x35e6fc(0x2b3)][_0x35e6fc(0x485)](),_0x2c3b5=document[_0x35e6fc(0x2a0)]('adminCurrentPassword')[_0x35e6fc(0x2b3)],_0x2d7bdd=document[_0x35e6fc(0x2a0)](_0x35e6fc(0x2dc))[_0x35e6fc(0x2b3)],_0x35f2e7=document[_0x35e6fc(0x2a0)](_0x35e6fc(0x231))[_0x35e6fc(0x2b3)],_0x2387f3=_0xf3e08d!==_0x5cd2a3[_0x35e6fc(0x4da)]['id']||_0x2d7bdd[_0x35e6fc(0x3b4)]>0x0;if(_0x2d7bdd!==_0x35f2e7){_0x363fad[_0x35e6fc(0x2fd)]='The\x20new\x20master-password\x20entries\x20do\x20not\x20match.',_0x363fad['style'][_0x35e6fc(0x22c)]=_0x35e6fc(0x35b);return;}if(_0x2387f3&&!_0x2c3b5){_0x363fad[_0x35e6fc(0x2fd)]=_0x35e6fc(0x319),_0x363fad[_0x35e6fc(0x1c7)][_0x35e6fc(0x22c)]=_0x35e6fc(0x35b),document[_0x35e6fc(0x2a0)](_0x35e6fc(0x367))[_0x35e6fc(0x473)]();return;}_0x5cd2a3[_0x35e6fc(0x2d3)][_0x35e6fc(0x4d5)]=Number(document[_0x35e6fc(0x2a0)](_0x35e6fc(0x37a))[_0x35e6fc(0x2b3)])||0xa,_0x5cd2a3[_0x35e6fc(0x2d3)][_0x35e6fc(0x3cb)]=Number(document[_0x35e6fc(0x2a0)](_0x35e6fc(0x335))[_0x35e6fc(0x2b3)]),_0x5cd2a3[_0x35e6fc(0x2d3)]['autoHideSeconds']=Number(document[_0x35e6fc(0x2a0)]('adminAutoHide')[_0x35e6fc(0x2b3)]),_0x5cd2a3[_0x35e6fc(0x2d3)][_0x35e6fc(0x4a8)]=document[_0x35e6fc(0x2a0)](_0x35e6fc(0x48c))['checked'],_0x5cd2a3[_0x35e6fc(0x2d3)][_0x35e6fc(0x344)]=Number(document['getElementById'](_0x35e6fc(0x35f))[_0x35e6fc(0x2b3)])||0x3c,_0x5cd2a3[_0x35e6fc(0x2d3)]['confirmManualLock']=document[_0x35e6fc(0x2a0)](_0x35e6fc(0x252))[_0x35e6fc(0x2ca)],_0x5cd2a3['settings'][_0x35e6fc(0x3e6)]=document[_0x35e6fc(0x2a0)](_0x35e6fc(0x38f))[_0x35e6fc(0x2b3)],_0x5cd2a3[_0x35e6fc(0x2d3)]['compactView']=document['getElementById'](_0x35e6fc(0x447))[_0x35e6fc(0x2ca)],_0x5cd2a3['settings'][_0x35e6fc(0x40a)]=Number(document[_0x35e6fc(0x2a0)](_0x35e6fc(0x425))[_0x35e6fc(0x2b3)])||0x32,_0xb13477[_0x35e6fc(0x42e)]=!![],_0xb13477[_0x35e6fc(0x2fd)]=_0x2387f3?'Re-encrypting\x20Vault...':_0x35e6fc(0x30b);try{_0x2387f3&&(_0x5cd2a3=await window[_0x35e6fc(0x1d4)][_0x35e6fc(0x438)](_0x2c3b5,_0xf3e08d,_0x2d7bdd));await window[_0x35e6fc(0x1d4)][_0x35e6fc(0x1f6)](_0x5cd2a3),_0x4c166f=_0x5cd2a3[_0x35e6fc(0x2d3)][_0x35e6fc(0x1b7)]?_0x35e6fc(0x28d):_0x35e6fc(0x313),_0x3ffe79=Number(_0x5cd2a3[_0x35e6fc(0x2d3)][_0x35e6fc(0x40a)])||0x32,_0x537187=0x1,_0x47af87[_0x35e6fc(0x254)]['value']=String(_0x3ffe79),_0x47af87[_0x35e6fc(0x2b0)][_0x35e6fc(0x292)]['toggle'](_0x35e6fc(0x1f9),_0x4c166f===_0x35e6fc(0x28d)),_0x47af87[_0x35e6fc(0x3d1)][_0x35e6fc(0x292)][_0x35e6fc(0x3fd)]('active',_0x4c166f===_0x35e6fc(0x313)),_0x116fd9(),_0x233ab9();const _0x396e62=_0x2387f3?_0x35e6fc(0x392):_0x35e6fc(0x1e1);_0xdd8276(),_0x47af87[_0x35e6fc(0x1b6)][_0x35e6fc(0x2fd)]=_0x396e62;}catch(_0x59a906){_0x363fad[_0x35e6fc(0x2fd)]=_0x59a906['message'],_0x363fad[_0x35e6fc(0x1c7)][_0x35e6fc(0x22c)]=_0x35e6fc(0x35b),_0xb13477['disabled']=![],_0xb13477[_0x35e6fc(0x2fd)]=_0x35e6fc(0x30f);}}else{if(_0x208e9d===_0x35e6fc(0x49d))_0x37c762();else{if(_0x208e9d===_0x35e6fc(0x330)){const _0x222c34=_0x482efb(),_0x42a971=document[_0x35e6fc(0x2a0)](_0x35e6fc(0x497))?.[_0x35e6fc(0x2b3)]||'';_0x222c34&&_0x42a971&&(_0x222c34[_0x35e6fc(0x2b3)]=_0x42a971,_0x222c34[_0x35e6fc(0x2f0)](new Event(_0x35e6fc(0x298),{'bubbles':!![]})),_0x47af87[_0x35e6fc(0x1b6)]['textContent']=_0x35e6fc(0x3bf),_0xdd8276(),_0x222c34[_0x35e6fc(0x473)]());}else window[_0x35e6fc(0x2f3)](_0x35e6fc(0x4ed));}}}}}}}}}}}}}}}}}}}}}}}}}),_0x47af87['csvFileInput'][_0x5b4ee9(0x36c)](_0x5b4ee9(0x299),async()=>{const _0xf56739=_0x5b4ee9,_0x2ec851=_0x47af87[_0xf56739(0x470)][_0xf56739(0x40e)][0x0];_0x47af87[_0xf56739(0x470)][_0xf56739(0x2b3)]='';if(!_0x2ec851)return;if(_0x2ec851[_0xf56739(0x4eb)]>0x64*0x400*0x400){window[_0xf56739(0x2f3)]('The\x20CSV\x20file\x20is\x20larger\x20than\x20100\x20MB.');return;}try{_0x638245(_0x2ec851[_0xf56739(0x351)],_0x587cca(await _0x2ec851['text']()));}catch(_0x59955d){_0x120a67=null,window[_0xf56739(0x2f3)]('Unable\x20to\x20read\x20the\x20CSV\x20file:\x0a\x0a'+_0x59955d[_0xf56739(0x4bf)]);}}),_0x47af87['totpQrFileInput'][_0x5b4ee9(0x36c)](_0x5b4ee9(0x299),async()=>{const _0x498f4f=_0x5b4ee9,_0x19d759=_0x47af87['totpQrFileInput']['files'][0x0];_0x47af87['totpQrFileInput'][_0x498f4f(0x2b3)]='';if(!_0x19d759||_0x18c968!=='website')return;const _0x3693b4=document[_0x498f4f(0x2a0)](_0x498f4f(0x402));if(!('BarcodeDetector'in window)){_0x3693b4[_0x498f4f(0x2fd)]=_0x498f4f(0x25b),_0x3693b4[_0x498f4f(0x1c7)][_0x498f4f(0x22c)]=_0x498f4f(0x35b);return;}try{const _0x16148c=new BarcodeDetector({'formats':[_0x498f4f(0x30a)]}),_0x4a21ad=await createImageBitmap(_0x19d759),_0x69502c=await _0x16148c[_0x498f4f(0x46d)](_0x4a21ad);if(!_0x69502c['length'])throw new Error(_0x498f4f(0x3ce));const _0x393c94=_0x69502c[0x0]['rawValue']||'';document[_0x498f4f(0x2a0)](_0x498f4f(0x2f6))[_0x498f4f(0x2b3)]=_0x393c94,document['getElementById']('applyOtpAuthButton')[_0x498f4f(0x448)]();}catch(_0xc742fe){_0x3693b4['textContent']=_0x498f4f(0x46f)+_0xc742fe['message'],_0x3693b4['style'][_0x498f4f(0x22c)]='var(--danger)';}}),_0x47af87[_0x5b4ee9(0x1ef)][_0x5b4ee9(0x36c)](_0x5b4ee9(0x448),()=>{const _0x326225=_0x5b4ee9;_0x549e03=_0x326225(0x24f),_0x47af87[_0x326225(0x3cf)][_0x326225(0x448)]();}),_0x47af87[_0x5b4ee9(0x3cf)][_0x5b4ee9(0x36c)](_0x5b4ee9(0x299),async()=>{const _0x42ff1b=_0x5b4ee9,_0x1ba143=_0x47af87[_0x42ff1b(0x3cf)]['files'][0x0];_0x47af87[_0x42ff1b(0x3cf)][_0x42ff1b(0x2b3)]='';if(!_0x1ba143)return;try{const _0x41ff50=await _0x353c24(_0x1ba143);_0x41bef0(_0x41ff50,_0x1ba143[_0x42ff1b(0x351)],_0x549e03);}catch(_0x37e383){_0x4d740b=null,window['alert'](_0x42ff1b(0x201)+_0x37e383[_0x42ff1b(0x4bf)]);}}),document['addEventListener']('keydown',_0x501069=>{const _0xb98b7a=_0x5b4ee9;if((_0x501069['ctrlKey']||_0x501069[_0xb98b7a(0x2ce)])&&_0x501069[_0xb98b7a(0x490)][_0xb98b7a(0x404)]()==='f'){_0x501069[_0xb98b7a(0x2b2)]();!_0x47af87[_0xb98b7a(0x2a6)][_0xb98b7a(0x292)][_0xb98b7a(0x2af)](_0xb98b7a(0x2c0))&&(_0x47af87[_0xb98b7a(0x2f4)][_0xb98b7a(0x473)](),_0x47af87[_0xb98b7a(0x2f4)][_0xb98b7a(0x235)]());return;}if((_0x501069[_0xb98b7a(0x4e7)]||_0x501069[_0xb98b7a(0x2ce)])&&_0x501069[_0xb98b7a(0x490)][_0xb98b7a(0x404)]()==='n'){_0x501069[_0xb98b7a(0x2b2)]();!_0x47af87[_0xb98b7a(0x2a6)][_0xb98b7a(0x292)][_0xb98b7a(0x2af)](_0xb98b7a(0x2c0))&&_0x47af87[_0xb98b7a(0x1bd)][_0xb98b7a(0x292)][_0xb98b7a(0x2af)](_0xb98b7a(0x2c0))&&_0x25b490();return;}if(!_0x47af87['mainScreen'][_0xb98b7a(0x292)][_0xb98b7a(0x2af)](_0xb98b7a(0x2c0))&&_0x47af87[_0xb98b7a(0x1bd)][_0xb98b7a(0x292)]['contains'](_0xb98b7a(0x2c0))&&_0x501069[_0xb98b7a(0x490)]===_0xb98b7a(0x3da)){_0x501069[_0xb98b7a(0x2b2)](),_0x3cd2a5(_0x537187+0x1);return;}if(!_0x47af87['mainScreen'][_0xb98b7a(0x292)][_0xb98b7a(0x2af)](_0xb98b7a(0x2c0))&&_0x47af87[_0xb98b7a(0x1bd)]['classList'][_0xb98b7a(0x2af)](_0xb98b7a(0x2c0))&&_0x501069[_0xb98b7a(0x490)]===_0xb98b7a(0x42d)){_0x501069[_0xb98b7a(0x2b2)](),_0x3cd2a5(_0x537187-0x1);return;}if((_0x501069[_0xb98b7a(0x4e7)]||_0x501069[_0xb98b7a(0x2ce)])&&_0x501069[_0xb98b7a(0x490)][_0xb98b7a(0x404)]()==='g'){_0x501069['preventDefault']();!_0x47af87['mainScreen'][_0xb98b7a(0x292)][_0xb98b7a(0x2af)](_0xb98b7a(0x2c0))&&(_0x47af87[_0xb98b7a(0x3ad)][_0xb98b7a(0x2ca)]=!_0x47af87[_0xb98b7a(0x3ad)][_0xb98b7a(0x2ca)],_0x116fd9(),_0x47af87[_0xb98b7a(0x2f4)]['focus']());return;}if(_0x501069[_0xb98b7a(0x490)]===_0xb98b7a(0x48d)){if(!_0x47af87['modalOverlay'][_0xb98b7a(0x292)]['contains'](_0xb98b7a(0x2c0))){_0xdd8276();return;}_0x47af87[_0xb98b7a(0x258)][_0xb98b7a(0x292)][_0xb98b7a(0x1fb)](_0xb98b7a(0x495));}}),document['addEventListener'](_0x5b4ee9(0x448),_0x4a6d26=>{const _0x531183=_0x5b4ee9;window[_0x531183(0x259)]<=0x2f8&&_0x47af87[_0x531183(0x258)][_0x531183(0x292)][_0x531183(0x2af)](_0x531183(0x495))&&!_0x47af87['sidebar'][_0x531183(0x2af)](_0x4a6d26[_0x531183(0x403)])&&!_0x47af87[_0x531183(0x323)][_0x531183(0x2af)](_0x4a6d26[_0x531183(0x403)])&&_0x47af87['sidebar']['classList'][_0x531183(0x1fb)](_0x531183(0x495));}),[_0x5b4ee9(0x334),_0x5b4ee9(0x2d8),_0x5b4ee9(0x3fa),_0x5b4ee9(0x2fc)][_0x5b4ee9(0x2eb)](_0x167792=>{const _0xce5c66=_0x5b4ee9;document[_0xce5c66(0x36c)](_0x167792,_0x233ab9,{'passive':!![]});}),document[_0x5b4ee9(0x36c)](_0x5b4ee9(0x3ec),()=>{const _0x5021d8=_0x5b4ee9;if(!_0x5cd2a3)return;document[_0x5021d8(0x29a)]===_0x5021d8(0x2c0)?_0x13fe92():(_0x4aac56&&(clearTimeout(_0x4aac56),_0x4aac56=null),_0x233ab9());}),window['addEventListener'](_0x5b4ee9(0x48a),_0x50241b),_0x432b64(),_0x57e5b7(),window[_0x5b4ee9(0x320)](_0x57e5b7,0x7530),_0xb0b0e5();})()));function a0_0x1dee(){const _0x3c6223=['y2XPCgjVyxjK','Dg9mB2nHBgveyxrLu3rYAw5N','ywXNB3jPDgHT','C3rHDhvZlwDVB2q','jNf1B3q7','y29UDgvUDhm','cGOGicaGicaGicaGicaGicaGicaGidXWigLKpsjPBxbVCNrgB3jTtwvZC2fNzsiGy2XHC3m9iMzVCM0TBM90zsi+cIaGicaGicaGicaGicaGicaGicaGicaGifrOzsbMAwXLihn0yxLZigvUy3j5ChrLzcb1BNrPBcbPDhmGCgfZC3DVCMqGAxmGDMvYAwzPzwqGBg9JywXSEs4kicaGicaGicaGicaGicaGicaGica8l3a+cIaGicaGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaG','AgLKzgvUtg9JA1nLy29Uzhm','zMXVB3i','pc9KAxy+cIaGicaGicaGicaGicaGicaGicaG','ugfZC2TLEq','cIaGicaGicaGicaGicaGicaGicaGpc9ZzwXLy3q+pc9SywjLBd4kicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicaGicaGpgXHyMvSpKn1C3rVBwvYifnLCNzPy2u8Aw5WDxqGAwq9iMjHBMTdDxn0B21LCLnLCNzPy2uIihr5Cgu9iNrLEhqIihzHBhvLpsi','igr1CgXPy2f0zxmGC2TPChbLzcdcTYa','mKzboIbbDxrOzw50AwnHDg9Y','zw1HAwXvC2vK','BM9Uzq','pJyWihnLy29Uzhm8l29WDgLVBJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidWVC2vSzwn0pGOGicaGicaGicaGicaGicaGicaGicaGica8l2XHyMvSpGOGicaGicaGicaGicaGicaGicaGicaGica8BgfIzwW+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicbbBgDVCML0Ag0kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXZzwXLy3qGAwq9iNnPDgvuB3rWqwXNB3jPDgHTiJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGica8B3b0Aw9UihzHBhvLpsjtseeXiIa','D2vIC2L0zvjLy292zxj5rgv0ywLS','ywrTAw5gB3jTtwvZC2fNzq','iIbWBgfJzwHVBgrLCJ0IvxnLCM5HBwuGB3iGywnJB3vUDcbjrci+cIaGicaGicaGicaGicaGicaGicaGpc9SywjLBd4kcIaGicaGicaGicaGicaGicaGicaGpgXHyMvSpGOGicaGicaGicaGicaGicaGicaGicaGicbfBwfPBcbvC2vKcIaGicaGicaGicaGicaGicaGicaGicaGidXPBNb1DcbPzd0IC2L0zuvTywLSvxnLzciGDhLWzt0Izw1HAwWIihzHBhvLpsi','BMfTzq','u2vJDxjLieDLBMvYyxrVCG','C3rHCNrZv2L0Aa','tg9NAw4Gsuq','C2L0zw5HBwu','BwvYz2u','cIaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlwnHCMqGzNvSBci+cIaGicaGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMrLDgfPBc1SywjLBci+q29UDgvUDhm8l2rPDJ4kicaGicaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlxzHBhvLihbYzxnLCNzLlwXPBMvZiJ4','iIbWBgfJzwHVBgrLCJ0IwvLzwsi+pc9SywjLBd4kicaGicaGicaGicaGicaGicaGica8BgfIzwW+q1zwpgrPDIbJBgfZCZ0IAw5WDxqTywn0Aw9UlxjVDYi+pgLUChv0igLKpsjJyxjKq3z2iIb0ExbLpsjWyxnZD29YzciGAw5WDxrTB2rLpsjUDw1LCMLJiIbTyxHSzw5NDgG9iJqIihzHBhvLpsi','pc90zxH0yxjLyt48l2XHyMvSpGOGicaGicaGicaGicaGicaGpgXHyMvSpLrHz3m8Aw5WDxqGAwq9iM5VDgvuywDZiIb0ExbLpsj0zxH0iIb2ywX1zt0I','Bg9NAw5uywi','DMfYkc0TzgfUz2vYkq','q2f0zwDVCNK','y2fYza','pc9KAxy+cIaGicaGicaGicaGicaGicaGicaGpgrPDJ4kicaGicaGicaGicaGicaGicaGicaGicaGphn0CM9UzZ5YzwnVCMrZigfKzgvKpc9ZDhjVBMC+cIaGicaGicaGicaGicaGicaGicaGicaGidXZCgfUpG','ywrTAw5iAwrKzw5ezwXHEq','yMfUAZjgquvUywjSzwq','cIaGicaGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaGpc9KAxy+cIaGicaGicaG','Dg90CfbYzxzPzxDdB2rL','CMvJB3zLCNLdB2rLCW','qwrKienHCMq','Bg9NAw5xzwjZAxrL','Bg9NAw5WyxnZD29Yza','ywrTAw5dDxjYzw50ugfZC3DVCMq','DxjP','B3rWyxv0AdOVl3rVDhaV','cIaGicaGicaGicaGidXMB3jTigLKpsj3zwjZAxrLuMvJB3jKrM9YBsiGy2XHC3m9iNjLy29Yzc1MB3jTihDLyNnPDguTzM9YBsi+cIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjMB3jTlxnLy3rPB24TAgvHzgLUzYi+v2vIC2L0zsbmB2DPBJWVzgL2pGOkicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMzVCM0TDhDVlwnVBhvTBIi+cIaGicaGicaGicaGicaGicaGicaGpgXHyMvSpGOGicaGicaGicaGicaGicaGicaGicaGicbtAxrLie5HBwuGkGOGicaGicaGicaGicaGicaGicaGicaGica8Aw5WDxqGAwq9iNnPDgvoyw1LiIb0ExbLpsj0zxH0iIbYzxf1AxjLzcb2ywX1zt0I','q29UDgvUDhm','ywrKrxzLBNrmAxn0zw5LCG','pc9ZCgfUpGOGicaGicaGicaGicaGicaGphnWyw4Gy2XHC3m9iNjLy29Yzc1ZDwj0AxrSzsi+','BM90zq','tMv3ievUy3j5ChrLzcbxzwjZAxrL','y3n2sw1WB3j0ywjSzunVDw50','y2fYzen2DG','z2vUzxjHDg9YtgvUz3rOu2XPzgvY','pLvUA25VD248l29WDgLVBJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXVChrPB24GDMfSDwu9iNLLCYiG','vfbxtv8','u2vSzwn0igf0igXLyxn0ig9UzsbJAgfYywn0zxiGDhLWzs4','q2fYzcboDw1Izxi','qMfUA2LUzW','vxbKyxrLzca','pc9ZzwXLy3q+pc9SywjLBd4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXSywjLBd5xzwjZAxrLifvstdXZzwXLy3qGAwq9iMnZDK1HCfvYBci+','ywrTAw5jzgXLvgLTzw91Da','C2L0zvn1ChbVCNrZmKzb','mKzbievUywjSzwq','iIbWBgfJzwHVBgrLCJ0IAhr0Chm6lY9LEgfTCgXLlMnVBsi+pc9SywjLBd4kicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMzVCM0TDhDVlwnVBhvTBIi+cIaGicaGicaGicaGicaGicaGicaGpgXHyMvSpKXVz2LUieLepgLUChv0igLKpsjJyxjKtg9NAw5jzciGDhLWzt0IDgv4DciGDMfSDwu9iG','tM90ihnWzwnPzMLLza','BgfIzwW','pc9KAxy+cIaGicaGicaGicaGicaGicaGicaGpgrPDJ48C3rYB25NpNDLyNnPDguGCMvJB3jKCYbHzgrLzdWVC3rYB25NpJXZCgfUpG','cIaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0IAw1WB3j0lxDHCM5PBMCTy2fYzci+cIaGicaGicaGicaGicaGicaGicaGicaGia','Aw5WDxrBBMfTzt0IAw1WB3j0tw9KzsjD','BwLU','CgvYAw9K','qwnJB3vUDa','vgHLientvIbMAwXLigLZigvTChr5lG','vMf1BhqGBg9JA2vK','qMfUAYbHy2nVDw50','B3rW','y29WEvrVDhbdB2rLqNv0Dg9U','y2XVC2vZDa','igfUzcbLBMnYExb0zwq','C21VB3rO','DMf1Bhq','ywrTAw5ezwzHDwX0q2f0zwDVCNK','yMfUA0fJy291BNruExbL','zgvSzxrLlxDLyNnPDgu','qwnJB3vUDcbJCMvKzw50AwfSCYbJAgfUz2vKigfUzcb2yxvSDcbYzs1LBMnYExb0zwq','C2L0zvrVDhbqzxjPB2q','cIaGicaGicaGicaGia','zxHWtw9UDgG','vgHLihr3BYbTyxn0zxiTCgfZC3DVCMqGzw50CMLLCYbKBYbUB3qGBwf0y2GU','C2LNBNvWtwvZC2fNzq','CMf3q29Kzq','rw5HyMXLza','q3jLyxrLza','tg9HBG','CgfNAw5HDgLVBKjHCG','u2HVDW','z2vUzxjHDg9Yrw50CM9WEq','ChjLDMLVDxnqywDLqNv0Dg9U','mJqZme9Rr3bwCG','z2vUzxjHDg9Ylxn0CMvUz3rOlwjHCIa','w2rHDgeTBw9KywWTywn0Aw9Upsi','Bg9JA0j1DhrVBG','cIaGicaGicaGicaGicaGica8yNv0Dg9UignSyxnZpsjZzwnVBMrHCNKTyNv0Dg9UiIb0ExbLpsjIDxr0B24IigrHDgeTBw9KywWTywn0Aw9UpsjJBg9Zzsi+q2fUy2vSpc9IDxr0B24+cIaGicaGicaGicaGicaGica8yNv0Dg9UignSyxnZpsjWCMLTyxj5lwj1DhrVBIiGDhLWzt0IyNv0Dg9UiIbKyxrHlw1VzgfSlwfJDgLVBJ0IC2f2zs13zwjZAxrLiJ4','imk3ia','vgHLignVzguGD2LSBcb1CgrHDguGyxv0B21HDgLJywXSEs4','lNrVz2DSzs1WyxnZD29Yza','Bg9NAw4','u0HbmJu2','iIbWBgfJzwHVBgrLCJ0Irw50zxiGCgfZC3DVCMqIpGOGicaGicaGicaGicaGicaGicaGicaGica8yNv0Dg9UignSyxnZpsjPBMXPBMuTyNv0Dg9UihrVz2DSzs1WyxnZD29YzciGDhLWzt0IyNv0Dg9UiIbKyxrHlxrHCMDLDd0IC2L0zvbHC3n3B3jKiJ5tAg93pc9IDxr0B24+cIaGicaGicaGicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGicaGicaGica8l2XHyMvSpGOkicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMzVCM0TC2vJDgLVBI1OzwfKAw5NiJ5uD28TrMfJDg9Yief1DgHLBNrPy2f0Aw9Upc9KAxy+cGOGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0IzM9YBs10D28Ty29SDw1UiJ4kicaGicaGicaGicaGicaGicaGica8BgfIzwW+cIaGicaGicaGicaGicaGicaGicaGicaGierVzxmGvgHPCYbxzwjZAxrLifn1ChbVCNqGmKzbpWOGicaGicaGicaGicaGicaGicaGicaGica8C2vSzwn0igLKpsjZAxrLu3vWCg9YDhmYrKeIpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGpg9WDgLVBIb2ywX1zt0IDw5RBM93BIiG','mKzbig5VDcbLBMfIBgvK','DhDVrKffBwfPBa','z2XVyMfSu2vHCMnOvg9Nz2XL','zMLSDgvY','ugfNzsa','iIbWBgfJzwHVBgrLCJ0It3b0Aw9UywWIpJWVBgfIzwW+cIaGicaGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaGicaGidXSywjLBd5oB3rLCZX0zxH0yxjLysbPzd0Iy2fYze5VDgvZiJ4','iIbWBgfJzwHVBgrLCJ0IrxHHBxbSztOGwxvIAuTLEsa1iJ4kicaGicaGicaGicaGicaGicaGica8l2XHyMvSpGOGicaGicaGicaGicaGicaGpc9KAxy+cGOGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0IzM9YBs10D28Ty29SDw1UiJ4kicaGicaGicaGicaGicaGicaGica8BgfIzwW+cIaGicaGicaGicaGicaGicaGicaGicaGidjgqsbfBwfPBaOGicaGicaGicaGicaGicaGicaGicaGica8Aw5WDxqGAwq9iNnPDguYrKffBwfPBciGDhLWzt0Izw1HAwWIihzHBhvLpsi','u2L0zsboyw1LigLZihjLCxvPCMvKlG','Dg90Cen1CNjLBNrdB2rL','BgvUz3rO','C2f2zs1UB3rL','y3n2sw1WB3j0twvZC2fNzq','r29Vza','vw50AxrSzwqGv2vIC2L0zq','zxHWwwvHCG','yxjPys1ZzwXLy3rLza','lMnHDgvNB3j5lw9WDgLVBG','yMfUA0zVCM1nzxnZywDL','pc9VChrPB24+','C2nYB2XSwq','r2vUzxjHDgvKihbHC3n3B3jKigLUC2vYDgvKigLUDg8GDgHLig9Wzw4GCMvJB3jK','Aw1WB3j0s2v5','y2fYze51BwjLCKrLDgfPBa','zMLYC3rqywDLqNv0Dg9U','z2vUzxjHDg9Yu3rYzw5NDgHcyxi','jMfTCdS','C3bSAxq','u2vJDxjLie5VDgvZ','uM91DgLUzYboDw1Izxi','iIbWBgfJzwHVBgrLCJ0Irw1HAwWGyxnZB2nPyxrLzcb3AxrOigfJy291BNqIpGOGicaGicaGicaGicaGicaGicaGidWVBgfIzwW+cIaGicaGicaGicaGicaGica8l2rPDJ4kcIaGicaGicaGicaGicaGica8BgfIzwW+cIaGicaGicaGicaGicaGicaGicaGugfZC3DVCMqkicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjPBNb1Dc1Hy3rPB24TCM93iJ4kicaGicaGicaGicaGicaGicaGicaGicaGpgLUChv0igLKpsjZAxrLugfZC3DVCMqIihr5Cgu9iNbHC3n3B3jKiIb2ywX1zt0I','C2vHCMnOugfYyw1Z','pc90zd4kicaGicaGicaGicaGicaGidWVDhi+','y2XPCgjVyxjKq2XLyxjtzwnVBMrZ','qujdrevgr0HjsKTmtu5puffsu1rvvLDywvOYmZq1nJC','y2f0zwDVCNLuAxrSzq','tM8GuviGy29Kzsb3yxmGzM91BMqGAw4GDgHLihnLBgvJDgvKigLTywDLlG','DMf1BhrgAwXLsw5WDxq','y3vYCMvUDfrHCMDLDa','y29TzM9YDgfIBgvwAwv3qNv0Dg9U','vMf1BhqGBg9JA2vKigf1Dg9TyxrPy2fSBhKGywz0zxiG','C3vTBwfYEq','rw5JCNLWDgvKieLUzgv4zwreqIb2yxvSDcb1BMXVy2TLza','yxv0B0HPzgvtzwnVBMrZ','Aw5JBhvKzxm','CMvJB3jKvhLWzq','iIbWBgfJzwHVBgrLCJ0IrxHHBxbSztOGrxzLCNLKyxKGq2fYzci+pc9SywjLBd4kicaGicaGicaGicaGicaGicaGica8BgfIzwW+q2fYzgHVBgrLCIboyw1LpgLUChv0igLKpsjJyxjKAg9SzgvYtMfTzsiGDhLWzt0IDgv4DciGDMfSDwu9iG','cIaGicaGicaGicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGicaGicaGica8l2rPDJ4kcIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjKzxrHAwWTy2fYzci+cIaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlwXHyMvSiJ5mB2DPBIbjrdWVzgL2pGOGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMnVChKTDMfSDwuTCM93iJ4kicaGicaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlxzHBhvLiJ4','ugfNzurVD24','pgj1DhrVBIbJBgfZCZ0IC2vJB25Kyxj5lwj1DhrVBIiGDhLWzt0IyNv0Dg9UiIbKyxrHlw1VzgfSlwfJDgLVBJ0Iy2XVC2uIpKnHBMnLBdWVyNv0Dg9UpJXIDxr0B24Gy2XHC3m9iNbYAw1HCNKTyNv0Dg9UiIb0ExbLpsjIDxr0B24IigrHDgeTBw9KywWTywn0Aw9UpsjZyxzLlw5VDguIpG','iIbWBgfJzwHVBgrLCJ0IrxHHBxbSztOGuMvJB3zLCNKIpJWVBgfIzwW+cIaGicaGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaGicaGidXSywjLBd5dB250zw50CZX0zxH0yxjLysbPzd0IBM90zunVBNrLBNrZiIbJBgfZCZ0IBgfYz2uTBM90zs1HCMvHiIbWBgfJzwHVBgrLCJ0Irw50zxiGDgHLihnLy3vYzsbUB3rLignVBNrLBNrZiJ4','CMf3','cIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjHzg1PBI1KyxnOyM9HCMqIpGOGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMfKBwLUlxn1Bw1HCNKTz3jPzci+cIaGicaGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMfKBwLUlxn1Bw1HCNKTy2fYzci+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8C3bHBIbJBgfZCZ0IywrTAw4TC3vTBwfYEs1Py29UiJ7IL4y8l3nWyw4+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8zgL2pJXZBwfSBd5fBMnYExb0Aw9Upc9ZBwfSBd48C3rYB25NpKffuY0YntyTr0nnpc9ZDhjVBMC+pc9KAxy+cIaGicaGicaGicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjHzg1PBI1ZDw1Tyxj5lwnHCMqIpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnWyw4Gy2XHC3m9iMfKBwLUlxn1Bw1HCNKTAwnVBIbVCMfUz2uIpUkmGtWVC3bHBJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXKAxy+phnTywXSpLn0B3jHz2u8l3nTywXSpJXZDhjVBMC+sw5KzxHLzercpc9ZDhjVBMC+pc9KAxy+cIaGicaGicaGicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjHzg1PBI1ZDw1Tyxj5lwnHCMqIpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnWyw4Gy2XHC3m9iMfKBwLUlxn1Bw1HCNKTAwnVBIb5zwXSB3CIpIm8l3nWyw4+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8zgL2pJXZBwfSBd5szwnVCMrZpc9ZBwfSBd48C3rYB25NpG','Dg90CefJy291BNq','ywrTAw4','pc9HpG','y2f0zwDVCNK','cIaGicaGicaGicaGidXIDxr0B24Gy2XHC3m9iNjLy29Yzc1PDgvTiIb0ExbLpsjIDxr0B24IigrHDgeTCMvJB3jKlwLKpsi','C2f2zs1Iyw5R','pc9KAxy+cIaGicaGicaGicaGicaGica8l2rPDJ4kcIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjKzxrHAwWTy2fYzci+cIaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlwXHyMvSiJ5dCMvHDgvKpc9KAxy+cIaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlxzHBhvLiJ4','zgvMyxvSDenHDgvNB3j5','ChDhzw5cDxr0B24','AxrLBxm','ihjLy29Yzhm8l29WDgLVBJ4','q2fYzgHVBgrLCG','ywnJB3vUDe51BwjLCG','DMLZAwjPBgL0EwnOyw5Nzq','DMfYkc0TywnJzw50kq','Dg90CffYrMLSzuLUChv0','y3jLyxrLzef0','pc9IDxr0B24+','C2HPzNq','tM8GBg9JywWGDMf1BhqGzxHPC3rZihLLDc4Gq3jLyxrLihrOzsbMAxjZDcbLBMnYExb0zwqGDMf1BhqU','tM8GBg9NAw4Gsuq','i3nPDgvqyxnZD29YzcWGi2nHCMrmB2DPBLbHC3n3B3jKlcaJyMfUA1bHC3n3B3jK','z2vUzxjHDg9Ylxn0CMvUz3rOlwXHyMvSia','CMvJB3jKswq','Dg9ju09tDhjPBMC','z2vUzxjHDg9Yu3LTyM9SCW','qwnJB3vUDcboDw1Izxi','Dg91y2HZDgfYDa','u0HbnteY','iJ4kicaGicaGicaGicaGicaGicaGica8C3bHBIbJBgfZCZ0ICMvJB3jKlwnHDgvNB3j5lxrPBguIpG','Dg9Nz2XL','y2fYzenYzwrPDeXPBwL0','iGOGicaGicaGicaGicaGicaGicaGicaGicbKyxrHlxjLy29Yzc1JyxrLz29YEt0I','rw5JCNLWDgLUzYbjBxbVCNrLzcbszwnVCMrZlI4U','C3vWCg9YDhmYrKe','D2vIC2L0zuzVCM1nzxnZywDL','DgfYz2v0','Dg9mB3DLCKnHC2u','Aw1WB3j0','AwrSzs13yxjUAw5N','pc9ZBwfSBd4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnWyw4GAwq9iNrVDhbszw1HAw5PBMCIignSyxnZpsj0B3rWlxjLBwfPBMLUzYi+pc9ZCgfUpGOGicaGicaGicaGicaGicaGicaGicaGica8l2rPDJ4kcIaGicaGicaGicaGicaGicaGicaGicaGidXIDxr0B24GAwq9iNrVDhbdDxjYzw50q29KzsiGy2XHC3m9iNrVDhaTy29Kzs1IDxr0B24Iihr5Cgu9iMj1DhrVBIiGDgL0Bgu9iKnVChKGy3vYCMvUDcbJB2rLiJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGieXVywrPBMFIGkykicaGicaGicaGicaGicaGicaGicaGicaGpc9IDxr0B24+cGOGicaGicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsj0B3rWlwnVDw50zg93BI10CMfJAYi+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8zgL2igLKpsj0B3rWq291BNrKB3DUqMfYiIbJBgfZCZ0IDg90Cc1JB3vUDgrVD24TyMfYiJ48l2rPDJ4kicaGicaGicaGicaGicaGicaGicaGicaGpc9KAxy+cGOGicaGicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsj0B3rWlwrPC3bSyxKTywn0Aw9UCYi+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8C3bHBJ4','qwrTAw4','pc9KAxy+cIaGicaGicaGicaGicaGica8l2rPDJ4kcIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjKzxrHAwWTy2fYzcbMDwXSiJ4kicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjKzxrHAwWTBgfIzwWIpLrHz3m8l2rPDJ4kicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjKzxrHAwWTDMfSDwuIpG','CgfNzvnPEMu','pKvTywLSpc9VChrPB24+cIaGicaGicaGicaGicaGicaGicaGicaGidXVChrPB24GDMfSDwu9iNnTCYiG','sw1WB3j0ifzHDwX0','igrLBgv0zwq','zMLSzxm','pc9ZDhjVBMC+pc9KAxy+cIaGicaGicaGicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicaGicaGicaGidWVzgL2pGOkicaGicaGicaGicaGicaGicaGica8C2vJDgLVBIbJBgfZCZ0IywrTAw4TC2vJDgLVBIi+cIaGicaGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMfKBwLUlxnLy3rPB24TAgvHzgLUzYi+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8zgL2pJXZCgfUpJaXpc9ZCgfUpJXZDhjVBMC+qwnJB3vUDcbHBMqGtwfZDgvYifbHC3n3B3jKpc9ZDhjVBMC+pc9KAxy+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8C21HBgW+q3vYCMvUDcbTyxn0zxiGCgfZC3DVCMqGAxmGCMvXDwLYzwqGDg8Gy2HHBMDLigvPDgHLCIb2ywX1zs48l3nTywXSpGOGicaGicaGicaGicaGicaGicaGicaGica8l2rPDJ4kcIaGicaGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMzVCM0TDhDVlwnVBhvTBIi+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8BgfIzwW+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGqwnJB3vUDcbjraOGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGidXPBNb1DcbPzd0IywrTAw5by2nVDw50swqIihr5Cgu9iNrLEhqIihzHBhvLpsi','AgvHzgvYCW','y3n2twfWtM90zxm','C2LNBG','Dg90CenVDw50zg93BKjHCG','Bw9KywXgB290zxi','igrHDgeGCM93CYbKzxrLy3rLzdWVC3bHBJ4kicaGicaGicaGicaGicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGicaGicaGicaGicaGpc9KAxy+cGOGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMnZDI1Zzwn1CML0Es13yxjUAw5NiJ4kicaGicaGicaGicaGicaGicaGicaGicaGqNjVD3nLCIbdu1yGzxHWB3j0CYbJB250ywLUihvUzw5JCNLWDgvKihbSywLUDgv4DcbWyxnZD29YzhmUierLBgv0zsb0AguGq1nwihnLy3vYzwX5igfMDgvYihzLCMLMEwLUzYb0AguGAw1WB3j0lGOGicaGicaGicaGicaGicaGicaGidWVzgL2pGOkicaGicaGicaGicaGicaGicaGica8C2vJDgLVBIbJBgfZCZ0IywrTAw4TC2vJDgLVBIi+cIaGicaGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMfKBwLUlxnLy3rPB24TAgvHzgLUzYi+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8zgL2pJXZCgfUpJaXpc9ZCgfUpJXZDhjVBMC+twfWientvIbdB2X1Bw5Zpc9ZDhjVBMC+pc9KAxy+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8C21HBgW+rMLYzwzVEcWGq2HYB21LlcbfzgDLlcbcCMf2zsWGyw5KihnPBwLSyxiGzM9YBwf0CYbHCMuGzgv0zwn0zwqGyxv0B21HDgLJywXSEs48l3nTywXSpGOGicaGicaGicaGicaGicaGicaGicaGica8l2rPDJ4kcIaGicaGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMzVCM0TDhDVlwnVBhvTBIi+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8BgfIzwW+v2vIC2L0zsboyw1LphnLBgvJDcbPzd0Iy3n2twfWtMfTzsi+','u2vHCMnOifjLC3vSDhmGka','pLbHC3nRzxK8l29WDgLVBJ4kicaGicaGicaGicaGicaGicaGicaGicaGpg9WDgLVBIb2ywX1zt0IyMfJA3vWq29KzxmIia','Dg90CfnLy3jLDa','y3jLyxrLt2jQzwn0vvjm','C29Tzq','mte2mJeWmevjBhv4va','C3rHCNrjBMrLEa','z2v0uMfUzg9TvMfSDwvZ','Dg90CefSz29YAxrOBq','tM8GyMfUAYbUyw1L','mKrlEuzxvW','vfbxtsbZDxbWB3j0CYaXnsWGmZaSigfUzca2mcbZzwnVBMqGve9uucbWzxjPB2rZlG','ihnLy29UzhmGCMvTywLUAw5N','vMf1BhqGBg9JA2vKigzYB20GqwrTAw4U','ywrKzwq','ywrTAw5qywDLu2L6zq','y3jLyxrLrwXLBwvUDa','cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGpc9ZzwXLy3q+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8l2XHyMvSpGOkicaGicaGicaGicaGicaGicaGicaGicaGicaGidXSywjLBd4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicbezwzHDwX0ienHDgvNB3j5cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnLBgvJDcbPzd0IywrTAw5ezwzHDwX0q2f0zwDVCNKIpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGica','tg9NAw4Gv2vIC2L0zq','pc9ZDhjVBMC+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnTywXSpG','rw5JCNLWDgLVBG','y29Kzq','Bwf4','ugfNzvvW','zgLZywjSzwq','nJmWodi0DLzHvxPQ','C2LNBNvWugfZC3DVCMrdB25MAxjT','qwrKifnLy3vYzsboB3rL','nZDwtNnhrfu','vgHLigjYB3DZzxiGyMXVy2TLzcbJBgLWyM9HCMqGywnJzxnZlG','tgfZDcbnB2rPzMLLza','iJ48l2XHyMvSpGOGicaGicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGicaGicaGica8BgfIzwW+q2fYzcboDw1Izxi8zgL2ignSyxnZpsjPBNb1Dc1Hy3rPB24TCM93iJ48Aw5WDxqGAwq9iMnHCMroDw1IzxiIihr5Cgu9iNbHC3n3B3jKiIbPBNb1Dg1Vzgu9iM51BwvYAwmIihzHBhvLpsi','yMfUA1jVDxrPBMC','qxv0AgvUDgLJyxrVCIbPBMzVCM1HDgLVBIbPBxbVCNrLzcbZDwnJzxnZzNvSBhKU','y2HHBMDLq3jLzgvUDgLHBhm','zMLUza','y3vZDg9Tzxjtzxj2AwnL','yMfUAW','yxnZAwDU','DgvZDa','C2LNBNvWvgfI','Bwv0yq','ugfZC3DVCMq','pJGGzgLNAxrZpc9VChrPB24+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8l3nLBgvJDd4kicaGicaGicaGicaGicaGicaGicaGicaGpc9SywjLBd4kicaGicaGicaGicaGicaGicaGicaGicaGpgXHyMvSpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGugvYAw9KcIaGicaGicaGicaGicaGicaGicaGicaGicaGica8C2vSzwn0igLKpsjZAxrLvg90CfbLCMLVzci+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGpg9WDgLVBIb2ywX1zt0ImtuIia','iJ48l2XHyMvSpGOGicaGicaGicaGicaGicaGphaGAwq9iMnHCMrgB3jTtwvZC2fNzsiGy2XHC3m9iMzVCM0TBM90zsi+vgHLignVBxbSzxrLignYzwrPDc1JyxjKihjLy29YzcbPCYbLBMnYExb0zwqGyMvMB3jLigjLAw5NihnHDMvKlJWVCd4kicaGicaGicaGicaGpc9MB3jTpGOGicaGicaGia','lMDLBMvYyxrVCI1VDxrWDxqTy2fYza','jImWmZK7','BM90zunVBNrLBNrZ','zxHPC3rZ','ywrTAw5dB21Wywn0vMLLDW','y2XPy2S','4OcI4OcI4OcI4OcI4OcI4OcI4OcI4OcI4OcI4OcI4OcI4OcI','rw1HAwW','zw5JCNLWDgLVBG','Axnoyu4','pc9ZCgfUpGOGicaGicaGicaGicaGicaGphnWyw4Gy2XHC3m9iNjLy29Yzc1HCNjVDYiGyxjPys1OAwrKzw49iNrYDwuIpUkaUJWVC3bHBJ4kicaGicaGicaGicaGpc9IDxr0B24+cIaGicaGicaG','y2XVC2u','CgfZDguTy3n2','mti5odrXANHxEe4','4OcI4OcI4OcI4OcI4OcI4OcI4OcI4OcI','cIaGicaGicaGicaGicaGicaGicaG','tgvUz3rOig11C3qGyMuGyxqGBgvHC3qG','zNvSBcbWCMvZzxj2zs1SAw5LCW','rwrPDcbfBMnYExb0zwqGv2vIC2L0zq','Bg9NAw51C2vYBMfTzq','Aw5KzxHpzG','cGOGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlwnHCMqGzNvSBci+cIaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlwXHyMvSiJ5oB3rLCZWVzgL2pGOGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMrLDgfPBc12ywX1zsbWCMvZzxj2zs1SAw5LCYi+','iJ48l2XHyMvSpGOGicaGicaGicaGicaGicaGicaGidXSywjLBd5dCMvKAxqGtgLTAxq8Aw5WDxqGAwq9iMnHCMrdCMvKAxrmAw1PDciGDhLWzt0IDgv4DciGDMfSDwu9iG','r2vUzxjHDgvKigXVy2fSBhKGD2L0AcbJCNLWDg8Uz2v0uMfUzg9TvMfSDwvZlG','mKzboIa','pGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnWyw4+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGphn0CM9UzZ5mB2nRihDOzw4GDgHLigjYB3DZzxiGAxmGAgLKzgvUpc9ZDhjVBMC+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnTywXSpKXVy2TZigfMDgvYihn3AxrJAgLUzYbHChbSAwnHDgLVBNmGB3iGBwLUAw1PEMLUzYb0AguGyNjVD3nLCI48l3nTywXSpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGpc9ZCgfUpGOGicaGicaGicaGicaGicaGicaGicaGica8l2XHyMvSpGOkicaGicaGicaGicaGicaGicaGicaGicaGpgXHyMvSpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGsgLKzgvUlvDPBMrVDYbmB2nRierLBgf5cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8C2vSzwn0igLKpsjHzg1PBKHPzgrLBKrLBgf5iJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGica','C2L0zvrVDhbjC3n1zxi','pc9KAxy+cIaGicaGicaGicaGicaGica8l2rPDJ4kcIaGicaGicaGicaGicaGica','sw52ywXPzcbZzwnYzxq','pc9KAxy+cIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjJB3b5lxzHBhvLlxjVDYi+cIaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlxzHBhvLiJ4','C2vJDxjPDhLlzxLoyw1L','BgfZDfbHz2vcDxr0B24','C3rYAw5NAwz5','ywrK','C2LNBNvWswq','CgfNAw5HDgLVBLjHBMDL','BM90zvrHz3m','ugfZC3DVCMqGr2vUzxjHDg9Y','y3n2ugfZDgvnzxnZywDL','C2L0ztjgquvTywLS','y29WEuDLBMvYyxrLzej1DhrVBG','y3n2twfWtMfTzq','zgv0zwn0','v2vHAW','vw5HyMXLihrVihjLywqGuviGAw1Hz2u6ia','y3n2rMLSzuLUChv0','igv4ywn0igr1CgXPy2f0zxmGC2TPChbLzdWVC3bHBJ4kicaGicaGicaGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaGicaGidWVzgL2pGOkicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMfKBwLUlxn1Bw1HCNKTz3jPzci+cIaGicaGicaGicaGicaGicaGicaG','ignVBMzSAwn0Aw5NihjLy29Yzcbjra','zM9JDxm','pLniqs0Xpc9VChrPB24+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGpg9WDgLVBIb2ywX1zt0Iu0HbmJu2iIa','pc9KAxy+cIaGicaGicaGicaGicaGica8l2rPDJ4kcIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjKzxrHAwWTy2fYzci+cIaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlwXHyMvSiJ4YrKeGugHVBMu8l2rPDJ4kicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjKzxrHAwWTDMfSDwuIpG','u2vJDxjLig5VDgu','Aw5Uzxjive1m','pc9ZzwXLy3q+pc9SywjLBd4kicaGicaGicaGicaGicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGicaGicaGicaGicaGpc9Zzwn0Aw9UpGOkicaGicaGicaGicaGicaGicaGica8C2vJDgLVBIbJBgfZCZ0IywrTAw4TC2vJDgLVBIi+cIaGicaGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMfKBwLUlxnLy3rPB24TAgvHzgLUzYi+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8zgL2pJXZCgfUpJaYpc9ZCgfUpJXZDhjVBMC+sw1WB3j0ie9WDgLVBNm8l3n0CM9UzZ48l2rPDJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXZBwfSBd5jBxbVCNrLzcbYB3DZigjLy29TzsbLBMnYExb0zwqGv2vIC2L0zsbYzwnVCMrZlJWVC21HBgW+cIaGicaGicaGicaGicaGicaGicaGicaGidWVzgL2pGOkicaGicaGicaGicaGicaGicaGicaGicaGpgXHyMvSignSyxnZpsjHzg1PBI10B2DNBguTCM93iJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXPBNb1DcbPzd0Iy3n2u2TPCer1CgXPy2f0zxmIihr5Cgu9iMnOzwnRyM94iIbJAgvJA2vKpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnWyw4+phn0CM9UzZ5tA2LWigv4ywn0igr1CgXPy2f0zxm8l3n0CM9UzZ48C21HBgW+q29TCgfYzxmGvvjmlcb1C2vYBMfTzsWGyw5KihbHC3n3B3jKlJWVC21HBgW+pc9ZCgfUpGOGicaGicaGicaGicaGicaGicaGicaGica8l2XHyMvSpGOGicaGicaGicaGicaGicaGicaGidWVC2vJDgLVBJ4kcIaGicaGicaGicaGicaGicaGicaGphnLy3rPB24Gy2XHC3m9iMfKBwLUlxnLy3rPB24IpGOGicaGicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjHzg1PBI1Zzwn0Aw9UlwHLywrPBMCIpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGpgrPDJ48C3bHBJ4WmZWVC3bHBJ48C3rYB25NpLbYzxzPzxC8l3n0CM9UzZ48l2rPDJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXZBwfSBcbPzd0Iy3n2sw1WB3j0ywjSzunVDw50iJ48l3nTywXSpGOGicaGicaGicaGicaGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Iy3n2lxbYzxzPzxCTD3jHCci+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8DgfIBguGy2XHC3m9iMnZDI1WCMv2Awv3lxrHyMXLiJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGica8DgHLywq+phrYpJX0Ad5xzwjZAxrLpc90Ad48DgG+vxnLCM5HBwu8l3rOpJX0Ad5qyxnZD29YzdWVDgG+pc90CJ48l3rOzwfKpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGidX0yM9KEsbPzd0Iy3n2uhjLDMLLD0jVzhKIpJWVDgjVzhK+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8l3rHyMXLpGOGicaGicaGicaGicaGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaGicaGicaGica8l3nLy3rPB24+cGOGicaGicaGicaGicaGicaGicaGidXWigLKpsjJC3zjBxbVCNrnzxnZywDLiIbJBgfZCZ0IzM9YBs1UB3rLiJ4kicaGicaGicaGicaGicaGicaGicaGicaGtM90AgLUzYbPCYbZyxzLzcb1BNrPBcbjBxbVCNqGugfZC3DVCMrZigLZihnLBgvJDgvKlGOGicaGicaGicaGicaGicaGicaGidWVCd4kicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGica','ig9Mia','zw1WDhLbzgrcDxr0B24','D2vIC2L0zvrVDhbezxrHAwW','cIaGicaGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMrLDgfPBc1JyxjKiJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMrLDgfPBc1SywjLBci+tg9NAw4Gv2vIC2L0ztWVzgL2pGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlxzHBhvLiJ48ysbJBgfZCZ0IDhb3Bs1SAw5RiIbOCMvMpsi','BMv4DfbHz2vcDxr0B24','y2vPBa','DhDVrKfuExbL','iIb0yxjNzxq9iL9IBgfUAYiGCMvSpsjUB29Wzw5LCIbUB3jLzMvYCMvYiJ4','qxv0AgvUDgLJyxrVCG','C2f2zs13zwjZAxrL','yMfUA0fJy291BNrezxrHAwW','cGOGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlwnHCMqIpGOGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMrLDgfPBc1SywjLBci+rw1HAwWGvxnLzdWVzgL2pGOGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMnVChKTDMfSDwuTCM93iJ4kicaGicaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlxzHBhvLiJ4','DhjPBq','zxHJBhvKzufTyMLNDw91CW','yMfUA0vTywLS','cIaGicaGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMLTCg9YDc13yxjUAw5NlwnHCMqIpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGsw1WB3j0Aw5NigzYB20GDgHLigXVz2LUihnJCMvLBIbYzxn0B3jLCYb0AguGy29TCgXLDguGAw1WB3j0zwqGDMf1BhqUcIaGicaGicaGicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicaGicaGicaGia','yMfUAZjgqvr5Cgu','yMvMB3jLDw5SB2fK','pc9ZzwXLy3q+pc9SywjLBd4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXSywjLBd5ut1rqic8Gt1rqphnLBgvJDcbPzd0Iy3n2twfWt3rWiJ4','ywrTAw5mB2nRsgLKzgvU','rxnJyxbL','CxvLCNLtzwXLy3rVCKfSBa','yxv0AfnJCMvLBG','A2v5','y2fUy2vSlwLTCg9YDa','yMfUA2LUzW','pc90zxH0yxjLyt4kicaGicaGicaGicaGicaGidWVBgfIzwW+cGOGicaGicaGicaGicaGicaGpgXHyMvSpGOGicaGicaGicaGicaGicaGicaGifrHz3mkicaGicaGicaGicaGicaGicaGica8Aw5WDxqGAwq9iNnPDgvuywDZiIb0ExbLpsj0zxH0iIb2ywX1zt0I','pc9ZDhjVBMC+pc9KAxy+pc9KAxy+cIaGicaGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMnZDI1Zzwn1CML0Es13yxjUAw5NiJ5ezwXLDguGDgHLihbSywLUDgv4DcbZB3vYy2uGq1nwihnLy3vYzwX5igfMDgvYignVBMzPCM1PBMCGDgHLigLTCg9YDc48l2rPDJ4kicaGicaGicaGicaG','B3bLBG','CM93CW','z2vUzxjHDgvKugfZC3DVCMq','rw5JCNLWDgvKifzHDwX0ifrYyw5ZzMvY','cIaGicaGicaGicaGicaGica8l3nLBgvJDd48l2XHyMvSpGOGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0IzM9YBs10D28Ty29SDw1UiJ4kicaGicaGicaGicaGicaGicaGica8BgfIzwW+uM91DgLUzYboDw1Izxi8zgL2ignSyxnZpsjPBNb1Dc1Hy3rPB24TCM93iJ48Aw5WDxqGAwq9iMjHBMTsB3v0Aw5NiIb0ExbLpsjWyxnZD29YzciGAw5WDxrTB2rLpsjUDw1LCMLJiIb2ywX1zt0I','ugfZDgvKigjYB3DZzxiGCgfZC3DVCMrZ','pc90zxH0yxjLyt48l2XHyMvSpGOGicaGicaGicaGicaGicaGpgXHyMvSpLrHz3m8Aw5WDxqGAwq9iMjHBMTuywDZiIb0ExbLpsj0zxH0iIb2ywX1zt0I','iIbKyxrHlxjLywWTDMfSDwu9iG','z2vUzxjHDguTCgfZC3DVCMq','C2f2zs1JyxjK','CM91DgLUz051BwjLCG','uMvJB3jKCYbWzxiGCgfNzsbZyxzLzdOG','sw52ywXPzcbcyxnLmZiGy2HHCMfJDgvYoIa','q3jLzgL0ieXPBwL0','C3rHDhvZlxDHCM5PBMC','y29UzMLYBu1HBNvHBeXVy2S','iIbWBgfJzwHVBgrLCJ0IrxHHBxbSztOGuhjVDg9Uie1HAwWIpGOGicaGicaGicaGicaGicaGicaGidWVBgfIzwW+cGOGicaGicaGicaGicaGicaGicaGidXSywjLBd4kicaGicaGicaGicaGicaGicaGicaGicaGv2vIC2L0zsbvuKWkicaGicaGicaGicaGicaGicaGicaGicaGpgLUChv0igLKpsjZAxrLvxjSiIb0ExbLpsj1CMWIihzHBhvLpsi','cIaGicaGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMLTCg9YDc1TB2rLlwDYAwqIpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGpgXHyMvSignSyxnZpsjPBxbVCNqTBw9Kzs1VChrPB24Gywn0AxzLiJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGica8Aw5WDxqGDhLWzt0ICMfKAw8Iig5HBwu9iMLTCg9YDe1VzguIihzHBhvLpsjTzxjNzsiGy2HLy2TLzd4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGica8C3bHBIbJBgfZCZ0IAw1WB3j0lw1VzguTAwnVBIi+kZWVC3bHBJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGica8C3bHBJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGphn0CM9UzZ5nzxjNzsbszwnVCMrZpc9ZDhjVBMC+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGidXZBwfSBd5bzgqGBMv3ihjLy29YzhmSihnRAxaGzxHHy3qGzhvWBgLJyxrLCYWGyw5KigTLzxaGDgHPCYb2yxvSDcDZigfJy291BNqGyw5KihnLDhrPBMDZlJWVC21HBgW+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGpc9ZCgfUpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGpc9SywjLBd4kcIaGicaGicaGicaGicaGicaGicaGicaGicaGica8BgfIzwWGy2XHC3m9iMLTCg9YDc1TB2rLlw9WDgLVBIi+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGpgLUChv0ihr5Cgu9iNjHzgLViIbUyw1LpsjPBxbVCNrnB2rLiIb2ywX1zt0ICMvWBgfJzsi+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnWyw4Gy2XHC3m9iMLTCg9YDc1TB2rLlwLJB24IpUkgUJWVC3bHBJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGica8C3bHBJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGphn0CM9UzZ5szxbSywnLifzHDwX0pc9ZDhjVBMC+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGidXZBwfSBd5szxbSywnLihrOzsbJB21WBgv0zsbSB2nHBcb2yxvSDcWGywnJB3vUDcWGC2v0DgLUz3mSigfUzcbYzwnVCMrZlJWVC21HBgW+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGpc9ZCgfUpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGpc9SywjLBd4kicaGicaGicaGicaGicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGicaGicaGicaGicaG','zgLNAxrZ','Bg9JA1DOzw5iAwrKzw4','pLLLCZWVB3b0Aw9UpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGpg9WDgLVBIb2ywX1zt0IBM8Iia','lNrWD20','Aw5ZCgvJDfbHy2THz2u','pgj1DhrVBIbJBgfZCZ0IAw5SAw5Llwj1DhrVBIbJB3b5lwrLDgfPBciGDhLWzt0IyNv0Dg9UiIbKyxrHlwnVChKTDMfSDwu9iG','mta1mdaXmdvcwezoA1i','tMv2zxi','pc9ZCgfUpGOGicaGicaGicaGicaGicaGicaGidXZCgfUignSyxnZpsjYzwnVCMqTC3vIDgL0BguIpG','vw50AxrSzwqGq2fYza','pJmWihnLy29Uzhm8l29WDgLVBJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGica8B3b0Aw9UihzHBhvLpsi2mciG','CgfKu3rHCNq','tM90zxm','Ahr0Chm6lY8','v2vIC2L0zsbszwnVCMqGWRCGrw5JCNLWDgvK','DgfNCW','Bg9NAw5nzxnZywDL','q3jLzgL0ienHCMq','C3rYzw5NDgGTC3rYB25N','pc9IDxr0B24+cIaGicaGicaGicaGia','DxnLCMLK','DhDVrKfqAg9Uzq','lMLTCg9YDc1TB2rLlw9WDgLVBG','iIbWBgfJzwHVBgrLCJ0Irw1HAwWGCMvJzwL2Aw5NignVzgvZiJ4kicaGicaGicaGicaGicaGicaGica8l2XHyMvSpGOkicaGicaGicaGicaGicaGicaGica8BgfIzwW+cIaGicaGicaGicaGicaGicaGicaGicaGidjgqsbqAg9UzqOGicaGicaGicaGicaGicaGicaGicaGica8Aw5WDxqGAwq9iNnPDguYrKfqAg9UzsiGDhLWzt0IDgv4DciGDMfSDwu9iG','BwvZC2fNzq','u0Hbmq','pK5Vpc9VChrPB24+cIaGicaGicaGicaGicaGicaGicaGpc9ZzwXLy3q+pc9SywjLBd4kicaGicaGicaGicaGicaGicaGica8BgfIzwW+mKzbifr5Cgu8C2vSzwn0igLKpsjIyw5RmKzbvhLWzsi+cIaGicaGicaGicaGicaGicaGicaGicaGia','q2XPCgjVyxjKignVBNrLBNrZihbHC3rLzc4Gu2vSzwn0iefUywX5EMuGq1nwlG','CMfUzg9Tvvvjra','pLniqs0Ynty8l29WDgLVBJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGica8B3b0Aw9UihzHBhvLpsjtsee1mtiIia','y3n2twfWugfZC3DVCMq','pc9HpJWVzgL2pGOGicaGicaGicaGicaGicaGicaGicaGica8l2rPDJ4','pc9KAxy+cIaGicaGicaGicaGicaGica8l2rPDJ4kcIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjKzxrHAwWTy2fYzci+cIaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlwXHyMvSiJ5tzwn1CML0EsblzxKGtMfTztWVzgL2pGOGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMrLDgfPBc12ywX1zsi+','u2f2zsbdAgfUz2vZ','iJ4kicaGicaGicaGicaGicaGidXZCgfUignSyxnZpsjYzwnVCMqTDgL0BguIpG','tM8GAxnZDwLUzYbIyw5R','sw1WB3j0zwqGv2vIC2L0zq','pg9WDgLVBIb2ywX1zt0I','tMv3ievUy3j5ChrLzcboB3rL','u2vJDxjLie5VDgu','cIaGicaGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMrLDgfPBc1JyxjKiJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMrLDgfPBc1SywjLBci+v2vIC2L0ztWVzgL2pGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlxzHBhvLiJ48ysbJBgfZCZ0IDhb3Bs1SAw5RiIbOCMvMpsi','cIaGicaGicaGicaGicaGica8yNv0Dg9UignSyxnZpsjZzwnVBMrHCNKTyNv0Dg9UigrHBMDLCI10zxH0iIb0ExbLpsjIDxr0B24IigrHDgeTBw9KywWTywn0Aw9UpsjKzwXLDguTBM90zsi+rgvSzxrLpc9IDxr0B24+cIaGicaGicaGicaGicaGica8yNv0Dg9UignSyxnZpsjZzwnVBMrHCNKTyNv0Dg9UiIb0ExbLpsjIDxr0B24IigrHDgeTBw9KywWTywn0Aw9UpsjLzgL0lw5VDguIpKvKAxq8l2j1DhrVBJ4kicaGicaGicaGicaGicaGidXIDxr0B24Gy2XHC3m9iNbYAw1HCNKTyNv0Dg9UiIb0ExbLpsjIDxr0B24IigrHDgeTBw9KywWTywn0Aw9UpsjJBg9Zzsi+rg9UztWVyNv0Dg9UpGOGicaGicaGicaGica','ChvZAa','zgvSzxrLlw5VDgu','yMfUA1DLyNnPDgu','qwnJB3vUDcbuExbL','AwrSzvrPBwvVDxrnAw51DgvZ','rw5JCNLWDgvKihzHDwX0ihvUBg9JA2vK','C3vIDgL0Bgu','iJ48l2XHyMvSpGOGicaGicaGicaGicaGicaGpgXHyMvSpK5VDgvZphrLEhrHCMvHigLKpsjIyw5RtM90zxmIpG','v2vIC2L0zxm','ywnJB3vUDa','cIaGicaGicaGicaGicaGica8yNv0Dg9UignSyxnZpsjZzwnVBMrHCNKTyNv0Dg9UiIb0ExbLpsjIDxr0B24IigrHDgeTBw9KywWTywn0Aw9UpsjJBg9Zzsi+q2fUy2vSpc9IDxr0B24+cIaGicaGicaGicaGia','Bg9NAw5gB3jT','vgL0BguGAxmGCMvXDwLYzwqU','BwfZA2vKlxzHBhvL','C2vJDxjPDhLlzxK','Bg9JAY1UB3C','rw5JCNLWDgvKigXVy2fSihzHDwX0igzVDw5KlIbfBNrLCIb5B3vYigfJy291BNqGsuqGyw5Kig1HC3rLCIbWyxnZD29Yzc4','pc9ZDhjVBMC+pc9KAxy+pc9KAxy+cIaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0IywrTAw4TC3vTBwfYEs1JyxjKiJ48C3bHBIbJBgfZCZ0IywrTAw4TC3vTBwfYEs1Py29Uig9Yyw5Nzsi+ptWVC3bHBJ48zgL2pJXZBwfSBd5tA2LWCgvKpc9ZBwfSBd48C3rYB25NpG','BNvTyMvYCW','q3vZDg9TzxiGu2vYDMLJzq','vw5YzwnVz25PEMvKie9uucb2ywX1ztOG','vw5ZDxbWB3j0zwqGyxv0AgvUDgLJyxrVCIbHBgDVCML0Ag0U','y3rYBeTLEq','cIaGicaGicaGicaGidXMB3jTigLKpsjIyw5RuMvJB3jKrM9YBsiGy2XHC3m9iNjLy29Yzc1MB3jTiJ4kicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMzVCM0TC2vJDgLVBI1OzwfKAw5NiJ5by2nVDw50ieLUzM9YBwf0Aw9Upc9KAxy+cIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjMB3jTlxr3BY1JB2X1Bw4IpGOGicaGicaGicaGicaGicaGicaGidXSywjLBd5cyw5Rie5HBwuGkJXPBNb1DcbPzd0IyMfUA05HBwuIihr5Cgu9iNrLEhqIihjLCxvPCMvKihzHBhvLpsi','cIaGicaGicaGicaGicaGicaGicaGpc9KAxy+cGOGicaGicaGicaGicaGicaGicaGidXSywjLBd4kicaGicaGicaGicaGicaGicaGicaGicaGugfZC3DVCMqGzM9YieLTCg9YDgvKifzHDwX0cIaGicaGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMLUChv0lwfJDgLVBI1YB3CIpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGpgLUChv0igLKpsjPBxbVCNrwyxvSDfbHC3n3B3jKiIb0ExbLpsjWyxnZD29YzciGyxv0B2nVBxbSzxrLpsjJDxjYzw50lxbHC3n3B3jKiJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXIDxr0B24Gy2XHC3m9iMLUBgLUzs1IDxr0B24GDg9Nz2XLlxbHC3n3B3jKiIb0ExbLpsjIDxr0B24IigrHDgeTDgfYz2v0psjPBxbVCNrwyxvSDfbHC3n3B3jKiJ5tAg93pc9IDxr0B24+cIaGicaGicaGicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicaGicaGicaGidWVBgfIzwW+cGOGicaGicaGicaGicaGicaGicaGia','D3jPDgvuzxH0','C2L6zq','z2v0','vgHPCYbJB250CM9SigjLBg9Uz3mGDg8GysbSyxrLCIbKzxzLBg9WBwvUDcbZDgfNzs4','C3rHDhvZvgv4Da','y29TCgfJDfzPzxC','cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGpc9ZzwXLy3q+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8l2XHyMvSpGOGicaGicaGicaGicaGicaGicaGicaGica8l2rPDJ4kcIaGicaGicaGicaGicaGicaGicaGicaGidXSywjLBcbJBgfZCZ0IywrTAw4TDg9Nz2XLlxjVDYi+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8Aw5WDxqGAwq9iMfKBwLUtg9JA0HPzgrLBIiGDhLWzt0Iy2HLy2TIB3GIia','iJ48yNv0Dg9UignSyxnZpsjPBMXPBMuTyNv0Dg9UihrVz2DSzs1WyxnZD29YzciGDhLWzt0IyNv0Dg9UiIbKyxrHlxrHCMDLDd0IyMfUA0fJy291BNroDw1IzxiIpLnOB3C8l2j1DhrVBJ48l2rPDJ48l2XHyMvSpGOGicaGicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjMB3jTlxnLy3rPB24TAgvHzgLUzYi+t25SAw5LiejHBMTPBMC8l2rPDJ4kicaGicaGicaGicaGicaGidXSywjLBd5xzwjZAxrLpgLUChv0igLKpsjIyw5Rv2vIC2L0zsiGDhLWzt0IDxjSiIb2ywX1zt0I','pc9KAxy+cIaGicaGicaGicaGicaGica8l2rPDJ4kcIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjKzxrHAwWTy2fYzci+cIaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlwXHyMvSiJ5myxn0ie1VzgLMAwvKpc9KAxy+cIaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlxzHBhvLiJ4','pK90AgvYpc9VChrPB24+cIaGicaGicaGicaGicaGicaGicaGpc9ZzwXLy3q+cIaGicaGicaGicaGicaGica8l2XHyMvSpGOkicaGicaGicaGicaGicaGidXKAxyGAwq9iNrVDhbtzxr0Aw5NC1bHBMvSiIbJBgfZCZ0IDg90Cc1Zzxr0Aw5NCY1Wyw5LBci+cIaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0IDg90Cc1Zzxr0Aw5NCY1OzwfKAw5NiJ4kicaGicaGicaGicaGicaGicaGicaGicaGpgrPDJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXZDhjVBMC+qxv0AgvUDgLJyxrVCIbtzxr1CdWVC3rYB25NpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnTywXSpLbHC3rLigfUig90Cgf1DgGGBgLUAYWGC2nHBIbHiffsigLTywDLlcbVCIbLBNrLCIb0AguGC2vJCMv0ig1HBNvHBgX5lJWVC21HBgW+cIaGicaGicaGicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicaGicaGicaGicaGica8C3bHBIbJBgfZCZ0IDg90Cc1TAw5PlwjHzgDLiJ5ut1rqpc9ZCgfUpGOGicaGicaGicaGicaGicaGicaGidWVzgL2pGOkicaGicaGicaGicaGicaGicaGica8BgfIzwW+cIaGicaGicaGicaGicaGicaGicaGicaGig90Cgf1DgG6lY8GtgLUAWOGicaGicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjPBNb1Dc1Hy3rPB24TCM93iJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXPBNb1DcbPzd0IC2L0zu90Cef1DgHvCMKIihr5Cgu9iNrLEhqIihbSywnLAg9SzgvYpsjVDhbHDxrOoI8VDg90Cc8UlI4IpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGpgj1DhrVBIbPzd0IyxbWBhLpDhbbDxrOqNv0Dg9UiIbJBgfZCZ0IAw5SAw5Llwj1DhrVBIiGDhLWzt0IyNv0Dg9UiJ5bChbSEtWVyNv0Dg9UpGOGicaGicaGicaGicaGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaGicaGicaGica8l2XHyMvSpGOkicaGicaGicaGicaGicaGicaGica8yNv0Dg9UigLKpsjYzwfKuxjjBwfNzuj1DhrVBIiGy2XHC3m9iNnLy29UzgfYEs1IDxr0B24Iihr5Cgu9iMj1DhrVBIi+cIaGicaGicaGicaGicaGicaGicaGicaGifjLywqGuviGq29KzsbjBwfNzqOGicaGicaGicaGicaGicaGicaGidWVyNv0Dg9UpGOkicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjMB3jTlxr3BY1JB2X1Bw4IpGOGicaGicaGicaGicaGicaGicaGicaGica8BgfIzwW+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicbjC3n1zxikicaGicaGicaGicaGicaGicaGicaGicaGicaGidXPBNb1DcbPzd0IC2L0zvrVDhbjC3n1zxiIihr5Cgu9iNrLEhqIihzHBhvLpsi','Dhj1zq','Bw9KywXpDMvYBgf5','CMvWBgfJzq','uhjLCgfYAw5NlI4U','pc9ZzwXLy3q+pc9SywjLBd4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXSywjLBd5qyxnZD29YzdXZzwXLy3qGAwq9iMnZDK1HCfbHC3n3B3jKiJ4','Aw1WB3j0rM9YBu1LC3nHz2u','iIbWBgfJzwHVBgrLCJ0IrxHHBxbSztOGzw1HAwWSihbLCNnVBMfSlcb3B3jRiJ4kicaGicaGicaGicaGicaGidWVBgfIzwW+cGOGicaGicaGicaGicaGicaGphaGAwq9iNDLyNnPDgvgB3jTtwvZC2fNzsiGy2XHC3m9iMzVCM0TBM90zsi+cIaGicaGicaGicaGicaGicaGicaGqwXSigzPzwXKCYbPBIb0AgLZihDLyNnPDguGCMvJB3jKigfYzsbLBMnYExb0zwqGyMvMB3jLihrOzsb2yxvSDcbPCYbZyxzLzcb0BYbjBMrLEgvKreiUcIaGicaGicaGicaGicaGica8l3a+cIaGicaGicaGicaGidWVzM9YBt4kicaGicaGica','pLnLy3vYAxr5ieTLEtWVB3b0Aw9UpGOGicaGicaGicaGicaGicaGicaGicaGica8B3b0Aw9UihzHBhvLpsjWyxnZA2v5iIa','CNvUlwnZDI1PBxbVCNq','sgLKzq','vMf1BhqGBg9JA2vKigfMDgvYigjLAw5NigHPzgrLBIbMB3iG','C3r5Bgu','iJ5dB3b5pc9IDxr0B24+cIaGicaGicaGicaGicaGicaGicaG','Bw9KywXcB2r5','C2L0zvjLy292zxj5q29Kzxm','z2vUzxjHDg9YtwvZC2fNzq','Bg9NAw5jza','AxnZDwvY','ywn0AxzLrwXLBwvUDa','A2v5CW','cIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjJC3yTAw1WB3j0lxnOzwXSiJ4kicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjJC3yTC2vJDxjPDhKTD2fYBMLUzYi+cIaGicaGicaGicaGicaGicaGicaGicaGiejYB3DZzxiGCgfZC3DVCMqGzxHWB3j0CYbHCMuGCgXHAw50zxH0lIbqyxn0zsb0AguGq1nwignVBNrLBNrZigjLBg93lcbPBxbVCNqGDgHLBsWGDgHLBIbJBgvHCIb0AguGy2XPCgjVyxjKigfUzcbZzwn1CMvSEsbKzwXLDguGyw55igv4Cg9YDgvKientvIbMAwXLlGOGicaGicaGicaGicaGicaGicaGidWVzgL2pGOkicaGicaGicaGicaGicaGicaGica8BgfIzwW+cIaGicaGicaGicaGicaGicaGicaGicaGifbHC3rLientvIbeyxrHcIaGicaGicaGicaGicaGicaGicaGicaGidX0zxH0yxjLysbPzd0Iy3n2ugfZDgvuzxH0iIbJBgfZCZ0Iy3n2lxbHC3rLlwfYzweIihnWzwXSy2HLy2S9iMzHBhnLiGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGCgXHy2vOB2XKzxi9iKv4yw1WBgu6jImXmdT1CMWSDxnLCM5HBwuSCgfZC3DVCMqMiZeWo2H0DhbZoI8VzxHHBxbSzs5JB20SDxnLCKbLEgfTCgXLlMnVBsXnEvbHC3n3B3jKiJ48l3rLEhrHCMvHpGOGicaGicaGicaGicaGicaGicaGidWVBgfIzwW+cGOGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMnZDI1Wyxn0zs1Hy3rPB25ZiJ4kicaGicaGicaGicaGicaGicaGicaGicaGpgj1DhrVBIbPzd0ICMvHzenSAxbIB2fYzenZDKj1DhrVBIiGy2XHC3m9iNnLy29UzgfYEs1IDxr0B24Iihr5Cgu9iMj1DhrVBIi+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicbqyxn0zsbMCM9TienSAxbIB2fYzaOGicaGicaGicaGicaGicaGicaGicaGica8l2j1DhrVBJ4kicaGicaGicaGicaGicaGicaGicaGicaGpgj1DhrVBIbPzd0Iyw5HBhL6zunZDLrLEhrcDxr0B24IignSyxnZpsjWCMLTyxj5lwj1DhrVBIiGDhLWzt0IyNv0Dg9UiJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGiefUywX5EMuGq1nwcIaGicaGicaGicaGicaGicaGicaGicaGidWVyNv0Dg9UpGOGicaGicaGicaGicaGicaGicaGidWVzgL2pGOkicaGicaGicaGicaGicaGicaGica8CcbPzd0Iy3n2ugfZDgvnzxnZywDLiIbJBgfZCZ0IzM9YBs1UB3rLiJ4kicaGicaGicaGicaGicaGicaGicaGicaGvfbxtsb3AwXSigrLDgvJDcbgAxjLzM94lcbdAhjVBwuSievKz2uSiejYyxzLlcbHBMqGC2LTAwXHCIbdu1yGy29SDw1UCYbHDxrVBwf0AwnHBgX5lGOGicaGicaGicaGicaGicaGicaGidWVCd4kicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGica','y2fYzhm','rw50zxiGyM90Acb0AguGywnJB3vUDcbjrcbHBMqGBwfZDgvYihbHC3n3B3jKlG','C2L0zvrVDhbeAwDPDhm','vfbxtvzHDwX0','Bg93zxjJyxnL','pc9ZBwfSBd4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGica8C3rYB25NpIS','vgHLigf1DgHLBNrPy2f0B3iGBgLUAYbKB2vZig5VDcbJB250ywLUigeGC2vJCMv0lG','cIaGicaGicaGicaGicaGica8yNv0Dg9UignSyxnZpsjZzwnVBMrHCNKTyNv0Dg9UiIb0ExbLpsjIDxr0B24IigrHDgeTBw9KywWTywn0Aw9UpsjJyw5JzwWTAw1WB3j0iJ5dyw5JzwW8l2j1DhrVBJ4kicaGicaGicaGicaGicaGidXIDxr0B24Gy2XHC3m9iNbYAw1HCNKTyNv0Dg9UiIb0ExbLpsjIDxr0B24IigrHDgeTBw9KywWTywn0Aw9UpsjYDw4TAw1WB3j0iJ5jBxbVCNqGvMf1Bhq8l2j1DhrVBJ4kicaGicaGicaGicaG','sxnZDwLUzYbcyw5R','q29WAwvK','C3LTyM9SCW','zwrPDc1UB3rL','uejlreyYieL0zxjHDgLVBNm','q2fYza','Dg9vChbLCKnHC2u','DhLWzq','qwrTAw4GC2v0DgLUz3mGzw5JCNLWDgvKigfUzcbZyxzLza','rwrPDcbfBMnYExb0zwqGq2fYza','pc9ZDhjVBMC+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8C3bHBJ5fBMnYExb0zwqGvfbxtsbWywnRywDLpc9ZCgfUpGOGicaGicaGicaGicaGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaGicaGicaGica8l2rPDJ4kcIaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlwDYAwqIpGOGicaGicaGicaGicaGicaGicaGicaGica','zwrPDc13zwjZAxrL','y2XVy2TuzxH0','C2L0zvrVDhbtzwnYzxq','y29UzMLYBq','cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGpc9ZzwXLy3q+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8l2XHyMvSpGOkicaGicaGicaGicaGicaGicaGicaGicaGicaGidXSywjLBd4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicbbDxrVluHPzguGuMv2zwfSzwqGvMfSDwvZcIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnLBgvJDcbPzd0IywrTAw5bDxrVsgLKzsi+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGia','cIaGicaGicaGicaGicaGicaGicaGicaGia','y2fYzgHVBgrLCK5HBwu','Bg9NAw5qyxnZD29Yza','vw5HyMXLihrVigrLBgv0ztOG','u01t','BM90zuzVCM1nzxnZywDL','Aw1WB3j0vMf1BhrbDxrOqNv0Dg9U','C2L0zu5HBwu','z2vUzxjHDg9Yqw1IAwD1B3vZ','yxv0AgvUDgLJyxrVCG','C2L0zvrVDhbbBgDVCML0Ag0','CgfZC3DVCMq','yMfJA3vWq29Kzxm','C2f2zurHDge','pLLLCZWVB3b0Aw9UpGOGicaGicaGicaGicaGicaGicaGicaGica8B3b0Aw9UihzHBhvLpsjUBYiG','pc90zxH0yxjLyt48l2XHyMvSpGOGicaGicaGicaGicaGicaGpgXHyMvSpLrHz3m8Aw5WDxqGAwq9iMnHCMruywDZiIb0ExbLpsj0zxH0iIb2ywX1zt0I','ywn0AxzL','Bw9KAwzPzwrbDa','CMvTB3zL','zgf0yq','cIaGicaGicaGicaGicaGica8yNv0Dg9UignSyxnZpsjZzwnVBMrHCNKTyNv0Dg9UigrHBMDLCI10zxH0iIb0ExbLpsjIDxr0B24IigrHDgeTBw9KywWTywn0Aw9UpsjKzwXLDguTy2fYzci+rgvSzxrLpc9IDxr0B24+cIaGicaGicaGicaGicaGica8yNv0Dg9UignSyxnZpsjZzwnVBMrHCNKTyNv0Dg9UiIb0ExbLpsjIDxr0B24IigrHDgeTBw9KywWTywn0Aw9UpsjLzgL0lwnHCMqIpKvKAxq8l2j1DhrVBJ4kicaGicaGicaGicaGicaGidXIDxr0B24Gy2XHC3m9iNbYAw1HCNKTyNv0Dg9UiIb0ExbLpsjIDxr0B24IigrHDgeTBw9KywWTywn0Aw9UpsjJBg9Zzsi+rg9UztWVyNv0Dg9UpGOGicaGicaGicaGica','BNvTzxjPyW','ywnJB3vUDe5Py2TUyw1L','iIbWBgfJzwHVBgrLCJ0IugHVBMuGCMvJzwL2Aw5NignVzgvZiJ4kicaGicaGicaGicaGicaGicaGica8l2XHyMvSpGOGicaGicaGicaGicaGicaGpc9KAxy+cGOGicaGicaGicaGicaGicaGpgXHyMvSpGOGicaGicaGicaGicaGicaGicaGifjLy292zxj5ienVzgvZcIaGicaGicaGicaGicaGicaGicaGphrLEhrHCMvHigLKpsjZAxrLuMvJB3zLCNLdB2rLCYiGCgXHy2vOB2XKzxi9iK9UzsbYzwnVDMvYEsbJB2rLihbLCIbSAw5LiJ4','vw5HyMXLihrVig9Wzw4GDgHLifrqv00GzMLSztOkcG','C2LNBNvWrM9YBq','Dgv4Da','y3n2twfWvxjS','Dg90CfnLDhrPBMDZugfUzwW','ywrTAw5by2nVDw50swq','Aw5WDxrBBMfTzt0IAw1WB3j0tw9KzsjDoMnOzwnRzwq','yMfUA1bHC3n3B3jKrgv0ywLS','rgvJCNLWDgLUzYbHBMqGuMvWBgfJAw5NlI4U','D2vIC2L0zxm','B3rWsw1WB3j0zwq','qMfJA3vWienVzgvZ','DxnLCG','pc9ZCgfUpGOGicaGicaGicaGicaGicaGphnWyw4Gy2XHC3m9iNjLy29Yzc1TzxrHiJ4','C2vJCMv0','Dg90CeLZC3vLCG','zw1WDhLtDgf0zq','Dw5RBM93BG','igjPDhm','yxbWBhLpDhbbDxrOqNv0Dg9U','u2vJDxjLie5VDguGWRCGrw5JCNLWDgvK','Ag9ZDg5HBwu','mKzbihn0yxr1CYb1BMTUB3DU','q3jLyxrLigfUigfJy291BNqGsuqU','C2L0zvvYBa','Dw5ZAgLMDa','ignOyxjHy3rLCNm','w2rHDgeTBw9KywWTywn0Aw9Uxq','v2vIC2L0zsbHzgrLzcbHBMqGzw5JCNLWDgvKoIa','zxHWB3j0ugfJA2fNzq','vMf1BhqGBg9JA2vKig1HBNvHBgX5lG','qwrKienYzwrPDcbdyxjK','pg9WDgLVBIb2ywX1zt0IiJ7IGjqGtM90ig1HChbLzcdIGjq8l29WDgLVBJ4','iJ4kicaGicaGicaGicaGicaGia','mKzbifr5Cgu','cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGpc9ZzwXLy3q+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8l2XHyMvSpGOGicaGicaGicaGicaGicaGicaGicaGica8l2rPDJ4kcIaGicaGicaGicaGicaGicaGicaGicaGidXSywjLBcbJBgfZCZ0IywrTAw4TDg9Nz2XLlxjVDYi+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8Aw5WDxqGAwq9iMfKBwLUq29TCgfJDfzPzxCIihr5Cgu9iMnOzwnRyM94iIa','qMLSBgLUzYbAsva','t3rOzxi','CMvHBfzHBhvL','C2L0zvrVDhbby2nVDw50','y3n2lwLTCg9YDa','BM93','cIaGicaGicaGicaGicaGicaGicaGicaGidXIDxr0B24Gy2XHC3m9iMLUBgLUzs1IDxr0B24GCMv2zwfSlwrLDgfPBciGDhLWzt0IyNv0Dg9UiIbKyxrHlxrHCMDLDd0I','y29SB3i','rw5JCNLWDgvKihzHDwX0igv4Cg9YDgvKoIa','mKzbigvUywjSzwqGWRCGtwv0Ag9KihvUA25VD24','C2TPChbLza','BwvYz2vgCM9TugfJA2fNzq','ywrTAw5dB25MAxjTugfZC3DVCMq','cIaGicaGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaG','AxrLCMf0Aw9UCW','vgHLigf1DgHLBNrPy2f0B3iGC2vJCMv0igLZigvTChr5lG','C2vSzwn0','cIaGicaGicaGicaGidXKAxyGy2XHC3m9iNDLyNnPDguTzgv0ywLSlxn0yxr1CYa','rw5JCNLWDgLUzY4UlG','EwvZ','ihnLy29Uzhm','CgfNAw5HDgLVBLbHz2vuzxH0','v2vIC2L0zsbKzwXLDgvKoIa','cIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjKzxrHAwWTz3jPzci+cIaGicaGicaGicaGicaGicaGicaG','Bg9NmG','pc9KAxy+cIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjZzw5ZAxrPDMuTzgv0ywLSlxjVDYi+cIaGicaGicaGicaGicaGicaGicaGpgrPDIbPzd0I','ywrTAw5cDxr0B24','C3vIBwL0','pK5VDcbZCgvJAwzPzwq8l29WDgLVBJ4kicaGicaGicaGicaGicaGicaGicaGicaGpg9WDgLVBIb2ywX1zt0Iyxv0AgvUDgLJyxrVCIiG','se1bqW','yMfUA1bHC3n3B3jK','vw5HyMXLihrVihnHDMuGCgfNzsbZAxPLoIa','y3z2','C2XPy2u','DxbWzxjJyxnL','C21Z','z2vUzxjHDg9YtgvUz3rOqMfKz2u','pc9ZCgfUpGOGicaGicaGicaGicaGicaGicaGidXZCgfUignSyxnZpsjYzwnVCMqTBwv0ysi+','D2vIC2L0zxvYBa','yM91BMq','yNv0Dg9Uw3r5Cgu9iNn1yM1PDcjD','qNjVD3nLCIbqyxnZD29YzcbuCMfUC2zLCG','yxv0Aa','Bg9NAw5Pza','cIaGicaGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMrLDgfPBc1NCMLKiJ4kicaGicaGicaGicaGicaGicaGica','ywrTAw5dB25MAxjTtg9JAW','iJ4kicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMrLDgfPBc1SywjLBci+','CgfNzvnPEMvtzwXLy3q','D2vIC2L0zvbHC3n3B3jKrgv0ywLS','cIaGicaGicaGicaGicaGica8yNv0Dg9UignSyxnZpsjWCMLTyxj5lwj1DhrVBIbNzw5LCMf0B3iTz2vUzxjHDguTyNv0Dg9UiIb0ExbLpsjIDxr0B24IigrHDgeTBw9KywWTywn0Aw9UpsjNzw5LCMf0zs1WyxnZD29Yzci+r2vUzxjHDguGugfZC3DVCMq8l2j1DhrVBJ4kicaGicaGicaGicaG','Dg90CfbLCMLVza','C2LKzwjHCG','Aw5UzxjxAwr0Aa','vw5HyMXLihrVihnHDMu6ia','vgHPCYbICM93C2vYignHBM5VDcbYzwfKiffsigLTywDLCYbKAxjLy3rSEs4GugfZDguGDgHLig90Cgf1DgG6lY8GBgLUAYbPBNn0zwfKlG','pKjHy2T1CcbdB2rLCZWVB3b0Aw9UpGOGicaGicaGicaGicaGicaGicaGicaGica8B3b0Aw9UihzHBhvLpsjVDgHLCIiG','Dg90CerPz2L0CW','ywrKuMvJB3jKqNv0Dg9U','iIbWBgfJzwHVBgrLCJ0Irw1HAwWGB3iGDxnLCM5HBwuIpGOGicaGicaGicaGicaGicaGicaGicaGica8l2XHyMvSpGOGicaGicaGicaGicaGicaGicaGidWVzgL2pGOkicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjMB3jTlxrOCMvLlwnVBhvTBIi+cIaGicaGicaGicaGicaGicaGicaGicaGidXSywjLBd4kicaGicaGicaGicaGicaGicaGicaGicaGicaGierPz2L0CWOGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnLBgvJDcbPzd0IC2L0zvrVDhbeAwDPDhmIpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGidXVChrPB24GDMfSDwu9iJyIia','yMfUA1rHz3m','Bg9JAW','qMfUAYbby2nVDw50','yNLdyxrLz29YEq','AxnZDwLUz0jHBMS','cGOGicaGicaGicaGicaGicaG','qujdrevgr0HjsKTmtu5puffsu1rvvLDywvO','ywnJB3vUDfr5Cgu','lMDLBMvYyxrVCI1VChrPB24','qwrKiefJy291BNq','CgHVBMvoDw1Izxi','cIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjPBxbVCNqTzgLHBg9NiJ4kicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjPBxbVCNqTzMLSzs1ZDw1Tyxj5iJ4kicaGicaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0IAw1WB3j0lwzPBguTBwfYAYi+vdWVzgL2pGOGicaGicaGicaGicaGicaGicaGicaGica8zgL2pGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGphn0CM9UzZ4','zNvSBa','ywnJB3vUDeLK','CMvTywLUAw5N','iIbWBgfJzwHVBgrLCJ0IrxHHBxbSztOGrMfJzwjVB2SIpGOGicaGicaGicaGicaGicaGicaGicaGica8l2XHyMvSpGOGicaGicaGicaGicaGicaGicaGicaGica8BgfIzwW+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicbby2nVDw50cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8Aw5WDxqGAwq9iNnPDgvuB3rWqwnJB3vUDciGDhLWzt0IDgv4DciGDMfSDwu9iG','vgfNCW','mdeYmZq1nJC4oq','rw1HAwWGvxnLza','tM8GDgfNCW','cIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjPBxbVCNqTCMvZDwX0lwHLCM8IpGOGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMLTCg9YDc1Yzxn1BhqTBNvTyMvYiJ4','CM91BMq','mI1KAwDPDa','tM90igvUDgvYzwq','qMfUAYboyw1L','CMvHC3nPz25LzeLKCW','Aw1WB3j0vMf1BhrqyxnZD29Yza','4OcI4OcI4OcI4OcIia','pgeGy2XHC3m9iNrWD20TBgLUAYiGAhjLzJ0I','CgfZC2TLEq','mZaWnJaWnKzICKLmuW','BwfW','AxnvBMXVy2TLza','vfbxtsbZDxbWB3j0CYa2lwrPz2L0igfUzca4lwrPz2L0ifrpvfaGy29KzxmU','CMvHzenSAxbIB2fYzenZDKj1DhrVBG','lMDLBMvYyxrVCI1VChrPB24GAw5WDxqSicnNzw5LCMf0B3jbBwjPz3vVDxm','DhDVrKffBMfIBgvK','DxbKyxrLza','vgHLientvIbKyxrHigLZig5VigXVBMDLCIbHDMfPBgfIBguU','zw5Ksw5KzxG','cGOGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlwnHCMqIpGOGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMrLDgfPBc1SywjLBci+mKzbievTywLSpc9KAxy+cIaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlxzHBhvLiJ4','yw5HBhL6zunZDLrLEhrcDxr0B24','q3jLzgL0ienHCMrZ','vgHLihnLBgvJDgvKigLTCg9YDcbWywnRywDLigLZig5VigXVBMDLCIbHDMfPBgfIBguU','u2vJDxjPDhKGs2v5','y29TCgfJDa','wwvZ','y3n2twfWt3rW','CMvWBgfJzuzYB21qywnRywDL','pc9KAxy+cIaGicaGicaGicaGidWVzgL2pGOGicaGicaGia','y2XHC3nmAxn0','DxnLCM5HBwu','zMLUzeLUzgv4','rgvJCNLWDgLUzY4UlG','y2fYze51BwjLCG','rxHWB3j0ievUy3j5ChrLzcbwyxvSDa','Aw5WDxq','y2HHBMDL','DMLZAwjPBgL0Evn0yxrL','q29SDw1Uia','tM8GBM90zxm','pc9ZCgfUpGOGicaGicaGicaGicaGicaGicaGidXZCgfUignSyxnZpsjYzwnVCMqTyxjYB3CIigfYAweTAgLKzgvUpsj0CNvLiJ7IGlO8l3nWyw4+cIaGicaGicaGicaGicaGica8l2j1DhrVBJ4kicaGicaGicaGicaG','nZq3sennq0nf','C3rYzw5NDgGTD2vHAW','z2v0rwXLBwvUDej5swq','y2fYzfrHz3m','ig1PBNv0zq','pc9ZzwXLy3q+pc9SywjLBd4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXSywjLBd5oB3rLCZXZzwXLy3qGAwq9iMnZDK1HCe5VDgvZiJ4','z2vUzxjHDg9YtNvTyMvYCW','y2fYzezVCM1nzxnZywDL','BwfPBLnJCMvLBG','mMzHigvUywjSzwq','y2fYzev4CfLLyxi','Aw1WB3j0lwnZDG','iJ48yNv0Dg9UignSyxnZpsjPBMXPBMuTyNv0Dg9UihrVz2DSzs1WyxnZD29YzciGDhLWzt0IyNv0Dg9UiIbKyxrHlxrHCMDLDd0Iy2fYzen2DIi+u2HVDZWVyNv0Dg9UpJWVzgL2pJWVBgfIzwW+cIaGicaGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMzVCM0TDhDVlwnVBhvTBIi+cIaGicaGicaGicaGicaGicaGicaGpgXHyMvSpKjPBgXPBMCGwKLqpgLUChv0igLKpsjJyxjKqMLSBgLUz1PPCciGDhLWzt0IDgv4DciGDMfSDwu9iG','iJ48l2XHyMvSpGOGicaGicaGicaGicaGicaGicaGidXSywjLBd5qAg9UzsboDw1Izxi8Aw5WDxqGAwq9iMjHBMTqAg9UzsiGDhLWzt0IDgv4DciGDMfSDwu9iG','zw1HAwW','BM90zvrPDgXL','tMv3ievUy3j5ChrLzcbcyw5RiefJy291BNq','y29UDgfPBNm','y29TCgfJDfzPzxDcDxr0B24','tMv3ievUy3j5ChrLzcbdyxjK','ChjLDMvUDerLzMf1Bhq','DMfSDwu','u0Hblti1nG','DxjS','AM9PBG','pc9ZzwXLy3q+pc9SywjLBd4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXSywjLBd5vC2vYBMfTzsaVieXVz2LUieLephnLBgvJDcbPzd0Iy3n2twfWvxnLCM5HBwuIpG','y2fYzev4Ce1VBNrO','igLTCg9YDgfIBguGCMvJB3jK','rw50zxiGDgHLig1HC3rLCIbWyxnZD29YzcbMB3iGDgHLigLTCg9YDgvKihzHDwX0lG','z2vUzxjHDg9YtgvUz3rO','lNjLDMvHBc1KzxrHAwW','CMvJB3jKCW','iJ5dB3b5pc9IDxr0B24+','Bg9NAw51CMK','AgLKzgvU','iIbWBgfJzwHVBgrLCJ0IrxHHBxbSztOGuhjPBwfYEsbdAgvJA2LUzYi+pc9SywjLBd4kicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicaGicaGpgXHyMvSpKfJy291BNqGvhLWztXZzwXLy3qGAwq9iMjHBMTby2nVDw50vhLWzsi+cIaGicaGicaGicaGicaGicaGicaG','qxv0BY1SB2nRigLUia','zxH0CMe','ywjJzgvMz2HPAMTSBw5VChfYC3r1DND4ExO','C2L0zu5VDgvZ','C3rHDhvZlxvUA25VD24','pgj1DhrVBIbJBgfZCZ0IChjPBwfYEs1IDxr0B24Iihr5Cgu9iMj1DhrVBIiGzgf0ys1TB2rHBc1Hy3rPB249iMnSB3nLiJ5eB25Lpc9IDxr0B24+','rw5JCNLWDgvKifzHDwX0ienVBNrYB2WGq2vUDgvY','rw5JCNLWDgvKigXVy2fSihzHDwX0ignYzwf0zwq','y2HLy2TLza','lNjLy29Yzc1PDgvT','u3rYB25N','ihnRAxbWzwq8l3n0CM9UzZ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicaGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaGicaGicaGica','Bwv0yuTLEq','zw50CMLLCW','pc9ZDhjVBMC+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8C3bHBJ4','Bw9KywXuAxrSzq','y2XLyxjtzwfYy2HcDxr0B24','C2v0DgLUz3m','iJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidWVBgfIzwW+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8BgfIzwW+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGq3vYCMvUDcbnyxn0zxiGugfZC3DVCMqkicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjPBNb1Dc1Hy3rPB24TCM93iJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGpgLUChv0igLKpsjHzg1PBKn1CNjLBNrqyxnZD29YzciGDhLWzt0ICgfZC3DVCMqIigf1Dg9JB21WBgv0zt0Iy3vYCMvUDc1WyxnZD29Yzci+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGidXIDxr0B24Gy2XHC3m9iMLUBgLUzs1IDxr0B24GDg9Nz2XLlxbHC3n3B3jKiIb0ExbLpsjIDxr0B24IigrHDgeTDgfYz2v0psjHzg1PBKn1CNjLBNrqyxnZD29Yzci+u2HVDZWVyNv0Dg9UpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGpc9SywjLBd4kicaGicaGicaGicaGicaGicaGicaGicaGpc9KAxy+cGOGicaGicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjMB3jTlxr3BY1JB2X1Bw4IpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGpgXHyMvSpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGie5LDYbnyxn0zxiGugfZC3DVCMqkicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjPBNb1Dc1Hy3rPB24TCM93iJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGpgLUChv0igLKpsjHzg1PBK5LD1bHC3n3B3jKiIb0ExbLpsjWyxnZD29YzciGyxv0B2nVBxbSzxrLpsjUzxCTCgfZC3DVCMqIihbSywnLAg9SzgvYpsjmzwf2zsbIBgfUAYb0BYbRzwvWign1CNjLBNqGCgfZC3DVCMqIpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGica8yNv0Dg9UignSyxnZpsjPBMXPBMuTyNv0Dg9UihrVz2DSzs1WyxnZD29YzciGDhLWzt0IyNv0Dg9UiIbKyxrHlxrHCMDLDd0IywrTAw5ozxDqyxnZD29Yzci+u2HVDZWVyNv0Dg9UpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGpc9SywjLBd4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXSywjLBd4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicbdB25MAxjTie5LDYbqyxnZD29YzaOGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMLUChv0lwfJDgLVBI1YB3CIpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGica8Aw5WDxqGAwq9iMfKBwLUq29UzMLYBvbHC3n3B3jKiIb0ExbLpsjWyxnZD29YzciGyxv0B2nVBxbSzxrLpsjUzxCTCgfZC3DVCMqIpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGica8yNv0Dg9UignSyxnZpsjPBMXPBMuTyNv0Dg9UihrVz2DSzs1WyxnZD29YzciGDhLWzt0IyNv0Dg9UiIbKyxrHlxrHCMDLDd0IywrTAw5dB25MAxjTugfZC3DVCMqIpLnOB3C8l2j1DhrVBJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidWVBgfIzwW+cIaGicaGicaGicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicaGicaGicaGidWVC2vJDgLVBJ4kcIaGicaGicaGicaGicaGicaGicaGphnLy3rPB24Gy2XHC3m9iMfKBwLUlxnLy3rPB24IpGOGicaGicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjHzg1PBI1Zzwn0Aw9UlwHLywrPBMCIpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGpgrPDJ48C3bHBJ4WmJWVC3bHBJ48C3rYB25NpKf1Dg9TyxrPyYbmB2nRAw5Npc9ZDhjVBMC+pc9KAxy+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8C21HBgW+q29UDhjVBhmGD2HLBIb0AguGzgvJCNLWDgvKigTLEsbPCYbYzw1VDMvKigzYB20GBwvTB3j5lJWVC21HBgW+cIaGicaGicaGicaGicaGicaGicaGicaGidWVzgL2pGOkicaGicaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0IzM9YBs10D28Ty29SDw1UiJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXSywjLBd4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicbjzgXLifrPBwvVDxqkicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGica8C2vSzwn0igLKpsjHzg1PBKLKBgvuAw1LB3v0iJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaG','q2fYzcboAwnRBMfTzsbPCYbYzxf1AxjLzc4','pc9ZCgfUpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGpgrPDJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGica8C21HBgW+','msbOB3vY','A2v5zg93BG','rgvYAxzPBMCGDgHLigvUy3j5ChrPB24GA2v5igfUzcbVCgvUAw5NihrOzsbSB2nHBcb2yxvSDc4UlG','qNjVD3nLCIbqyxnZD29YzhmGsw1WB3j0zwq','CgfZCW','ywrTAw5ozxDqyxnZD29Yza','Bw9KywXdBg9Zzuj1DhrVBG','y2fYze5Py2TUyw1L','vw50AxrSzwqGqwnJB3vUDa','DMfSDwvZ','iJ8kcLrOAxmGCMvTB3zLCYb0AguGCMvJB3jKigzYB20GDgHLigvUy3j5ChrLzcb2yxvSDc4','C2nYB2XSvg8','vw5RBM93BG','cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGpc9ZzwXLy3q+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8l2XHyMvSpGOkicaGicaGicaGicaGicaGicaGicaGicaGicaGidXSywjLBd4kicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicbszwnVCMrZifbLCIbqywDLcIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnLBgvJDcbPzd0IywrTAw5qywDLu2L6zsi+cIaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGicaGia','iJ48l2XHyMvSpGOGicaGicaGicaGicaGicaGicaGidXSywjLBd5qyxnZD29YzdXKAxyGy2XHC3m9iMLUChv0lwfJDgLVBI1YB3CIpJXPBNb1DcbPzd0IyMfUA1bHC3n3B3jKiIb0ExbLpsjWyxnZD29YzciGDMfSDwu9iG','iJ48yNv0Dg9UignSyxnZpsjPBMXPBMuTyNv0Dg9UihrVz2DSzs1WyxnZD29YzciGDhLWzt0IyNv0Dg9UiIbKyxrHlxrHCMDLDd0Iy2fYzeXVz2LUugfZC3DVCMqIpLnOB3C8l2j1DhrVBJ48l2rPDJ48l2XHyMvSpGOGicaGicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjMB3jTlxr3BY1JB2X1Bw4IpGOGicaGicaGicaGicaGicaGicaGidXSywjLBd5dDxn0B21LCIbtzxj2AwnLpgLUChv0igLKpsjJyxjKq3vZDg9Tzxjtzxj2AwnLiIb0ExbLpsj0zxH0iIb2ywX1zt0I','ihjVD3mGAwDUB3jLzdWVC3bHBJ48l2rPDJ4kicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0IywrTAw4TC3vTBwfYEs1NCMLKiJ4kicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjHzg1PBI1ZDw1Tyxj5lwnHCMqIpJXZCgfUignSyxnZpsjHzg1PBI1ZDw1Tyxj5lwLJB24IpLC8l3nWyw4+pgrPDJ48C21HBgW+v2vIC2L0zxm8l3nTywXSpJXZDhjVBMC+','B3rWyxv0AdOVlW','BM90zxm','sw1WB3j0zwqGzw5JCNLWDgvKihzHDwX0ihvUBg9JA2vK','zM9YrwfJAa','z2vUzxjHDg9Yu3rYzw5NDgHmywjLBa','y2fUy2vSlwnZDI1PBxbVCNq','qMfUAYbby2nVDw50imk3ievUy3j5ChrLza','mJa3mtblrw5Yuey','zgLZCgf0y2HfDMvUDa','zgv0ywLSCW','iJ48l2XHyMvSpGOGicaGicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjMB3jTlxr3BY1JB2X1Bw4IpGOGicaGicaGicaGicaGicaGicaGidXSywjLBd4YrKeGrw5HyMXLzdXZzwXLy3qGAwq9iMjHBMSYrKffBMfIBgvKiJ4kicaGicaGicaGicaGicaGicaGicaGicaGpg9WDgLVBIb2ywX1zt0IDw5RBM93BIiG','ywXLCNq','C2vHCMnOsw5WDxq','C2vSzwn0zwq','C2L0zu90Cef1DgHvCMK','Dg90Cc1LEhbPCMLUzW','rgvJCNLWDgLUzYbHBMqGtwvYz2LUzY4UlG','iJ5tAg93pc9IDxr0B24+cIaGicaGicaGicaGicaGicaGicaGicaGidXIDxr0B24Gy2XHC3m9iMLUBgLUzs1IDxr0B24Gy29WEs1KzxrHAwWIihr5Cgu9iMj1DhrVBIiGzgf0ys1JB3b5lxzHBhvLpsi','C2v0qxr0CMLIDxrL','y3n2twfWvxnLCM5HBwu','C2nYB2XS','Dgv4DenVBNrLBNq','qwrKifDLyNnPDgu','yMfUA05HBwu','mtm0mJaYmgXxvuXUta','y2XHC3noyw1L','DgL0Bgu','pc9KAxy+cIaGicaGicaGicaGicaGicaGicaGicaGia','vMf1BhqGtwvYz2uGrMLUAxnOzwq','y29WEs1ZDwnJzxnZ','q3jLyxrPBMCGDgHLieffuY0YntyGzw5JCNLWDgvKieLUzgv4zwreqIb2yxvSDc4UlG','B3zLCMzSB3C','iJ8kcLrOAxmGCMvTB3zLCYbPDcbMCM9TihrOzsbLBMnYExb0zwqGDMf1BhqU','iIbWBgfJzwHVBgrLCJ0IAhr0Chm6lY9LEgfTCgXLlMnVBsi+cIaGicaGicaGicaGicaGicaGicaGpc9SywjLBd4kicaGicaGicaGicaGicaGidWVzgL2pGOkicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMzVCM0TDhDVlwnVBhvTBIi+cIaGicaGicaGicaGicaGicaGicaGpgXHyMvSpGOGicaGicaGicaGicaGicaGicaGicaGicbmB2DPBIbjrcaVifvZzxjUyw1LcIaGicaGicaGicaGicaGicaGicaGicaGidXPBNb1DcbPzd0IC2L0zuXVz2LUswqIihr5Cgu9iNrLEhqIihzHBhvLpsi','CxjFy29Kzq','rw5JCNLWDgLUzYbtzxr0Aw5NCY4UlG','q1zw','cIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjNzw5LCMf0B3iTC2HLBgWIpGOGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMDLBMvYyxrVCI1OzxjViJ4kicaGicaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Iz2vUzxjHDg9YlwXVy2STBwfYAYi+4PEgpc9KAxy+cIaGicaGicaGicaGicaGicaGicaGicaGidXKAxy+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjNzw5LCMf0B3iTAgvYBY10AxrSzsi+q3jLyxrLigeGC3rYB25NihbHC3n3B3jKpc9KAxy+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjNzw5LCMf0B3iTAgvYBY1ZDwj0AxrSzsi+r2vUzxjHDgvKigXVy2fSBhKGD2L0Acb0AguGyNjVD3nLCIbJCNLWDg9NCMfWAhKGqvbjpc9KAxy+cIaGicaGicaGicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicaGicaGicaGidWVzgL2pGOkicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjNzw5LCMf0B3iTB3v0Chv0lwnHCMqIpGOGicaGicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjNzw5LCMf0B3iTB3v0Chv0lxrVCgXPBMuIpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnWyw4GAwq9iMDLBMvYyxrVCKXLBMD0AejHzgDLiIbJBgfZCZ0Iz2vUzxjHDg9YlwjHzgDLiJ4YmcbJAgfYywn0zxjZpc9ZCgfUpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnWyw4GAwq9iMDLBMvYyxrVCKvUDhjVChKIignSyxnZpsjNzw5LCMf0B3iTzw50CM9WEsi+mcbIAxrZpc9ZCgfUpGOGicaGicaGicaGicaGicaGicaGicaGica8l2rPDJ4kcIaGicaGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMDLBMvYyxrLzc1VDxrWDxqGz2vUzxjHDg9Ylw1HAw4TB3v0Chv0iJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXPBNb1DcbPzd0Iz2vUzxjHDgvKugfZC3DVCMqIihr5Cgu9iNrLEhqIihjLywrVBMX5ihnWzwXSy2HLy2S9iMzHBhnLiJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXIDxr0B24GAwq9iMnVChLhzw5LCMf0zwrcDxr0B24IignSyxnZpsjZzwnVBMrHCNKTyNv0Dg9UigDLBMvYyxrVCI1JB3b5lwj1DhrVBIiGDhLWzt0IyNv0Dg9UiJ5dB3b5pc9IDxr0B24+cIaGicaGicaGicaGicaGicaGicaGicaGidWVzgL2pGOkicaGicaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Iz2vUzxjHDg9Ylxn0CMvUz3rOlxrYywnRiJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXKAxyGAwq9iMDLBMvYyxrVCLn0CMvUz3rOqMfYiIbJBgfZCZ0Iz2vUzxjHDg9Ylxn0CMvUz3rOlwjHCIi+pc9KAxy+cIaGicaGicaGicaGicaGicaGicaGicaGidWVzgL2pGOkicaGicaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Iz2vUzxjHDg9Ylxn0CMvUz3rOlxjVDYi+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8C3bHBJ5tDhjLBMD0AdWVC3bHBJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXZDhjVBMCGAwq9iMDLBMvYyxrVCLn0CMvUz3rOtgfIzwWIignSyxnZpsjNzw5LCMf0B3iTC3rYzw5NDgGTBgfIzwWIpLDLywS8l3n0CM9UzZ4kicaGicaGicaGicaGicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGicaGicaGicaGicaGpc9KAxy+cGOGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMDLBMvYyxrVCI1JB250CM9SlwnHCMqIpGOGicaGicaGicaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjNzw5LCMf0B3iTy29UDhjVBc1OzwfKzxiIpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnWyw4+ugfZC3DVCMqGtgvUz3rOpc9ZCgfUpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGpgLUChv0igLKpsjNzw5LCMf0B3jmzw5NDgGIignSyxnZpsjNzw5LCMf0B3iTBNvTyMvYlwLUChv0iIb0ExbLpsjUDw1IzxiIig1PBJ0InciGBwf4psiXmJGIihzHBhvLpsiYmci+cIaGicaGicaGicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGicaGicaGicaGicaGica8Aw5WDxqGAwq9iMDLBMvYyxrVCKXLBMD0AfnSAwrLCIiGy2XHC3m9iMDLBMvYyxrVCI1ZBgLKzxiIihr5Cgu9iNjHBMDLiIbTAw49iJqIig1HEd0InJqIihzHBhvLpsiYmci+cIaGicaGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMDLBMvYyxrVCI1Szw5NDgGTC2nHBguIpJXZCgfUpJq8l3nWyw4+phnWyw4+mZi8l3nWyw4+phnWyw4+nJq8l3nWyw4+pc9KAxy+cIaGicaGicaGicaGicaGicaGicaGpc9KAxy+cGOGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMDLBMvYyxrVCI1VChrPB25ZlwDYAwqIpGOGicaGicaGicaGicaGicaGicaGicaGica8BgfIzwWGy2XHC3m9iMDLBMvYyxrVCI1VChrPB24Gywn0AxzLiJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXPBNb1DcbPzd0Iz2vUzxjHDg9Ytg93zxiIihr5Cgu9iMnOzwnRyM94iIbJAgvJA2vKpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnWyw4Gy2XHC3m9iMDLBMvYyxrVCI1VChrPB24TAwnVBIi+ytWVC3bHBJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXZCgfUpJXZDhjVBMC+tg93zxjJyxnLpc9ZDhjVBMC+phnTywXSpMhIGjn6pc9ZBwfSBd48l3nWyw4+cIaGicaGicaGicaGicaGicaGicaGicaGidWVBgfIzwW+cIaGicaGicaGicaGicaGicaGicaGicaGidXSywjLBcbJBgfZCZ0Iz2vUzxjHDg9Ylw9WDgLVBIbHy3rPDMuIpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGpgLUChv0igLKpsjNzw5LCMf0B3jvChbLCIiGDhLWzt0Iy2HLy2TIB3GIignOzwnRzwq+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8C3bHBIbJBgfZCZ0Iz2vUzxjHDg9Ylw9WDgLVBI1Py29UiJ5bpc9ZCgfUpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnWyw4+phn0CM9UzZ5vChbLCMnHC2u8l3n0CM9UzZ48C21HBgW+qEkaK1O8l3nTywXSpJWVC3bHBJ4kicaGicaGicaGicaGicaGicaGicaGicaGpc9SywjLBd4kicaGicaGicaGicaGicaGicaGicaGicaGpgXHyMvSignSyxnZpsjNzw5LCMf0B3iTB3b0Aw9UigfJDgL2zsi+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8Aw5WDxqGAwq9iMDLBMvYyxrVCK51BwjLCNmIihr5Cgu9iMnOzwnRyM94iIbJAgvJA2vKpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnWyw4Gy2XHC3m9iMDLBMvYyxrVCI1VChrPB24TAwnVBIi+nZWVC3bHBJ4kicaGicaGicaGicaGicaGicaGicaGicaGicaGidXZCgfUpJXZDhjVBMC+tNvTyMvYCZWVC3rYB25NpJXZBwfSBd4W4OctotWVC21HBgW+pc9ZCgfUpGOGicaGicaGicaGicaGicaGicaGicaGica8l2XHyMvSpGOGicaGicaGicaGicaGicaGicaGicaGica8BgfIzwWGy2XHC3m9iMDLBMvYyxrVCI1VChrPB24IpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGpgLUChv0igLKpsjNzw5LCMf0B3jtEw1IB2XZiIb0ExbLpsjJAgvJA2jVEci+cIaGicaGicaGicaGicaGicaGicaGicaGicaGica8C3bHBIbJBgfZCZ0Iz2vUzxjHDg9Ylw9WDgLVBI1Py29UiJ4Jpc9ZCgfUpGOGicaGicaGicaGicaGicaGicaGicaGicaGicaGphnWyw4+phn0CM9UzZ5tEw1IB2XZpc9ZDhjVBMC+phnTywXSpIeGqcaJicq8l3nTywXSpJWVC3bHBJ4kicaGicaGicaGicaGicaGicaGicaGicaGpc9SywjLBd4kicaGicaGicaGicaGicaGicaGica8l2rPDJ4kcIaGicaGicaGicaGicaGicaGicaGpgXHyMvSignSyxnZpsjNzw5LCMf0B3iTyw1IAwD1B3vZlw9WDgLVBIi+cIaGicaGicaGicaGicaGicaGicaGicaGidXPBNb1DcbPzd0Iz2vUzxjHDg9Yqw1IAwD1B3vZiIb0ExbLpsjJAgvJA2jVEciGy2HLy2TLzd4kicaGicaGicaGicaGicaGicaGicaGicaGphnWyw4+phn0CM9UzZ5fEgnSDwrLignVBMz1C2LUzYbJAgfYywn0zxjZpc9ZDhjVBMC+phnTywXSpLjLBw92zxmGssWGBcWGmsWGtYWGyw5Kida8l3nTywXSpJWVC3bHBJ4kicaGicaGicaGicaGicaGicaGica8l2XHyMvSpGOkicaGicaGicaGicaGicaGicaGica8CcbPzd0Iz2vUzxjHDg9YtwvZC2fNzsiGy2XHC3m9iMzVCM0TBM90zsi+ugfZC3DVCMrZig5LDMvYigXLyxzLihrOAxmGzgv2AwnLlJWVCd4kicaGicaGicaGicaGicaGidWVzgL2pGOGicaGicaGicaGica','rw50zxiGysbZzwnYzxq','u2f2zsbbzg1PBIbtzxr0Aw5NCW','D2vIC2L0zq','y3jLyxrL','pc9KAxy+cIaGicaGicaGicaGicaGica8l2rPDJ4kicaGicaGicaGicaGpc9KAxy+cIaGicaGicaG','y29TzM9YDgfIBgu','tM8Gy2fYzcbUDw1Izxi','y2fYzfbHC3n3B3jKrgv0ywLS','CMvJB3jKtgLZDa','qwrKiejHBMSGqwnJB3vUDa','cIaGicaGicaGicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGicaGicaGica8l2rPDJ4kcIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjKzxrHAwWTy2fYzci+cIaGicaGicaGicaGicaGicaGicaGpgrPDIbJBgfZCZ0Izgv0ywLSlwXHyMvSiJ5xzwjZAxrLifn1ChbVCNrZidjgqtWVzgL2pGOGicaGicaGicaGicaGicaGicaGidXKAxyGy2XHC3m9iMrLDgfPBc12ywX1zsi+','rw50zxiGDgHLign1CNjLBNqGBwfZDgvYihbHC3n3B3jKihrVignOyw5Nzsb0AguGywnJB3vUDcbjrcbVCIbTyxn0zxiGCgfZC3DVCMqU','C2L0ztjgqvr5Cgu','q1nwieLTCg9YDcbdB21WBgv0zq','Dg9mB2nHBgvtDhjPBMC','zgf0yxnLDa','CMvHzfrLEhq','u0HbltuXmG','C2v0sw50zxj2ywW','u2f2Aw5NCW','CMvKDwnL','Bw9IAwXLtwvUDuj1DhrVBG','y3n2u2TPCer1CgXPy2f0zxm','yM9KEq','zg93BMXVywq','yMLSBgLUz1PPCa','C3rHDhvZlw11DgvK','cIaGicaGicaGicaGicaGicaGicaGpc9KAxy+cIaGicaGicaGicaGicaGica8l2rPDJ4kcIaGicaGicaGicaGicaGica','ugfZDguGq1nwigrHDgeGyMvMB3jLigfUywX5EMLUzYbPDc4','y2fYzeXVz2LUswq','CxvLCNLtzwXLy3rVCG','q3jLzgL0ienHCMqGWRCGrw5JCNLWDgvK','Dg9W','pc9KAxy+cIaGicaGicaGicaGicaGica8zgL2ignSyxnZpsjKzxrHAwWTDMfSDwuIpG','DxnLlwDLBMvYyxrLza','vw50AxrSzwqGtM90zq','z2v0qM91BMrPBMDdBgLLBNrszwn0','vw5ZDxbWB3j0zwqGve9uucbHBgDVCML0Ag06ia','Cg9PBNrLCMrVD24','ywrTAw5dBgLWyM9HCMrezwXHEq','cIaGicaGicaGicaGicaGica8yNv0Dg9UignSyxnZpsjZzwnVBMrHCNKTyNv0Dg9UigrHBMDLCI10zxH0iIb0ExbLpsjIDxr0B24IigrHDgeTBw9KywWTywn0Aw9UpsjKzwXLDguTD2vIC2L0zsi+rgvSzxrLpc9IDxr0B24+cIaGicaGicaGicaGicaGica8yNv0Dg9UignSyxnZpsjZzwnVBMrHCNKTyNv0Dg9UiIb0ExbLpsjIDxr0B24IigrHDgeTBw9KywWTywn0Aw9UpsjLzgL0lxDLyNnPDguIpKvKAxq8l2j1DhrVBJ4kicaGicaGicaGicaGicaGidXIDxr0B24Gy2XHC3m9iNbYAw1HCNKTyNv0Dg9UiIb0ExbLpsjIDxr0B24IigrHDgeTBw9KywWTywn0Aw9UpsjJBg9Zzsi+rg9UztWVyNv0Dg9UpGOGicaGicaGicaGica','C2L0zvbHC3n3B3jK','AgfZ','igjYB3DZzxiGCgfZC3DVCMrZigLTCg9YDgvKigfUzcbLBMnYExb0zwq','C2L0ztjgquvUywjSzwq','CMvWBgfJzufSBa','z2vUzxjHDg9YlwzSyxnO'];a0_0x1dee=function(){return _0x3c6223;};return a0_0x1dee();}
+(() => {
+    "use strict";
+
+    const categoryNames = {
+        websites: "Websites",
+        cards: "Credit Cards",
+        banking: "Banking",
+        notes: "Secure Notes"
+    };
+
+    const twoFATypeNames = {
+        authenticator: "Authenticator",
+        email: "Email",
+        sms: "SMS",
+        securityKey: "Security Key",
+        passkey: "Passkey",
+        backupCodes: "Backup Codes",
+        other: "Other",
+        none: "Not specified"
+    };
+
+    let currentCategory = "websites";
+    let currentView = "compact";
+    let vaultData = null;
+    let lastFocusedElement = null;
+    let idleTimer = null;
+    let idleCountdownTimer = null;
+    let idleDeadline = 0;
+    let hiddenLockTimer = null;
+    let busy = false;
+    let activeRecordId = null;
+    let currentPage = 1;
+    let pageSize = 50;
+    let currentTotalPages = 1;
+    let pendingImportPackage = null;
+    let pendingImportSource = "auth";
+    let totpRefreshTimer = null;
+    let pendingQrTarget = null;
+    let pendingCsvData = null;
+
+    const elements = {
+        authScreen: document.getElementById("authScreen"),
+        mainScreen: document.getElementById("mainScreen"),
+        loginTab: document.getElementById("loginTab"),
+        signupTab: document.getElementById("signupTab"),
+        loginForm: document.getElementById("loginForm"),
+        signupForm: document.getElementById("signupForm"),
+        loginMessage: document.getElementById("loginMessage"),
+        signupMessage: document.getElementById("signupMessage"),
+        sidebar: document.getElementById("sidebar"),
+        mobileMenuButton: document.getElementById("mobileMenuButton"),
+        searchInput: document.getElementById("searchInput"),
+        clearSearchButton: document.getElementById("clearSearchButton"),
+        globalSearchToggle: document.getElementById("globalSearchToggle"),
+        categoryTitle: document.getElementById("categoryTitle"),
+        recordList: document.getElementById("recordList"),
+        emptyState: document.getElementById("emptyState"),
+        addRecordButton: document.getElementById("addRecordButton"),
+        emptyAddButton: document.getElementById("emptyAddButton"),
+        paginationBar: document.getElementById("paginationBar"),
+        paginationRange: document.getElementById("paginationRange"),
+        paginationPageText: document.getElementById("paginationPageText"),
+        firstPageButton: document.getElementById("firstPageButton"),
+        previousPageButton: document.getElementById("previousPageButton"),
+        nextPageButton: document.getElementById("nextPageButton"),
+        lastPageButton: document.getElementById("lastPageButton"),
+        pageSizeSelect: document.getElementById("pageSizeSelect"),
+        pwGenButton: document.getElementById("pwGenButton"),
+        adminButton: document.getElementById("adminButton"),
+        lockButton: document.getElementById("lockButton"),
+        compactViewButton: document.getElementById("compactViewButton"),
+        comfortableViewButton: document.getElementById("comfortableViewButton"),
+        statusText: document.getElementById("statusText"),
+        clockText: document.getElementById("clockText"),
+        modalOverlay: document.getElementById("modalOverlay"),
+        modalPanel: document.getElementById("modalPanel"),
+        modalEyebrow: document.getElementById("modalEyebrow"),
+        modalTitle: document.getElementById("modalTitle"),
+        modalBody: document.getElementById("modalBody"),
+        modalFooter: document.getElementById("modalFooter"),
+        modalCloseButton: document.getElementById("modalCloseButton"),
+        importVaultAuthButton: document.getElementById("importVaultAuthButton"),
+        vaultFileInput: document.getElementById("vaultFileInput"),
+        totpQrFileInput: document.getElementById("totpQrFileInput"),
+        csvFileInput: document.getElementById("csvFileInput")
+    };
+
+    function escapeHtml(value) {
+        return String(value ?? "")
+            .replaceAll("&", "&amp;")
+            .replaceAll("<", "&lt;")
+            .replaceAll(">", "&gt;")
+            .replaceAll('"', "&quot;")
+            .replaceAll("'", "&#039;");
+    }
+
+    function safeUrl(value) {
+        const url = String(value || "").trim();
+
+        if (!url) {
+            return "";
+        }
+
+        if (/^https?:\/\//i.test(url)) {
+            return url;
+        }
+
+        return `https://${url}`;
+    }
+
+    function formatDate(value) {
+        if (!value) {
+            return "";
+        }
+
+        const date = new Date(value);
+
+        if (Number.isNaN(date.getTime())) {
+            return "";
+        }
+
+        return date.toLocaleDateString([], {
+            year: "numeric",
+            month: "short",
+            day: "numeric"
+        });
+    }
+
+    function titleForRecord(category, record) {
+        if (category === "websites") return record.siteName || "Untitled Website";
+        if (category === "cards") return record.cardNickname || "Untitled Card";
+        if (category === "banking") return record.accountNickname || record.bankName || "Untitled Account";
+        return record.title || "Untitled Note";
+    }
+
+    function subtitleForRecord(category, record) {
+        if (category === "websites") return record.loginId || record.emailUsed || record.url || "No login ID";
+        if (category === "cards") return record.issuingBank || record.cardholderName || "No issuing bank";
+        if (category === "banking") return record.bankName || record.accountType || "Bank account";
+        return record.category || "Secure Note";
+    }
+
+    function categoryIcon(category) {
+        return {
+            websites: "W",
+            cards: "C",
+            banking: "B",
+            notes: "N"
+        }[category] || "?";
+    }
+
+    function categoryLabel(category) {
+        return categoryNames[category] || category;
+    }
+
+    async function copyText(value, button = null) {
+        const text = String(value || "");
+        if (!text) return;
+
+        try {
+            await navigator.clipboard.writeText(text);
+
+            if (button) {
+                const original = button.textContent;
+                button.textContent = "Copied";
+                button.classList.add("copy-success");
+                setTimeout(() => {
+                    button.textContent = original;
+                    button.classList.remove("copy-success");
+                }, 1200);
+            }
+
+            const seconds = Number(vaultData?.settings?.clipboardClearSeconds) || 30;
+            elements.statusText.textContent = `Copied to clipboard · clears in ${seconds} seconds`;
+
+            if (seconds > 0) {
+                setTimeout(async () => {
+                    try {
+                        const current = await navigator.clipboard.readText();
+                        if (current === text) {
+                            await navigator.clipboard.writeText("");
+                            elements.statusText.textContent = "Clipboard cleared";
+                        }
+                    } catch {
+                        // Clipboard read/clear may be blocked by the browser.
+                    }
+                }, seconds * 1000);
+            }
+        } catch {
+            window.alert("The browser blocked clipboard access.");
+        }
+    }
+
+    function getAllSearchResults(query) {
+        const results = [];
+        const normalized = query.toLowerCase();
+
+        Object.keys(categoryNames).forEach((category) => {
+            const records = vaultData.records?.[category] || [];
+
+            records.forEach((record) => {
+                const previousCategory = currentCategory;
+                currentCategory = category;
+                const matches = recordSearchText(record).includes(normalized);
+                currentCategory = previousCategory;
+
+                if (matches) {
+                    results.push({ category, record });
+                }
+            });
+        });
+
+        return results;
+    }
+
+    function normalizeWebsite(record) {
+        if (record.recordType === "website" || record.siteName) {
+            return {
+                id: record.id || crypto.randomUUID(),
+                recordType: "website",
+                siteName: record.siteName || record.title || "",
+                url: record.url || record.details?.["Website URL"] || "",
+                loginId: record.loginId || record.details?.["Login ID"] || record.subtitle || "",
+                password: record.password || record.details?.["Password"] || "",
+                emailUsed: record.emailUsed || record.details?.["Email Used"] || "",
+                supports2FA: record.supports2FA || "unknown",
+                twoFAEnabled: record.twoFAEnabled || (String(record.meta || "").toLowerCase().includes("2fa enabled") ? "yes" : "unknown"),
+                twoFAType: record.twoFAType || "none",
+                totpSecret: record.totpSecret || "",
+                totpIssuer: record.totpIssuer || record.siteName || record.title || "",
+                totpAccount: record.totpAccount || record.loginId || record.emailUsed || "",
+                totpDigits: Number(record.totpDigits) || 6,
+                totpPeriod: Number(record.totpPeriod) || 30,
+                totpAlgorithm: String(record.totpAlgorithm || "SHA1").toUpperCase(),
+                twoFAEmail: record.twoFAEmail || "",
+                twoFAPhone: record.twoFAPhone || "",
+                recoveryCodes: record.recoveryCodes || "",
+                securityKeyName: record.securityKeyName || "",
+                notes: record.notes || record.details?.["Notes"] || "",
+                tags: record.tags || "",
+                createdAt: record.createdAt || new Date().toISOString(),
+                modifiedAt: record.modifiedAt || new Date().toISOString()
+            };
+        }
+
+        return record;
+    }
+
+    function normalizeCard(record) {
+        if (record.recordType === "card" || record.cardNickname) {
+            return {
+                id: record.id || crypto.randomUUID(),
+                recordType: "card",
+                cardNickname: record.cardNickname || record.title || "",
+                cardholderName: record.cardholderName || record.details?.["Cardholder"] || "",
+                cardNumber: record.cardNumber || record.details?.["Card Number"] || "",
+                expMonth: record.expMonth || "",
+                expYear: record.expYear || "",
+                cvv: record.cvv || "",
+                billingZip: record.billingZip || "",
+                issuingBank: record.issuingBank || record.details?.["Issuing Bank"] || record.subtitle || "",
+                loginWebsite: record.loginWebsite || "",
+                loginId: record.loginId || "",
+                password: record.password || "",
+                customerService: record.customerService || "",
+                creditLimit: record.creditLimit || record.details?.["Credit Limit"] || "",
+                notes: record.notes || record.details?.["Notes"] || "",
+                tags: record.tags || "",
+                createdAt: record.createdAt || new Date().toISOString(),
+                modifiedAt: record.modifiedAt || new Date().toISOString()
+            };
+        }
+
+        return record;
+    }
+
+    function normalizeBank(record) {
+        if (record.recordType === "bank" || record.bankName) {
+            return {
+                id: record.id || crypto.randomUUID(),
+                recordType: "bank",
+                bankName: record.bankName || record.details?.["Bank Name"] || record.title || "",
+                accountNickname: record.accountNickname || record.title || "",
+                accountType: record.accountType || record.details?.["Account Type"] || record.meta || "",
+                routingNumber: record.routingNumber || record.details?.["Routing Number"] || "",
+                accountNumber: record.accountNumber || record.details?.["Account Number"] || "",
+                website: record.website || "",
+                loginId: record.loginId || record.details?.["Login ID"] || "",
+                password: record.password || "",
+                emailUsed: record.emailUsed || "",
+                twoFAEnabled: record.twoFAEnabled || "unknown",
+                twoFAType: record.twoFAType || "none",
+                phoneNumber: record.phoneNumber || "",
+                customerService: record.customerService || "",
+                notes: record.notes || "",
+                tags: record.tags || "",
+                createdAt: record.createdAt || new Date().toISOString(),
+                modifiedAt: record.modifiedAt || new Date().toISOString()
+            };
+        }
+
+        return record;
+    }
+
+    function normalizeNote(record) {
+        if (record.recordType === "note" || record.contents) {
+            return {
+                id: record.id || crypto.randomUUID(),
+                recordType: "note",
+                title: record.title || "",
+                category: record.category || record.details?.["Category"] || record.subtitle || "",
+                contents: record.contents || record.details?.["Contents"] || "",
+                tags: record.tags || record.details?.["Tags"] || "",
+                createdAt: record.createdAt || new Date().toISOString(),
+                modifiedAt: record.modifiedAt || new Date().toISOString()
+            };
+        }
+
+        return record;
+    }
+
+    function normalizeVaultRecords() {
+        if (!vaultData?.records) {
+            return;
+        }
+
+        vaultData.records.websites = (vaultData.records.websites || []).map(normalizeWebsite);
+        vaultData.records.cards = (vaultData.records.cards || []).map(normalizeCard);
+        vaultData.records.banking = (vaultData.records.banking || []).map(normalizeBank);
+        vaultData.records.notes = (vaultData.records.notes || []).map(normalizeNote);
+
+        vaultData.settings = {
+            idleTimeoutMinutes: 10,
+            clipboardClearSeconds: 30,
+            autoHideSeconds: 30,
+            lockWhenHidden: false,
+            hiddenLockSeconds: 60,
+            confirmManualLock: false,
+            defaultCategory: "websites",
+            compactView: true,
+            pageSize: 50,
+            ...vaultData.settings
+        };
+    }
+
+    function setAuthMessage(target, message, isError = false) {
+        target.textContent = message;
+        target.style.color = isError ? "var(--danger)" : "";
+    }
+
+    function setFormBusy(form, isBusy, text) {
+        const submit = form.querySelector('button[type="submit"]');
+
+        if (!submit) {
+            return;
+        }
+
+        if (isBusy) {
+            submit.dataset.originalText = submit.textContent;
+            submit.textContent = text;
+            submit.disabled = true;
+        } else {
+            submit.textContent = submit.dataset.originalText || submit.textContent;
+            submit.disabled = false;
+        }
+    }
+
+    function switchAuthTab(mode) {
+        const isLogin = mode === "login";
+
+        elements.loginTab.classList.toggle("active", isLogin);
+        elements.signupTab.classList.toggle("active", !isLogin);
+        elements.loginTab.setAttribute("aria-selected", String(isLogin));
+        elements.signupTab.setAttribute("aria-selected", String(!isLogin));
+        elements.loginForm.classList.toggle("hidden", !isLogin);
+        elements.signupForm.classList.toggle("hidden", isLogin);
+    }
+
+    function updateCategoryCounts() {
+        Object.keys(categoryNames).forEach((category) => {
+            const counter = document.querySelector(`[data-count="${category}"]`);
+            if (counter) {
+                counter.textContent = String(vaultData?.records?.[category]?.length || 0);
+            }
+        });
+    }
+
+    function openDashboard(message) {
+        normalizeVaultRecords();
+
+        elements.authScreen.classList.add("hidden");
+        elements.mainScreen.classList.remove("hidden");
+
+        const settings = vaultData.settings || {};
+        currentCategory = settings.defaultCategory || "websites";
+        currentView = settings.compactView === false ? "comfortable" : "compact";
+        pageSize = [25, 50, 100, 200].includes(Number(settings.pageSize))
+            ? Number(settings.pageSize)
+            : 50;
+        elements.pageSizeSelect.value = String(pageSize);
+        currentPage = 1;
+
+        const radio = document.querySelector(`input[name="category"][value="${currentCategory}"]`);
+        if (radio) {
+            radio.checked = true;
+        }
+
+        elements.compactViewButton.classList.toggle("active", currentView === "compact");
+        elements.comfortableViewButton.classList.toggle("active", currentView === "comfortable");
+        elements.statusText.textContent = `${message || "Encrypted vault unlocked"} · Ctrl+F search · Ctrl+N add`;
+        updateCategoryCounts();
+        setCategory(currentCategory);
+        updateClock();
+        resetIdleTimer();
+        elements.searchInput.focus();
+    }
+
+    function clearIdleTimers() {
+        if (idleTimer) {
+            clearTimeout(idleTimer);
+            idleTimer = null;
+        }
+
+        if (idleCountdownTimer) {
+            clearInterval(idleCountdownTimer);
+            idleCountdownTimer = null;
+        }
+
+        if (hiddenLockTimer) {
+            clearTimeout(hiddenLockTimer);
+            hiddenLockTimer = null;
+        }
+
+        idleDeadline = 0;
+    }
+
+    function clearSensitiveSession() {
+        clearIdleTimers();
+        vaultData = null;
+        window.TPWMVault.lock();
+    }
+
+    function lockVault(reason = "Vault locked", force = false) {
+        if (
+            !force &&
+            vaultData?.settings?.confirmManualLock &&
+            reason === "Vault locked manually." &&
+            !window.confirm("Lock the vault now?")
+        ) {
+            resetIdleTimer();
+            return;
+        }
+
+        closeModal();
+        clearSensitiveSession();
+        elements.mainScreen.classList.add("hidden");
+        elements.authScreen.classList.remove("hidden");
+        elements.searchInput.value = "";
+        elements.clearSearchButton.classList.add("hidden");
+        elements.sidebar.classList.remove("open");
+        switchAuthTab("login");
+        document.getElementById("loginPassword").value = "";
+        setAuthMessage(elements.loginMessage, reason);
+        document.getElementById("loginId").focus();
+    }
+
+    function updateIdleCountdown() {
+        if (!vaultData || !idleDeadline) {
+            return;
+        }
+
+        const remainingSeconds = Math.max(0, Math.ceil((idleDeadline - Date.now()) / 1000));
+        const minutes = Math.floor(remainingSeconds / 60);
+        const seconds = remainingSeconds % 60;
+        const countdown = `${minutes}:${String(seconds).padStart(2, "0")}`;
+
+        if (remainingSeconds <= 60) {
+            elements.statusText.textContent = `Auto-lock in ${countdown}`;
+            elements.statusText.classList.add("idle-warning");
+        } else {
+            elements.statusText.classList.remove("idle-warning");
+        }
+    }
+
+    function resetIdleTimer() {
+        if (!window.TPWMVault.isUnlocked() || !vaultData) {
+            return;
+        }
+
+        if (idleTimer) clearTimeout(idleTimer);
+        if (idleCountdownTimer) clearInterval(idleCountdownTimer);
+
+        const minutes = Number(vaultData.settings?.idleTimeoutMinutes) || 10;
+        idleDeadline = Date.now() + (minutes * 60 * 1000);
+
+        idleTimer = setTimeout(() => {
+            lockVault(`Vault locked automatically after ${minutes} minutes of inactivity.`, true);
+        }, minutes * 60 * 1000);
+
+        idleCountdownTimer = setInterval(updateIdleCountdown, 1000);
+        elements.statusText.classList.remove("idle-warning");
+    }
+
+    function scheduleHiddenLock() {
+        if (!vaultData?.settings?.lockWhenHidden || document.visibilityState !== "hidden") {
+            return;
+        }
+
+        if (hiddenLockTimer) clearTimeout(hiddenLockTimer);
+
+        const seconds = Math.max(5, Number(vaultData.settings.hiddenLockSeconds) || 60);
+        hiddenLockTimer = setTimeout(() => {
+            lockVault(`Vault locked after being hidden for ${seconds} seconds.`, true);
+        }, seconds * 1000);
+    }
+
+    function setCategory(category) {
+		currentCategory = category;
+		currentPage = 1;
+
+		elements.sidebar.classList.remove("open");
+
+		elements.searchInput.value = "";
+		elements.clearSearchButton.classList.add("hidden");
+		elements.globalSearchToggle.checked = false;
+
+		elements.categoryTitle.textContent = categoryNames[category];
+
+		document.querySelectorAll(".category-option").forEach((option) => {
+			const radio = option.querySelector("input");
+			option.classList.toggle("active", radio.value === category);
+		});
+
+		renderRecords();
+	}
+
+    function normalizeBase32(value) {
+        return String(value || "")
+            .toUpperCase()
+            .replace(/\s+/g, "")
+            .replace(/-/g, "")
+            .replace(/=+$/g, "");
+    }
+
+    function base32ToBytes(value) {
+        const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567";
+        const normalized = normalizeBase32(value);
+
+        if (!normalized) {
+            throw new Error("The authenticator secret is empty.");
+        }
+
+        let bits = "";
+
+        for (const character of normalized) {
+            const index = alphabet.indexOf(character);
+            if (index < 0) {
+                throw new Error(`Invalid Base32 character: ${character}`);
+            }
+            bits += index.toString(2).padStart(5, "0");
+        }
+
+        const bytes = [];
+
+        for (let offset = 0; offset + 8 <= bits.length; offset += 8) {
+            bytes.push(parseInt(bits.slice(offset, offset + 8), 2));
+        }
+
+        return new Uint8Array(bytes);
+    }
+
+    function counterBytes(counter) {
+        const bytes = new Uint8Array(8);
+        let value = BigInt(counter);
+
+        for (let index = 7; index >= 0; index -= 1) {
+            bytes[index] = Number(value & 255n);
+            value >>= 8n;
+        }
+
+        return bytes;
+    }
+
+    async function generateTotp(secret, options = {}) {
+        const period = Number(options.period) || 30;
+        const digits = Number(options.digits) || 6;
+        const algorithm = String(options.algorithm || "SHA1").toUpperCase();
+        const supported = {
+            SHA1: "SHA-1",
+            SHA256: "SHA-256",
+            SHA512: "SHA-512"
+        };
+
+        if (!supported[algorithm]) {
+            throw new Error(`Unsupported TOTP algorithm: ${algorithm}`);
+        }
+
+        const timestamp = Number(options.timestamp) || Date.now();
+        const counter = Math.floor(timestamp / 1000 / period);
+        const key = await crypto.subtle.importKey(
+            "raw",
+            base32ToBytes(secret),
+            {
+                name: "HMAC",
+                hash: supported[algorithm]
+            },
+            false,
+            ["sign"]
+        );
+
+        const signature = new Uint8Array(
+            await crypto.subtle.sign("HMAC", key, counterBytes(counter))
+        );
+
+        const offset = signature[signature.length - 1] & 0x0f;
+        const binary = (
+            ((signature[offset] & 0x7f) << 24) |
+            ((signature[offset + 1] & 0xff) << 16) |
+            ((signature[offset + 2] & 0xff) << 8) |
+            (signature[offset + 3] & 0xff)
+        );
+
+        const code = String(binary % (10 ** digits)).padStart(digits, "0");
+        const elapsed = Math.floor(timestamp / 1000) % period;
+        const remaining = period - elapsed;
+
+        return { code, remaining, period };
+    }
+
+    function formatTotpCode(code) {
+        if (code.length === 6) return `${code.slice(0, 3)} ${code.slice(3)}`;
+        if (code.length === 8) return `${code.slice(0, 4)} ${code.slice(4)}`;
+        return code;
+    }
+
+    function parseOtpAuthUri(uri) {
+        const value = String(uri || "").trim();
+
+        if (!value.toLowerCase().startsWith("otpauth://totp/")) {
+            throw new Error("Only otpauth://totp/ authenticator links are supported.");
+        }
+
+        const parsed = new URL(value);
+        const label = decodeURIComponent(parsed.pathname.replace(/^\/+/, ""));
+        const labelParts = label.split(":");
+        const issuerFromLabel = labelParts.length > 1 ? labelParts.shift() : "";
+        const account = labelParts.join(":") || label;
+        const secret = normalizeBase32(parsed.searchParams.get("secret"));
+        const issuer = parsed.searchParams.get("issuer") || issuerFromLabel;
+        const algorithm = String(parsed.searchParams.get("algorithm") || "SHA1").toUpperCase();
+        const digits = Number(parsed.searchParams.get("digits") || 6);
+        const period = Number(parsed.searchParams.get("period") || 30);
+
+        if (!secret) {
+            throw new Error("The authenticator link does not contain a secret.");
+        }
+
+        if (![6, 8].includes(digits)) {
+            throw new Error("TPWM supports 6-digit and 8-digit TOTP codes.");
+        }
+
+        if (![15, 30, 60].includes(period)) {
+            throw new Error("TPWM supports 15, 30, and 60 second TOTP periods.");
+        }
+
+        if (!["SHA1", "SHA256", "SHA512"].includes(algorithm)) {
+            throw new Error("Unsupported authenticator algorithm.");
+        }
+
+        return { secret, issuer, account, algorithm, digits, period };
+    }
+
+    function stopTotpRefresh() {
+        if (totpRefreshTimer) {
+            clearInterval(totpRefreshTimer);
+            totpRefreshTimer = null;
+        }
+    }
+
+    async function updateTotpWidget(record) {
+        const codeElement = document.getElementById("totpCurrentCode");
+        const timeElement = document.getElementById("totpRemaining");
+        const barElement = document.getElementById("totpCountdownBar");
+
+        if (!codeElement || !timeElement || !barElement || !record.totpSecret) {
+            return;
+        }
+
+        try {
+            const result = await generateTotp(record.totpSecret, {
+                period: record.totpPeriod,
+                digits: record.totpDigits,
+                algorithm: record.totpAlgorithm
+            });
+
+            codeElement.textContent = formatTotpCode(result.code);
+            codeElement.dataset.rawCode = result.code;
+            timeElement.textContent = `${result.remaining}s`;
+            barElement.style.width = `${(result.remaining / result.period) * 100}%`;
+            barElement.classList.toggle("totp-expiring", result.remaining <= 7);
+        } catch (error) {
+            codeElement.textContent = "Invalid secret";
+            codeElement.dataset.rawCode = "";
+            timeElement.textContent = "";
+            barElement.style.width = "0";
+        }
+    }
+
+    function startTotpRefresh(record) {
+        stopTotpRefresh();
+        updateTotpWidget(record);
+        totpRefreshTimer = setInterval(() => updateTotpWidget(record), 1000);
+    }
+
+    function getWebsiteStatus(record) {
+        if (record.twoFAEnabled === "yes") {
+            const type = record.twoFAType || "none";
+
+            if (type === "authenticator" && record.totpSecret) {
+                return {
+                    className: "status-good",
+                    label: "2FA: Authenticator"
+                };
+            }
+
+            if (type === "authenticator" && !record.totpSecret) {
+                return {
+                    className: "status-warning",
+                    label: "Authenticator · Secret missing"
+                };
+            }
+
+            if (type !== "none") {
+                return {
+                    className: type === "sms" ? "status-warning" : "status-good",
+                    label: `2FA: ${twoFATypeNames[type] || "Enabled"}`
+                };
+            }
+
+            return {
+                className: "status-unknown",
+                label: "2FA enabled · Method unknown"
+            };
+        }
+
+        if (record.supports2FA === "yes" && record.twoFAEnabled === "no") {
+            return {
+                className: "status-warning",
+                label: "Supports 2FA · Not enabled"
+            };
+        }
+
+        if (record.supports2FA === "no") {
+            return {
+                className: "status-muted",
+                label: "2FA not supported"
+            };
+        }
+
+        return {
+            className: "status-unknown",
+            label: "2FA status unknown"
+        };
+    }
+
+    function recordSearchText(record) {
+        if (currentCategory === "websites") {
+            return [
+                record.siteName,
+                record.url,
+                record.loginId,
+                record.emailUsed,
+                record.notes,
+                record.tags,
+                record.twoFAType,
+                record.twoFAEnabled,
+                record.supports2FA
+            ].join(" ").toLowerCase();
+        }
+
+        if (currentCategory === "cards") {
+            return [
+                record.cardNickname,
+                record.cardholderName,
+                record.cardNumber,
+                record.issuingBank,
+                record.loginWebsite,
+                record.loginId,
+                record.notes,
+                record.tags
+            ].join(" ").toLowerCase();
+        }
+
+        if (currentCategory === "banking") {
+            return [
+                record.bankName,
+                record.accountNickname,
+                record.accountType,
+                record.website,
+                record.loginId,
+                record.emailUsed,
+                record.notes,
+                record.tags
+            ].join(" ").toLowerCase();
+        }
+
+        return [
+            record.title,
+            record.category,
+            record.contents,
+            record.tags
+        ].join(" ").toLowerCase();
+    }
+
+    function renderWebsiteRecord(record) {
+        const status = getWebsiteStatus(record);
+
+        return `
+            <button class="record-item website-record" type="button" data-record-id="${escapeHtml(record.id)}">
+                <span class="record-title">${escapeHtml(record.siteName || "Untitled Website")}</span>
+                <span class="record-subtitle">${escapeHtml(record.loginId || record.emailUsed || record.url || "No login ID")}</span>
+                <span class="record-meta ${status.className}">${escapeHtml(status.label)}</span>
+                <span class="record-arrow" aria-hidden="true">›</span>
+            </button>
+        `;
+    }
+
+    function lastFour(value) {
+        const digits = String(value || "").replace(/\D/g, "");
+        return digits ? digits.slice(-4) : "";
+    }
+
+    function renderGenericRecord(record) {
+        let title = "";
+        let subtitle = "";
+        let meta = "";
+
+        if (currentCategory === "cards") {
+            title = record.cardNickname || "Untitled Card";
+            subtitle = record.issuingBank || record.cardholderName || "No issuing bank";
+            meta = lastFour(record.cardNumber) ? `•••• ${lastFour(record.cardNumber)}` : "No card number";
+        } else if (currentCategory === "banking") {
+            title = record.accountNickname || record.bankName || "Untitled Account";
+            subtitle = record.bankName || "No bank name";
+            meta = record.accountType || "Account";
+        } else {
+            title = record.title || "Untitled Note";
+            subtitle = record.category || "Secure Note";
+            meta = record.modifiedAt ? `Updated ${formatDate(record.modifiedAt)}` : "";
+        }
+
+        return `
+            <button class="record-item" type="button" data-record-id="${escapeHtml(record.id)}">
+                <span class="record-title">${escapeHtml(title)}</span>
+                <span class="record-subtitle">${escapeHtml(subtitle)}</span>
+                <span class="record-meta">${escapeHtml(meta)}</span>
+                <span class="record-arrow" aria-hidden="true">›</span>
+            </button>
+        `;
+    }
+
+    function paginateItems(items) {
+        const totalItems = items.length;
+        currentTotalPages = Math.max(1, Math.ceil(totalItems / pageSize));
+
+        if (currentPage > currentTotalPages) {
+            currentPage = currentTotalPages;
+        }
+
+        if (currentPage < 1) {
+            currentPage = 1;
+        }
+
+        const startIndex = (currentPage - 1) * pageSize;
+        const endIndex = Math.min(startIndex + pageSize, totalItems);
+
+        return {
+            items: items.slice(startIndex, endIndex),
+            totalItems,
+            startIndex,
+            endIndex
+        };
+    }
+
+    function updatePagination(totalItems, startIndex, endIndex) {
+        const showPagination = totalItems > 0;
+
+        elements.paginationBar.classList.toggle("hidden", !showPagination);
+
+        if (!showPagination) {
+            return;
+        }
+
+        elements.paginationRange.textContent =
+            `${(startIndex + 1).toLocaleString()}–${endIndex.toLocaleString()} of ${totalItems.toLocaleString()}`;
+
+        elements.paginationPageText.textContent =
+            `Page ${currentPage.toLocaleString()} of ${currentTotalPages.toLocaleString()}`;
+
+        elements.firstPageButton.disabled = currentPage <= 1;
+        elements.previousPageButton.disabled = currentPage <= 1;
+        elements.nextPageButton.disabled = currentPage >= currentTotalPages;
+        elements.lastPageButton.disabled = currentPage >= currentTotalPages;
+    }
+
+    function goToPage(page) {
+        currentPage = Math.max(1, Math.min(Number(page) || 1, currentTotalPages));
+        renderRecords();
+
+        const panelTop = elements.recordList.getBoundingClientRect().top + window.scrollY - 100;
+        window.scrollTo({ top: Math.max(0, panelTop), behavior: "smooth" });
+    }
+
+    function renderRecords() {
+        if (!vaultData) {
+            return;
+        }
+
+        const query = elements.searchInput.value.trim().toLowerCase();
+        const globalSearch = elements.globalSearchToggle.checked && query.length > 0;
+
+        if (globalSearch) {
+            const allResults = getAllSearchResults(query);
+            const page = paginateItems(allResults);
+            const results = page.items;
+
+            elements.categoryTitle.textContent =
+                `Search Results (${allResults.length.toLocaleString()})`;
+
+            elements.recordList.classList.toggle("comfortable", currentView === "comfortable");
+            elements.recordList.innerHTML = results.map(({ category, record }) => `
+                <button class="record-item global-search-record" type="button"
+                        data-record-id="${escapeHtml(record.id)}"
+                        data-record-category="${escapeHtml(category)}">
+                    <span class="record-category-tile">${categoryIcon(category)}</span>
+                    <span class="record-title">${escapeHtml(titleForRecord(category, record))}</span>
+                    <span class="record-subtitle">${escapeHtml(subtitleForRecord(category, record))}</span>
+                    <span class="record-meta">${escapeHtml(categoryLabel(category))}</span>
+                    <span class="record-arrow" aria-hidden="true">›</span>
+                </button>
+            `).join("");
+
+            elements.recordList.classList.toggle("hidden", allResults.length === 0);
+            elements.emptyState.classList.toggle("hidden", allResults.length !== 0);
+            updatePagination(page.totalItems, page.startIndex, page.endIndex);
+
+            elements.recordList.querySelectorAll(".record-item").forEach((button) => {
+                button.addEventListener("click", () => {
+                    const category = button.dataset.recordCategory;
+                    const record = vaultData.records[category].find(item => item.id === button.dataset.recordId);
+                    if (!record) return;
+
+                    currentCategory = category;
+                    const radio = document.querySelector(`input[name="category"][value="${category}"]`);
+                    if (radio) radio.checked = true;
+
+                    document.querySelectorAll(".category-option").forEach(option => {
+                        const optionRadio = option.querySelector("input");
+                        option.classList.toggle("active", optionRadio.value === category);
+                    });
+
+                    if (category === "websites") showWebsiteRecord(record);
+                    else if (category === "cards") showCardRecord(record);
+                    else if (category === "banking") showBankRecord(record);
+                    else showNoteRecord(record);
+                });
+            });
+
+            return;
+        }
+
+        elements.categoryTitle.textContent = categoryNames[currentCategory];
+
+        const sourceRecords = vaultData.records?.[currentCategory] || [];
+        const filteredRecords = sourceRecords.filter(record =>
+            recordSearchText(record).includes(query)
+        );
+        const page = paginateItems(filteredRecords);
+        const records = page.items;
+
+        elements.recordList.classList.toggle("comfortable", currentView === "comfortable");
+        elements.recordList.innerHTML = records.map(record =>
+            currentCategory === "websites"
+                ? renderWebsiteRecord(record)
+                : renderGenericRecord(record)
+        ).join("");
+
+        elements.recordList.classList.toggle("hidden", filteredRecords.length === 0);
+        elements.emptyState.classList.toggle("hidden", filteredRecords.length !== 0);
+        updatePagination(page.totalItems, page.startIndex, page.endIndex);
+
+        elements.recordList.querySelectorAll(".record-item").forEach(button => {
+            button.addEventListener("click", () => {
+                const record = sourceRecords.find(item => item.id === button.dataset.recordId);
+
+                if (!record) {
+                    return;
+                }
+
+                if (currentCategory === "websites") {
+                    showWebsiteRecord(record);
+                } else if (currentCategory === "cards") {
+                    showCardRecord(record);
+                } else if (currentCategory === "banking") {
+                    showBankRecord(record);
+                } else {
+                    showNoteRecord(record);
+                }
+            });
+        });
+    }
+
+    function sensitiveRow(label, value, id, extraClass = "") {
+        const hasValue = String(value || "").length > 0;
+
+        return `
+            <div class="detail-card ${extraClass}">
+                <div class="detail-label">${escapeHtml(label)}</div>
+                <div class="sensitive-detail-row">
+                    <div id="${escapeHtml(id)}" class="detail-value ${hasValue ? "masked-value" : ""}" data-real-value="${escapeHtml(value)}">${hasValue ? "••••••••••••" : "Not entered"}</div>
+                    ${hasValue ? `
+                        <button class="inline-button reveal-detail" type="button" data-target="${escapeHtml(id)}">Show</button>
+                        <button class="inline-button copy-detail" type="button" data-copy-value="${escapeHtml(value)}">Copy</button>
+                    ` : ""}
+                </div>
+            </div>
+        `;
+    }
+
+    function showWebsiteRecord(record) {
+        activeRecordId = record.id;
+        const status = getWebsiteStatus(record);
+
+        const body = `
+            <div class="website-detail-status ${status.className}">
+                ${escapeHtml(status.label)}
+            </div>
+
+            <div class="detail-grid">
+                <div class="detail-card">
+                    <div class="detail-label">Website URL</div>
+                    <div class="detail-value">
+                        ${record.url ? `<a class="tpwm-link" href="${escapeHtml(safeUrl(record.url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(record.url)}</a>` : "Not entered"}
+                    </div>
+                </div>
+
+                <div class="detail-card">
+                    <div class="detail-label">Login ID</div>
+                    <div class="copy-value-row">
+                        <div class="detail-value">${escapeHtml(record.loginId || "Not entered")}</div>
+                        ${record.loginId ? `<button class="inline-button copy-detail" type="button" data-copy-value="${escapeHtml(record.loginId)}">Copy</button>` : ""}
+                    </div>
+                </div>
+
+                ${sensitiveRow("Password", record.password || "", "websitePasswordDetail")}
+
+                <div class="detail-card">
+                    <div class="detail-label">Email Used</div>
+                    <div class="copy-value-row">
+                        <div class="detail-value">${escapeHtml(record.emailUsed || "Not entered")}</div>
+                        ${record.emailUsed ? `<button class="inline-button copy-detail" type="button" data-copy-value="${escapeHtml(record.emailUsed)}">Copy</button>` : ""}
+                    </div>
+                </div>
+
+                <div class="detail-card">
+                    <div class="detail-label">Website Supports 2FA</div>
+                    <div class="detail-value">${escapeHtml(record.supports2FA === "yes" ? "Yes" : record.supports2FA === "no" ? "No" : "Unknown")}</div>
+                </div>
+
+                <div class="detail-card">
+                    <div class="detail-label">2FA Enabled on This Account</div>
+                    <div class="detail-value">${escapeHtml(record.twoFAEnabled === "yes" ? "Yes" : record.twoFAEnabled === "no" ? "No" : "Unknown")}</div>
+                </div>
+
+                <div class="detail-card">
+                    <div class="detail-label">2FA Type</div>
+                    <div class="detail-value">${escapeHtml(twoFATypeNames[record.twoFAType] || "Not specified")}</div>
+                </div>
+
+                ${record.twoFAType === "authenticator" && record.totpSecret ? `
+                    <div class="totp-display-card full">
+                        <div class="totp-display-header">
+                            <div>
+                                <span class="detail-label">Current Authenticator Code</span>
+                                <strong>${escapeHtml(record.totpIssuer || record.siteName || "")}</strong>
+                                <small>${escapeHtml(record.totpAccount || record.loginId || "")}</small>
+                            </div>
+                            <span id="totpRemaining" class="totp-remaining"></span>
+                        </div>
+
+                        <button id="totpCurrentCode" class="totp-code-button" type="button" title="Copy current code">
+                            Loading…
+                        </button>
+
+                        <div class="totp-countdown-track">
+                            <div id="totpCountdownBar" class="totp-countdown-bar"></div>
+                        </div>
+
+                        <div class="totp-display-actions">
+                            <span>${escapeHtml(record.totpDigits || 6)} digits · ${escapeHtml(record.totpPeriod || 30)} seconds · ${escapeHtml(record.totpAlgorithm || "SHA1")}</span>
+                            <button id="copyTotpCodeButton" class="secondary-button" type="button">Copy Code</button>
+                        </div>
+                    </div>
+                ` : ""}
+
+                <div class="detail-card">
+                    <div class="detail-label">2FA Email</div>
+                    <div class="detail-value">${escapeHtml(record.twoFAEmail || "Not entered")}</div>
+                </div>
+
+                <div class="detail-card">
+                    <div class="detail-label">2FA Phone</div>
+                    <div class="detail-value">${escapeHtml(record.twoFAPhone || "Not entered")}</div>
+                </div>
+
+                <div class="detail-card">
+                    <div class="detail-label">Security Key Name</div>
+                    <div class="detail-value">${escapeHtml(record.securityKeyName || "Not entered")}</div>
+                </div>
+
+                ${record.totpSecret ? sensitiveRow("TOTP Secret", record.totpSecret, "websiteTotpDetail", "full") : ""}
+
+                ${record.recoveryCodes ? sensitiveRow("Recovery Codes", record.recoveryCodes, "websiteRecoveryDetail", "full") : ""}
+
+                <div class="detail-card full">
+                    <div class="detail-label">Notes</div>
+                    <div class="detail-value preserve-lines">${escapeHtml(record.notes || "No notes")}</div>
+                </div>
+
+                <div class="detail-card full">
+                    <div class="detail-label">Tags</div>
+                    <div class="detail-value">${escapeHtml(record.tags || "No tags")}</div>
+                </div>
+
+                <div class="detail-card">
+                    <div class="detail-label">Created</div>
+                    <div class="detail-value">${escapeHtml(formatDate(record.createdAt))}</div>
+                </div>
+
+                <div class="detail-card">
+                    <div class="detail-label">Last Modified</div>
+                    <div class="detail-value">${escapeHtml(formatDate(record.modifiedAt))}</div>
+                </div>
+            </div>
+        `;
+
+        openModal({
+            eyebrow: "Website Record · Encrypted",
+            title: record.siteName || "Website",
+            body,
+            footer: `
+                <button class="secondary-button danger-text" type="button" data-modal-action="delete-website">Delete</button>
+                <button class="secondary-button" type="button" data-modal-action="edit-website">Edit</button>
+                <button class="primary-button" type="button" data-modal-action="close">Done</button>
+            `
+        });
+
+        attachDetailActions();
+
+        if (record.twoFAType === "authenticator" && record.totpSecret) {
+            startTotpRefresh(record);
+
+            const copyButton = document.getElementById("copyTotpCodeButton");
+            const codeButton = document.getElementById("totpCurrentCode");
+
+            const copyCurrentCode = async event => {
+                const rawCode = document.getElementById("totpCurrentCode")?.dataset.rawCode || "";
+                if (rawCode) await copyText(rawCode, event.currentTarget);
+            };
+
+            copyButton?.addEventListener("click", copyCurrentCode);
+            codeButton?.addEventListener("click", copyCurrentCode);
+        }
+    }
+
+    function detailValue(label, value, extraClass = "") {
+        return `
+            <div class="detail-card ${extraClass}">
+                <div class="detail-label">${escapeHtml(label)}</div>
+                <div class="detail-value">${escapeHtml(value || "Not entered")}</div>
+            </div>
+        `;
+    }
+
+    function copyValue(label, value, extraClass = "") {
+        return `
+            <div class="detail-card ${extraClass}">
+                <div class="detail-label">${escapeHtml(label)}</div>
+                <div class="copy-value-row">
+                    <div class="detail-value">${escapeHtml(value || "Not entered")}</div>
+                    ${value ? `<button class="inline-button copy-detail" type="button" data-copy-value="${escapeHtml(value)}">Copy</button>` : ""}
+                </div>
+            </div>
+        `;
+    }
+
+    function showCardRecord(record) {
+        activeRecordId = record.id;
+        const expiration = [record.expMonth, record.expYear].filter(Boolean).join("/") || "Not entered";
+
+        openModal({
+            eyebrow: "Credit Card · Encrypted",
+            title: record.cardNickname || "Credit Card",
+            body: `
+                <div class="detail-grid">
+                    ${detailValue("Cardholder Name", record.cardholderName)}
+                    ${detailValue("Issuing Bank", record.issuingBank)}
+                    ${sensitiveRow("Card Number", record.cardNumber, "cardNumberDetail", "full")}
+                    ${detailValue("Expiration", expiration)}
+                    ${sensitiveRow("CVV", record.cvv, "cardCvvDetail")}
+                    ${copyValue("Billing ZIP", record.billingZip)}
+                    ${detailValue("Credit Limit", record.creditLimit)}
+                    ${record.loginWebsite ? `
+                        <div class="detail-card">
+                            <div class="detail-label">Login Website</div>
+                            <div class="detail-value"><a class="tpwm-link" href="${escapeHtml(safeUrl(record.loginWebsite))}" target="_blank" rel="noopener noreferrer">${escapeHtml(record.loginWebsite)}</a></div>
+                        </div>` : detailValue("Login Website", "")}
+                    ${copyValue("Login ID", record.loginId)}
+                    ${sensitiveRow("Login Password", record.password, "cardPasswordDetail")}
+                    ${copyValue("Customer Service", record.customerService)}
+                    ${detailValue("Notes", record.notes, "full preserve-lines")}
+                    ${detailValue("Tags", record.tags, "full")}
+                    ${detailValue("Created", formatDate(record.createdAt))}
+                    ${detailValue("Last Modified", formatDate(record.modifiedAt))}
+                </div>
+            `,
+            footer: `
+                <button class="secondary-button danger-text" type="button" data-modal-action="delete-card">Delete</button>
+                <button class="secondary-button" type="button" data-modal-action="edit-card">Edit</button>
+                <button class="primary-button" type="button" data-modal-action="close">Done</button>
+            `
+        });
+
+        attachDetailActions();
+    }
+
+    function showBankRecord(record) {
+        activeRecordId = record.id;
+        const status = record.twoFAEnabled === "yes"
+            ? `2FA: ${twoFATypeNames[record.twoFAType] || "Enabled"}`
+            : record.twoFAEnabled === "no" ? "2FA not enabled" : "2FA status unknown";
+
+        openModal({
+            eyebrow: "Bank Account · Encrypted",
+            title: record.accountNickname || record.bankName || "Bank Account",
+            body: `
+                <div class="website-detail-status ${record.twoFAEnabled === "yes" ? "status-good" : record.twoFAEnabled === "no" ? "status-warning" : "status-unknown"}">
+                    ${escapeHtml(status)}
+                </div>
+                <div class="detail-grid">
+                    ${detailValue("Bank Name", record.bankName)}
+                    ${detailValue("Account Nickname", record.accountNickname)}
+                    ${detailValue("Account Type", record.accountType)}
+                    ${sensitiveRow("Routing Number", record.routingNumber, "bankRoutingDetail")}
+                    ${sensitiveRow("Account Number", record.accountNumber, "bankAccountDetail")}
+                    ${record.website ? `
+                        <div class="detail-card">
+                            <div class="detail-label">Website</div>
+                            <div class="detail-value"><a class="tpwm-link" href="${escapeHtml(safeUrl(record.website))}" target="_blank" rel="noopener noreferrer">${escapeHtml(record.website)}</a></div>
+                        </div>` : detailValue("Website", "")}
+                    ${copyValue("Login ID", record.loginId)}
+                    ${sensitiveRow("Password", record.password, "bankPasswordDetail")}
+                    ${copyValue("Email Used", record.emailUsed)}
+                    ${detailValue("2FA Enabled", record.twoFAEnabled === "yes" ? "Yes" : record.twoFAEnabled === "no" ? "No" : "Unknown")}
+                    ${detailValue("2FA Type", twoFATypeNames[record.twoFAType] || "Not specified")}
+                    ${copyValue("Phone Number", record.phoneNumber)}
+                    ${copyValue("Customer Service", record.customerService)}
+                    ${detailValue("Notes", record.notes, "full preserve-lines")}
+                    ${detailValue("Tags", record.tags, "full")}
+                    ${detailValue("Created", formatDate(record.createdAt))}
+                    ${detailValue("Last Modified", formatDate(record.modifiedAt))}
+                </div>
+            `,
+            footer: `
+                <button class="secondary-button danger-text" type="button" data-modal-action="delete-bank">Delete</button>
+                <button class="secondary-button" type="button" data-modal-action="edit-bank">Edit</button>
+                <button class="primary-button" type="button" data-modal-action="close">Done</button>
+            `
+        });
+
+        attachDetailActions();
+    }
+
+    function showNoteRecord(record) {
+        activeRecordId = record.id;
+
+        openModal({
+            eyebrow: "Secure Note · Encrypted",
+            title: record.title || "Secure Note",
+            body: `
+                <div class="detail-grid">
+                    ${detailValue("Category", record.category)}
+                    ${detailValue("Tags", record.tags)}
+                    <div class="detail-card full">
+                        <div class="detail-label">Contents</div>
+                        <div class="detail-value preserve-lines">${escapeHtml(record.contents || "Empty note")}</div>
+                    </div>
+                    ${detailValue("Created", formatDate(record.createdAt))}
+                    ${detailValue("Last Modified", formatDate(record.modifiedAt))}
+                </div>
+            `,
+            footer: `
+                <button class="secondary-button danger-text" type="button" data-modal-action="delete-note">Delete</button>
+                <button class="secondary-button" type="button" data-modal-action="edit-note">Edit</button>
+                <button class="primary-button" type="button" data-modal-action="close">Done</button>
+            `
+        });
+    }
+
+    function formValue(record, field, fallback = "") {
+        return escapeHtml(record?.[field] ?? fallback);
+    }
+
+    function cardFormHtml(record = null) {
+        return `
+            <form id="cardRecordForm" class="record-form">
+                <div class="form-section-heading">Card Information</div>
+                <div class="form-two-column">
+                    <label>Card Nickname *<input id="cardNickname" type="text" required value="${formValue(record, "cardNickname")}" placeholder="Example: Everyday Card"></label>
+                    <label>Cardholder Name<input id="cardholderName" type="text" value="${formValue(record, "cardholderName")}"></label>
+                </div>
+                <label>Card Number<div class="input-action-row"><input id="cardNumber" type="password" inputmode="numeric" value="${formValue(record, "cardNumber")}"><button class="inline-button toggle-password" type="button" data-target="cardNumber">Show</button></div></label>
+                <div class="form-three-column">
+                    <label>Expiration Month<input id="cardExpMonth" type="text" inputmode="numeric" maxlength="2" value="${formValue(record, "expMonth")}" placeholder="MM"></label>
+                    <label>Expiration Year<input id="cardExpYear" type="text" inputmode="numeric" maxlength="4" value="${formValue(record, "expYear")}" placeholder="YYYY"></label>
+                    <label>CVV<div class="input-action-row"><input id="cardCvv" type="password" inputmode="numeric" maxlength="4" value="${formValue(record, "cvv")}"><button class="inline-button toggle-password" type="button" data-target="cardCvv">Show</button></div></label>
+                </div>
+                <div class="form-two-column">
+                    <label>Billing ZIP<input id="cardBillingZip" type="text" value="${formValue(record, "billingZip")}"></label>
+                    <label>Issuing Bank<input id="cardIssuingBank" type="text" value="${formValue(record, "issuingBank")}"></label>
+                </div>
+                <div class="form-section-heading">Online Account</div>
+                <label>Login Website<input id="cardLoginWebsite" type="url" value="${formValue(record, "loginWebsite")}" placeholder="https://example.com"></label>
+                <div class="form-two-column">
+                    <label>Login ID<input id="cardLoginId" type="text" value="${formValue(record, "loginId")}"></label>
+                    <label>Password<div class="input-action-row"><input id="cardLoginPassword" type="password" value="${formValue(record, "password")}"><button class="inline-button toggle-password" type="button" data-target="cardLoginPassword">Show</button></div></label>
+                </div>
+                <div class="form-two-column">
+                    <label>Customer Service<input id="cardCustomerService" type="text" value="${formValue(record, "customerService")}"></label>
+                    <label>Credit Limit<input id="cardCreditLimit" type="text" value="${formValue(record, "creditLimit")}" placeholder="Optional"></label>
+                </div>
+                <label>Notes<textarea id="cardNotes">${formValue(record, "notes")}</textarea></label>
+                <label>Tags<input id="cardTags" type="text" value="${formValue(record, "tags")}"></label>
+                <p id="cardFormMessage" class="form-note">The complete credit-card record is encrypted before being saved.</p>
+            </form>
+        `;
+    }
+
+    function bankFormHtml(record = null) {
+        return `
+            <form id="bankRecordForm" class="record-form">
+                <div class="form-section-heading">Account Information</div>
+                <div class="form-two-column">
+                    <label>Bank Name *<input id="bankName" type="text" required value="${formValue(record, "bankName")}"></label>
+                    <label>Account Nickname<input id="bankNickname" type="text" value="${formValue(record, "accountNickname")}" placeholder="Example: Primary Checking"></label>
+                </div>
+                <label>Account Type<select id="bankAccountType">
+                    ${["Checking","Savings","Money Market","Certificate of Deposit","Loan","Investment","Other"].map(v => `<option value="${v}" ${record?.accountType === v ? "selected" : ""}>${v}</option>`).join("")}
+                </select></label>
+                <div class="form-two-column">
+                    <label>Routing Number<div class="input-action-row"><input id="bankRouting" type="password" inputmode="numeric" value="${formValue(record, "routingNumber")}"><button class="inline-button toggle-password" type="button" data-target="bankRouting">Show</button></div></label>
+                    <label>Account Number<div class="input-action-row"><input id="bankAccountNumber" type="password" value="${formValue(record, "accountNumber")}"><button class="inline-button toggle-password" type="button" data-target="bankAccountNumber">Show</button></div></label>
+                </div>
+                <div class="form-section-heading">Online Banking</div>
+                <label>Website<input id="bankWebsite" type="url" value="${formValue(record, "website")}" placeholder="https://example.com"></label>
+                <div class="form-two-column">
+                    <label>Login ID<input id="bankLoginId" type="text" value="${formValue(record, "loginId")}"></label>
+                    <label>Password<div class="input-action-row"><input id="bankPassword" type="password" value="${formValue(record, "password")}"><button class="inline-button toggle-password" type="button" data-target="bankPassword">Show</button></div></label>
+                </div>
+                <div class="form-two-column">
+                    <label>Email Used<input id="bankEmail" type="email" value="${formValue(record, "emailUsed")}"></label>
+                    <label>Phone Number<input id="bankPhone" type="text" value="${formValue(record, "phoneNumber")}"></label>
+                </div>
+                <div class="form-two-column">
+                    <label>2FA Enabled<select id="bank2FAEnabled">
+                        <option value="unknown" ${!record || record.twoFAEnabled === "unknown" ? "selected" : ""}>Unknown</option>
+                        <option value="yes" ${record?.twoFAEnabled === "yes" ? "selected" : ""}>Yes</option>
+                        <option value="no" ${record?.twoFAEnabled === "no" ? "selected" : ""}>No</option>
+                    </select></label>
+                    <label>2FA Type<select id="bank2FAType">
+                        ${Object.entries(twoFATypeNames).map(([key, name]) => `<option value="${key}" ${record?.twoFAType === key || (!record && key === "none") ? "selected" : ""}>${name}</option>`).join("")}
+                    </select></label>
+                </div>
+                <label>Customer Service<input id="bankCustomerService" type="text" value="${formValue(record, "customerService")}"></label>
+                <label>Notes<textarea id="bankNotes">${formValue(record, "notes")}</textarea></label>
+                <label>Tags<input id="bankTags" type="text" value="${formValue(record, "tags")}"></label>
+                <p id="bankFormMessage" class="form-note">Routing, account, login, and other information is encrypted before saving.</p>
+            </form>
+        `;
+    }
+
+    function noteFormHtml(record = null) {
+        return `
+            <form id="noteRecordForm" class="record-form">
+                <div class="form-two-column">
+                    <label>Title *<input id="noteTitle" type="text" required value="${formValue(record, "title")}"></label>
+                    <label>Category<input id="noteCategory" type="text" value="${formValue(record, "category")}" placeholder="Example: Recovery"></label>
+                </div>
+                <label>Contents<textarea id="noteContents" class="large-note-area" placeholder="Enter the secure note contents">${formValue(record, "contents")}</textarea></label>
+                <label>Tags<input id="noteTags" type="text" value="${formValue(record, "tags")}"></label>
+                <p id="noteFormMessage" class="form-note">The title, category, contents, and tags are stored inside the encrypted vault.</p>
+            </form>
+        `;
+    }
+
+    function showCardForm(record = null) {
+        activeRecordId = record?.id || null;
+        openModal({
+            eyebrow: record ? "Edit Encrypted Card" : "New Encrypted Card",
+            title: record?.cardNickname || "Add Credit Card",
+            body: cardFormHtml(record),
+            footer: `<button class="secondary-button" type="button" data-modal-action="close">Cancel</button><button class="primary-button" type="button" data-modal-action="save-card">${record ? "Save Changes" : "Add Card"}</button>`
+        });
+        attachPasswordToggles(elements.modalBody);
+        document.getElementById("cardNickname").focus();
+    }
+
+    function showBankForm(record = null) {
+        activeRecordId = record?.id || null;
+        openModal({
+            eyebrow: record ? "Edit Encrypted Bank Account" : "New Encrypted Bank Account",
+            title: record?.accountNickname || record?.bankName || "Add Bank Account",
+            body: bankFormHtml(record),
+            footer: `<button class="secondary-button" type="button" data-modal-action="close">Cancel</button><button class="primary-button" type="button" data-modal-action="save-bank">${record ? "Save Changes" : "Add Account"}</button>`
+        });
+        attachPasswordToggles(elements.modalBody);
+        document.getElementById("bankName").focus();
+    }
+
+    function showNoteForm(record = null) {
+        activeRecordId = record?.id || null;
+        openModal({
+            eyebrow: record ? "Edit Encrypted Note" : "New Encrypted Note",
+            title: record?.title || "Add Secure Note",
+            body: noteFormHtml(record),
+            footer: `<button class="secondary-button" type="button" data-modal-action="close">Cancel</button><button class="primary-button" type="button" data-modal-action="save-note">${record ? "Save Changes" : "Add Note"}</button>`
+        });
+        document.getElementById("noteTitle").focus();
+    }
+
+    function collectCardForm() {
+        const name = document.getElementById("cardNickname").value.trim();
+        if (!name) {
+            const message = document.getElementById("cardFormMessage");
+            message.textContent = "Card Nickname is required.";
+            message.style.color = "var(--danger)";
+            document.getElementById("cardNickname").focus();
+            return null;
+        }
+        const existing = activeRecordId ? vaultData.records.cards.find(item => item.id === activeRecordId) : null;
+        const now = new Date().toISOString();
+        return {
+            id: existing?.id || crypto.randomUUID(), recordType: "card", cardNickname: name,
+            cardholderName: document.getElementById("cardholderName").value.trim(),
+            cardNumber: document.getElementById("cardNumber").value.trim(),
+            expMonth: document.getElementById("cardExpMonth").value.trim(),
+            expYear: document.getElementById("cardExpYear").value.trim(),
+            cvv: document.getElementById("cardCvv").value.trim(),
+            billingZip: document.getElementById("cardBillingZip").value.trim(),
+            issuingBank: document.getElementById("cardIssuingBank").value.trim(),
+            loginWebsite: document.getElementById("cardLoginWebsite").value.trim(),
+            loginId: document.getElementById("cardLoginId").value.trim(),
+            password: document.getElementById("cardLoginPassword").value,
+            customerService: document.getElementById("cardCustomerService").value.trim(),
+            creditLimit: document.getElementById("cardCreditLimit").value.trim(),
+            notes: document.getElementById("cardNotes").value.trim(),
+            tags: document.getElementById("cardTags").value.trim(),
+            createdAt: existing?.createdAt || now, modifiedAt: now
+        };
+    }
+
+    function collectBankForm() {
+        const name = document.getElementById("bankName").value.trim();
+        if (!name) {
+            const message = document.getElementById("bankFormMessage");
+            message.textContent = "Bank Name is required.";
+            message.style.color = "var(--danger)";
+            document.getElementById("bankName").focus();
+            return null;
+        }
+        const existing = activeRecordId ? vaultData.records.banking.find(item => item.id === activeRecordId) : null;
+        const now = new Date().toISOString();
+        return {
+            id: existing?.id || crypto.randomUUID(), recordType: "bank", bankName: name,
+            accountNickname: document.getElementById("bankNickname").value.trim(),
+            accountType: document.getElementById("bankAccountType").value,
+            routingNumber: document.getElementById("bankRouting").value.trim(),
+            accountNumber: document.getElementById("bankAccountNumber").value.trim(),
+            website: document.getElementById("bankWebsite").value.trim(),
+            loginId: document.getElementById("bankLoginId").value.trim(),
+            password: document.getElementById("bankPassword").value,
+            emailUsed: document.getElementById("bankEmail").value.trim(),
+            twoFAEnabled: document.getElementById("bank2FAEnabled").value,
+            twoFAType: document.getElementById("bank2FAType").value,
+            phoneNumber: document.getElementById("bankPhone").value.trim(),
+            customerService: document.getElementById("bankCustomerService").value.trim(),
+            notes: document.getElementById("bankNotes").value.trim(),
+            tags: document.getElementById("bankTags").value.trim(),
+            createdAt: existing?.createdAt || now, modifiedAt: now
+        };
+    }
+
+    function collectNoteForm() {
+        const title = document.getElementById("noteTitle").value.trim();
+        if (!title) {
+            const message = document.getElementById("noteFormMessage");
+            message.textContent = "Title is required.";
+            message.style.color = "var(--danger)";
+            document.getElementById("noteTitle").focus();
+            return null;
+        }
+        const existing = activeRecordId ? vaultData.records.notes.find(item => item.id === activeRecordId) : null;
+        const now = new Date().toISOString();
+        return {
+            id: existing?.id || crypto.randomUUID(), recordType: "note", title,
+            category: document.getElementById("noteCategory").value.trim(),
+            contents: document.getElementById("noteContents").value,
+            tags: document.getElementById("noteTags").value.trim(),
+            createdAt: existing?.createdAt || now, modifiedAt: now
+        };
+    }
+
+    async function saveTypedRecord(type, record, messageId, buttonAction, singular) {
+        if (!record) return;
+        const collection = type === "card" ? "cards" : type === "bank" ? "banking" : "notes";
+        const button = elements.modalFooter.querySelector(`[data-modal-action="${buttonAction}"]`);
+        const records = vaultData.records[collection];
+        const index = records.findIndex(item => item.id === record.id);
+        const previous = index >= 0 ? records[index] : null;
+        button.disabled = true;
+        button.textContent = "Encrypting...";
+        if (index >= 0) records[index] = record; else records.unshift(record);
+        try {
+            await window.TPWMVault.saveData(vaultData);
+            updateCategoryCounts();
+            renderRecords();
+            elements.statusText.textContent = `${singular} ${index >= 0 ? "updated" : "added"} and encrypted`;
+            closeModal();
+        } catch (error) {
+            if (index >= 0) records[index] = previous; else records.shift();
+            const message = document.getElementById(messageId);
+            message.textContent = `Unable to save: ${error.message}`;
+            message.style.color = "var(--danger)";
+            button.disabled = false;
+            button.textContent = index >= 0 ? "Save Changes" : `Add ${singular}`;
+        }
+    }
+
+    async function deleteTypedRecord(collection, singular) {
+        const record = vaultData.records[collection].find(item => item.id === activeRecordId);
+        if (!record) return;
+        const title = record.cardNickname || record.accountNickname || record.bankName || record.title || singular;
+        if (!window.confirm(`Delete "${title}"?\n\nThis removes it from the encrypted vault.`)) return;
+        const previous = [...vaultData.records[collection]];
+        vaultData.records[collection] = previous.filter(item => item.id !== activeRecordId);
+        try {
+            await window.TPWMVault.saveData(vaultData);
+            updateCategoryCounts();
+            renderRecords();
+            elements.statusText.textContent = `${singular} deleted`;
+            closeModal();
+        } catch (error) {
+            vaultData.records[collection] = previous;
+            window.alert(`Unable to delete: ${error.message}`);
+        }
+    }
+
+    function websiteFormHtml(record = null) {
+        const value = (field, fallback = "") => escapeHtml(record?.[field] ?? fallback);
+
+        return `
+            <form id="websiteRecordForm" class="record-form website-form">
+                <div class="form-section-heading">Website Login</div>
+
+                <div class="form-two-column">
+                    <label>
+                        Site Name *
+                        <input id="siteName" type="text" required value="${value("siteName")}" placeholder="Example: Proton Mail">
+                    </label>
+
+                    <label>
+                        Website URL
+                        <input id="siteUrl" type="url" value="${value("url")}" placeholder="https://example.com">
+                    </label>
+                </div>
+
+                <div class="form-two-column">
+                    <label>
+                        Login ID / Username
+                        <input id="siteLoginId" type="text" value="${value("loginId")}" placeholder="Username or account ID">
+                    </label>
+
+                    <label>
+                        Email Used
+                        <input id="siteEmailUsed" type="email" value="${value("emailUsed")}" placeholder="Email associated with account">
+                    </label>
+                </div>
+
+                <label>
+                    Password
+                    <div class="input-action-row">
+                        <input id="sitePassword" type="password" value="${value("password")}" placeholder="Enter password">
+                        <button class="inline-button toggle-password" type="button" data-target="sitePassword">Show</button>
+                    </div>
+                </label>
+
+                <div class="form-section-heading">Two-Factor Authentication</div>
+
+                <div class="form-two-column">
+                    <label>
+                        Does This Website Support 2FA?
+                        <select id="siteSupports2FA">
+                            <option value="unknown" ${record?.supports2FA === "unknown" || !record ? "selected" : ""}>Unknown</option>
+                            <option value="yes" ${record?.supports2FA === "yes" ? "selected" : ""}>Yes</option>
+                            <option value="no" ${record?.supports2FA === "no" ? "selected" : ""}>No</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        Is 2FA Enabled on This Account?
+                        <select id="site2FAEnabled">
+                            <option value="unknown" ${record?.twoFAEnabled === "unknown" || !record ? "selected" : ""}>Unknown</option>
+                            <option value="yes" ${record?.twoFAEnabled === "yes" ? "selected" : ""}>Yes</option>
+                            <option value="no" ${record?.twoFAEnabled === "no" ? "selected" : ""}>No</option>
+                        </select>
+                    </label>
+                </div>
+
+                <label>
+                    2FA Type
+                    <select id="site2FAType">
+                        <option value="none" ${record?.twoFAType === "none" || !record ? "selected" : ""}>Not specified</option>
+                        <option value="authenticator" ${record?.twoFAType === "authenticator" ? "selected" : ""}>Authenticator App</option>
+                        <option value="email" ${record?.twoFAType === "email" ? "selected" : ""}>Email</option>
+                        <option value="sms" ${record?.twoFAType === "sms" ? "selected" : ""}>SMS</option>
+                        <option value="securityKey" ${record?.twoFAType === "securityKey" ? "selected" : ""}>Security Key</option>
+                        <option value="passkey" ${record?.twoFAType === "passkey" ? "selected" : ""}>Passkey</option>
+                        <option value="backupCodes" ${record?.twoFAType === "backupCodes" ? "selected" : ""}>Backup Codes</option>
+                        <option value="other" ${record?.twoFAType === "other" ? "selected" : ""}>Other</option>
+                    </select>
+                </label>
+
+                <div id="totpSettingsPanel" class="totp-settings-panel">
+                    <div class="totp-settings-heading">
+                        <div>
+                            <strong>Authenticator Setup</strong>
+                            <small>Paste an otpauth link, scan a QR image, or enter the secret manually.</small>
+                        </div>
+                        <span class="totp-mini-badge">TOTP</span>
+                    </div>
+
+                    <label>
+                        otpauth:// Link
+                        <div class="input-action-row">
+                            <input id="siteOtpAuthUri" type="text" placeholder="otpauth://totp/...">
+                            <button id="applyOtpAuthButton" class="inline-button" type="button">Apply</button>
+                        </div>
+                    </label>
+
+                    <button id="readQrImageButton" class="secondary-button" type="button">
+                        Read QR Code Image
+                    </button>
+
+                    <div class="form-two-column">
+                        <label>
+                            Issuer
+                            <input id="siteTotpIssuer" type="text" value="${value("totpIssuer")}" placeholder="Example: Facebook">
+                        </label>
+                        <label>
+                            Account
+                            <input id="siteTotpAccount" type="text" value="${value("totpAccount")}" placeholder="Email or username">
+                        </label>
+                    </div>
+
+                    <div class="form-three-column">
+                        <label>
+                            Digits
+                            <select id="siteTotpDigits">
+                                <option value="6" ${Number(record?.totpDigits || 6) === 6 ? "selected" : ""}>6 digits</option>
+                                <option value="8" ${Number(record?.totpDigits) === 8 ? "selected" : ""}>8 digits</option>
+                            </select>
+                        </label>
+                        <label>
+                            Period
+                            <select id="siteTotpPeriod">
+                                <option value="15" ${Number(record?.totpPeriod) === 15 ? "selected" : ""}>15 seconds</option>
+                                <option value="30" ${Number(record?.totpPeriod || 30) === 30 ? "selected" : ""}>30 seconds</option>
+                                <option value="60" ${Number(record?.totpPeriod) === 60 ? "selected" : ""}>60 seconds</option>
+                            </select>
+                        </label>
+                        <label>
+                            Algorithm
+                            <select id="siteTotpAlgorithm">
+                                <option value="SHA1" ${(record?.totpAlgorithm || "SHA1") === "SHA1" ? "selected" : ""}>SHA-1</option>
+                                <option value="SHA256" ${record?.totpAlgorithm === "SHA256" ? "selected" : ""}>SHA-256</option>
+                                <option value="SHA512" ${record?.totpAlgorithm === "SHA512" ? "selected" : ""}>SHA-512</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div id="totpPreviewCard" class="totp-preview-card">
+                        <span>Preview</span>
+                        <strong id="totpPreviewCode">Enter a secret</strong>
+                        <small id="totpPreviewStatus">The code will update automatically.</small>
+                    </div>
+                </div>
+
+                <div class="form-two-column">
+                    <label>
+                        TOTP Secret
+                        <div class="input-action-row">
+                            <input id="siteTotpSecret" type="password" value="${value("totpSecret")}" placeholder="Optional authenticator secret">
+                            <button class="inline-button toggle-password" type="button" data-target="siteTotpSecret">Show</button>
+                        </div>
+                    </label>
+
+                    <label>
+                        Security Key Name
+                        <input id="siteSecurityKeyName" type="text" value="${value("securityKeyName")}" placeholder="Example: YubiKey 5">
+                    </label>
+                </div>
+
+                <div class="form-two-column">
+                    <label>
+                        2FA Email
+                        <input id="site2FAEmail" type="email" value="${value("twoFAEmail")}" placeholder="Email receiving codes">
+                    </label>
+
+                    <label>
+                        2FA Phone
+                        <input id="site2FAPhone" type="text" value="${value("twoFAPhone")}" placeholder="Phone receiving codes">
+                    </label>
+                </div>
+
+                <label>
+                    Recovery Codes
+                    <textarea id="siteRecoveryCodes" placeholder="One recovery code per line">${value("recoveryCodes")}</textarea>
+                </label>
+
+                <div class="form-section-heading">Additional Information</div>
+
+                <label>
+                    Notes
+                    <textarea id="siteNotes" placeholder="Optional notes">${value("notes")}</textarea>
+                </label>
+
+                <label>
+                    Tags
+                    <input id="siteTags" type="text" value="${value("tags")}" placeholder="Example: email, personal, work">
+                </label>
+
+                <p id="websiteFormMessage" class="form-note">
+                    All fields in this website record are encrypted before the vault is saved to IndexedDB.
+                </p>
+            </form>
+        `;
+    }
+
+    function showWebsiteForm(record = null) {
+        activeRecordId = record?.id || null;
+
+        openModal({
+            eyebrow: record ? "Edit Encrypted Website" : "New Encrypted Website",
+            title: record ? record.siteName : "Add Website",
+            body: websiteFormHtml(record),
+            footer: `
+                <button class="secondary-button" type="button" data-modal-action="close">Cancel</button>
+                <button class="primary-button" type="button" data-modal-action="save-website">${record ? "Save Changes" : "Add Website"}</button>
+            `
+        });
+
+        attachPasswordToggles(elements.modalBody);
+
+        const typeSelect = document.getElementById("site2FAType");
+        const enabledSelect = document.getElementById("site2FAEnabled");
+        const supportsSelect = document.getElementById("siteSupports2FA");
+        const panel = document.getElementById("totpSettingsPanel");
+        const secretInput = document.getElementById("siteTotpSecret");
+
+        const updatePanelVisibility = () => {
+            const authenticator = typeSelect.value === "authenticator";
+            panel.classList.toggle("hidden", !authenticator);
+
+            if (authenticator) {
+                supportsSelect.value = "yes";
+                enabledSelect.value = "yes";
+            }
+        };
+
+        const updatePreview = async () => {
+            const code = document.getElementById("totpPreviewCode");
+            const status = document.getElementById("totpPreviewStatus");
+            const secret = secretInput.value;
+
+            if (!secret) {
+                code.textContent = "Enter a secret";
+                status.textContent = "The code will update automatically.";
+                return;
+            }
+
+            try {
+                const result = await generateTotp(secret, {
+                    digits: Number(document.getElementById("siteTotpDigits").value),
+                    period: Number(document.getElementById("siteTotpPeriod").value),
+                    algorithm: document.getElementById("siteTotpAlgorithm").value
+                });
+                code.textContent = formatTotpCode(result.code);
+                status.textContent = `${result.remaining} seconds remaining`;
+            } catch (error) {
+                code.textContent = "Invalid secret";
+                status.textContent = error.message;
+            }
+        };
+
+        const applyOtpUri = () => {
+            const message = document.getElementById("websiteFormMessage");
+
+            try {
+                const parsed = parseOtpAuthUri(document.getElementById("siteOtpAuthUri").value);
+                secretInput.value = parsed.secret;
+                document.getElementById("siteTotpIssuer").value = parsed.issuer;
+                document.getElementById("siteTotpAccount").value = parsed.account;
+                document.getElementById("siteTotpDigits").value = String(parsed.digits);
+                document.getElementById("siteTotpPeriod").value = String(parsed.period);
+                document.getElementById("siteTotpAlgorithm").value = parsed.algorithm;
+                typeSelect.value = "authenticator";
+                supportsSelect.value = "yes";
+                enabledSelect.value = "yes";
+                updatePanelVisibility();
+                updatePreview();
+                message.textContent = "Authenticator information imported successfully.";
+                message.style.color = "var(--accent)";
+            } catch (error) {
+                message.textContent = error.message;
+                message.style.color = "var(--danger)";
+            }
+        };
+
+        typeSelect.addEventListener("change", updatePanelVisibility);
+        document.getElementById("applyOtpAuthButton").addEventListener("click", applyOtpUri);
+        document.getElementById("readQrImageButton").addEventListener("click", () => {
+            pendingQrTarget = "website";
+            elements.totpQrFileInput.click();
+        });
+
+        [
+            secretInput,
+            document.getElementById("siteTotpDigits"),
+            document.getElementById("siteTotpPeriod"),
+            document.getElementById("siteTotpAlgorithm")
+        ].forEach(control => control.addEventListener("input", updatePreview));
+
+        updatePanelVisibility();
+        updatePreview();
+
+        if (totpRefreshTimer) clearInterval(totpRefreshTimer);
+        totpRefreshTimer = setInterval(updatePreview, 1000);
+
+        document.getElementById("siteName").focus();
+    }
+
+    function showAddRecord() {
+        if (currentCategory === "websites") {
+            showWebsiteForm();
+        } else if (currentCategory === "cards") {
+            showCardForm();
+        } else if (currentCategory === "banking") {
+            showBankForm();
+        } else {
+            showNoteForm();
+        }
+    }
+
+    function collectWebsiteForm() {
+        const formMessage = document.getElementById("websiteFormMessage");
+        const siteName = document.getElementById("siteName").value.trim();
+
+        if (!siteName) {
+            formMessage.textContent = "Site Name is required.";
+            formMessage.style.color = "var(--danger)";
+            document.getElementById("siteName").focus();
+            return null;
+        }
+
+        const now = new Date().toISOString();
+        const existing = activeRecordId
+            ? vaultData.records.websites.find((record) => record.id === activeRecordId)
+            : null;
+
+        return {
+            id: existing?.id || crypto.randomUUID(),
+            recordType: "website",
+            siteName,
+            url: document.getElementById("siteUrl").value.trim(),
+            loginId: document.getElementById("siteLoginId").value.trim(),
+            password: document.getElementById("sitePassword").value,
+            emailUsed: document.getElementById("siteEmailUsed").value.trim(),
+            supports2FA: document.getElementById("siteSupports2FA").value,
+            twoFAEnabled: document.getElementById("site2FAEnabled").value,
+            twoFAType: document.getElementById("site2FAType").value,
+            totpSecret: normalizeBase32(document.getElementById("siteTotpSecret").value),
+            totpIssuer: document.getElementById("siteTotpIssuer").value.trim(),
+            totpAccount: document.getElementById("siteTotpAccount").value.trim(),
+            totpDigits: Number(document.getElementById("siteTotpDigits").value) || 6,
+            totpPeriod: Number(document.getElementById("siteTotpPeriod").value) || 30,
+            totpAlgorithm: document.getElementById("siteTotpAlgorithm").value,
+            twoFAEmail: document.getElementById("site2FAEmail").value.trim(),
+            twoFAPhone: document.getElementById("site2FAPhone").value.trim(),
+            recoveryCodes: document.getElementById("siteRecoveryCodes").value.trim(),
+            securityKeyName: document.getElementById("siteSecurityKeyName").value.trim(),
+            notes: document.getElementById("siteNotes").value.trim(),
+            tags: document.getElementById("siteTags").value.trim(),
+            createdAt: existing?.createdAt || now,
+            modifiedAt: now
+        };
+    }
+
+    async function saveWebsite() {
+        const record = collectWebsiteForm();
+
+        if (!record) {
+            return;
+        }
+
+        const saveButton = elements.modalFooter.querySelector('[data-modal-action="save-website"]');
+        saveButton.disabled = true;
+        saveButton.textContent = "Encrypting...";
+
+        const index = vaultData.records.websites.findIndex((item) => item.id === record.id);
+
+        if (index >= 0) {
+            vaultData.records.websites[index] = record;
+        } else {
+            vaultData.records.websites.unshift(record);
+        }
+
+        try {
+            await window.TPWMVault.saveData(vaultData);
+            updateCategoryCounts();
+            renderRecords();
+            elements.statusText.textContent = index >= 0
+                ? `Website updated and encrypted: ${record.siteName}`
+                : `Website added and encrypted: ${record.siteName}`;
+            closeModal();
+        } catch (error) {
+            const formMessage = document.getElementById("websiteFormMessage");
+            formMessage.textContent = `Unable to save: ${error.message}`;
+            formMessage.style.color = "var(--danger)";
+            saveButton.disabled = false;
+            saveButton.textContent = index >= 0 ? "Save Changes" : "Add Website";
+        }
+    }
+
+    async function deleteWebsite() {
+        const record = vaultData.records.websites.find((item) => item.id === activeRecordId);
+
+        if (!record) {
+            return;
+        }
+
+        const confirmed = window.confirm(`Delete "${record.siteName}"?\n\nThis removes the record from the encrypted vault.`);
+
+        if (!confirmed) {
+            return;
+        }
+
+        const originalRecords = [...vaultData.records.websites];
+        vaultData.records.websites = vaultData.records.websites.filter((item) => item.id !== activeRecordId);
+
+        try {
+            await window.TPWMVault.saveData(vaultData);
+            updateCategoryCounts();
+            renderRecords();
+            elements.statusText.textContent = `Website deleted: ${record.siteName}`;
+            closeModal();
+        } catch (error) {
+            vaultData.records.websites = originalRecords;
+            window.alert(`Unable to delete the website: ${error.message}`);
+        }
+    }
+
+    function secureRandomInt(maxExclusive) {
+        const limit = Math.floor(0x100000000 / maxExclusive) * maxExclusive;
+        const values = new Uint32Array(1);
+        let value;
+
+        do {
+            crypto.getRandomValues(values);
+            value = values[0];
+        } while (value >= limit);
+
+        return value % maxExclusive;
+    }
+
+    function shuffleSecure(characters) {
+        const result = [...characters];
+
+        for (let index = result.length - 1; index > 0; index -= 1) {
+            const swapIndex = secureRandomInt(index + 1);
+            [result[index], result[swapIndex]] = [result[swapIndex], result[index]];
+        }
+
+        return result;
+    }
+
+    function generatorOptions() {
+        return {
+            length: Math.max(4, Math.min(128, Number(document.getElementById("generatorLength").value) || 20)),
+            lowercase: document.getElementById("generatorLower").checked,
+            uppercase: document.getElementById("generatorUpper").checked,
+            numbers: document.getElementById("generatorNumbers").checked,
+            symbols: document.getElementById("generatorSymbols").checked,
+            excludeAmbiguous: document.getElementById("generatorAmbiguous").checked
+        };
+    }
+
+    function generatorSets(options) {
+        let lowercase = "abcdefghijklmnopqrstuvwxyz";
+        let uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        let numbers = "0123456789";
+        let symbols = "!@#$%^&*()-_=+[]{};:,.?";
+
+        if (options.excludeAmbiguous) {
+            const ambiguous = new Set(["I", "l", "1", "O", "0", "o", "|", "`", "'", "\""]);
+            const clean = text => [...text].filter(character => !ambiguous.has(character)).join("");
+            lowercase = clean(lowercase);
+            uppercase = clean(uppercase);
+            numbers = clean(numbers);
+            symbols = clean(symbols);
+        }
+
+        const sets = [];
+        if (options.lowercase) sets.push(lowercase);
+        if (options.uppercase) sets.push(uppercase);
+        if (options.numbers) sets.push(numbers);
+        if (options.symbols) sets.push(symbols);
+        return sets;
+    }
+
+    function generateSecurePassword() {
+        const options = generatorOptions();
+        const sets = generatorSets(options);
+
+        if (sets.length === 0) {
+            throw new Error("Select at least one character type.");
+        }
+
+        if (options.length < sets.length) {
+            throw new Error(`Length must be at least ${sets.length}.`);
+        }
+
+        const pool = sets.join("");
+        const characters = sets.map(set => set[secureRandomInt(set.length)]);
+
+        while (characters.length < options.length) {
+            characters.push(pool[secureRandomInt(pool.length)]);
+        }
+
+        return shuffleSecure(characters).join("");
+    }
+
+    function generatorEntropy() {
+        const options = generatorOptions();
+        const poolSize = generatorSets(options).reduce((total, set) => total + set.length, 0);
+        return poolSize ? Math.round(options.length * Math.log2(poolSize)) : 0;
+    }
+
+    function updateGeneratorDisplay(password) {
+        const entropy = generatorEntropy();
+        const output = document.getElementById("generatedPassword");
+        const bar = document.getElementById("generatorStrengthBar");
+        const label = document.getElementById("generatorStrengthLabel");
+        const entropyText = document.getElementById("generatorEntropy");
+        const lengthBadge = document.getElementById("generatorLengthBadge");
+
+        let strength = "Weak";
+        let className = "strength-weak";
+        let width = 22;
+
+        if (entropy >= 100) {
+            strength = "Excellent";
+            className = "strength-excellent";
+            width = 100;
+        } else if (entropy >= 75) {
+            strength = "Strong";
+            className = "strength-strong";
+            width = 78;
+        } else if (entropy >= 50) {
+            strength = "Good";
+            className = "strength-good";
+            width = 56;
+        }
+
+        output.value = password;
+        bar.className = `generator-strength-bar ${className}`;
+        bar.style.width = `${width}%`;
+        label.className = `generator-strength-label ${className}`;
+        label.textContent = strength;
+        entropyText.textContent = `${entropy} bits`;
+        lengthBadge.textContent = `${generatorOptions().length} characters`;
+
+        const card = document.querySelector(".generator-output-card");
+        card.classList.remove("generator-flash");
+        void card.offsetWidth;
+        card.classList.add("generator-flash");
+    }
+
+    function runPasswordGenerator() {
+        const message = document.getElementById("generatorMessage");
+
+        try {
+            const password = generateSecurePassword();
+            updateGeneratorDisplay(password);
+            message.textContent = "Generated locally with crypto.getRandomValues.";
+            message.style.color = "";
+            return password;
+        } catch (error) {
+            message.textContent = error.message;
+            message.style.color = "var(--danger)";
+            return "";
+        }
+    }
+
+    function findOpenPasswordInput() {
+        return document.querySelector("#sitePassword, #cardLoginPassword, #bankPassword");
+    }
+
+    function showPasswordGenerator() {
+        const targetInput = findOpenPasswordInput();
+
+        openModal({
+            eyebrow: "Secure Generator",
+            title: "Password Generator",
+            body: `
+                <div class="generator-shell">
+                    <div class="generator-hero">
+                        <div class="generator-lock-mark">◆</div>
+                        <div>
+                            <div class="generator-hero-title">Create a strong password</div>
+                            <div class="generator-hero-subtitle">Generated locally with the browser cryptography API</div>
+                        </div>
+                    </div>
+
+                    <div class="generator-output-card">
+                        <div class="generator-output-topline">
+                            <span id="generatorLengthBadge" class="generator-badge">20 characters</span>
+                            <span id="generatorEntropy" class="generator-entropy">0 bits</span>
+                        </div>
+
+                        <div class="generated-output generator-main-output">
+                            <input id="generatedPassword" type="text" readonly spellcheck="false">
+                            <button id="copyGeneratedButton" class="secondary-button generator-copy-button" type="button">Copy</button>
+                        </div>
+
+                        <div class="generator-strength-track">
+                            <div id="generatorStrengthBar" class="generator-strength-bar"></div>
+                        </div>
+
+                        <div class="generator-strength-row">
+                            <span>Strength</span>
+                            <strong id="generatorStrengthLabel" class="generator-strength-label">Weak</strong>
+                        </div>
+                    </div>
+
+                    <div class="generator-control-card">
+                        <div class="generator-control-header">
+                            <span>Password Length</span>
+                            <input id="generatorLength" class="generator-number-input" type="number" min="4" max="128" value="20">
+                        </div>
+                        <input id="generatorLengthSlider" class="generator-slider" type="range" min="4" max="64" value="20">
+                        <div class="generator-length-scale"><span>4</span><span>32</span><span>64</span></div>
+                    </div>
+
+                    <div class="generator-options-grid">
+                        <label class="generator-option active">
+                            <input id="generatorLower" type="checkbox" checked>
+                            <span class="generator-option-icon">a</span>
+                            <span><strong>Lowercase</strong><small>a–z</small></span>
+                        </label>
+                        <label class="generator-option active">
+                            <input id="generatorUpper" type="checkbox" checked>
+                            <span class="generator-option-icon">A</span>
+                            <span><strong>Uppercase</strong><small>A–Z</small></span>
+                        </label>
+                        <label class="generator-option active">
+                            <input id="generatorNumbers" type="checkbox" checked>
+                            <span class="generator-option-icon">7</span>
+                            <span><strong>Numbers</strong><small>0–9</small></span>
+                        </label>
+                        <label class="generator-option">
+                            <input id="generatorSymbols" type="checkbox">
+                            <span class="generator-option-icon">#</span>
+                            <span><strong>Symbols</strong><small>! @ # $</small></span>
+                        </label>
+                    </div>
+
+                    <label class="generator-ambiguous-option">
+                        <input id="generatorAmbiguous" type="checkbox" checked>
+                        <span><strong>Exclude confusing characters</strong><small>Removes I, l, 1, O, and 0</small></span>
+                    </label>
+
+                    <p id="generatorMessage" class="form-note">Passwords never leave this device.</p>
+                </div>
+            `,
+            footer: `
+                <button class="secondary-button" type="button" data-modal-action="close">Close</button>
+                ${targetInput ? `<button class="secondary-button" type="button" data-modal-action="use-generated">Use in Record</button>` : ""}
+                <button class="primary-button generator-generate-button" type="button" data-modal-action="generate-password">Generate Password</button>
+            `
+        });
+
+        const lengthInput = document.getElementById("generatorLength");
+        const slider = document.getElementById("generatorLengthSlider");
+
+        lengthInput.addEventListener("input", () => {
+            const value = Math.max(4, Math.min(128, Number(lengthInput.value) || 20));
+            lengthInput.value = value;
+            slider.value = Math.min(64, value);
+            runPasswordGenerator();
+        });
+
+        slider.addEventListener("input", () => {
+            lengthInput.value = slider.value;
+            runPasswordGenerator();
+        });
+
+        elements.modalBody.querySelectorAll('.generator-option input, #generatorAmbiguous').forEach(input => {
+            input.addEventListener("change", () => {
+                const option = input.closest(".generator-option");
+                if (option) {
+                    option.classList.toggle("active", input.checked);
+                }
+                runPasswordGenerator();
+            });
+        });
+
+        document.getElementById("copyGeneratedButton").addEventListener("click", async event => {
+            await copyText(document.getElementById("generatedPassword").value, event.currentTarget);
+        });
+
+        runPasswordGenerator();
+    }
+
+
+    function parseCsvText(text) {
+        const rows = [];
+        let row = [];
+        let field = "";
+        let quoted = false;
+
+        for (let index = 0; index < text.length; index += 1) {
+            const character = text[index];
+
+            if (quoted) {
+                if (character === '"') {
+                    if (text[index + 1] === '"') {
+                        field += '"';
+                        index += 1;
+                    } else {
+                        quoted = false;
+                    }
+                } else {
+                    field += character;
+                }
+            } else if (character === '"') {
+                quoted = true;
+            } else if (character === ",") {
+                row.push(field);
+                field = "";
+            } else if (character === "\n") {
+                row.push(field.replace(/\r$/, ""));
+                rows.push(row);
+                row = [];
+                field = "";
+            } else {
+                field += character;
+            }
+        }
+
+        row.push(field.replace(/\r$/, ""));
+        if (row.some(value => value.length > 0)) rows.push(row);
+        if (!rows.length) throw new Error("The CSV file is empty.");
+
+        const headers = rows[0].map((header, index) =>
+            String(header || "").replace(/^\uFEFF/, "").trim() || `Column ${index + 1}`
+        );
+
+        const dataRows = rows.slice(1)
+            .filter(values => values.some(value => String(value).trim() !== ""))
+            .map(values => {
+                const item = {};
+                headers.forEach((header, index) => item[header] = values[index] ?? "");
+                return item;
+            });
+
+        return { headers, rows: dataRows };
+    }
+
+    function detectCsvMapping(headers) {
+        const normalized = new Map(headers.map(header => [
+            String(header).toLowerCase().replace(/[^a-z0-9]/g, ""),
+            header
+        ]));
+
+        const find = aliases => aliases.find(alias => normalized.has(alias))
+            ? normalized.get(aliases.find(alias => normalized.has(alias)))
+            : "";
+
+        return {
+            name: find(["name", "title", "sitename", "website", "hostname"]),
+            url: find(["url", "origin", "websiteurl", "loginuri", "uri"]),
+            username: find(["username", "loginusername", "userid", "loginid", "user"]),
+            password: find(["password", "loginpassword", "pass"]),
+            notes: find(["notes", "note", "comment", "comments", "extra"]),
+            otp: find(["otp", "totp", "otpauth", "totpsecret"])
+        };
+    }
+
+    function csvColumnOptions(headers, selected) {
+        return `<option value="">— Not mapped —</option>` +
+            headers.map(header =>
+                `<option value="${escapeHtml(header)}" ${header === selected ? "selected" : ""}>${escapeHtml(header)}</option>`
+            ).join("");
+    }
+
+    function csvValue(row, column) {
+        return column ? String(row[column] ?? "").trim() : "";
+    }
+
+    function siteNameFromUrl(url) {
+        try {
+            return new URL(safeUrl(url)).hostname.replace(/^www\./i, "") || url;
+        } catch {
+            return url || "Imported Website";
+        }
+    }
+
+    function csvSignature(record) {
+        return [
+            String(record.url || "").trim().toLowerCase(),
+            String(record.loginId || "").trim().toLowerCase(),
+            String(record.password || "")
+        ].join("|");
+    }
+
+    function buildCsvPreview() {
+        if (!pendingCsvData) return;
+
+        const mapping = {
+            name: document.getElementById("csvMapName").value,
+            url: document.getElementById("csvMapUrl").value,
+            username: document.getElementById("csvMapUsername").value,
+            password: document.getElementById("csvMapPassword").value
+        };
+
+        const importable = pendingCsvData.rows.filter(row =>
+            csvValue(row, mapping.url) ||
+            csvValue(row, mapping.name) ||
+            csvValue(row, mapping.username)
+        ).length;
+
+        document.getElementById("csvImportableCount").textContent =
+            `${importable.toLocaleString()} importable record${importable === 1 ? "" : "s"}`;
+
+        document.getElementById("csvPreviewBody").innerHTML =
+            pendingCsvData.rows.slice(0, 5).map(row => {
+                const url = csvValue(row, mapping.url);
+                const name = csvValue(row, mapping.name) || siteNameFromUrl(url);
+                const username = csvValue(row, mapping.username);
+                const password = csvValue(row, mapping.password);
+
+                return `<tr>
+                    <td>${escapeHtml(name)}</td>
+                    <td>${escapeHtml(username || "—")}</td>
+                    <td>${password ? "••••••••" : "—"}</td>
+                </tr>`;
+            }).join("");
+    }
+
+    function showCsvPasteDialog() {
+        pendingCsvData = null;
+
+        openModal({
+            eyebrow: "Browser Password Transfer",
+            title: "Paste Browser Password CSV",
+            body: `
+                <div class="csv-import-shell">
+                    <div class="csv-security-warning">
+                        Browser password exports are plaintext. Paste the CSV contents below, import them, then clear the clipboard and securely delete any exported CSV file.
+                    </div>
+
+                    <label>
+                        Paste CSV Data
+                        <textarea id="csvPasteText" class="csv-paste-area" spellcheck="false"
+                            placeholder="Example:&#10;url,username,password&#10;https://example.com,user@example.com,MyPassword"></textarea>
+                    </label>
+
+                    <div class="csv-paste-actions">
+                        <button id="readClipboardCsvButton" class="secondary-button" type="button">
+                            Paste from Clipboard
+                        </button>
+                        <button id="analyzeCsvTextButton" class="primary-button" type="button">
+                            Analyze CSV
+                        </button>
+                    </div>
+
+                    <p id="csvPasteMessage" class="form-note">
+                        TPWM will detect Firefox, Chrome, Edge, Brave, and similar CSV columns automatically.
+                    </p>
+                </div>
+            `,
+            footer: `
+                <button class="secondary-button" type="button" data-modal-action="close">Cancel</button>
+            `
+        });
+
+        const textArea = document.getElementById("csvPasteText");
+        const message = document.getElementById("csvPasteMessage");
+
+        document.getElementById("readClipboardCsvButton").addEventListener("click", async () => {
+            try {
+                textArea.value = await navigator.clipboard.readText();
+                message.textContent = "Clipboard contents pasted. Select Analyze CSV.";
+                message.style.color = "var(--accent)";
+            } catch {
+                message.textContent = "The browser blocked clipboard reading. Paste manually with Ctrl+V.";
+                message.style.color = "var(--danger)";
+                textArea.focus();
+            }
+        });
+
+        document.getElementById("analyzeCsvTextButton").addEventListener("click", () => {
+            const text = textArea.value.trim();
+
+            if (!text) {
+                message.textContent = "Paste CSV data before analyzing it.";
+                message.style.color = "var(--danger)";
+                textArea.focus();
+                return;
+            }
+
+            try {
+                const parsed = parseCsvText(text);
+                showCsvImportDialog("Pasted browser passwords", parsed);
+            } catch (error) {
+                message.textContent = error.message;
+                message.style.color = "var(--danger)";
+            }
+        });
+
+        textArea.focus();
+    }
+
+    function showCsvImportDialog(filename, parsed) {
+        const detected = detectCsvMapping(parsed.headers);
+        pendingCsvData = { filename, headers: parsed.headers, rows: parsed.rows };
+
+        openModal({
+            eyebrow: "Browser Password Transfer",
+            title: "Import Passwords from CSV",
+            body: `
+                <div class="csv-import-shell">
+                    <div class="import-file-summary">
+                        <div class="import-file-mark csv-mark">CSV</div>
+                        <div>
+                            <strong>${escapeHtml(filename)}</strong>
+                            <span>${parsed.rows.length.toLocaleString()} data rows detected</span>
+                        </div>
+                    </div>
+
+                    <div class="csv-security-warning">
+                        Browser CSV exports contain unencrypted plaintext passwords. Delete the CSV securely after verifying the import.
+                    </div>
+
+                    <section class="admin-section">
+                        <div class="admin-section-heading">
+                            <div><span>01</span><strong>Map CSV Columns</strong></div>
+                            <small>Firefox, Chrome, Edge, Brave, and similar formats are detected automatically.</small>
+                        </div>
+
+                        <div class="form-two-column">
+                            <label>Website Name<select id="csvMapName">${csvColumnOptions(parsed.headers, detected.name)}</select></label>
+                            <label>Website URL<select id="csvMapUrl">${csvColumnOptions(parsed.headers, detected.url)}</select></label>
+                            <label>Username / Login ID<select id="csvMapUsername">${csvColumnOptions(parsed.headers, detected.username)}</select></label>
+                            <label>Password<select id="csvMapPassword">${csvColumnOptions(parsed.headers, detected.password)}</select></label>
+                            <label>Notes<select id="csvMapNotes">${csvColumnOptions(parsed.headers, detected.notes)}</select></label>
+                            <label>TOTP / OTP<select id="csvMapOtp">${csvColumnOptions(parsed.headers, detected.otp)}</select></label>
+                        </div>
+                    </section>
+
+                    <section class="admin-section">
+                        <div class="admin-section-heading">
+                            <div><span>02</span><strong>Import Options</strong></div>
+                            <small>Imported rows become encrypted Website records.</small>
+                        </div>
+
+                        <label class="admin-toggle-row">
+                            <input id="csvSkipDuplicates" type="checkbox" checked>
+                            <span><strong>Skip exact duplicates</strong><small>Compares URL, username, and password.</small></span>
+                        </label>
+                    </section>
+
+                    <section class="admin-section">
+                        <div class="admin-section-heading">
+                            <div><span>03</span><strong>Preview</strong></div>
+                            <small id="csvImportableCount"></small>
+                        </div>
+                        <div class="csv-preview-wrap">
+                            <table class="csv-preview-table">
+                                <thead><tr><th>Website</th><th>Username</th><th>Password</th></tr></thead>
+                                <tbody id="csvPreviewBody"></tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <p id="csvImportMessage" class="form-note">
+                        Nothing is saved until Import Passwords is selected.
+                    </p>
+                </div>
+            `,
+            footer: `
+                <button class="secondary-button" type="button" data-modal-action="cancel-csv-import">Cancel</button>
+                <button class="primary-button" type="button" data-modal-action="run-csv-import">Import Passwords</button>
+            `
+        });
+
+        ["csvMapName","csvMapUrl","csvMapUsername","csvMapPassword","csvMapNotes","csvMapOtp"]
+            .forEach(id => document.getElementById(id).addEventListener("change", buildCsvPreview));
+
+        buildCsvPreview();
+    }
+
+    async function importCsvPasswords() {
+        if (!pendingCsvData) throw new Error("The CSV data is no longer available.");
+
+        const mapping = {
+            name: document.getElementById("csvMapName").value,
+            url: document.getElementById("csvMapUrl").value,
+            username: document.getElementById("csvMapUsername").value,
+            password: document.getElementById("csvMapPassword").value,
+            notes: document.getElementById("csvMapNotes").value,
+            otp: document.getElementById("csvMapOtp").value
+        };
+
+        if (!mapping.url && !mapping.name) {
+            throw new Error("Map at least Website Name or Website URL.");
+        }
+
+        const existing = new Set(vaultData.records.websites.map(csvSignature));
+        const skipDuplicates = document.getElementById("csvSkipDuplicates").checked;
+        const now = new Date().toISOString();
+        let added = 0, skipped = 0, invalid = 0, otpImported = 0;
+
+        for (const row of pendingCsvData.rows) {
+            const url = csvValue(row, mapping.url);
+            const name = csvValue(row, mapping.name) || siteNameFromUrl(url);
+            const loginId = csvValue(row, mapping.username);
+            const password = csvValue(row, mapping.password);
+            const notes = csvValue(row, mapping.notes);
+            const otp = csvValue(row, mapping.otp);
+
+            if (!url && !name && !loginId) {
+                invalid += 1;
+                continue;
+            }
+
+            const record = {
+                id: crypto.randomUUID(),
+                recordType: "website",
+                siteName: name || "Imported Website",
+                url,
+                loginId,
+                password,
+                emailUsed: loginId.includes("@") ? loginId : "",
+                supports2FA: "unknown",
+                twoFAEnabled: "unknown",
+                twoFAType: "none",
+                totpSecret: "",
+                totpIssuer: name || siteNameFromUrl(url),
+                totpAccount: loginId,
+                totpDigits: 6,
+                totpPeriod: 30,
+                totpAlgorithm: "SHA1",
+                twoFAEmail: "",
+                twoFAPhone: "",
+                recoveryCodes: "",
+                securityKeyName: "",
+                notes,
+                tags: "csv-import",
+                createdAt: now,
+                modifiedAt: now
+            };
+
+            if (otp) {
+                try {
+                    if (otp.toLowerCase().startsWith("otpauth://")) {
+                        const parsedOtp = parseOtpAuthUri(otp);
+                        Object.assign(record, {
+                            totpSecret: parsedOtp.secret,
+                            totpIssuer: parsedOtp.issuer || record.siteName,
+                            totpAccount: parsedOtp.account || loginId,
+                            totpDigits: parsedOtp.digits,
+                            totpPeriod: parsedOtp.period,
+                            totpAlgorithm: parsedOtp.algorithm
+                        });
+                    } else {
+                        record.totpSecret = normalizeBase32(otp);
+                    }
+
+                    if (record.totpSecret) {
+                        record.supports2FA = "yes";
+                        record.twoFAEnabled = "yes";
+                        record.twoFAType = "authenticator";
+                        otpImported += 1;
+                    }
+                } catch {
+                    record.notes = [record.notes, `Unrecognized OTP value: ${otp}`]
+                        .filter(Boolean).join("\n");
+                }
+            }
+
+            const signature = csvSignature(record);
+            if (skipDuplicates && existing.has(signature)) {
+                skipped += 1;
+                continue;
+            }
+
+            vaultData.records.websites.push(record);
+            existing.add(signature);
+            added += 1;
+        }
+
+        await window.TPWMVault.saveData(vaultData);
+        return { added, skipped, invalid, otpImported };
+    }
+
+    function showCsvImportResult(result) {
+        openModal({
+            eyebrow: "CSV Import Complete",
+            title: "Browser Passwords Imported",
+            body: `
+                <div class="import-result-hero">
+                    <div class="import-result-number">${result.added}</div>
+                    <div><strong>website records added</strong><span>${result.skipped} duplicates skipped · ${result.invalid} rows ignored</span></div>
+                </div>
+                <div class="admin-summary-grid">
+                    <div class="admin-summary-card"><span class="admin-summary-icon">W</span><div><small>Websites</small><strong>${result.added}</strong></div></div>
+                    <div class="admin-summary-card"><span class="admin-summary-icon orange">=</span><div><small>Skipped</small><strong>${result.skipped}</strong></div></div>
+                    <div class="admin-summary-card"><span class="admin-summary-icon yellow">2</span><div><small>TOTP</small><strong>${result.otpImported}</strong></div></div>
+                </div>
+                <div class="csv-security-warning">Delete the plaintext source CSV securely after confirming the import.</div>
+            `,
+            footer: `<button class="primary-button" type="button" data-modal-action="close">Done</button>`
+        });
+    }
+
+    function downloadTextFile(filename, text, mimeType = "application/json") {
+        const blob = new Blob([text], { type: mimeType });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+
+        link.href = url;
+        link.download = filename;
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+
+        setTimeout(() => URL.revokeObjectURL(url), 1000);
+    }
+
+    function safeFilenamePart(value) {
+        return String(value || "vault")
+            .trim()
+            .replace(/[^a-z0-9_-]+/gi, "_")
+            .replace(/^_+|_+$/g, "")
+            .slice(0, 50) || "vault";
+    }
+
+    async function exportEncryptedVault() {
+        const packageData = await window.TPWMVault.exportPackage();
+        const account = safeFilenamePart(packageData.vault.accountId);
+        const date = new Date().toISOString().slice(0, 10);
+        const filename = `TPWM_${account}_${date}.tpwm`;
+
+        downloadTextFile(filename, JSON.stringify(packageData, null, 2));
+        elements.statusText.textContent = `Encrypted vault exported: ${filename}`;
+    }
+
+    async function readImportFile(file) {
+        if (file.size > 100 * 1024 * 1024) {
+            throw new Error("The selected TPWM file is larger than 100 MB.");
+        }
+
+        let packageData;
+
+        try {
+            packageData = JSON.parse(await file.text());
+        } catch {
+            throw new Error("The selected file is not valid JSON.");
+        }
+
+        const info = await window.TPWMVault.inspectPackage(packageData);
+        pendingImportPackage = packageData;
+        return info;
+    }
+
+    function showImportDialog(info, filename, source) {
+        pendingImportSource = source;
+        const unlocked = window.TPWMVault.isUnlocked();
+
+        openModal({
+            eyebrow: "Encrypted Vault Transfer",
+            title: "Import TPWM Vault",
+            body: `
+                <div class="import-dialog">
+                    <div class="import-file-summary">
+                        <div class="import-file-mark">T</div>
+                        <div>
+                            <strong>${escapeHtml(filename)}</strong>
+                            <span>Encrypted TPWM package</span>
+                        </div>
+                    </div>
+
+                    <div class="detail-grid">
+                        ${detailValue("Account ID", info.accountId)}
+                        ${detailValue("Encryption", info.encryption)}
+                        ${detailValue("PBKDF2 Iterations", Number(info.iterations).toLocaleString())}
+                        ${detailValue("Modified", formatDate(info.modifiedAt))}
+                    </div>
+
+                    <label>
+                        Password for Imported Vault
+                        <div class="input-action-row">
+                            <input id="importVaultPassword" type="password" autocomplete="current-password">
+                            <button class="inline-button toggle-password" type="button" data-target="importVaultPassword">Show</button>
+                        </div>
+                    </label>
+
+                    ${unlocked ? `
+                        <div class="import-mode-grid">
+                            <label class="import-mode-option active">
+                                <input type="radio" name="importMode" value="merge" checked>
+                                <span class="import-mode-icon">+</span>
+                                <span>
+                                    <strong>Merge Records</strong>
+                                    <small>Add new records, skip exact duplicates, and keep this vault's account and settings.</small>
+                                </span>
+                            </label>
+
+                            <label class="import-mode-option">
+                                <input type="radio" name="importMode" value="replace">
+                                <span class="import-mode-icon">↺</span>
+                                <span>
+                                    <strong>Replace Vault</strong>
+                                    <small>Replace the complete local vault, account, settings, and records.</small>
+                                </span>
+                            </label>
+                        </div>
+                    ` : `
+                        <div class="import-warning-card">
+                            Importing from the login screen restores the complete imported vault.
+                        </div>
+                    `}
+
+                    <p id="importFormMessage" class="form-note">
+                        The file stays encrypted until its password is verified locally.
+                    </p>
+                </div>
+            `,
+            footer: `
+                <button class="secondary-button" type="button" data-modal-action="cancel-import">Cancel</button>
+                <button class="primary-button" type="button" data-modal-action="run-import">Import Vault</button>
+            `
+        });
+
+        attachPasswordToggles(elements.modalBody);
+
+        elements.modalBody.querySelectorAll('input[name="importMode"]').forEach(input => {
+            input.addEventListener("change", () => {
+                elements.modalBody.querySelectorAll(".import-mode-option").forEach(option => {
+                    option.classList.toggle("active", option.querySelector("input").checked);
+                });
+            });
+        });
+
+        document.getElementById("importVaultPassword").focus();
+    }
+
+    function showMergeResult(summary) {
+        openModal({
+            eyebrow: "Import Complete",
+            title: "Vault Merge Finished",
+            body: `
+                <div class="import-result-hero">
+                    <div class="import-result-number">${summary.added}</div>
+                    <div>
+                        <strong>records added</strong>
+                        <span>${summary.skipped} exact duplicates skipped</span>
+                    </div>
+                </div>
+
+                <div class="admin-summary-grid">
+                    ${Object.entries(summary.byCategory).map(([category, values]) => `
+                        <div class="admin-summary-card">
+                            <span class="admin-summary-icon">${categoryIcon(category)}</span>
+                            <div>
+                                <small>${escapeHtml(categoryLabel(category))}</small>
+                                <strong>+${values.added} · ${values.skipped} skipped</strong>
+                            </div>
+                        </div>
+                    `).join("")}
+                </div>
+
+                ${summary.reassignedIds ? `
+                    <div class="import-warning-card">
+                        ${summary.reassignedIds} conflicting record ID${summary.reassignedIds === 1 ? "" : "s"} were safely reassigned.
+                    </div>
+                ` : ""}
+            `,
+            footer: `<button class="primary-button" type="button" data-modal-action="close">Done</button>`
+        });
+    }
+
+    function showAdmin() {
+        const settings = vaultData.settings;
+
+        openModal({
+            eyebrow: "Encrypted Vault Control Center",
+            title: "Admin",
+            body: `
+                <div class="admin-dashboard">
+                    <div class="admin-summary-grid">
+                        <div class="admin-summary-card">
+                            <span class="admin-summary-icon">◆</span>
+                            <div><small>Encryption</small><strong>AES-256-GCM</strong></div>
+                        </div>
+                        <div class="admin-summary-card">
+                            <span class="admin-summary-icon orange">⌁</span>
+                            <div><small>Storage</small><strong>IndexedDB</strong></div>
+                        </div>
+                        <div class="admin-summary-card">
+                            <span class="admin-summary-icon yellow">#</span>
+                            <div><small>Records</small><strong>${Object.values(vaultData.records).reduce((total, list) => total + list.length, 0)}</strong></div>
+                        </div>
+                    </div>
+
+                    <section class="admin-section">
+                        <div class="admin-section-heading">
+                            <div><span>01</span><strong>Account and Master Password</strong></div>
+                            <small>Current master password is required to change either value.</small>
+                        </div>
+
+                        <div class="form-two-column">
+                            <label>
+                                Account ID
+                                <input id="adminAccountId" type="text" value="${escapeHtml(vaultData.account.id)}">
+                            </label>
+                            <label>
+                                Current Master Password
+                                <div class="input-action-row">
+                                    <input id="adminCurrentPassword" type="password" autocomplete="current-password">
+                                    <button class="inline-button toggle-password" type="button" data-target="adminCurrentPassword">Show</button>
+                                </div>
+                            </label>
+                        </div>
+
+                        <div class="form-two-column">
+                            <label>
+                                New Master Password
+                                <div class="input-action-row">
+                                    <input id="adminNewPassword" type="password" autocomplete="new-password" placeholder="Leave blank to keep current password">
+                                    <button class="inline-button toggle-password" type="button" data-target="adminNewPassword">Show</button>
+                                </div>
+                            </label>
+                            <label>
+                                Confirm New Password
+                                <div class="input-action-row">
+                                    <input id="adminConfirmPassword" type="password" autocomplete="new-password">
+                                    <button class="inline-button toggle-password" type="button" data-target="adminConfirmPassword">Show</button>
+                                </div>
+                            </label>
+                        </div>
+                    </section>
+
+                    <section class="admin-section">
+                        <div class="admin-section-heading">
+                            <div><span>02</span><strong>Automatic Locking</strong></div>
+                            <small>Controls when the decrypted key is removed from memory.</small>
+                        </div>
+
+                        <div class="form-two-column">
+                            <label>
+                                Idle Timeout
+                                <select id="adminIdleTimeout">
+                                    ${[1, 2, 5, 10, 15, 30, 60].map(minutes =>
+                                        `<option value="${minutes}" ${Number(settings.idleTimeoutMinutes) === minutes ? "selected" : ""}>${minutes === 60 ? "1 hour" : `${minutes} minute${minutes === 1 ? "" : "s"}`}</option>`
+                                    ).join("")}
+                                </select>
+                            </label>
+
+                            <label>
+                                Auto-Hide Revealed Values
+                                <select id="adminAutoHide">
+                                    ${[10, 20, 30, 60, 0].map(seconds =>
+                                        `<option value="${seconds}" ${Number(settings.autoHideSeconds) === seconds ? "selected" : ""}>${seconds === 0 ? "Never" : `${seconds} seconds`}</option>`
+                                    ).join("")}
+                                </select>
+                            </label>
+                        </div>
+
+                        <label class="admin-toggle-row">
+                            <input id="adminLockHidden" type="checkbox" ${settings.lockWhenHidden ? "checked" : ""}>
+                            <span>
+                                <strong>Lock when the browser is hidden</strong>
+                                <small>Locks after switching applications or minimizing the browser.</small>
+                            </span>
+                        </label>
+
+                        <label>
+                            Hidden-Window Lock Delay
+                            <select id="adminHiddenDelay">
+                                ${[15, 30, 60, 120, 300].map(seconds =>
+                                    `<option value="${seconds}" ${Number(settings.hiddenLockSeconds) === seconds ? "selected" : ""}>${seconds < 60 ? `${seconds} seconds` : `${seconds / 60} minute${seconds === 60 ? "" : "s"}`}</option>`
+                                ).join("")}
+                            </select>
+                        </label>
+
+                        <label class="admin-toggle-row">
+                            <input id="adminConfirmLock" type="checkbox" ${settings.confirmManualLock ? "checked" : ""}>
+                            <span>
+                                <strong>Confirm manual locking</strong>
+                                <small>Ask before the toolbar Lock button closes the vault.</small>
+                            </span>
+                        </label>
+                    </section>
+
+                    <section class="admin-section">
+                        <div class="admin-section-heading">
+                            <div><span>03</span><strong>Clipboard and Display</strong></div>
+                            <small>Reduces how long copied secrets remain exposed.</small>
+                        </div>
+
+                        <div class="form-two-column">
+                            <label>
+                                Clipboard Clear Delay
+                                <select id="adminClipboardDelay">
+                                    ${[15, 30, 60, 120, 0].map(seconds =>
+                                        `<option value="${seconds}" ${Number(settings.clipboardClearSeconds) === seconds ? "selected" : ""}>${seconds === 0 ? "Never" : `${seconds} seconds`}</option>`
+                                    ).join("")}
+                                </select>
+                            </label>
+
+                            <label>
+                                Default Category
+                                <select id="adminDefaultCategory">
+                                    ${Object.entries(categoryNames).map(([key, name]) =>
+                                        `<option value="${key}" ${settings.defaultCategory === key ? "selected" : ""}>${name}</option>`
+                                    ).join("")}
+                                </select>
+                            </label>
+
+                            <label>
+                                Records Per Page
+                                <select id="adminPageSize">
+                                    ${[25, 50, 100, 200].map(size =>
+                                        `<option value="${size}" ${Number(settings.pageSize || 50) === size ? "selected" : ""}>${size} records</option>`
+                                    ).join("")}
+                                </select>
+                            </label>
+                        </div>
+
+                        <label class="admin-toggle-row">
+                            <input id="adminCompactView" type="checkbox" ${settings.compactView !== false ? "checked" : ""}>
+                            <span>
+                                <strong>Use compact record lists</strong>
+                                <small>Shows more vault records on screen.</small>
+                            </span>
+                        </label>
+                    </section>
+
+                    <section class="admin-section admin-danger-section">
+                        <div class="admin-section-heading">
+                            <div><span>04</span><strong>Vault Operations</strong></div>
+                            <small>Create portable encrypted backups or merge another TPWM vault.</small>
+                        </div>
+
+                        <div class="admin-operation-grid">
+                            <button class="secondary-button" type="button" data-modal-action="paste-csv">Paste Browser Password CSV</button>
+                            <button class="secondary-button" type="button" data-modal-action="import">Import Encrypted Vault</button>
+                            <button class="secondary-button" type="button" data-modal-action="export-vault">Export Encrypted Vault</button>
+                            <button class="secondary-button danger-text" type="button" data-modal-action="delete-placeholder">Delete Local Vault</button>
+                        </div>
+                    </section>
+
+                    <p id="adminFormMessage" class="form-note">
+                        Security settings and account changes are encrypted before being saved.
+                    </p>
+                </div>
+            `,
+            footer: `
+                <button class="secondary-button" type="button" data-modal-action="lock-now">Lock Now</button>
+                <button class="secondary-button" type="button" data-modal-action="close">Cancel</button>
+                <button class="primary-button" type="button" data-modal-action="save-admin">Save Admin Settings</button>
+            `
+        });
+
+        attachPasswordToggles(elements.modalBody);
+    }
+
+    function openModal({ eyebrow, title, body, footer }) {
+        lastFocusedElement = document.activeElement;
+        elements.modalEyebrow.textContent = eyebrow;
+        elements.modalTitle.textContent = title;
+        elements.modalBody.innerHTML = body;
+        elements.modalFooter.innerHTML = footer;
+        elements.modalOverlay.classList.remove("hidden");
+        document.body.style.overflow = "hidden";
+        elements.modalCloseButton.focus();
+    }
+
+    function closeModal() {
+        stopTotpRefresh();
+
+        if (elements.modalOverlay.classList.contains("hidden")) {
+            return;
+        }
+
+        activeRecordId = null;
+        elements.modalOverlay.classList.add("hidden");
+        elements.modalBody.innerHTML = "";
+        elements.modalFooter.innerHTML = "";
+        document.body.style.overflow = "";
+
+        if (lastFocusedElement instanceof HTMLElement) {
+            lastFocusedElement.focus();
+        }
+    }
+
+    function attachPasswordToggles(container = document) {
+        container.querySelectorAll(".toggle-password").forEach((button) => {
+            if (button.dataset.bound === "true") {
+                return;
+            }
+
+            button.dataset.bound = "true";
+            button.addEventListener("click", () => {
+                const input = document.getElementById(button.dataset.target);
+                if (!input) {
+                    return;
+                }
+
+                const show = input.type === "password";
+                input.type = show ? "text" : "password";
+                button.textContent = show ? "Hide" : "Show";
+            });
+        });
+    }
+
+    function attachDetailActions() {
+        elements.modalBody.querySelectorAll(".reveal-detail").forEach((button) => {
+            button.addEventListener("click", () => {
+                const target = document.getElementById(button.dataset.target);
+                const currentlyMasked = target.classList.contains("masked-value");
+
+                if (currentlyMasked) {
+                    target.textContent = target.dataset.realValue || "";
+                    target.classList.remove("masked-value");
+                    button.textContent = "Hide";
+
+                    const seconds = Number(vaultData?.settings?.autoHideSeconds) || 0;
+                    if (seconds > 0) {
+                        setTimeout(() => {
+                            if (target && !target.classList.contains("masked-value")) {
+                                target.textContent = "••••••••••••";
+                                target.classList.add("masked-value");
+                                button.textContent = "Show";
+                            }
+                        }, seconds * 1000);
+                    }
+                } else {
+                    target.textContent = "••••••••••••";
+                    target.classList.add("masked-value");
+                    button.textContent = "Show";
+                }
+            });
+        });
+
+        elements.modalBody.querySelectorAll(".copy-detail").forEach((button) => {
+            button.addEventListener("click", async () => {
+                await copyText(button.dataset.copyValue || "", button);
+            });
+        });
+    }
+
+    function updateClock() {
+        elements.clockText.textContent = new Date().toLocaleString([], {
+            month: "short",
+            day: "numeric",
+            hour: "numeric",
+            minute: "2-digit"
+        });
+    }
+
+    async function initializeAuthState() {
+        try {
+            const hasVault = await window.TPWMVault.exists();
+
+            if (hasVault) {
+                switchAuthTab("login");
+                setAuthMessage(elements.loginMessage, "Encrypted local vault found. Enter your account ID and master password.");
+            } else {
+                switchAuthTab("signup");
+                setAuthMessage(elements.signupMessage, "No local vault exists yet. Create the first encrypted vault.");
+            }
+        } catch (error) {
+            setAuthMessage(elements.loginMessage, `Storage error: ${error.message}`, true);
+            setAuthMessage(elements.signupMessage, `Storage error: ${error.message}`, true);
+        }
+    }
+
+    elements.loginTab.addEventListener("click", () => switchAuthTab("login"));
+    elements.signupTab.addEventListener("click", () => switchAuthTab("signup"));
+
+    elements.loginForm.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        if (busy) {
+            return;
+        }
+
+        const accountId = document.getElementById("loginId").value;
+        const passwordInput = document.getElementById("loginPassword");
+        const password = passwordInput.value;
+
+        if (!accountId.trim() || !password) {
+            setAuthMessage(elements.loginMessage, "Enter both the account ID and master password.", true);
+            return;
+        }
+
+        busy = true;
+        setFormBusy(elements.loginForm, true, "Decrypting...");
+        setAuthMessage(elements.loginMessage, "Deriving the encryption key and opening the local vault...");
+
+        try {
+            vaultData = await window.TPWMVault.unlock(accountId, password);
+            passwordInput.value = "";
+            openDashboard("Encrypted IndexedDB vault unlocked");
+        } catch (error) {
+            passwordInput.value = "";
+            setAuthMessage(elements.loginMessage, error.message, true);
+            passwordInput.focus();
+        } finally {
+            busy = false;
+            setFormBusy(elements.loginForm, false);
+        }
+    });
+
+    elements.signupForm.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        if (busy) {
+            return;
+        }
+
+        const accountId = document.getElementById("signupId").value;
+        const passwordInput = document.getElementById("signupPassword");
+        const confirmInput = document.getElementById("signupPasswordConfirm");
+        const password = passwordInput.value;
+        const confirmation = confirmInput.value;
+        const idleTimeout = Number(document.getElementById("signupTimeout").value) || 10;
+
+        if (!accountId.trim()) {
+            setAuthMessage(elements.signupMessage, "Create an account ID.", true);
+            return;
+        }
+
+        if (password !== confirmation) {
+            setAuthMessage(elements.signupMessage, "The two master-password entries do not match.", true);
+            confirmInput.focus();
+            return;
+        }
+
+        busy = true;
+        setFormBusy(elements.signupForm, true, "Encrypting...");
+        setAuthMessage(elements.signupMessage, "Creating the AES-256 encrypted IndexedDB vault...");
+
+        try {
+            vaultData = await window.TPWMVault.create(accountId, password, idleTimeout);
+            passwordInput.value = "";
+            confirmInput.value = "";
+            openDashboard("Encrypted local vault created");
+        } catch (error) {
+            setAuthMessage(elements.signupMessage, error.message, true);
+        } finally {
+            busy = false;
+            setFormBusy(elements.signupForm, false);
+        }
+    });
+
+    document.querySelectorAll('input[name="category"]').forEach((radio) => {
+        radio.addEventListener("change", () => setCategory(radio.value));
+    });
+
+    elements.searchInput.addEventListener("input", () => {
+        currentPage = 1;
+        elements.clearSearchButton.classList.toggle("hidden", elements.searchInput.value.length === 0);
+        renderRecords();
+    });
+
+    elements.clearSearchButton.addEventListener("click", () => {
+        currentPage = 1;
+        elements.searchInput.value = "";
+        elements.clearSearchButton.classList.add("hidden");
+        renderRecords();
+        elements.searchInput.focus();
+    });
+
+    elements.globalSearchToggle.addEventListener("change", () => {
+        currentPage = 1;
+        renderRecords();
+        elements.searchInput.focus();
+    });
+
+    elements.firstPageButton.addEventListener("click", () => goToPage(1));
+    elements.previousPageButton.addEventListener("click", () => goToPage(currentPage - 1));
+    elements.nextPageButton.addEventListener("click", () => goToPage(currentPage + 1));
+    elements.lastPageButton.addEventListener("click", () => goToPage(currentTotalPages));
+
+    elements.pageSizeSelect.addEventListener("change", async () => {
+        pageSize = Number(elements.pageSizeSelect.value) || 50;
+        currentPage = 1;
+
+        if (vaultData?.settings) {
+            vaultData.settings.pageSize = pageSize;
+
+            try {
+                await window.TPWMVault.saveData(vaultData);
+                elements.statusText.textContent = `Records per page saved: ${pageSize}`;
+            } catch (error) {
+                elements.statusText.textContent = `Unable to save page size: ${error.message}`;
+            }
+        }
+
+        renderRecords();
+    });
+
+    elements.mobileMenuButton.addEventListener("click", () => elements.sidebar.classList.toggle("open"));
+    elements.addRecordButton.addEventListener("click", showAddRecord);
+    elements.emptyAddButton.addEventListener("click", showAddRecord);
+    elements.pwGenButton.addEventListener("click", showPasswordGenerator);
+    elements.adminButton.addEventListener("click", showAdmin);
+    elements.lockButton.addEventListener("click", () => lockVault("Vault locked manually."));
+
+    elements.compactViewButton.addEventListener("click", () => {
+        currentView = "compact";
+        elements.compactViewButton.classList.add("active");
+        elements.comfortableViewButton.classList.remove("active");
+        renderRecords();
+    });
+
+    elements.comfortableViewButton.addEventListener("click", () => {
+        currentView = "comfortable";
+        elements.comfortableViewButton.classList.add("active");
+        elements.compactViewButton.classList.remove("active");
+        renderRecords();
+    });
+
+    elements.modalCloseButton.addEventListener("click", closeModal);
+
+    elements.modalOverlay.addEventListener("click", (event) => {
+        if (event.target === elements.modalOverlay) {
+            closeModal();
+        }
+    });
+
+    elements.modalPanel.addEventListener("click", async (event) => {
+        const actionButton = event.target.closest("[data-modal-action]");
+        if (!actionButton) {
+            return;
+        }
+
+        const action = actionButton.dataset.modalAction;
+
+        if (action === "close") {
+            closeModal();
+        } else if (action === "save-website") {
+            await saveWebsite();
+        } else if (action === "edit-website") {
+            const record = vaultData.records.websites.find((item) => item.id === activeRecordId);
+            if (record) {
+                showWebsiteForm(record);
+            }
+        } else if (action === "delete-website") {
+            await deleteWebsite();
+        } else if (action === "save-card") {
+            await saveTypedRecord("card", collectCardForm(), "cardFormMessage", "save-card", "Card");
+        } else if (action === "edit-card") {
+            const record = vaultData.records.cards.find(item => item.id === activeRecordId);
+            if (record) showCardForm(record);
+        } else if (action === "delete-card") {
+            await deleteTypedRecord("cards", "Card");
+        } else if (action === "save-bank") {
+            await saveTypedRecord("bank", collectBankForm(), "bankFormMessage", "save-bank", "Bank account");
+        } else if (action === "edit-bank") {
+            const record = vaultData.records.banking.find(item => item.id === activeRecordId);
+            if (record) showBankForm(record);
+        } else if (action === "delete-bank") {
+            await deleteTypedRecord("banking", "Bank account");
+        } else if (action === "save-note") {
+            await saveTypedRecord("note", collectNoteForm(), "noteFormMessage", "save-note", "Secure note");
+        } else if (action === "edit-note") {
+            const record = vaultData.records.notes.find(item => item.id === activeRecordId);
+            if (record) showNoteForm(record);
+        } else if (action === "delete-note") {
+            await deleteTypedRecord("notes", "Secure note");
+        } else if (action === "paste-csv") {
+            showCsvPasteDialog();
+        } else if (action === "import-csv") {
+            elements.csvFileInput.click();
+        } else if (action === "cancel-csv-import") {
+            pendingCsvData = null;
+            closeModal();
+        } else if (action === "run-csv-import") {
+            const message = document.getElementById("csvImportMessage");
+
+            actionButton.disabled = true;
+            actionButton.textContent = "Encrypting Imported Records...";
+
+            try {
+                const result = await importCsvPasswords();
+
+                pendingCsvData = null;
+                normalizeVaultRecords();
+                updateCategoryCounts();
+                renderRecords();
+
+                elements.statusText.textContent =
+                    `${result.added} browser passwords imported and encrypted`;
+
+                showCsvImportResult(result);
+            } catch (error) {
+                message.textContent = error.message;
+                message.style.color = "var(--danger)";
+                actionButton.disabled = false;
+                actionButton.textContent = "Import Passwords";
+            }
+        } else if (action === "import") {
+            pendingImportSource = "admin";
+            elements.vaultFileInput.click();
+        } else if (action === "lock-now") {
+            lockVault("Vault locked from Admin.", true);
+        } else if (action === "export-vault") {
+            actionButton.disabled = true;
+            actionButton.textContent = "Preparing...";
+
+            try {
+                await exportEncryptedVault();
+                actionButton.textContent = "Exported";
+                setTimeout(() => {
+                    actionButton.disabled = false;
+                    actionButton.textContent = "Export Encrypted Vault";
+                }, 1200);
+            } catch (error) {
+                actionButton.disabled = false;
+                actionButton.textContent = "Export Encrypted Vault";
+                window.alert(`Unable to export the vault:\n\n${error.message}`);
+            }
+        } else if (action === "cancel-import") {
+            pendingImportPackage = null;
+            closeModal();
+        } else if (action === "run-import") {
+            const message = document.getElementById("importFormMessage");
+            const password = document.getElementById("importVaultPassword").value;
+            const modeInput = document.querySelector('input[name="importMode"]:checked');
+            const mode = modeInput?.value || "replace";
+
+            if (!password) {
+                message.textContent = "Enter the master password for the imported vault.";
+                message.style.color = "var(--danger)";
+                return;
+            }
+
+            if (!pendingImportPackage) {
+                message.textContent = "The selected import package is no longer available.";
+                message.style.color = "var(--danger)";
+                return;
+            }
+
+            if (
+                mode === "replace" &&
+                !window.confirm("Replace the complete local vault with the imported vault?\n\nExport a backup first if you may need the current vault later.")
+            ) {
+                return;
+            }
+
+            actionButton.disabled = true;
+            actionButton.textContent = mode === "merge"
+                ? "Decrypting and Merging..."
+                : "Decrypting and Replacing...";
+
+            try {
+                if (mode === "merge" && window.TPWMVault.isUnlocked()) {
+                    const result = await window.TPWMVault.mergeFromPackage(pendingImportPackage, password);
+                    vaultData = result.data;
+                    pendingImportPackage = null;
+                    updateCategoryCounts();
+                    renderRecords();
+                    elements.statusText.textContent = `${result.summary.added} imported records added`;
+                    showMergeResult(result.summary);
+                } else {
+                    vaultData = await window.TPWMVault.replaceFromPackage(pendingImportPackage, password);
+                    pendingImportPackage = null;
+                    openDashboard("Imported encrypted vault unlocked");
+                }
+            } catch (error) {
+                message.textContent = error.message;
+                message.style.color = "var(--danger)";
+                actionButton.disabled = false;
+                actionButton.textContent = "Import Vault";
+                document.getElementById("importVaultPassword").value = "";
+                document.getElementById("importVaultPassword").focus();
+            }
+        } else if (action === "save-admin") {
+            const message = document.getElementById("adminFormMessage");
+            const accountId = document.getElementById("adminAccountId").value.trim();
+            const currentPassword = document.getElementById("adminCurrentPassword").value;
+            const newPassword = document.getElementById("adminNewPassword").value;
+            const confirmPassword = document.getElementById("adminConfirmPassword").value;
+            const credentialsChanged = accountId !== vaultData.account.id || newPassword.length > 0;
+
+            if (newPassword !== confirmPassword) {
+                message.textContent = "The new master-password entries do not match.";
+                message.style.color = "var(--danger)";
+                return;
+            }
+
+            if (credentialsChanged && !currentPassword) {
+                message.textContent = "Enter the current master password to change the account ID or master password.";
+                message.style.color = "var(--danger)";
+                document.getElementById("adminCurrentPassword").focus();
+                return;
+            }
+
+            vaultData.settings.idleTimeoutMinutes = Number(document.getElementById("adminIdleTimeout").value) || 10;
+            vaultData.settings.clipboardClearSeconds = Number(document.getElementById("adminClipboardDelay").value);
+            vaultData.settings.autoHideSeconds = Number(document.getElementById("adminAutoHide").value);
+            vaultData.settings.lockWhenHidden = document.getElementById("adminLockHidden").checked;
+            vaultData.settings.hiddenLockSeconds = Number(document.getElementById("adminHiddenDelay").value) || 60;
+            vaultData.settings.confirmManualLock = document.getElementById("adminConfirmLock").checked;
+            vaultData.settings.defaultCategory = document.getElementById("adminDefaultCategory").value;
+            vaultData.settings.compactView = document.getElementById("adminCompactView").checked;
+            vaultData.settings.pageSize = Number(document.getElementById("adminPageSize").value) || 50;
+
+            actionButton.disabled = true;
+            actionButton.textContent = credentialsChanged ? "Re-encrypting Vault..." : "Encrypting Settings...";
+
+            try {
+                if (credentialsChanged) {
+                    vaultData = await window.TPWMVault.changeCredentials(
+                        currentPassword,
+                        accountId,
+                        newPassword
+                    );
+                }
+
+                await window.TPWMVault.saveData(vaultData);
+
+                currentView = vaultData.settings.compactView ? "compact" : "comfortable";
+                pageSize = Number(vaultData.settings.pageSize) || 50;
+                currentPage = 1;
+                elements.pageSizeSelect.value = String(pageSize);
+                elements.compactViewButton.classList.toggle("active", currentView === "compact");
+                elements.comfortableViewButton.classList.toggle("active", currentView === "comfortable");
+                renderRecords();
+                resetIdleTimer();
+
+                const changedText = credentialsChanged
+                    ? "Account credentials changed and vault re-encrypted"
+                    : "Admin settings encrypted and saved";
+
+                closeModal();
+                elements.statusText.textContent = changedText;
+            } catch (error) {
+                message.textContent = error.message;
+                message.style.color = "var(--danger)";
+                actionButton.disabled = false;
+                actionButton.textContent = "Save Admin Settings";
+            }
+        } else if (action === "generate-password") {
+            runPasswordGenerator();
+        } else if (action === "use-generated") {
+            const targetInput = findOpenPasswordInput();
+            const generated = document.getElementById("generatedPassword")?.value || "";
+
+            if (targetInput && generated) {
+                targetInput.value = generated;
+                targetInput.dispatchEvent(new Event("input", { bubbles: true }));
+                elements.statusText.textContent = "Generated password inserted into the open record";
+                closeModal();
+                targetInput.focus();
+            }
+        } else {
+            window.alert("This control belongs to a later development stage.");
+        }
+    });
+
+    elements.csvFileInput.addEventListener("change", async () => {
+        const file = elements.csvFileInput.files[0];
+        elements.csvFileInput.value = "";
+
+        if (!file) return;
+        if (file.size > 100 * 1024 * 1024) {
+            window.alert("The CSV file is larger than 100 MB.");
+            return;
+        }
+
+        try {
+            showCsvImportDialog(file.name, parseCsvText(await file.text()));
+        } catch (error) {
+            pendingCsvData = null;
+            window.alert(`Unable to read the CSV file:\n\n${error.message}`);
+        }
+    });
+
+    elements.totpQrFileInput.addEventListener("change", async () => {
+        const file = elements.totpQrFileInput.files[0];
+        elements.totpQrFileInput.value = "";
+
+        if (!file || pendingQrTarget !== "website") {
+            return;
+        }
+
+        const message = document.getElementById("websiteFormMessage");
+
+        if (!("BarcodeDetector" in window)) {
+            message.textContent = "This browser cannot read QR images directly. Paste the otpauth:// link instead.";
+            message.style.color = "var(--danger)";
+            return;
+        }
+
+        try {
+            const detector = new BarcodeDetector({ formats: ["qr_code"] });
+            const bitmap = await createImageBitmap(file);
+            const results = await detector.detect(bitmap);
+
+            if (!results.length) {
+                throw new Error("No QR code was found in the selected image.");
+            }
+
+            const rawValue = results[0].rawValue || "";
+            document.getElementById("siteOtpAuthUri").value = rawValue;
+            document.getElementById("applyOtpAuthButton").click();
+        } catch (error) {
+            message.textContent = `Unable to read QR image: ${error.message}`;
+            message.style.color = "var(--danger)";
+        }
+    });
+
+    elements.importVaultAuthButton.addEventListener("click", () => {
+        pendingImportSource = "auth";
+        elements.vaultFileInput.click();
+    });
+
+    elements.vaultFileInput.addEventListener("change", async () => {
+        const file = elements.vaultFileInput.files[0];
+        elements.vaultFileInput.value = "";
+
+        if (!file) {
+            return;
+        }
+
+        try {
+            const info = await readImportFile(file);
+            showImportDialog(info, file.name, pendingImportSource);
+        } catch (error) {
+            pendingImportPackage = null;
+            window.alert(`Unable to open the TPWM file:\n\n${error.message}`);
+        }
+    });
+
+    document.addEventListener("keydown", (event) => {
+        if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "f") {
+            event.preventDefault();
+            if (!elements.mainScreen.classList.contains("hidden")) {
+                elements.searchInput.focus();
+                elements.searchInput.select();
+            }
+            return;
+        }
+
+        if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "n") {
+            event.preventDefault();
+            if (!elements.mainScreen.classList.contains("hidden") && elements.modalOverlay.classList.contains("hidden")) {
+                showAddRecord();
+            }
+            return;
+        }
+
+        if (
+            !elements.mainScreen.classList.contains("hidden") &&
+            elements.modalOverlay.classList.contains("hidden") &&
+            event.key === "PageDown"
+        ) {
+            event.preventDefault();
+            goToPage(currentPage + 1);
+            return;
+        }
+
+        if (
+            !elements.mainScreen.classList.contains("hidden") &&
+            elements.modalOverlay.classList.contains("hidden") &&
+            event.key === "PageUp"
+        ) {
+            event.preventDefault();
+            goToPage(currentPage - 1);
+            return;
+        }
+
+        if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "g") {
+            event.preventDefault();
+            if (!elements.mainScreen.classList.contains("hidden")) {
+                elements.globalSearchToggle.checked = !elements.globalSearchToggle.checked;
+                renderRecords();
+                elements.searchInput.focus();
+            }
+            return;
+        }
+
+        if (event.key === "Escape") {
+            if (!elements.modalOverlay.classList.contains("hidden")) {
+                closeModal();
+                return;
+            }
+
+            elements.sidebar.classList.remove("open");
+        }
+    });
+
+    document.addEventListener("click", (event) => {
+        if (
+            window.innerWidth <= 760 &&
+            elements.sidebar.classList.contains("open") &&
+            !elements.sidebar.contains(event.target) &&
+            !elements.mobileMenuButton.contains(event.target)
+        ) {
+            elements.sidebar.classList.remove("open");
+        }
+    });
+
+    ["pointerdown", "keydown", "touchstart", "scroll"].forEach((eventName) => {
+        document.addEventListener(eventName, resetIdleTimer, { passive: true });
+    });
+
+    document.addEventListener("visibilitychange", () => {
+        if (!vaultData) return;
+
+        if (document.visibilityState === "hidden") {
+            scheduleHiddenLock();
+        } else {
+            if (hiddenLockTimer) {
+                clearTimeout(hiddenLockTimer);
+                hiddenLockTimer = null;
+            }
+            resetIdleTimer();
+        }
+    });
+
+    window.addEventListener("beforeunload", clearSensitiveSession);
+
+    attachPasswordToggles();
+    updateClock();
+    window.setInterval(updateClock, 30000);
+    initializeAuthState();
+})();
